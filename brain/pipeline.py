@@ -7,6 +7,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from brain.adapters.mock import MockMarketDataProvider
+from brain.market_hours import market_state
 from brain.registry import EXPOSURE_DEFINITIONS, SECURITIES, SOURCE_PROVIDERS
 from brain.scoring import score_security, stance_from_scores
 
@@ -65,6 +66,7 @@ def _build_security(item: dict, quote: dict, events: list[dict]) -> dict:
         "financials": _financials_for(item),
         "meetings": _meetings_for(item, stock_events),
         "analysis": _analysis_for(item, scores.__dict__, stance, confidence, factors, stock_events),
+        "price_signal": _price_signal(quote, scores.__dict__, stance, confidence),
     }
 
 
@@ -204,36 +206,102 @@ def _analysis_for(item: dict, scores: dict, stance: str, confidence: str, factor
     }
 
 
+def _price_signal(quote: dict, scores: dict, stance: str, confidence: str) -> dict:
+    price = float(quote["last_price"])
+    composite = scores["composite"]
+    if composite >= 72 and stance == "Bullish":
+        action = "Accumulate"
+        target_pct = min(28, max(10, (composite - 58) * 1.1))
+        margin = 0.97
+    elif composite >= 58:
+        action = "Watch"
+        target_pct = min(14, max(4, (composite - 54) * 0.7))
+        margin = 0.94
+    else:
+        action = "Avoid"
+        target_pct = max(-12, (composite - 55) * 0.6)
+        margin = 0.9
+    target = price * (1 + target_pct / 100)
+    invalidation = price * (0.92 if action != "Avoid" else 0.95)
+    return {
+        "label": action,
+        "buy_or_not": "Buy research zone" if action == "Accumulate" else "Do not buy yet" if action == "Avoid" else "Wait for buy zone",
+        "buy_below": round(price * margin, 3 if price < 1 else 2),
+        "current_price": round(price, 3 if price < 1 else 2),
+        "target_12m": round(target, 3 if target < 1 else 2),
+        "expected_return_pct": round(target_pct, 1),
+        "invalidation_price": round(invalidation, 3 if invalidation < 1 else 2),
+        "confidence": confidence,
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice.",
+    }
+
+
 def build_app_data(output_dir: str | Path = "data") -> dict:
     provider = MockMarketDataProvider()
     quotes = {row["symbol"]: row for row in provider.load_quotes()}
+    runtime = _runtime_data()
+    for symbol, quote in runtime["live_quotes"].get("quotes", {}).items():
+        if symbol in quotes:
+            quotes[symbol].update(quote)
     events = sorted(provider.load_events(), key=lambda row: row["timestamp"], reverse=True)
     securities = [_build_security(item, quotes[item["symbol"]], events) for item in SECURITIES]
     now = datetime.now(timezone.utc).isoformat()
+    market = runtime["provider_status"].get("market") or market_state().__dict__
+    price_status = "Frozen closed-market prices" if not market.get("is_open") else "Public delayed"
+    data_quality = "public_delayed" if runtime["live_quotes"].get("quotes") else "demo"
     data = {
         "metadata": {
             "app_name": "UAE Stocks Intelligence",
             "build_time": now,
             "scope": "Isolated Codex build from blueprint DOCX",
             "market_scope": ["ADX ordinary equities", "DFM ordinary equities"],
-            "data_quality": "demo",
-            "price_status": "Demo delayed",
-            "disclaimer": "Research support only. Not personalized investment advice. Demo market data.",
+            "data_quality": data_quality,
+            "price_status": price_status,
+            "market": market,
+            "disclaimer": "Research support only. Not personalized investment advice. Public/delayed data may be cached or demo when providers fail.",
         },
         "source_badges": _source_badges(),
         "source_providers": SOURCE_PROVIDERS,
         "market_pulse": provider.load_market_pulse(),
         "securities": securities,
         "events": events,
+        "news": runtime["news"],
         "global_signals": list(EXPOSURE_DEFINITIONS.values()),
         "agents": _agent_reports(),
-        "admin": _admin(now),
+        "admin": _admin(now, runtime["provider_status"]),
         "routes": ["/", "/markets/adx", "/markets/dfm", "/stocks/{symbol}", "/watchlist", "/alerts", "/ipos", "/screeners", "/global-factors", "/admin"],
     }
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     (output_path / "app_data.json").write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     return data
+
+
+def _runtime_data() -> dict:
+    root = Path(__file__).resolve().parents[1]
+    live_quotes = _load_json(root / "data" / "live_quotes.json", {"quotes": {}})
+    news = _load_json(
+        root / "data" / "news.json",
+        {
+            "generated_at": None,
+            "provider": "not_run",
+            "data_quality": "missing",
+            "rights_note": "Run tools/update_news.py to fetch real news metadata.",
+            "articles": [],
+            "errors": [],
+        },
+    )
+    provider_status = _load_json(root / "data" / "provider_status.json", {"market": market_state().__dict__})
+    return {"live_quotes": live_quotes, "news": news, "provider_status": provider_status}
+
+
+def _load_json(path: Path, default: dict) -> dict:
+    if not path.exists():
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return default
 
 
 def _agent_reports() -> dict:
@@ -267,9 +335,13 @@ def _agent_reports() -> dict:
     return {"mizan_codex": store}
 
 
-def _admin(now: str) -> dict:
+def _admin(now: str, provider_status: dict | None = None) -> dict:
+    provider_status = provider_status or {}
+    quote_status = provider_status.get("quotes", {})
+    news_status = provider_status.get("news", {})
     return {
         "last_build": now,
+        "provider_status": provider_status,
         "launch_readiness": [
             {"id": "demo_labels", "label": "Demo labels visible", "status": "pass", "note": "All mock market data is tagged demo/delayed."},
             {"id": "provider_swap", "label": "Provider interfaces", "status": "pass", "note": "UI reads normalized JSON, not vendor-specific fields."},
@@ -279,6 +351,8 @@ def _admin(now: str) -> dict:
             {"id": "regulatory", "label": "SCA posture", "status": "blocked", "note": "Public launch needs final compliance review and wording approval."},
         ],
         "jobs": [
+            {"source": "Public quote refresh", "last_run": provider_status.get("generated_at", now), "success_rate": quote_status.get("success", 0), "status": "frozen" if quote_status.get("skipped") else "attempted", "queue": quote_status.get("failed", 0)},
+            {"source": "Real news RSS", "last_run": news_status.get("generated_at", now), "success_rate": news_status.get("success", 0), "status": "real_news_metadata", "queue": news_status.get("failed", 0)},
             {"source": "ADX disclosures", "last_run": now, "success_rate": 100, "status": "mocked", "queue": 0},
             {"source": "DFM corporate actions", "last_run": now, "success_rate": 100, "status": "mocked", "queue": 0},
             {"source": "Issuer IR", "last_run": now, "success_rate": 96, "status": "mocked", "queue": 3},

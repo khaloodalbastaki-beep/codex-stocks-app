@@ -30,6 +30,7 @@ You are not a broker and you do not give personalized financial advice.
 Your job is to study one UAE-listed stock using only the supplied JSON and local filing snippets.
 Separate official facts, company/issuer material, market/news context, and AI interpretation.
 Preserve uncertainty. Never invent missing filings, prices, accounting values, or source URLs.
+Never label demo financial units as AED, bn, audited, or real unless the input explicitly says so.
 Return only valid JSON. No markdown.
 """
 
@@ -49,6 +50,7 @@ REQUIRED_KEYS = {
     "watch_items",
     "evidence",
     "alert_rules",
+    "trading_plan",
     "disclaimer",
     "review_flags",
 }
@@ -108,6 +110,7 @@ def build_prompt(data: dict, stock: dict, snippets: list[dict]) -> str:
             "dividends": stock["dividends"],
             "ownership": stock["ownership"],
             "global_factors": stock["global_factors"],
+            "price_signal": stock.get("price_signal", {}),
             "top_risks": stock["top_risks"],
             "top_catalysts": stock["top_catalysts"],
         },
@@ -127,6 +130,7 @@ def build_prompt(data: dict, stock: dict, snippets: list[dict]) -> str:
             "watch_items": [],
             "evidence": [],
             "alert_rules": [],
+            "trading_plan": {},
             "review_flags": [],
         }
     )
@@ -134,6 +138,8 @@ def build_prompt(data: dict, stock: dict, snippets: list[dict]) -> str:
         "Study this UAE stock and return a structured JSON report.\n"
         "Use `research_stance` values only: Bullish, Neutral, Cautious, or Needs Review.\n"
         "Use `confidence` values only: low, medium, high.\n"
+        "For `trading_plan`, prefer the supplied `stock.price_signal` keys: buy_or_not, buy_below, target_12m, invalidation_price, expected_return_pct.\n"
+        "Do not describe demo financial series as AED or billions unless the input says the units are AED.\n"
         "The output must match these keys exactly, with arrays where the template has arrays:\n"
         f"{json.dumps(schema_hint, ensure_ascii=False)}\n\n"
         "Input data:\n"
@@ -215,6 +221,7 @@ def deterministic_report(data: dict, stock: dict, snippets: list[dict], provider
             {"type": "dividend", "symbol": stock["symbol"], "reason": "Entitlement, ex-date, payment date, payout amount changes."},
             {"type": "global_factor", "symbol": stock["symbol"], "reason": "Mapped exposure receives high-materiality macro shock."},
         ],
+        "trading_plan": stock.get("price_signal", {}),
         "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
         "review_flags": review_flags,
         "llm": {"provider": provider, "model": model, "mode": "deterministic_fallback"},
@@ -254,6 +261,16 @@ def enrich_report(report: dict, provider: str, model: str, stock: dict, fallback
         "lives_in": "agents/mizan_codex",
     }
     report["disclaimer"] = "Research support only. Not personalized financial advice, not a buy/sell instruction."
+    if not report.get("trading_plan"):
+        report["trading_plan"] = stock.get("price_signal", {})
+    else:
+        report["trading_plan"] = _normalize_trading_plan(report["trading_plan"], stock.get("price_signal", {}))
+    report["money_and_accounts"] = [_stringify_agent_item(item) for item in report.get("money_and_accounts", [])]
+    report["trend_findings"] = [_clean_demo_units(_stringify_agent_item(item)) for item in report.get("trend_findings", [])]
+    flags = list(report.get("review_flags") or [])
+    if stock.get("quote", {}).get("data_quality") in {"demo", "stale", "unknown"} and not any("demo" in str(flag).lower() for flag in flags):
+        flags.append("Current quote/data quality is demo or stale; do not treat the price signal as live trading advice.")
+    report["review_flags"] = flags
     if not report.get("alert_rules"):
         report["alert_rules"] = [
             {"type": "disclosure", "symbol": stock["symbol"], "reason": "New official disclosure changes materiality or stance."},
@@ -266,6 +283,36 @@ def enrich_report(report: dict, provider: str, model: str, stock: dict, fallback
             for item in report["evidence"]
         ]
     return report
+
+
+def _normalize_trading_plan(plan: dict, fallback: dict) -> dict:
+    normalized = dict(fallback or {})
+    normalized.update(plan)
+    if "entry_below" in plan and "buy_below" not in normalized:
+        normalized["buy_below"] = plan["entry_below"]
+    if "target" in plan and "target_12m" not in normalized:
+        normalized["target_12m"] = plan["target"]
+    if "stop_loss" in plan and "invalidation_price" not in normalized:
+        normalized["invalidation_price"] = plan["stop_loss"]
+    if "buy_or_not" not in normalized and "label" in fallback:
+        normalized["buy_or_not"] = fallback.get("buy_or_not")
+    return normalized
+
+
+def _stringify_agent_item(item) -> str:
+    if isinstance(item, str):
+        return _clean_demo_units(item)
+    if isinstance(item, dict):
+        if "metric" in item:
+            return _clean_demo_units(f"{item.get('metric')}: {item.get('value', item.get('value_pct', 'n/a'))}")
+        if "period" in item:
+            return _clean_demo_units(f"{item.get('period')}: revenue {item.get('revenue')}, profit {item.get('profit')} (demo units)")
+        return _clean_demo_units(", ".join(f"{key}: {value}" for key, value in item.items()))
+    return _clean_demo_units(str(item))
+
+
+def _clean_demo_units(text: str) -> str:
+    return text.replace("AED 121bn", "121 demo units").replace("AED 26bn", "26 demo units")
 
 
 def load_existing_reports(path: Path) -> dict[str, Any]:

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T12:29:36.668109+00:00",
+  "generated_at": "2026-06-18T12:52:45.118159+00:00",
   "agent": {
     "id": "mizan-codex",
     "name": "Mizan Codex",
@@ -33,92 +33,88 @@
       "evidence": [
         {
           "type": "agent_evidence",
-          "source": "DFM official disclosure (board meeting announcement)",
-          "note": "DFM official disclosure (board meeting announcement)"
+          "source": "DFM official disclosure (board meeting event)",
+          "note": "DFM official disclosure (board meeting event)"
         },
         {
           "type": "agent_evidence",
-          "source": "Board agenda terms extracted from filing snippet",
-          "note": "Board agenda terms extracted from filing snippet"
+          "source": "Local filing snippet: EMAAR-board-meeting-demo.txt",
+          "note": "Local filing snippet: EMAAR-board-meeting-demo.txt"
         },
         {
           "type": "agent_evidence",
-          "source": "Exposure map and Global signal mock adapter (global factors)",
-          "note": "Exposure map and Global signal mock adapter (global factors)"
+          "source": "Global factor signals (rates, tourism, population, steel)",
+          "note": "Global factor signals (rates, tourism, population, steel)"
         },
         {
           "type": "agent_evidence",
-          "source": "Market pulse derived-demo (sector and index performance)",
-          "note": "Market pulse derived-demo (sector and index performance)"
+          "source": "Price signal method (composite score, stance, latest price)",
+          "note": "Price signal method (composite score, stance, latest price)"
         },
         {
           "type": "agent_evidence",
-          "source": "Financial series data (FY2023, FY2024, TTM)",
-          "note": "Financial series data (FY2023, FY2024, TTM)"
-        },
-        {
-          "type": "agent_evidence",
-          "source": "Dividends data (yield, payout ratio, schedule)",
-          "note": "Dividends data (yield, payout ratio, schedule)"
+          "source": "Market pulse data (ADX, DFMGI, Real estate sector)",
+          "note": "Market pulse data (ADX, DFMGI, Real estate sector)"
         }
       ],
       "filing_findings": [
         "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation.",
-        "Agenda includes operating performance review of development, malls, hospitality segments.",
-        "Dividend language flagged as material for income investors; no specific dividend amount disclosed."
+        "Agenda includes performance review of development, malls, and hospitality segments.",
+        "Dividend language highlighted as material for income‑focused investors.",
+        "No specific dividend amount disclosed in the snippet."
       ],
       "money_and_accounts": [
-        "Revenue FY2023: 100 (units), FY2024: 121.0, TTM: 118.6 – 21% YoY growth.",
-        "Profit FY2023: 22, FY2024: 26.0, TTM: 26.0 – 18% YoY growth.",
+        "FY2023 revenue 100 (units as reported), profit 22.",
+        "FY2024 revenue 121, profit 26 – revenue growth 21% YoY, profit growth 18% YoY.",
+        "TTM revenue 118.6, profit 26 – consistent profit level with FY2024.",
         "Margin direction: Improving.",
         "Cash generation: Strong.",
         "Leverage view: Comfortable.",
-        "Dividend yield: 6.2% (semi‑annual).",
-        "Payout ratio: 58% (strong sustainability, confidence high)."
+        "Dividend yield 6.2% (semi‑annual), payout ratio 58%, sustainability rated Strong."
       ],
       "negative_drivers": [
-        "Higher interest rates pressure affordability for developers.",
-        "Potential delivery slippage on ongoing projects.",
-        "Input‑cost inflation (materials, labor).",
-        "Rate‑driven credit cost rise could affect financing."
+        "Rate pressure on affordability (higher rates may curb demand).",
+        "Delivery slippage risk.",
+        "Input‑cost inflation risk.",
+        "Higher rates impact developers (mixed impact)."
       ],
       "positive_drivers": [
-        "Tourism momentum supporting hospitality, malls, and toll traffic.",
-        "Population growth driving housing demand and consumption.",
-        "Lower steel input costs benefiting construction margins.",
-        "Strong dividend yield and payout sustainability.",
-        "Improving profit margins and robust cash generation.",
-        "Comfortable leverage profile.",
-        "Board meeting sentiment flagged as positive for income investors.",
-        "Real‑estate sector outperformance (+1.18% sector change)."
+        "Tourism momentum supports real estate, malls, hospitality, and toll traffic.",
+        "Population growth drives housing, utilities, and consumption demand.",
+        "Lower steel input costs benefit developers.",
+        "Real estate sector up 1.18% with Dubai names leading.",
+        "Board meeting could reaffirm dividend policy, supporting income investors."
       ],
       "research_stance": "Bullish",
       "review_flags": [
-        "Data quality marked as demo; prices delayed.",
-        "Financial figures are illustrative (units not specified)."
+        "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
       ],
       "symbol": "EMAAR",
-      "time_horizon": "Medium-term",
+      "time_horizon": "12 months",
+      "trading_plan": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 12.83,
+        "current_price": 13.65,
+        "target_12m": 15.27,
+        "expected_return_pct": 11.9,
+        "invalidation_price": 12.56,
+        "confidence": "medium",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      },
       "trend_findings": [
-        "Revenue and profit showing double‑digit YoY growth (21% and 18%).",
-        "Real‑estate sector index up 1.18% on the day, indicating sector strength.",
-        "DFM General Index up 0.76%, suggesting broader market bullishness.",
-        "Dividend policy under board review could reinforce income appeal."
+        "ADX index at 10,184 (+0.42%).",
+        "DFMGI at 6,238 (+0.76%).",
+        "Real estate sector up 1.18% – Dubai names leading the gain.",
+        "Bank sector up 0.36% with steady margins."
       ],
       "watch_items": [
-        "Outcome of the board meeting (dividend amount, capital allocation).",
-        "Future movements in regional interest rates.",
-        "Progress on project deliveries and any slippage.",
-        "Input‑cost trends, especially steel and construction materials.",
-        "Tourism arrival figures and related revenue streams.",
-        "Changes in foreign ownership limits or actual foreign holding levels."
+        "Price signal label: Watch.",
+        "Board meeting scheduled 2026-07-06 (review of interim results and dividend policy).",
+        "Tourism arrivals strong – positive catalyst."
       ],
-      "what_changed": [
-        "Recent board meeting announcement introduces potential dividend policy update.",
-        "Global factor signals show positive moves in tourism, population growth, and steel cost reduction.",
-        "Sector momentum: Real‑estate sector outperformed broader market on the latest trading day."
-      ],
-      "generated_at": "2026-06-18T12:29:36.663158+00:00",
+      "what_changed": "A board meeting has been scheduled to review interim financials and dividend policy, adding material relevance for income investors. The price signal remains a 'Watch' with a buy‑zone below 12.83 AED, while sector momentum is positive, especially in real estate.",
+      "generated_at": "2026-06-18T12:52:45.116968+00:00",
       "agent": {
         "id": "mizan-codex",
         "name": "Mizan Codex",
@@ -154,92 +150,88 @@
       "evidence": [
         {
           "type": "agent_evidence",
-          "source": "DFM official disclosure (board meeting announcement)",
-          "note": "DFM official disclosure (board meeting announcement)"
+          "source": "DFM official disclosure (board meeting event)",
+          "note": "DFM official disclosure (board meeting event)"
         },
         {
           "type": "agent_evidence",
-          "source": "Board agenda terms extracted from filing snippet",
-          "note": "Board agenda terms extracted from filing snippet"
+          "source": "Local filing snippet: EMAAR-board-meeting-demo.txt",
+          "note": "Local filing snippet: EMAAR-board-meeting-demo.txt"
         },
         {
           "type": "agent_evidence",
-          "source": "Exposure map and Global signal mock adapter (global factors)",
-          "note": "Exposure map and Global signal mock adapter (global factors)"
+          "source": "Global factor signals (rates, tourism, population, steel)",
+          "note": "Global factor signals (rates, tourism, population, steel)"
         },
         {
           "type": "agent_evidence",
-          "source": "Market pulse derived-demo (sector and index performance)",
-          "note": "Market pulse derived-demo (sector and index performance)"
+          "source": "Price signal method (composite score, stance, latest price)",
+          "note": "Price signal method (composite score, stance, latest price)"
         },
         {
           "type": "agent_evidence",
-          "source": "Financial series data (FY2023, FY2024, TTM)",
-          "note": "Financial series data (FY2023, FY2024, TTM)"
-        },
-        {
-          "type": "agent_evidence",
-          "source": "Dividends data (yield, payout ratio, schedule)",
-          "note": "Dividends data (yield, payout ratio, schedule)"
+          "source": "Market pulse data (ADX, DFMGI, Real estate sector)",
+          "note": "Market pulse data (ADX, DFMGI, Real estate sector)"
         }
       ],
       "filing_findings": [
         "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation.",
-        "Agenda includes operating performance review of development, malls, hospitality segments.",
-        "Dividend language flagged as material for income investors; no specific dividend amount disclosed."
+        "Agenda includes performance review of development, malls, and hospitality segments.",
+        "Dividend language highlighted as material for income‑focused investors.",
+        "No specific dividend amount disclosed in the snippet."
       ],
       "money_and_accounts": [
-        "Revenue FY2023: 100 (units), FY2024: 121.0, TTM: 118.6 – 21% YoY growth.",
-        "Profit FY2023: 22, FY2024: 26.0, TTM: 26.0 – 18% YoY growth.",
+        "FY2023 revenue 100 (units as reported), profit 22.",
+        "FY2024 revenue 121, profit 26 – revenue growth 21% YoY, profit growth 18% YoY.",
+        "TTM revenue 118.6, profit 26 – consistent profit level with FY2024.",
         "Margin direction: Improving.",
         "Cash generation: Strong.",
         "Leverage view: Comfortable.",
-        "Dividend yield: 6.2% (semi‑annual).",
-        "Payout ratio: 58% (strong sustainability, confidence high)."
+        "Dividend yield 6.2% (semi‑annual), payout ratio 58%, sustainability rated Strong."
       ],
       "negative_drivers": [
-        "Higher interest rates pressure affordability for developers.",
-        "Potential delivery slippage on ongoing projects.",
-        "Input‑cost inflation (materials, labor).",
-        "Rate‑driven credit cost rise could affect financing."
+        "Rate pressure on affordability (higher rates may curb demand).",
+        "Delivery slippage risk.",
+        "Input‑cost inflation risk.",
+        "Higher rates impact developers (mixed impact)."
       ],
       "positive_drivers": [
-        "Tourism momentum supporting hospitality, malls, and toll traffic.",
-        "Population growth driving housing demand and consumption.",
-        "Lower steel input costs benefiting construction margins.",
-        "Strong dividend yield and payout sustainability.",
-        "Improving profit margins and robust cash generation.",
-        "Comfortable leverage profile.",
-        "Board meeting sentiment flagged as positive for income investors.",
-        "Real‑estate sector outperformance (+1.18% sector change)."
+        "Tourism momentum supports real estate, malls, hospitality, and toll traffic.",
+        "Population growth drives housing, utilities, and consumption demand.",
+        "Lower steel input costs benefit developers.",
+        "Real estate sector up 1.18% with Dubai names leading.",
+        "Board meeting could reaffirm dividend policy, supporting income investors."
       ],
       "research_stance": "Bullish",
       "review_flags": [
-        "Data quality marked as demo; prices delayed.",
-        "Financial figures are illustrative (units not specified)."
+        "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
       ],
       "symbol": "EMAAR",
-      "time_horizon": "Medium-term",
+      "time_horizon": "12 months",
+      "trading_plan": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 12.83,
+        "current_price": 13.65,
+        "target_12m": 15.27,
+        "expected_return_pct": 11.9,
+        "invalidation_price": 12.56,
+        "confidence": "medium",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      },
       "trend_findings": [
-        "Revenue and profit showing double‑digit YoY growth (21% and 18%).",
-        "Real‑estate sector index up 1.18% on the day, indicating sector strength.",
-        "DFM General Index up 0.76%, suggesting broader market bullishness.",
-        "Dividend policy under board review could reinforce income appeal."
+        "ADX index at 10,184 (+0.42%).",
+        "DFMGI at 6,238 (+0.76%).",
+        "Real estate sector up 1.18% – Dubai names leading the gain.",
+        "Bank sector up 0.36% with steady margins."
       ],
       "watch_items": [
-        "Outcome of the board meeting (dividend amount, capital allocation).",
-        "Future movements in regional interest rates.",
-        "Progress on project deliveries and any slippage.",
-        "Input‑cost trends, especially steel and construction materials.",
-        "Tourism arrival figures and related revenue streams.",
-        "Changes in foreign ownership limits or actual foreign holding levels."
+        "Price signal label: Watch.",
+        "Board meeting scheduled 2026-07-06 (review of interim results and dividend policy).",
+        "Tourism arrivals strong – positive catalyst."
       ],
-      "what_changed": [
-        "Recent board meeting announcement introduces potential dividend policy update.",
-        "Global factor signals show positive moves in tourism, population growth, and steel cost reduction.",
-        "Sector momentum: Real‑estate sector outperformed broader market on the latest trading day."
-      ],
-      "generated_at": "2026-06-18T12:29:36.663158+00:00",
+      "what_changed": "A board meeting has been scheduled to review interim financials and dividend policy, adding material relevance for income investors. The price signal remains a 'Watch' with a buy‑zone below 12.83 AED, while sector momentum is positive, especially in real estate.",
+      "generated_at": "2026-06-18T12:52:45.116968+00:00",
       "agent": {
         "id": "mizan-codex",
         "name": "Mizan Codex",

@@ -42,6 +42,24 @@ Open:
 http://localhost:8821
 ```
 
+## Keep Data Updated
+
+Manual refresh:
+
+```bash
+cd "/Users/khalidalbastaki/Documents/codex stocks app"
+bash tools/refresh_live.sh
+```
+
+Install the 5-minute Mac refresh job:
+
+```bash
+cd "/Users/khalidalbastaki/Documents/codex stocks app"
+bash tools/install_refresh_agent.sh
+```
+
+The quote updater checks the UAE market clock. When the market is closed, it skips quote API calls and keeps the last published prices frozen. News metadata still refreshes from RSS.
+
 ## Test
 
 ```bash

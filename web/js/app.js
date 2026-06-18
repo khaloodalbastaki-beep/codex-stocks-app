@@ -32,6 +32,7 @@ function route() {
   const hash = window.location.hash || "#/";
   const path = hash.replace("#", "");
   if (path.startsWith("/stocks/")) return renderStock(path.split("/").pop());
+  if (path.startsWith("/news/")) return renderNewsArticle(path.split("/").pop());
   if (path === "/markets/adx") return renderMarket("ADX");
   if (path === "/markets/dfm") return renderMarket("DFM");
   if (path === "/watchlist") return renderWatchlist();
@@ -61,10 +62,19 @@ function initChrome() {
     .map(([href, key, icon]) => `<a href="${href}" class="nav-link" data-href="${href}">${icon}<span>${t(key)}</span></a>`)
     .join("");
   $("#marketStatus").innerHTML = `
-    <strong>${t("delayed_demo")}</strong>
-    <span>Official-first architecture. Demo market data. ${t("not_advice")}.</span>
+    <strong>${App.data.metadata.market?.label || t("delayed_demo")}</strong>
+    <span>${marketStatusCopy()}</span>
     <span>${new Date(App.data.metadata.build_time).toLocaleString()}</span>`;
   $("#langToggle").textContent = App.lang === "en" ? "عربي" : "English";
+}
+
+function marketStatusCopy() {
+  const market = App.data.metadata.market || {};
+  const priceStatus = App.data.metadata.price_status || t("delayed_demo");
+  if (!market.is_open) {
+    return `${priceStatus}. Quote API calls are frozen while the market is closed. ${market.next_change_hint || ""} ${t("not_advice")}.`;
+  }
+  return `${priceStatus}. Refresh job may call quote/news providers during market hours. ${t("not_advice")}.`;
 }
 
 function bindGlobalActions() {
@@ -159,6 +169,10 @@ function renderHome() {
         <div class="disclosure-list">${App.data.events.slice(0, 5).map(disclosureRow).join("")}</div>
       </div>
       <div class="panel">
+        <div class="section-head compact"><h2>Real News</h2><span>${App.data.news?.provider || "not_run"}</span></div>
+        <div class="factor-list">${newsCards(App.data.news?.articles || [], 5)}</div>
+      </div>
+      <div class="panel span-2">
         <div class="section-head compact"><h2>${t("global_factors")}</h2><a href="#/global-factors">Open map</a></div>
         <div class="factor-list">${globalFactorRows().slice(0, 6).join("")}</div>
       </div>
@@ -262,6 +276,10 @@ function renderAdmin() {
         <div class="queue-list">${admin.queues.map(queueRow).join("")}</div>
       </div>
       <div class="panel">
+        <h2>Market clock</h2>
+        ${marketClockPanel()}
+      </div>
+      <div class="panel">
         <h2>Agents</h2>
         <div class="agent-card">
           <strong>Mizan Codex</strong>
@@ -273,6 +291,33 @@ function renderAdmin() {
         <h2>Source providers</h2>
         <div class="table provider-table">${providerRows()}</div>
       </div>
+    </section>`;
+}
+
+function renderNewsArticle(id) {
+  setActive("");
+  const article = (App.data.news?.articles || []).find((row) => row.id === id);
+  if (!article) {
+    $("#view").innerHTML = `<section class="panel empty-state"><strong>News item not found.</strong><a href="#/">Back home</a></section>`;
+    return;
+  }
+  $("#view").innerHTML = `
+    <section class="page-head">
+      <h1>${article.title}</h1>
+      <p>${article.source} · ${article.published_at || "time unknown"} · ${article.data_quality || App.data.news.data_quality}</p>
+    </section>
+    <section class="dashboard-grid">
+      <article class="panel span-2">
+        <span class="badge media">Real news metadata</span>
+        <p>${article.summary || "No summary available in RSS metadata. Open the original page for the full article."}</p>
+        <div class="chip-list">${(article.related_symbols || []).map((symbol) => `<a href="#/stocks/${symbol}">${symbol}</a>`).join("") || "<span>No mapped symbol yet</span>"}</div>
+        <a class="primary-button" href="${article.url}" target="_blank" rel="noopener noreferrer">Open original news page</a>
+      </article>
+      <aside class="panel">
+        <h2>Source boundary</h2>
+        <p>${App.data.news?.rights_note || "Headlines and source links only."}</p>
+        <p class="muted">The app opens a local view first, then lets you open the source page. It does not copy full publisher articles.</p>
+      </aside>
     </section>`;
 }
 
@@ -466,6 +511,7 @@ function aiPanel(item) {
       <button class="primary-button" data-analyze="${item.symbol}">${run ? "Re-run deterministic analysis" : "AI Analyze This Stock"}</button>
     </div>
     ${run ? `<p class="success-note">Analysis refreshed locally from current deterministic data. No external model was called in demo mode.</p>` : ""}
+    ${priceSignalPanel(item.price_signal)}
     ${agentReport ? mizanReportPanel(agentReport) : mizanEmptyPanel(item)}
     <div class="analysis-grid">
       ${analysisBlock("Short term direction", item.analysis.short_term)}
@@ -474,7 +520,29 @@ function aiPanel(item) {
     <p class="muted">${item.analysis.label}.</p>`;
 }
 
+function priceSignalPanel(signal) {
+  if (!signal) return "";
+  return `<article class="signal-panel">
+    <div class="section-head compact">
+      <div>
+        <h3>Buy / Not Buy Research Signal</h3>
+        <p>${signal.method}</p>
+      </div>
+      <span class="impact ${signal.label === "Accumulate" ? "bullish" : signal.label === "Avoid" ? "cautious" : "neutral"}">${signal.label}</span>
+    </div>
+    <div class="signal-grid">
+      ${kv("Decision", signal.buy_or_not)}
+      ${kv("Current", `AED ${fmt.format(signal.current_price)}`)}
+      ${kv("Buy below", `AED ${fmt.format(signal.buy_below)}`)}
+      ${kv("12m target", `AED ${fmt.format(signal.target_12m)}`)}
+      ${kv("Expected", `${signal.expected_return_pct}%`)}
+      ${kv("Invalidation", `AED ${fmt.format(signal.invalidation_price)}`)}
+    </div>
+  </article>`;
+}
+
 function mizanReportPanel(report) {
+  const plan = report.trading_plan || {};
   return `<article class="mizan-panel">
     <div class="section-head compact">
       <div>
@@ -484,12 +552,29 @@ function mizanReportPanel(report) {
       <span class="impact ${String(report.research_stance).toLowerCase()}">${report.research_stance}</span>
     </div>
     <p><strong>What changed:</strong> ${formatAgentText(report.what_changed)}</p>
+    ${Object.keys(plan).length ? `<div class="signal-grid compact-signal">
+      ${kv("Agent decision", plan.buy_or_not || report.research_stance)}
+      ${plan.buy_below ? kv("Buy below", `AED ${fmt.format(plan.buy_below)}`) : ""}
+      ${plan.target_12m ? kv("Target", `AED ${fmt.format(plan.target_12m)}`) : ""}
+      ${plan.invalidation_price ? kv("Invalidation", `AED ${fmt.format(plan.invalidation_price)}`) : ""}
+    </div>` : ""}
     <div class="agent-columns">
-      <div><h3>Money and accounts</h3><ul>${(report.money_and_accounts || []).slice(0, 4).map((row) => `<li>${row}</li>`).join("")}</ul></div>
-      <div><h3>Watch items</h3><ul>${(report.watch_items || []).slice(0, 4).map((row) => `<li>${row}</li>`).join("")}</ul></div>
+      <div><h3>Money and accounts</h3><ul>${(report.money_and_accounts || []).slice(0, 4).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul></div>
+      <div><h3>Watch items</h3><ul>${(report.watch_items || []).slice(0, 4).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul></div>
     </div>
     ${(report.review_flags || []).length ? `<p class="warning-note">${report.review_flags[0]}</p>` : ""}
   </article>`;
+}
+
+function marketClockPanel() {
+  const market = App.data.metadata.market || {};
+  const quote = App.data.admin?.provider_status?.quotes || {};
+  return `<div class="queue-list">
+    <div class="queue-row"><strong>Status</strong><span class="${market.is_open ? "positive" : "watch"}">${market.label || "Unknown"}</span></div>
+    <div class="queue-row"><strong>Phase</strong><span>${market.phase || "unknown"}</span></div>
+    <div class="queue-row"><strong>Quote calls</strong><span>${quote.skipped ? "Skipped/frozen" : quote.attempted ? "Attempted" : "Not run"}</span></div>
+    <div class="queue-row"><strong>Success / failed</strong><span>${quote.success || 0} / ${quote.failed || 0}</span></div>
+  </div>`;
 }
 
 function formatAgentText(value) {
@@ -538,6 +623,15 @@ function disclosureRow(event) {
       <span class="impact ${event.sentiment.toLowerCase()}">${event.sentiment}</span>
     </aside>
   </article>`;
+}
+
+function newsCards(articles, limit = 5) {
+  if (!articles.length) return `<div class="empty-state"><strong>No real news fetched yet.</strong><p>Run <code>python3 tools/update_news.py</code>.</p></div>`;
+  return articles.slice(0, limit).map((article) => `<a class="news-card" href="#/news/${article.id}">
+    <span class="badge media">${article.source || "News"}</span>
+    <strong>${article.title}</strong>
+    <small>${article.published_at || ""}</small>
+  </a>`).join("");
 }
 
 function eventRow(event) {

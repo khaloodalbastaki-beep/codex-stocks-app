@@ -12,6 +12,9 @@ class ContractTests(unittest.TestCase):
         self.assertIn("dividends", sample)
         self.assertIn("meetings", sample)
         self.assertIn("ownership", sample)
+        self.assertIn("price_signal", sample)
+        self.assertIn("buy_below", sample["price_signal"])
+        self.assertIn("news", data)
 
     def test_launch_blockers_are_visible(self):
         data = build_app_data()

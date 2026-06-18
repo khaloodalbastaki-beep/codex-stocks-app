@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-18T13:23:37.898911+00:00",
+    "build_time": "2026-06-18T21:04:37.601174+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1570,9 +1570,9 @@
       ],
       "top_catalysts": [
         "Board Meeting",
+        "Results",
         "Tourism momentum",
-        "Income demand",
-        "Rates path"
+        "Income demand"
       ],
       "global_factors": [
         {
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 60,
@@ -1808,6 +1808,7 @@
       ],
       "top_catalysts": [
         "Dividend",
+        "Results",
         "Income demand",
         "Rates path"
       ],
@@ -2025,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2261,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2496,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2732,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2967,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:23:37.898051+00:00"
+        "as_of": "2026-06-18T21:04:37.599759+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3271,8 +3272,298 @@
         "Commodity factor basket",
         "Exposure map: food inputs"
       ]
+    },
+    {
+      "id": "dfm-dewa-integrated-report-2025",
+      "symbol": "DEWA",
+      "exchange": "DFM",
+      "source_type": "official_exchange",
+      "source_name": "DFM official filing",
+      "event_type": "results",
+      "category": "annual_report",
+      "title_en": "DEWA PJSC integrated report 2025",
+      "title_ar": "",
+      "summary": "Official DFM-hosted integrated report metadata for Dubai Electricity and Water Authority.",
+      "why_it_matters": "The report can validate regulated cash-flow, dividend, and capital expenditure assumptions.",
+      "materiality": 84,
+      "sentiment": "Positive",
+      "timestamp": "2026-03-23T00:00:00+04:00",
+      "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+      "document_url": "https://feeds.dfm.ae/documents/2026/Mar/23/3cb8b9df-c993-4b9f-9f2f-8c0efa605e58/DEWA%20Integrated%20Repo.pdf",
+      "signals": [
+        "annual_report",
+        "dividend_policy",
+        "regulated_cashflow"
+      ],
+      "data_quality": "official_metadata",
+      "evidence": [
+        "DFM official filing",
+        "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+        "https://feeds.dfm.ae/documents/2026/Mar/23/3cb8b9df-c993-4b9f-9f2f-8c0efa605e58/DEWA%20Integrated%20Repo.pdf"
+      ],
+      "link_checks": [
+        {
+          "url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+          "ok": true,
+          "status": 200,
+          "content_type": "text/html;charset=utf-8"
+        },
+        {
+          "url": "https://feeds.dfm.ae/documents/2026/Mar/23/3cb8b9df-c993-4b9f-9f2f-8c0efa605e58/DEWA%20Integrated%20Repo.pdf",
+          "ok": true,
+          "status": 200,
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "dfm-emaar-integrated-report-2025",
+      "symbol": "EMAAR",
+      "exchange": "DFM",
+      "source_type": "official_exchange",
+      "source_name": "DFM official filing",
+      "event_type": "results",
+      "category": "annual_report",
+      "title_en": "Emaar Properties PJSC integrated annual report 2025",
+      "title_ar": "",
+      "summary": "Official DFM-hosted integrated annual report metadata for Emaar Properties.",
+      "why_it_matters": "The report can improve the agent's business-segment, governance, dividend, and risk-context extraction.",
+      "materiality": 82,
+      "sentiment": "Neutral",
+      "timestamp": "2026-03-12T00:00:00+04:00",
+      "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+      "document_url": "https://feeds.dfm.ae/documents/2026/Mar/12/32866abb-3299-459c-970b-277f10a11956/Emaar%20Properties%20IR%20.pdf",
+      "signals": [
+        "annual_report",
+        "governance",
+        "segment_review"
+      ],
+      "data_quality": "official_metadata",
+      "evidence": [
+        "DFM official filing",
+        "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+        "https://feeds.dfm.ae/documents/2026/Mar/12/32866abb-3299-459c-970b-277f10a11956/Emaar%20Properties%20IR%20.pdf"
+      ],
+      "link_checks": [
+        {
+          "url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+          "ok": true,
+          "status": 200,
+          "content_type": "text/html;charset=utf-8"
+        },
+        {
+          "url": "https://feeds.dfm.ae/documents/2026/Mar/12/32866abb-3299-459c-970b-277f10a11956/Emaar%20Properties%20IR%20.pdf",
+          "ok": true,
+          "status": 200,
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "dfm-emaar-fs-2025",
+      "symbol": "EMAAR",
+      "exchange": "DFM",
+      "source_type": "official_exchange",
+      "source_name": "DFM official filing",
+      "event_type": "results",
+      "category": "financial_statements",
+      "title_en": "Emaar Properties PJSC and subsidiaries 2025 financial statements",
+      "title_ar": "",
+      "summary": "Official DFM-hosted annual financial statements metadata for Emaar Properties. Review the source document before changing model financials.",
+      "why_it_matters": "The filing can validate revenue, profit, cash flow, and dividend-policy assumptions used by the AI research report.",
+      "materiality": 88,
+      "sentiment": "Positive",
+      "timestamp": "2026-02-12T00:00:00+04:00",
+      "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+      "document_url": "https://feeds.dfm.ae/documents/2026/Feb/12/9e0de168-d6ee-4ebe-a343-58b56a84ab2f/Emaar%20Properties%20PJS.pdf",
+      "signals": [
+        "financial_statements",
+        "dividend_policy",
+        "audited_accounts"
+      ],
+      "data_quality": "official_metadata",
+      "evidence": [
+        "DFM official filing",
+        "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+        "https://feeds.dfm.ae/documents/2026/Feb/12/9e0de168-d6ee-4ebe-a343-58b56a84ab2f/Emaar%20Properties%20PJS.pdf"
+      ],
+      "link_checks": [
+        {
+          "url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+          "ok": true,
+          "status": 200,
+          "content_type": "text/html;charset=utf-8"
+        },
+        {
+          "url": "https://feeds.dfm.ae/documents/2026/Feb/12/9e0de168-d6ee-4ebe-a343-58b56a84ab2f/Emaar%20Properties%20PJS.pdf",
+          "ok": true,
+          "status": 200,
+          "content_type": "application/pdf"
+        }
+      ]
     }
   ],
+  "official_disclosures": {
+    "generated_at": "2026-06-18T20:56:37.514508+00:00",
+    "provider": "official_disclosure_manifest",
+    "data_quality": "official_metadata",
+    "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
+    "sources": [
+      {
+        "id": "dfm-disclosures",
+        "name": "DFM Disclosures",
+        "url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+        "source_type": "official_exchange",
+        "notes": "Official DFM disclosure index for listed-company filings."
+      },
+      {
+        "id": "dfm-market-data-providers",
+        "name": "DFM Market Data Providers",
+        "url": "https://www.dfm.ae/the-exchange/market-information/marketdata-providers",
+        "source_type": "official_exchange",
+        "notes": "Official DFM page for authorised market-data distribution posture."
+      },
+      {
+        "id": "adx-xbrl",
+        "name": "ADX XBRL",
+        "url": "https://www.adx.ae/issuers/issuers-information/xbrl",
+        "source_type": "official_exchange",
+        "notes": "ADX describes machine-readable financial disclosure collection through XBRL."
+      }
+    ],
+    "events": [
+      {
+        "id": "dfm-dewa-integrated-report-2025",
+        "symbol": "DEWA",
+        "exchange": "DFM",
+        "source_type": "official_exchange",
+        "source_name": "DFM official filing",
+        "event_type": "results",
+        "category": "annual_report",
+        "title_en": "DEWA PJSC integrated report 2025",
+        "title_ar": "",
+        "summary": "Official DFM-hosted integrated report metadata for Dubai Electricity and Water Authority.",
+        "why_it_matters": "The report can validate regulated cash-flow, dividend, and capital expenditure assumptions.",
+        "materiality": 84,
+        "sentiment": "Positive",
+        "timestamp": "2026-03-23T00:00:00+04:00",
+        "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+        "document_url": "https://feeds.dfm.ae/documents/2026/Mar/23/3cb8b9df-c993-4b9f-9f2f-8c0efa605e58/DEWA%20Integrated%20Repo.pdf",
+        "signals": [
+          "annual_report",
+          "dividend_policy",
+          "regulated_cashflow"
+        ],
+        "data_quality": "official_metadata",
+        "evidence": [
+          "DFM official filing",
+          "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+          "https://feeds.dfm.ae/documents/2026/Mar/23/3cb8b9df-c993-4b9f-9f2f-8c0efa605e58/DEWA%20Integrated%20Repo.pdf"
+        ],
+        "link_checks": [
+          {
+            "url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+            "ok": true,
+            "status": 200,
+            "content_type": "text/html;charset=utf-8"
+          },
+          {
+            "url": "https://feeds.dfm.ae/documents/2026/Mar/23/3cb8b9df-c993-4b9f-9f2f-8c0efa605e58/DEWA%20Integrated%20Repo.pdf",
+            "ok": true,
+            "status": 200,
+            "content_type": "application/pdf"
+          }
+        ]
+      },
+      {
+        "id": "dfm-emaar-integrated-report-2025",
+        "symbol": "EMAAR",
+        "exchange": "DFM",
+        "source_type": "official_exchange",
+        "source_name": "DFM official filing",
+        "event_type": "results",
+        "category": "annual_report",
+        "title_en": "Emaar Properties PJSC integrated annual report 2025",
+        "title_ar": "",
+        "summary": "Official DFM-hosted integrated annual report metadata for Emaar Properties.",
+        "why_it_matters": "The report can improve the agent's business-segment, governance, dividend, and risk-context extraction.",
+        "materiality": 82,
+        "sentiment": "Neutral",
+        "timestamp": "2026-03-12T00:00:00+04:00",
+        "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+        "document_url": "https://feeds.dfm.ae/documents/2026/Mar/12/32866abb-3299-459c-970b-277f10a11956/Emaar%20Properties%20IR%20.pdf",
+        "signals": [
+          "annual_report",
+          "governance",
+          "segment_review"
+        ],
+        "data_quality": "official_metadata",
+        "evidence": [
+          "DFM official filing",
+          "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+          "https://feeds.dfm.ae/documents/2026/Mar/12/32866abb-3299-459c-970b-277f10a11956/Emaar%20Properties%20IR%20.pdf"
+        ],
+        "link_checks": [
+          {
+            "url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+            "ok": true,
+            "status": 200,
+            "content_type": "text/html;charset=utf-8"
+          },
+          {
+            "url": "https://feeds.dfm.ae/documents/2026/Mar/12/32866abb-3299-459c-970b-277f10a11956/Emaar%20Properties%20IR%20.pdf",
+            "ok": true,
+            "status": 200,
+            "content_type": "application/pdf"
+          }
+        ]
+      },
+      {
+        "id": "dfm-emaar-fs-2025",
+        "symbol": "EMAAR",
+        "exchange": "DFM",
+        "source_type": "official_exchange",
+        "source_name": "DFM official filing",
+        "event_type": "results",
+        "category": "financial_statements",
+        "title_en": "Emaar Properties PJSC and subsidiaries 2025 financial statements",
+        "title_ar": "",
+        "summary": "Official DFM-hosted annual financial statements metadata for Emaar Properties. Review the source document before changing model financials.",
+        "why_it_matters": "The filing can validate revenue, profit, cash flow, and dividend-policy assumptions used by the AI research report.",
+        "materiality": 88,
+        "sentiment": "Positive",
+        "timestamp": "2026-02-12T00:00:00+04:00",
+        "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+        "document_url": "https://feeds.dfm.ae/documents/2026/Feb/12/9e0de168-d6ee-4ebe-a343-58b56a84ab2f/Emaar%20Properties%20PJS.pdf",
+        "signals": [
+          "financial_statements",
+          "dividend_policy",
+          "audited_accounts"
+        ],
+        "data_quality": "official_metadata",
+        "evidence": [
+          "DFM official filing",
+          "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+          "https://feeds.dfm.ae/documents/2026/Feb/12/9e0de168-d6ee-4ebe-a343-58b56a84ab2f/Emaar%20Properties%20PJS.pdf"
+        ],
+        "link_checks": [
+          {
+            "url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+            "ok": true,
+            "status": 200,
+            "content_type": "text/html;charset=utf-8"
+          },
+          {
+            "url": "https://feeds.dfm.ae/documents/2026/Feb/12/9e0de168-d6ee-4ebe-a343-58b56a84ab2f/Emaar%20Properties%20PJS.pdf",
+            "ok": true,
+            "status": 200,
+            "content_type": "application/pdf"
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
   "news": {
     "generated_at": "2026-06-18T13:17:39.213341+00:00",
     "provider": "google_news_rss",
@@ -3782,7 +4073,7 @@
   ],
   "agents": {
     "mizan_codex": {
-      "generated_at": "2026-06-18T13:21:07.291327+00:00",
+      "generated_at": "2026-06-18T21:00:25.862061+00:00",
       "agent": {
         "id": "mizan-codex",
         "name": "Mizan Codex",
@@ -3816,39 +4107,34 @@
           "evidence": [
             {
               "source": "Global signal mock adapter",
-              "fact": "Food input basket moved higher, increasing burden on restaurant margins."
+              "fact": "Food input inflation is flagged as a cautious factor (+1.4% move) impacting restaurant margins."
             },
             {
-              "source": "Exposure map",
-              "fact": "Population growth and strong tourism arrivals are positive drivers for consumption."
+              "source": "Global signal mock adapter",
+              "fact": "Population growth and strong tourism arrivals are identified as positive macro drivers for consumption."
             }
           ],
           "filing_findings": [
             {
-              "document": "Demo annual report",
+              "source": "Demo annual report / Demo interim financials",
               "finding": "Revenue growth is -3.0% and profit growth is -8.0%."
-            },
-            {
-              "document": "Demo interim financials",
-              "finding": "Margin direction is under pressure; cash generation is mixed."
             }
           ],
           "money_and_accounts": [
-            "last_price: 2.41",
-            "market cap demo input: 20.3",
-            "dividend_yield_pct: 3.2",
-            "payout_ratio_pct: 65.0",
-            "FY2024_revenue: 97.0",
-            "FY2024_profit: 20.2"
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 97.0, profit 20.2 (demo units)",
+            "TTM: revenue 101.9, profit 21.7 (demo units)",
+            "Dividend Yield: 3.2%",
+            "Payout Ratio: 65.0%"
           ],
           "negative_drivers": [
             "Food input inflation compressing margins",
-            "Revenue and profit growth declines",
-            "Consumer slowdown risks",
+            "Negative revenue and profit growth trends",
+            "Potential consumer slowdown",
             "Currency-linked purchasing pressure"
           ],
           "news_signals": [
-            "source: Commodity monitor, signal: Food input basket moved higher; margin sensitivity flagged, sentiment: Cautious"
+            "id: evt-americana-inputs, title: Food input basket moved higher; margin sensitivity flagged, sentiment: Cautious, summary: Input-cost pressure increases the burden on restaurant margins, combined with revenue decline."
           ],
           "positive_drivers": [
             "Expanding population supporting consumption",
@@ -3857,8 +4143,9 @@
           ],
           "research_stance": "Cautious",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Dividend sustainability marked as Watch"
+            "Dividend sustainability marked as 'Watch'",
+            "Margin direction identified as 'Pressure'",
+            "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
           ],
           "symbol": "AMERICANA",
           "time_horizon": "12m",
@@ -3874,16 +4161,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Revenue trend: Declining (FY2023: 100 -> FY2024: 97.0)",
-            "Profit trend: Declining (FY2023: 22 -> FY2024: 20.2)"
+            "trend: Financials, observation: Declining revenue and profit from FY2023 to FY2024.",
+            "trend: Price, observation: Last price of 2.41 shows a -1.1% change."
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23"
+            {
+              "item": "Board review for dividends",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
-          "what_changed": "Recent increase in food input costs combined with negative revenue and profit growth has led to a Cautious stance.",
-          "generated_at": "2026-06-18T13:21:07.287638+00:00",
+          "what_changed": "Recent increase in food input costs has flagged margin sensitivity, contributing to a cautious stance despite positive tourism and population macro-trends.",
+          "generated_at": "2026-06-18T21:00:25.857987+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -3917,15 +4213,11 @@
           "evidence": [
             {
               "source": "mock-demo",
-              "fact": "Last price 3.48 AED with a market cap of 16.2 (demo quality)."
+              "fact": "Last price is 3.48 AED with a market cap of 16.2 (demo units)."
             },
             {
               "source": "Aviation Business Middle East",
-              "fact": "Shareholders approved a $381m dividend payout in AGM (published 13 Mar 2026)."
-            },
-            {
-              "source": "Exposure map / Global signal mock adapter",
-              "fact": "Strong tourism arrivals are providing positive momentum for the aviation sector."
+              "fact": "Shareholders approved a $381m dividend payout in AGM on 13 Mar 2026."
             }
           ],
           "filing_findings": [
@@ -3946,21 +4238,20 @@
           "negative_drivers": [
             "Fuel price spikes",
             "Tourism demand shocks",
-            "Fleet-cost inflation",
-            "Oil strength potentially lifting fuel-sensitive costs"
+            "Fleet-cost inflation"
           ],
           "news_signals": [
-            "title: Air Arabia Shareholders Approve $381m Dividend Payout In AGM, sentiment: Positive, impact: Confirms significant capital return to shareholders."
+            "date: 2026-03-13, signal: Positive, event: Approval of $381m dividend payout"
           ],
           "positive_drivers": [
             "Strong tourism arrivals momentum",
-            "Income demand",
-            "Consistent revenue and profit growth (10% and 8% respectively)"
+            "Income demand for dividends",
+            "Stable margin direction"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Leverage view is marked as 'Watch'",
-            "Dividend sustainability is marked as 'Watch'",
+            "Leverage view marked as 'Watch'",
+            "Dividend sustainability marked as 'Watch'",
             "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
           ],
           "symbol": "AIRARABIA",
@@ -3981,21 +4272,12 @@
             "Profit: n/a"
           ],
           "watch_items": [
-            {
-              "item": "Board review",
-              "date": "2026-07-06"
-            },
-            {
-              "item": "Entitlement window",
-              "date": "2026-08-02"
-            },
-            {
-              "item": "Payment target",
-              "date": "2026-08-23"
-            }
+            "Board review on 2026-07-06",
+            "Entitlement window on 2026-08-02",
+            "Payment target on 2026-08-23"
           ],
-          "what_changed": "The stock is currently in a 'Watch' phase with a neutral stance, awaiting a price correction toward the 3.27 buy zone despite positive tourism catalysts and approved dividend payouts.",
-          "generated_at": "2026-06-18T13:20:14.093139+00:00",
+          "what_changed": "Recent AGM approval of a $381m dividend payout provides a concrete income catalyst.",
+          "generated_at": "2026-06-18T20:59:53.675098+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -4053,22 +4335,22 @@
             "Dividend Yield: 5.7%"
           ],
           "negative_drivers": [
-            "Regulatory tariff change risk",
-            "Traffic demand slowdown",
+            "Regulatory tariff change risks",
+            "Potential traffic demand slowdown",
             "High payout burden"
           ],
           "news_signals": [
-            "source: Markets.com, date: 2026-03-16, summary: Salik identified as one of the high-volume stock movers on DFM."
+            "source: Markets.com, date: 2026-03-16, signal: SALIK identified as a high-volume stock mover on DFM."
           ],
           "positive_drivers": [
             "Expanding population supporting mobility demand",
-            "Strong tourism arrivals increasing toll traffic",
+            "Strong tourism momentum increasing toll traffic",
             "Strong cash generation and improving margins"
           ],
           "research_stance": "Neutral",
           "review_flags": [
             "Leverage view marked as 'Watch'",
-            "Data quality is labeled as 'demo'"
+            "Data quality is labeled as 'demo' across multiple fields"
           ],
           "symbol": "SALIK",
           "time_horizon": "12m",
@@ -4084,7 +4366,7 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "trend: Revenue and Profit, direction: Upward, observation: Consistent growth from FY2023 through TTM."
+            "trend: Growth, observation: Consistent upward trend in revenue and profit from FY2023 to TTM."
           ],
           "watch_items": [
             {
@@ -4100,8 +4382,8 @@
               "date": "2026-08-23"
             }
           ],
-          "what_changed": "Stock identified as a high-volume mover in March 2026 news; current price is above the identified buy zone of 5.62.",
-          "generated_at": "2026-06-18T13:20:04.877020+00:00",
+          "what_changed": "The stock is currently in a 'Watch' phase, with a neutral stance despite positive growth and dividend sustainability.",
+          "generated_at": "2026-06-18T20:59:47.537128+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -4134,48 +4416,55 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "mock-demo quote",
-              "fact": "Last price 7.34 AED, market cap 53.0 (demo units)"
+              "source": "mock-demo",
+              "fact": "Last price 7.34, market cap 53.0, currency AED"
             },
             {
-              "source": "financials",
+              "source": "Demo annual report / Demo interim financials",
               "fact": "Revenue growth 6.0%, profit growth 9.0%"
             },
             {
-              "source": "dividends",
-              "fact": "Yield 6.4%, payout ratio 60.0%"
+              "source": "Global signal mock adapter",
+              "fact": "Positive impact from active sukuk markets and stable credit conditions"
             }
           ],
           "filing_findings": [
             {
-              "document": "Demo annual report",
-              "finding": "Revenue and profit growth observed from FY2023 to TTM"
+              "period": "FY2023",
+              "revenue": 100,
+              "profit": 22
             },
             {
-              "document": "Demo interim financials",
-              "finding": "Cash generation described as Strong"
+              "period": "FY2024",
+              "revenue": 106.0,
+              "profit": 24.0
+            },
+            {
+              "period": "TTM",
+              "revenue": 108.2,
+              "profit": 24.5
             }
           ],
           "money_and_accounts": [
-            "FY2023: revenue 100, profit 22 (demo units)",
-            "FY2024: revenue 106.0, profit 24.0 (demo units)",
-            "TTM: revenue 108.2, profit 24.5 (demo units)"
+            "Dividend Yield: 6.4%",
+            "Payout Ratio: 60.0%",
+            "Foreign Ownership: n/a"
           ],
           "negative_drivers": [
             "Credit-cost surprise",
             "Rate-cycle reversal",
             "Wholesale funding pressure",
-            "Affordability risk due to firming Dubai real estate prices"
+            "Affordability risk in real estate"
           ],
           "news_signals": [
-            "source: Gulf News, sentiment: Positive, summary: Global funds are turning to UAE stocks as trading grows in Abu Dhabi and Dubai.",
-            "source: The Times of India, sentiment: Neutral, summary: Report of UAE stock markets closing/trading halted (dated March 2026)."
+            "source: Gulf News, signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, sentiment: Positive",
+            "source: The Times of India, signal: UAE stock markets close, trading halted, sentiment: Neutral/Operational"
           ],
           "positive_drivers": [
-            "Active sukuk markets supporting funding and demand",
+            "Active sukuk markets supporting funding",
             "Stable credit conditions supporting asset quality",
-            "Strong dividend sustainability and yield (6.4%)",
-            "Income demand as a catalyst"
+            "Strong cash generation",
+            "Dubai real-estate momentum supporting mortgage demand"
           ],
           "research_stance": "Neutral",
           "review_flags": [
@@ -4196,16 +4485,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Profitability: n/a",
-            "Revenue: n/a"
+            "trend: Growth, observation: Steady increase in revenue and profit from FY2023 to TTM",
+            "trend: Margins, observation: Stable margin direction"
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23"
+            {
+              "event": "Board review",
+              "date": "2026-07-06"
+            },
+            {
+              "event": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "event": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
-          "what_changed": "Global fund interest in UAE markets is increasing, while the bank maintains stable margins amidst mixed rate and real estate impacts.",
-          "generated_at": "2026-06-18T13:19:56.527088+00:00",
+          "what_changed": "Global fund interest in UAE markets is increasing, while the stock remains in a 'Watch' phase awaiting a more attractive entry price.",
+          "generated_at": "2026-06-18T20:59:40.123832+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -4238,34 +4536,34 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "mock-demo quote",
-              "fact": "Last price 23.15 AED"
+              "source": "mock-demo",
+              "fact": "Last price 23.15 AED with a demo market-cap input of 146.2 units (demo data quality)."
             },
             {
               "source": "Demo annual report / Demo interim financials",
-              "fact": "Revenue growth 8.0%, profit growth 11.0%"
+              "fact": "Revenue growth of 8.0% and profit growth of 11.0%."
             },
             {
-              "source": "Global signal mock adapter",
-              "fact": "Stable credit conditions and strong tourism arrivals"
+              "source": "Markets.com",
+              "fact": "ENBD identified as a high-volume stock mover on DFM."
             }
           ],
           "filing_findings": [
             {
               "document": "Demo annual report",
-              "finding": "Revenue and profit growth trends are positive (8% and 11% respectively)."
+              "finding": "Revenue and profit showing growth trends (FY2023 to TTM)."
             },
             {
               "document": "Demo interim financials",
-              "finding": "Cash generation is described as strong and leverage as comfortable."
+              "finding": "Cash generation is described as Strong and leverage view as Comfortable."
             }
           ],
           "money_and_accounts": [
             "FY2023: revenue 100, profit 22 (demo units)",
             "FY2024: revenue 108.0, profit 24.4 (demo units)",
             "TTM: revenue 109.5, profit 24.8 (demo units)",
-            "Market Cap: 146.2",
-            "Dividend Yield: 5.3"
+            "Dividend Yield: 5.3%",
+            "Payout Ratio: 55.0%"
           ],
           "negative_drivers": [
             "Credit-cost surprise",
@@ -4274,17 +4572,17 @@
             "Higher rates potentially pressuring developers"
           ],
           "news_signals": [
-            "source: Markets.com, date: 2026-03-16, signal: High-volume stock mover on DFM"
+            "source: Markets.com, signal: High-volume trading activity noted for ENBD on DFM."
           ],
           "positive_drivers": [
-            "Strong tourism arrivals supporting regional economic activity",
-            "Stable credit spreads supporting asset quality",
-            "Improving margins",
-            "Strong dividend sustainability"
+            "Strong tourism arrivals supporting regional economic momentum",
+            "Stable credit conditions supporting asset quality",
+            "Improving margins and strong cash generation",
+            "High dividend sustainability"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo",
+            "Data quality is labeled as demo/mock",
             "Price status is frozen closed-market prices"
           ],
           "symbol": "ENBD",
@@ -4301,16 +4599,16 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Improving margin direction",
-            "Consistent growth in revenue and profit from FY2023 to TTM"
+            "trend: Profitability, direction: Upward, evidence: Profit grew from 22 in FY2023 to 24.8 in TTM.",
+            "trend: Margins, direction: Improving, evidence: Financials indicate margin direction is Improving."
           ],
           "watch_items": [
             "Board review on 2026-07-06",
             "Entitlement window on 2026-08-02",
             "Payment target on 2026-08-23"
           ],
-          "what_changed": "Recent high-volume trading activity noted in March 2026 news signals.",
-          "generated_at": "2026-06-18T13:19:44.737815+00:00",
+          "what_changed": "The stock is currently in a 'Watch' phase, with high-volume activity reported in recent news and a neutral research stance despite positive growth metrics.",
+          "generated_at": "2026-06-18T20:59:33.313158+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -4344,55 +4642,51 @@
           "evidence": [
             {
               "type": "agent_evidence",
-              "source": "DFM corporate actions calendar",
-              "note": "DFM corporate actions calendar"
+              "source": "DFM official filing: DEWA PJSC integrated report 2025",
+              "note": "DFM official filing: DEWA PJSC integrated report 2025"
             },
             {
               "type": "agent_evidence",
-              "source": "Dividend timetable",
-              "note": "Dividend timetable"
+              "source": "DFM corporate actions: Dividend entitlement and payment window",
+              "note": "DFM corporate actions: Dividend entitlement and payment window"
             },
             {
               "type": "agent_evidence",
-              "source": "Exposure map",
-              "note": "Exposure map"
-            },
-            {
-              "type": "agent_evidence",
-              "source": "Global signal mock adapter",
-              "note": "Global signal mock adapter"
+              "source": "Global signal mock adapter: Power Demand and Population growth signals",
+              "note": "Global signal mock adapter: Power Demand and Population growth signals"
             }
           ],
           "filing_findings": [
-            "Revenue growth of 5.0% and profit growth of 4.0% reported in demo financials",
-            "Cash generation described as Strong and leverage view as Comfortable",
-            "Margin direction is Improving"
+            {
+              "source": "DEWA PJSC integrated report 2025",
+              "finding": "Official integrated report available on DFM, used to validate regulated cash-flow, dividend, and capital expenditure assumptions."
+            }
           ],
           "money_and_accounts": [
-            "FY2023: revenue 100, profit 22 (demo units)",
-            "FY2024: revenue 105.0, profit 22.9 (demo units)",
-            "TTM: revenue 107.5, profit 23.7 (demo units)",
-            "Dividend Yield: 6.0%",
-            "Payout Ratio: 80.0%"
+            "last_price: 2.79",
+            "market cap demo input: 139.5",
+            "dividend_yield_pct: 6.0",
+            "payout_ratio_pct: 80.0",
+            "FY2024_revenue: 105.0",
+            "FY2024_profit: 22.9"
           ],
           "negative_drivers": [
-            "Allowed-return reset",
+            "Allowed-return reset risk",
             "Fuel-cost pass-through timing",
-            "Capex execution"
+            "Capex execution risks"
           ],
           "news_signals": [
-            "source: Gulf News, sentiment: Positive, summary: Global funds are turning to UAE stocks as trading grows in Abu Dhabi and Dubai.",
-            "source: The Times of India, sentiment: Neutral, summary: Report of UAE stock markets closing and trading being halted by ADX and DFM (dated March 2026)."
+            "source: Gulf News, signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, sentiment: Positive"
           ],
           "positive_drivers": [
             "Rising summer power demand supporting utility throughput",
-            "Expanding population growth supporting consumption and utilities",
-            "Strong dividend sustainability and high payout ratio"
+            "Expanding population growth supporting consumption",
+            "Strong cash generation and comfortable leverage",
+            "High dividend sustainability"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Price status is frozen closed-market prices"
+            "Data quality is labeled as demo for quote and financials"
           ],
           "symbol": "DEWA",
           "time_horizon": "12m",
@@ -4408,16 +4702,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Revenue and profit show a steady upward trend from FY2023 through TTM",
-            "Market sentiment for the sector is supported by population growth and seasonal demand"
+            "trend: Revenue and Profit Growth, observation: Revenue grew from 100 (FY2023) to 107.5 (TTM) and profit from 22 (FY2023) to 23.7 (TTM) based on demo series.",
+            "trend: Margin Direction, observation: Improving"
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23"
+            {
+              "item": "Board review for dividends",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
           "what_changed": "Dividend entitlement and payment windows have been added to the corporate actions calendar.",
-          "generated_at": "2026-06-18T13:19:36.486889+00:00",
+          "generated_at": "2026-06-18T20:59:02.736849+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -4450,49 +4753,66 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "DFM official disclosure",
-              "fact": "Board meeting scheduled to review interim financials and dividend policy"
+              "type": "agent_evidence",
+              "source": "DFM official disclosure regarding board meeting",
+              "note": "DFM official disclosure regarding board meeting"
             },
             {
-              "source": "ZAWYA",
-              "fact": "Emaar Properties announced 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting"
+              "type": "agent_evidence",
+              "source": "ZAWYA report on dividend payout",
+              "note": "ZAWYA report on dividend payout"
             },
             {
-              "source": "mock-demo",
-              "fact": "Last price 13.65 AED with a demo market-cap input of 121.3 units"
+              "type": "agent_evidence",
+              "source": "DFM official filing for 2025 integrated annual report and financial statements",
+              "note": "DFM official filing for 2025 integrated annual report and financial statements"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Global signal mock adapter for tourism and population growth",
+              "note": "Global signal mock adapter for tourism and population growth"
             }
           ],
           "filing_findings": [
             {
-              "file": "filings/inbox/EMAAR-board-meeting-demo.txt",
-              "finding": "Board agenda includes review of interim financial statements, dividend policy, capital allocation, and operating performance across development, malls, and hospitality segments."
+              "source": "DFM official filing",
+              "finding": "Integrated annual report 2025 and financial statements 2025 are available on DFM."
+            },
+            {
+              "source": "DFM disclosure / Local filing snippet",
+              "finding": "Board meeting scheduled to review interim financials, capital allocation, and dividend policy."
             }
           ],
           "money_and_accounts": [
-            "FY2023: revenue 100, profit 22 (demo units)",
-            "FY2024: revenue 121.0, profit 26.0 (demo units)",
-            "TTM: revenue 118.6, profit 26.0 (demo units)"
+            "last_price: 13.65",
+            "market cap demo input: 121.3",
+            "revenue_growth_pct: 21.0",
+            "profit_growth_pct: 18.0",
+            "dividend_yield_pct: 6.2",
+            "FY2023_revenue: 100",
+            "FY2024_revenue: 121.0",
+            "FY2024_profit: 26.0"
           ],
           "negative_drivers": [
             "Rate pressure on affordability",
             "Delivery slippage",
             "Input-cost inflation",
-            "Higher rates pressure developers"
+            "Higher interest rates pressuring developers"
           ],
           "news_signals": [
-            "source: Markets.com, signal: EMAAR identified as a high-volume stock mover on DFM",
-            "source: ZAWYA, signal: Announcement of 100% dividend payout of AED 8.8bln"
+            "source: ZAWYA, signal: Announced 100% dividend payout of AED 8.8bln ($2.4bln) at AGM, sentiment: Positive",
+            "source: Markets.com, signal: EMAAR identified as a high-volume stock mover on DFM, sentiment: Neutral"
           ],
           "positive_drivers": [
-            "Strong tourism arrivals supporting real estate and malls",
+            "Strong tourism arrivals supporting malls and hospitality",
             "Expanding population growth supporting housing and consumption",
             "Lower steel input costs",
-            "Improving margin direction and strong cash generation"
+            "Improving margins and strong cash generation"
           ],
           "research_stance": "Bullish",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Price status is frozen closed-market prices"
+            "Financial series and market cap are labeled as demo/mock",
+            "Price data is frozen closed-market"
           ],
           "symbol": "EMAAR",
           "time_horizon": "12m",
@@ -4508,16 +4828,16 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Revenue Growth: 21.0%",
-            "Profit Growth: 18.0%"
+            "trend: Revenue and Profit Growth, observation: Revenue grew 21% and profit grew 18% according to demo financials.",
+            "trend: Sector Momentum, observation: Real estate sector is leading with Dubai names showing strength."
           ],
           "watch_items": [
             "Board review on 2026-07-06",
             "Entitlement window on 2026-08-02",
             "Payment target on 2026-08-23"
           ],
-          "what_changed": "Board meeting scheduled to review interim financials and dividend policy; recent high-volume trading activity noted.",
-          "generated_at": "2026-06-18T13:19:08.543828+00:00",
+          "what_changed": "Board meeting scheduled to review interim results and dividend policy; recent high-volume trading activity noted.",
+          "generated_at": "2026-06-18T20:58:08.565430+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -4550,36 +4870,35 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "type": "agent_evidence",
-              "source": "Growth score of 81",
-              "note": "Growth score of 81"
+              "source": "Official media office",
+              "fact": "Logistics expansion headline linked to regional trade corridor",
+              "impact": "Positive"
             },
             {
-              "type": "agent_evidence",
-              "source": "Revenue growth of 24.0% and profit growth of 13.0%",
-              "note": "Revenue growth of 24.0% and profit growth of 13.0%"
+              "source": "Global signal mock adapter",
+              "fact": "Regional trade flows are firm",
+              "impact": "Positive"
             },
             {
-              "type": "agent_evidence",
-              "source": "Official media headline regarding logistics expansion linked to regional trade corridor",
-              "note": "Official media headline regarding logistics expansion linked to regional trade corridor"
-            },
-            {
-              "type": "agent_evidence",
-              "source": "Global signal indicating positive impact from firm regional trade flows",
-              "note": "Global signal indicating positive impact from firm regional trade flows"
+              "source": "mock-demo quote",
+              "fact": "Last price 6.1 with a 1.1% change",
+              "impact": "Neutral"
             }
           ],
           "filing_findings": [
-            "Revenue increased from 100 in FY2023 to 124.0 in FY2024",
-            "Profit increased from 22 in FY2023 to 24.9 in FY2024",
-            "TTM revenue is 120.6 and profit is 25.1"
+            {
+              "document": "Demo annual report",
+              "finding": "Revenue growth of 24.0% and profit growth of 13.0%"
+            },
+            {
+              "document": "Demo interim financials",
+              "finding": "Margin direction is stable; cash generation is mixed"
+            }
           ],
           "money_and_accounts": [
-            "last_price: 6.1",
-            "market_cap: 31.0",
-            "revenue_growth_pct: 24.0",
-            "profit_growth_pct: 13.0"
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 124.0, profit 24.9 (demo units)",
+            "TTM: revenue 120.6, profit 25.1 (demo units)"
           ],
           "negative_drivers": [
             "Freight-cycle slowdown",
@@ -4587,8 +4906,8 @@
             "Fuel and wage cost pressure"
           ],
           "news_signals": [
-            "event: Logistics expansion, sentiment: Positive, source: Official media office, impact: Could strengthen long-term trade exposure",
-            "event: Market Sentiment, sentiment: Positive, source: Gulf News, impact: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows"
+            "source: Official media office, event: Logistics expansion linked to regional trade corridor, sentiment: Positive",
+            "source: Gulf News, event: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, sentiment: Positive"
           ],
           "positive_drivers": [
             "Strong regional trade flows supporting ports and logistics",
@@ -4597,9 +4916,9 @@
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Dividend sustainability is marked as Watch",
-            "Leverage view is marked as Watch"
+            "Data quality is demo",
+            "Leverage view is 'Watch'",
+            "Dividend sustainability is 'Watch'"
           ],
           "symbol": "ADPORTS",
           "time_horizon": "12m",
@@ -4615,16 +4934,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Revenue and profit showing an upward trajectory from FY2023 to FY2024",
-            "Margin direction is reported as Stable"
+            "indicator: Revenue Growth, trend: Upward, value: 24.0%",
+            "indicator: Profit Growth, trend: Upward, value: 13.0%"
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23"
+            {
+              "item": "Board review for dividends",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
-          "what_changed": "Recent logistics expansion headline linked to regional trade corridor may strengthen long-term trade exposure.",
-          "generated_at": "2026-06-18T13:19:02.869813+00:00",
+          "what_changed": "Recent logistics expansion headline and firm regional trade flows have provided positive catalysts, though the overall stance remains Neutral pending a better entry price.",
+          "generated_at": "2026-06-18T20:58:00.131548+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -4657,61 +4985,42 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "mock-demo quote",
-              "fact": "Last price 3.17 AED with a demo market-cap input of 356.0 units (demo data quality)."
+              "type": "agent_evidence",
+              "source": "Global funds turning to UAE stocks (Gulf News)",
+              "note": "Global funds turning to UAE stocks (Gulf News)"
             },
             {
-              "source": "financials series",
-              "fact": "Revenue grew from 100 in FY2023 to 106.8 in TTM; profit grew from 22 in FY2023 to 23.5 in TTM."
+              "type": "agent_evidence",
+              "source": "Summer load rising supporting utility throughput (Global Factors)",
+              "note": "Summer load rising supporting utility throughput (Global Factors)"
             },
             {
-              "source": "Gulf News",
-              "fact": "TAQA named a new chairman and confirmed a Dh5 billion dividend payout on 2026-03-13."
+              "type": "agent_evidence",
+              "source": "Water demand visibility supporting regulated cash flows (Global Factors)",
+              "note": "Water demand visibility supporting regulated cash flows (Global Factors)"
             }
           ],
-          "filing_findings": [
-            {
-              "document": "Demo annual report / Demo interim financials",
-              "finding": "Revenue growth of 4.0% and profit growth of 3.0% with stable margins and strong cash generation."
-            }
-          ],
+          "filing_findings": [],
           "money_and_accounts": [
-            "Dividend Yield: 3.9%",
-            "Payout Ratio: 70.0%",
-            "Revenue (TTM): 106.8",
-            "Profit (TTM): 23.5"
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 104.0, profit 22.7 (demo units)",
+            "TTM: revenue 106.8, profit 23.5 (demo units)"
           ],
           "negative_drivers": [
-            {
-              "factor": "Interest Rates",
-              "impact": "Higher rates pressure developers (Mixed sentiment)."
-            },
-            {
-              "factor": "Gas Prices",
-              "impact": "Gas-linked revenue and generation costs move in opposite directions (Mixed sentiment)."
-            },
-            {
-              "factor": "Risks",
-              "impact": "Allowed-return reset, fuel-cost pass-through timing, and capex execution."
-            }
+            "Allowed-return reset risk",
+            "Fuel-cost pass-through timing",
+            "Capex execution risks",
+            "Higher interest rates pressuring developers"
           ],
           "news_signals": [
-            "date: 2026-03-13, signal: Positive, event: Confirmation of Dh5 billion dividend payout and appointment of new chairman.",
-            "date: 2026-06-11, signal: Positive, event: Global funds increasing interest in UAE stocks, including TAQA."
+            "date: 2026-03-13, source: Gulf News, signal: Confirmed Dh5 billion dividend payout and appointment of new chairman",
+            "date: 2026-06-11, source: Gulf News, signal: Increased interest from global funds in UAE stocks"
           ],
           "positive_drivers": [
-            {
-              "factor": "Power Demand",
-              "impact": "Rising summer load supports utility throughput and capacity planning."
-            },
-            {
-              "factor": "Desalination",
-              "impact": "Water demand visibility supports regulated utility cash flows."
-            },
-            {
-              "factor": "Cash Flow",
-              "impact": "Strong cash generation noted in financial summaries."
-            }
+            "Regulated cash flows from power and water utilities",
+            "Rising summer power demand",
+            "Stable desalination demand",
+            "Energy transition exposure"
           ],
           "research_stance": "Neutral",
           "review_flags": [
@@ -4733,24 +5042,16 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "trend: Steady Growth, observation: Consistent incremental growth in revenue and profit from FY2023 through TTM."
+            "Revenue and profit showing steady growth from FY2023 to TTM",
+            "Margin direction is stable"
           ],
           "watch_items": [
-            {
-              "item": "Board review",
-              "date": "2026-07-06"
-            },
-            {
-              "item": "Entitlement window",
-              "date": "2026-08-02"
-            },
-            {
-              "item": "Payment target",
-              "date": "2026-08-23"
-            }
+            "Board review on 2026-07-06",
+            "Entitlement window on 2026-08-02",
+            "Payment target on 2026-08-23"
           ],
-          "what_changed": "Confirmation of a Dh5 billion dividend payout and a new chairman appointment in March 2026.",
-          "generated_at": "2026-06-18T13:18:44.414793+00:00",
+          "what_changed": "Appointment of new chairman and confirmation of a Dh5 billion dividend payout.",
+          "generated_at": "2026-06-18T20:57:50.030909+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -4783,43 +5084,32 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "mock-demo",
-              "fact": "Last price 3.52 AED with a market cap of 270.0 (demo)"
+              "source": "mock-demo quote",
+              "fact": "Last price 3.52 AED with a demo market-cap input of 270.0 units (demo data)."
             },
             {
-              "source": "Demo annual report / Demo interim financials",
-              "fact": "Revenue growth of 5.0% and profit growth of 6.0%"
+              "source": "financials",
+              "fact": "Revenue growth of 5.0% and profit growth of 6.0%."
             },
             {
-              "source": "Exposure map / Global signal mock adapter",
-              "fact": "Steady LNG demand supports gas processing visibility"
+              "source": "dividends",
+              "fact": "Yield of 4.7% with a payout ratio of 62.0%."
             }
           ],
           "filing_findings": [
             {
-              "period": "FY2023",
-              "revenue": 100,
-              "profit": 22,
-              "status": "demo"
+              "document": "Demo annual report",
+              "finding": "Revenue and profit trends show steady growth from FY2023 to TTM."
             },
             {
-              "period": "FY2024",
-              "revenue": 105.0,
-              "profit": 23.3,
-              "status": "demo"
-            },
-            {
-              "period": "TTM",
-              "revenue": 107.5,
-              "profit": 24.0,
-              "status": "demo"
+              "document": "Demo interim financials",
+              "finding": "Cash generation is described as Strong and leverage as Comfortable."
             }
           ],
           "money_and_accounts": [
-            "Dividend Yield: 4.7%",
-            "Payout Ratio: 62.0%",
-            "Cash Generation: Strong",
-            "Leverage View: Comfortable"
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 105.0, profit 23.3 (demo units)",
+            "TTM: revenue 107.5, profit 24.0 (demo units)"
           ],
           "negative_drivers": [
             "Commodity spread volatility",
@@ -4827,17 +5117,17 @@
             "Policy or offtake changes"
           ],
           "news_signals": [
-            "source: Gulf News, signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, impact: Positive for overall market liquidity",
-            "source: The National, signal: UAE stocks retreat due to regional war, impact: Negative macro pressure"
+            "source: Gulf News, signal: Global funds are turning to UAE stocks as Abu Dhabi and Dubai trading grows., impact: Positive for general market liquidity.",
+            "source: The National, signal: UAE stocks retreat due to regional war concerns., impact: Negative systemic pressure."
           ],
           "positive_drivers": [
-            "Steady LNG demand",
-            "Improving margins",
+            "Steady LNG demand supporting gas processing visibility",
+            "Improving margin direction",
             "Strong dividend sustainability"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo"
+            "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
           ],
           "symbol": "ADNOCGAS",
           "time_horizon": "12m",
@@ -4853,25 +5143,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "indicator: Revenue/Profit, direction: Upward, observation: Consistent growth from FY2023 to TTM",
-            "indicator: Margins, direction: Improving, observation: Margin direction noted as improving"
+            "Profitability: n/a",
+            "Margins: n/a"
           ],
           "watch_items": [
             {
-              "event": "Board review",
+              "item": "Board review",
               "date": "2026-07-06"
             },
             {
-              "event": "Entitlement window",
+              "item": "Entitlement window",
               "date": "2026-08-02"
             },
             {
-              "event": "Payment target",
+              "item": "Payment target",
               "date": "2026-08-23"
             }
           ],
-          "what_changed": "No recent internal events provided; market context shows a mix of global fund interest and regional geopolitical volatility.",
-          "generated_at": "2026-06-18T13:18:36.038364+00:00",
+          "what_changed": "The stock is currently in a 'Watch' phase, awaiting a price correction to the buy zone (below 3.31) despite steady fundamental growth and positive LNG demand signals.",
+          "generated_at": "2026-06-18T20:57:44.978496+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -4905,71 +5195,82 @@
           "evidence": [
             {
               "fact": "Revenue growth of 18.0% and profit growth of 14.0% reported.",
-              "source": "financials"
+              "source": "Demo annual report, Demo interim financials"
             },
             {
-              "fact": "Tourism momentum and population growth are identified as positive global factors.",
-              "source": "global_factors"
+              "fact": "Tourism momentum and population growth are identified as positive global factors for the real estate sector.",
+              "source": "Exposure map, Global signal mock adapter"
             },
             {
-              "fact": "Foreign ownership is currently at 15% with a permitted limit of 49%.",
-              "source": "ownership"
+              "fact": "Current price is 8.76 with a 12m target of 9.68.",
+              "source": "mock-demo quote / price_signal"
             }
           ],
           "filing_findings": [
             {
-              "document": "Demo annual report",
-              "finding": "Revenue and profit growth trends observed across FY2023 and FY2024."
+              "finding": "Revenue increased from 100 in FY2023 to 118.0 in FY2024.",
+              "period": "FY2023-FY2024",
+              "source": "Demo annual report"
             },
             {
-              "document": "Demo interim financials",
-              "finding": "Margin direction is improving."
+              "finding": "Profit increased from 22 in FY2023 to 25.1 in FY2024.",
+              "period": "FY2023-FY2024",
+              "source": "Demo annual report"
             }
           ],
           "money_and_accounts": [
-            "last_price: 8.76",
-            "market cap demo input: 68.9",
-            "FY2024 revenue: 118.0",
-            "FY2024 profit: 25.1",
-            "dividend_yield_pct: 2.6"
+            "Last Price: 8.76",
+            "Market Cap: 68.9",
+            "Dividend Yield: 2.6%",
+            "Payout Ratio: 34.0%"
           ],
           "negative_drivers": [
             {
-              "driver": "Interest Rate Pressure",
-              "impact": "Higher rates pressure developers and affect affordability."
+              "driver": "Rate pressure on affordability",
+              "impact": "Higher rates pressure developers",
+              "source": "Global signal mock adapter"
             },
             {
-              "driver": "Operational Risks",
-              "impact": "Delivery slippage and input-cost inflation."
+              "driver": "Delivery slippage",
+              "impact": "Operational risk",
+              "source": "Top Risks"
+            },
+            {
+              "driver": "Input-cost inflation",
+              "impact": "Margin pressure",
+              "source": "Top Risks"
             }
           ],
           "news_signals": [
-            "signal: Global funds turning to UAE stocks, sentiment: Positive, source: Gulf News",
-            "signal: Regional war causing market retreats, sentiment: Negative, source: The National"
+            "signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, sentiment: Positive, source: Gulf News, date: 2026-06-11",
+            "signal: UAE stock market opens higher with ADX gains over 1 percent, sentiment: Positive, source: Economy Middle East, date: 2026-06-16"
           ],
           "positive_drivers": [
             {
-              "driver": "Tourism",
-              "impact": "Strong arrivals support real estate and malls."
+              "driver": "Tourism momentum",
+              "impact": "Supports real estate and malls",
+              "source": "Exposure map"
             },
             {
-              "driver": "Demographics",
-              "impact": "Expanding population supports housing demand."
+              "driver": "Population growth",
+              "impact": "Supports housing and consumption",
+              "source": "Exposure map"
             },
             {
-              "driver": "Input Costs",
-              "impact": "Lower steel costs can benefit developers."
+              "driver": "Lower steel input costs",
+              "impact": "Potential benefit for developers",
+              "source": "Exposure map"
             }
           ],
           "research_stance": "Bullish",
           "review_flags": [
             "Leverage view marked as 'Watch'",
             "Dividend sustainability marked as 'Watch'",
-            "Cash generation is 'Mixed'",
+            "Cash generation described as 'Mixed'",
             "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
           ],
           "symbol": "ALDAR",
-          "time_horizon": "12m",
+          "time_horizon": "12 months",
           "trading_plan": {
             "label": "Watch",
             "buy_or_not": "Wait for buy zone",
@@ -4982,12 +5283,12 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "trend: Improving Margins, observation: Financials indicate margin direction is improving.",
-            "trend: Growth Momentum, observation: Revenue and profit showing positive growth from FY2023 to FY2024."
+            "trend: Improving margins, direction: Upward, source: Financials",
+            "trend: Revenue and Profit Growth, direction: Upward, source: Financials"
           ],
           "watch_items": [
             {
-              "item": "Board review",
+              "item": "Board review for dividends",
               "date": "2026-07-06"
             },
             {
@@ -4999,8 +5300,8 @@
               "date": "2026-08-23"
             }
           ],
-          "what_changed": "The stock is currently in a 'Watch' phase according to the price signal, despite a Bullish research stance, awaiting a more favorable entry point below 8.23.",
-          "generated_at": "2026-06-18T13:18:29.280136+00:00",
+          "what_changed": "The stock maintains a bullish stance supported by growth in revenue and profit, though the price signal suggests waiting for a lower entry point (8.23) to optimize returns.",
+          "generated_at": "2026-06-18T20:57:35.622793+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5034,15 +5335,11 @@
           "evidence": [
             {
               "source": "mock-demo",
-              "fact": "Last price 412.8, market cap 900.0 (demo quality)."
+              "fact": "Last price 412.8 AED with a market cap of 900.0 (demo quality)."
             },
             {
               "source": "Demo annual report / Demo interim financials",
               "fact": "Revenue growth of 12.0% and profit growth of 8.0%."
-            },
-            {
-              "source": "Exposure map / Global signal mock adapter",
-              "fact": "Private-asset marks and food-input inflation are identified as cautious factors."
             }
           ],
           "filing_findings": [
@@ -5065,31 +5362,44 @@
           "money_and_accounts": [
             "Revenue Growth: 12.0%",
             "Profit Growth: 8.0%",
-            "Dividend Yield: 0.0%",
-            "Margin Direction: Stable"
+            "Dividend Yield: 0.0%"
           ],
           "negative_drivers": [
-            "Disclosure opacity",
-            "Private-asset marks valuation uncertainty",
-            "Acquisition integration risks",
-            "Input-cost inflation in food and restaurant segments"
+            {
+              "factor": "Disclosure opacity",
+              "impact": "High risk regarding private-asset marks and acquisition integration."
+            },
+            {
+              "factor": "Food Inputs",
+              "impact": "Input-cost inflation (+1.4%) may compress food and restaurant margins."
+            },
+            {
+              "factor": "Private Assets",
+              "impact": "Valuation marks require stronger disclosure evidence."
+            }
           ],
           "news_signals": [
             "source: Gulf News, signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows.",
             "source: The National, signal: UAE stocks retreat due to regional war concerns."
           ],
           "positive_drivers": [
-            "Resilient demand in healthcare sector",
-            "Diversified exposure across healthcare, food, industry, and technology"
+            {
+              "factor": "Healthcare",
+              "impact": "Defensive demand remains resilient."
+            },
+            {
+              "factor": "Growth Scores",
+              "impact": "Growth score rated at 70."
+            }
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Leverage view is marked as Watch",
-            "Dividend sustainability is marked as Watch"
+            "Demo data quality",
+            "Disclosure opacity",
+            "Private-asset valuation uncertainty"
           ],
           "symbol": "IHC",
-          "time_horizon": "12m",
+          "time_horizon": "12 months",
           "trading_plan": {
             "label": "Avoid",
             "buy_or_not": "Do not buy yet",
@@ -5102,18 +5412,29 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "indicator: Composite Score, value: 55",
-            "indicator: Growth Score, value: 70",
-            "indicator: Stability Score, value: 52"
+            "trend: Revenue and Profit, direction: Upward, observation: Consistent growth from FY2023 to TTM.",
+            "trend: Margins, direction: Stable, observation: Margin direction listed as Stable."
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23",
-            "Rates path"
+            {
+              "item": "Board review",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            },
+            {
+              "item": "Leverage",
+              "status": "Watch"
+            }
           ],
-          "what_changed": "No recent events provided to indicate a change in fundamental trend.",
-          "generated_at": "2026-06-18T13:18:21.675279+00:00",
+          "what_changed": "The stock is currently in a 'Neutral' stance with a 'Do not buy yet' signal, reflecting a balance between growth in financials and risks associated with disclosure and private asset valuations.",
+          "generated_at": "2026-06-18T20:57:27.533828+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5175,13 +5496,12 @@
           "money_and_accounts": [
             "last_price: 15.42",
             "market_cap: 170.4",
-            "dividend_yield: 5.1",
-            "FY2023_revenue: 100",
-            "FY2023_profit: 22",
-            "FY2024_revenue: 107.0",
-            "FY2024_profit: 24.2",
-            "TTM_revenue: 108.9",
-            "TTM_profit: 24.6"
+            "revenue_growth_pct: 7.0",
+            "profit_growth_pct: 10.0",
+            "dividend_yield_pct: 5.1",
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 107.0, profit 24.2 (demo units)",
+            "TTM: revenue 108.9, profit 24.6 (demo units)"
           ],
           "negative_drivers": [
             "Credit-cost surprise",
@@ -5190,17 +5510,17 @@
             "Higher rates may pressure developers"
           ],
           "news_signals": [
-            "source: scanx.trade, summary: Hexaware Technologies Board Meeting Scheduled to Consider First Interim Dividend for FY 2026, relevance: Low/Indirect (Related symbol FAB mentioned in RSS feed but content refers to Hexaware)"
+            "title: Hexaware Technologies Board Meeting Scheduled to Consider First Interim Dividend for FY 2026, sentiment: Neutral, relevance: Low (Related symbol listed but content focuses on Hexaware)"
           ],
           "positive_drivers": [
+            "Improving margins",
             "Strong cash generation",
-            "Improving margin direction",
             "Stable credit conditions supporting asset quality",
-            "Supportive oil liquidity for regional deposits"
+            "Supportive oil liquidity aiding regional deposits"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is marked as demo",
+            "Data quality is labeled as demo",
             "Price status is frozen closed-market prices"
           ],
           "symbol": "FAB",
@@ -5217,17 +5537,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "trend: Revenue Growth, direction: Upward, detail: Revenue increased from 100 (FY2023) to 108.9 (TTM)",
-            "trend: Profit Growth, direction: Upward, detail: Profit increased from 22 (FY2023) to 24.6 (TTM)"
+            "trend: Revenue and Profit Growth, observation: Consistent upward trend from FY2023 to TTM",
+            "trend: Margin Direction, observation: Improving"
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23",
-            "Asset quality and credit costs"
+            {
+              "item": "Board review",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
-          "what_changed": "Quarterly results confirm stable net interest income and controlled credit costs.",
-          "generated_at": "2026-06-18T13:18:15.110060+00:00",
+          "what_changed": "Quarterly results confirmed stable net interest income and controlled credit costs.",
+          "generated_at": "2026-06-18T20:57:11.390757+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5263,39 +5591,34 @@
           "evidence": [
             {
               "source": "Global signal mock adapter",
-              "fact": "Food input basket moved higher, increasing burden on restaurant margins."
+              "fact": "Food input inflation is flagged as a cautious factor (+1.4% move) impacting restaurant margins."
             },
             {
-              "source": "Exposure map",
-              "fact": "Population growth and strong tourism arrivals are positive drivers for consumption."
+              "source": "Global signal mock adapter",
+              "fact": "Population growth and strong tourism arrivals are identified as positive macro drivers for consumption."
             }
           ],
           "filing_findings": [
             {
-              "document": "Demo annual report",
+              "source": "Demo annual report / Demo interim financials",
               "finding": "Revenue growth is -3.0% and profit growth is -8.0%."
-            },
-            {
-              "document": "Demo interim financials",
-              "finding": "Margin direction is under pressure; cash generation is mixed."
             }
           ],
           "money_and_accounts": [
-            "last_price: 2.41",
-            "market cap demo input: 20.3",
-            "dividend_yield_pct: 3.2",
-            "payout_ratio_pct: 65.0",
-            "FY2024_revenue: 97.0",
-            "FY2024_profit: 20.2"
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 97.0, profit 20.2 (demo units)",
+            "TTM: revenue 101.9, profit 21.7 (demo units)",
+            "Dividend Yield: 3.2%",
+            "Payout Ratio: 65.0%"
           ],
           "negative_drivers": [
             "Food input inflation compressing margins",
-            "Revenue and profit growth declines",
-            "Consumer slowdown risks",
+            "Negative revenue and profit growth trends",
+            "Potential consumer slowdown",
             "Currency-linked purchasing pressure"
           ],
           "news_signals": [
-            "source: Commodity monitor, signal: Food input basket moved higher; margin sensitivity flagged, sentiment: Cautious"
+            "id: evt-americana-inputs, title: Food input basket moved higher; margin sensitivity flagged, sentiment: Cautious, summary: Input-cost pressure increases the burden on restaurant margins, combined with revenue decline."
           ],
           "positive_drivers": [
             "Expanding population supporting consumption",
@@ -5304,8 +5627,9 @@
           ],
           "research_stance": "Cautious",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Dividend sustainability marked as Watch"
+            "Dividend sustainability marked as 'Watch'",
+            "Margin direction identified as 'Pressure'",
+            "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
           ],
           "symbol": "AMERICANA",
           "time_horizon": "12m",
@@ -5321,16 +5645,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Revenue trend: Declining (FY2023: 100 -> FY2024: 97.0)",
-            "Profit trend: Declining (FY2023: 22 -> FY2024: 20.2)"
+            "trend: Financials, observation: Declining revenue and profit from FY2023 to FY2024.",
+            "trend: Price, observation: Last price of 2.41 shows a -1.1% change."
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23"
+            {
+              "item": "Board review for dividends",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
-          "what_changed": "Recent increase in food input costs combined with negative revenue and profit growth has led to a Cautious stance.",
-          "generated_at": "2026-06-18T13:21:07.287638+00:00",
+          "what_changed": "Recent increase in food input costs has flagged margin sensitivity, contributing to a cautious stance despite positive tourism and population macro-trends.",
+          "generated_at": "2026-06-18T21:00:25.857987+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5364,15 +5697,11 @@
           "evidence": [
             {
               "source": "mock-demo",
-              "fact": "Last price 3.48 AED with a market cap of 16.2 (demo quality)."
+              "fact": "Last price is 3.48 AED with a market cap of 16.2 (demo units)."
             },
             {
               "source": "Aviation Business Middle East",
-              "fact": "Shareholders approved a $381m dividend payout in AGM (published 13 Mar 2026)."
-            },
-            {
-              "source": "Exposure map / Global signal mock adapter",
-              "fact": "Strong tourism arrivals are providing positive momentum for the aviation sector."
+              "fact": "Shareholders approved a $381m dividend payout in AGM on 13 Mar 2026."
             }
           ],
           "filing_findings": [
@@ -5393,21 +5722,20 @@
           "negative_drivers": [
             "Fuel price spikes",
             "Tourism demand shocks",
-            "Fleet-cost inflation",
-            "Oil strength potentially lifting fuel-sensitive costs"
+            "Fleet-cost inflation"
           ],
           "news_signals": [
-            "title: Air Arabia Shareholders Approve $381m Dividend Payout In AGM, sentiment: Positive, impact: Confirms significant capital return to shareholders."
+            "date: 2026-03-13, signal: Positive, event: Approval of $381m dividend payout"
           ],
           "positive_drivers": [
             "Strong tourism arrivals momentum",
-            "Income demand",
-            "Consistent revenue and profit growth (10% and 8% respectively)"
+            "Income demand for dividends",
+            "Stable margin direction"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Leverage view is marked as 'Watch'",
-            "Dividend sustainability is marked as 'Watch'",
+            "Leverage view marked as 'Watch'",
+            "Dividend sustainability marked as 'Watch'",
             "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
           ],
           "symbol": "AIRARABIA",
@@ -5428,21 +5756,12 @@
             "Profit: n/a"
           ],
           "watch_items": [
-            {
-              "item": "Board review",
-              "date": "2026-07-06"
-            },
-            {
-              "item": "Entitlement window",
-              "date": "2026-08-02"
-            },
-            {
-              "item": "Payment target",
-              "date": "2026-08-23"
-            }
+            "Board review on 2026-07-06",
+            "Entitlement window on 2026-08-02",
+            "Payment target on 2026-08-23"
           ],
-          "what_changed": "The stock is currently in a 'Watch' phase with a neutral stance, awaiting a price correction toward the 3.27 buy zone despite positive tourism catalysts and approved dividend payouts.",
-          "generated_at": "2026-06-18T13:20:14.093139+00:00",
+          "what_changed": "Recent AGM approval of a $381m dividend payout provides a concrete income catalyst.",
+          "generated_at": "2026-06-18T20:59:53.675098+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5500,22 +5819,22 @@
             "Dividend Yield: 5.7%"
           ],
           "negative_drivers": [
-            "Regulatory tariff change risk",
-            "Traffic demand slowdown",
+            "Regulatory tariff change risks",
+            "Potential traffic demand slowdown",
             "High payout burden"
           ],
           "news_signals": [
-            "source: Markets.com, date: 2026-03-16, summary: Salik identified as one of the high-volume stock movers on DFM."
+            "source: Markets.com, date: 2026-03-16, signal: SALIK identified as a high-volume stock mover on DFM."
           ],
           "positive_drivers": [
             "Expanding population supporting mobility demand",
-            "Strong tourism arrivals increasing toll traffic",
+            "Strong tourism momentum increasing toll traffic",
             "Strong cash generation and improving margins"
           ],
           "research_stance": "Neutral",
           "review_flags": [
             "Leverage view marked as 'Watch'",
-            "Data quality is labeled as 'demo'"
+            "Data quality is labeled as 'demo' across multiple fields"
           ],
           "symbol": "SALIK",
           "time_horizon": "12m",
@@ -5531,7 +5850,7 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "trend: Revenue and Profit, direction: Upward, observation: Consistent growth from FY2023 through TTM."
+            "trend: Growth, observation: Consistent upward trend in revenue and profit from FY2023 to TTM."
           ],
           "watch_items": [
             {
@@ -5547,8 +5866,8 @@
               "date": "2026-08-23"
             }
           ],
-          "what_changed": "Stock identified as a high-volume mover in March 2026 news; current price is above the identified buy zone of 5.62.",
-          "generated_at": "2026-06-18T13:20:04.877020+00:00",
+          "what_changed": "The stock is currently in a 'Watch' phase, with a neutral stance despite positive growth and dividend sustainability.",
+          "generated_at": "2026-06-18T20:59:47.537128+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5581,48 +5900,55 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "mock-demo quote",
-              "fact": "Last price 7.34 AED, market cap 53.0 (demo units)"
+              "source": "mock-demo",
+              "fact": "Last price 7.34, market cap 53.0, currency AED"
             },
             {
-              "source": "financials",
+              "source": "Demo annual report / Demo interim financials",
               "fact": "Revenue growth 6.0%, profit growth 9.0%"
             },
             {
-              "source": "dividends",
-              "fact": "Yield 6.4%, payout ratio 60.0%"
+              "source": "Global signal mock adapter",
+              "fact": "Positive impact from active sukuk markets and stable credit conditions"
             }
           ],
           "filing_findings": [
             {
-              "document": "Demo annual report",
-              "finding": "Revenue and profit growth observed from FY2023 to TTM"
+              "period": "FY2023",
+              "revenue": 100,
+              "profit": 22
             },
             {
-              "document": "Demo interim financials",
-              "finding": "Cash generation described as Strong"
+              "period": "FY2024",
+              "revenue": 106.0,
+              "profit": 24.0
+            },
+            {
+              "period": "TTM",
+              "revenue": 108.2,
+              "profit": 24.5
             }
           ],
           "money_and_accounts": [
-            "FY2023: revenue 100, profit 22 (demo units)",
-            "FY2024: revenue 106.0, profit 24.0 (demo units)",
-            "TTM: revenue 108.2, profit 24.5 (demo units)"
+            "Dividend Yield: 6.4%",
+            "Payout Ratio: 60.0%",
+            "Foreign Ownership: n/a"
           ],
           "negative_drivers": [
             "Credit-cost surprise",
             "Rate-cycle reversal",
             "Wholesale funding pressure",
-            "Affordability risk due to firming Dubai real estate prices"
+            "Affordability risk in real estate"
           ],
           "news_signals": [
-            "source: Gulf News, sentiment: Positive, summary: Global funds are turning to UAE stocks as trading grows in Abu Dhabi and Dubai.",
-            "source: The Times of India, sentiment: Neutral, summary: Report of UAE stock markets closing/trading halted (dated March 2026)."
+            "source: Gulf News, signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, sentiment: Positive",
+            "source: The Times of India, signal: UAE stock markets close, trading halted, sentiment: Neutral/Operational"
           ],
           "positive_drivers": [
-            "Active sukuk markets supporting funding and demand",
+            "Active sukuk markets supporting funding",
             "Stable credit conditions supporting asset quality",
-            "Strong dividend sustainability and yield (6.4%)",
-            "Income demand as a catalyst"
+            "Strong cash generation",
+            "Dubai real-estate momentum supporting mortgage demand"
           ],
           "research_stance": "Neutral",
           "review_flags": [
@@ -5643,16 +5969,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Profitability: n/a",
-            "Revenue: n/a"
+            "trend: Growth, observation: Steady increase in revenue and profit from FY2023 to TTM",
+            "trend: Margins, observation: Stable margin direction"
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23"
+            {
+              "event": "Board review",
+              "date": "2026-07-06"
+            },
+            {
+              "event": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "event": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
-          "what_changed": "Global fund interest in UAE markets is increasing, while the bank maintains stable margins amidst mixed rate and real estate impacts.",
-          "generated_at": "2026-06-18T13:19:56.527088+00:00",
+          "what_changed": "Global fund interest in UAE markets is increasing, while the stock remains in a 'Watch' phase awaiting a more attractive entry price.",
+          "generated_at": "2026-06-18T20:59:40.123832+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5685,34 +6020,34 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "mock-demo quote",
-              "fact": "Last price 23.15 AED"
+              "source": "mock-demo",
+              "fact": "Last price 23.15 AED with a demo market-cap input of 146.2 units (demo data quality)."
             },
             {
               "source": "Demo annual report / Demo interim financials",
-              "fact": "Revenue growth 8.0%, profit growth 11.0%"
+              "fact": "Revenue growth of 8.0% and profit growth of 11.0%."
             },
             {
-              "source": "Global signal mock adapter",
-              "fact": "Stable credit conditions and strong tourism arrivals"
+              "source": "Markets.com",
+              "fact": "ENBD identified as a high-volume stock mover on DFM."
             }
           ],
           "filing_findings": [
             {
               "document": "Demo annual report",
-              "finding": "Revenue and profit growth trends are positive (8% and 11% respectively)."
+              "finding": "Revenue and profit showing growth trends (FY2023 to TTM)."
             },
             {
               "document": "Demo interim financials",
-              "finding": "Cash generation is described as strong and leverage as comfortable."
+              "finding": "Cash generation is described as Strong and leverage view as Comfortable."
             }
           ],
           "money_and_accounts": [
             "FY2023: revenue 100, profit 22 (demo units)",
             "FY2024: revenue 108.0, profit 24.4 (demo units)",
             "TTM: revenue 109.5, profit 24.8 (demo units)",
-            "Market Cap: 146.2",
-            "Dividend Yield: 5.3"
+            "Dividend Yield: 5.3%",
+            "Payout Ratio: 55.0%"
           ],
           "negative_drivers": [
             "Credit-cost surprise",
@@ -5721,17 +6056,17 @@
             "Higher rates potentially pressuring developers"
           ],
           "news_signals": [
-            "source: Markets.com, date: 2026-03-16, signal: High-volume stock mover on DFM"
+            "source: Markets.com, signal: High-volume trading activity noted for ENBD on DFM."
           ],
           "positive_drivers": [
-            "Strong tourism arrivals supporting regional economic activity",
-            "Stable credit spreads supporting asset quality",
-            "Improving margins",
-            "Strong dividend sustainability"
+            "Strong tourism arrivals supporting regional economic momentum",
+            "Stable credit conditions supporting asset quality",
+            "Improving margins and strong cash generation",
+            "High dividend sustainability"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo",
+            "Data quality is labeled as demo/mock",
             "Price status is frozen closed-market prices"
           ],
           "symbol": "ENBD",
@@ -5748,16 +6083,16 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Improving margin direction",
-            "Consistent growth in revenue and profit from FY2023 to TTM"
+            "trend: Profitability, direction: Upward, evidence: Profit grew from 22 in FY2023 to 24.8 in TTM.",
+            "trend: Margins, direction: Improving, evidence: Financials indicate margin direction is Improving."
           ],
           "watch_items": [
             "Board review on 2026-07-06",
             "Entitlement window on 2026-08-02",
             "Payment target on 2026-08-23"
           ],
-          "what_changed": "Recent high-volume trading activity noted in March 2026 news signals.",
-          "generated_at": "2026-06-18T13:19:44.737815+00:00",
+          "what_changed": "The stock is currently in a 'Watch' phase, with high-volume activity reported in recent news and a neutral research stance despite positive growth metrics.",
+          "generated_at": "2026-06-18T20:59:33.313158+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5791,55 +6126,51 @@
           "evidence": [
             {
               "type": "agent_evidence",
-              "source": "DFM corporate actions calendar",
-              "note": "DFM corporate actions calendar"
+              "source": "DFM official filing: DEWA PJSC integrated report 2025",
+              "note": "DFM official filing: DEWA PJSC integrated report 2025"
             },
             {
               "type": "agent_evidence",
-              "source": "Dividend timetable",
-              "note": "Dividend timetable"
+              "source": "DFM corporate actions: Dividend entitlement and payment window",
+              "note": "DFM corporate actions: Dividend entitlement and payment window"
             },
             {
               "type": "agent_evidence",
-              "source": "Exposure map",
-              "note": "Exposure map"
-            },
-            {
-              "type": "agent_evidence",
-              "source": "Global signal mock adapter",
-              "note": "Global signal mock adapter"
+              "source": "Global signal mock adapter: Power Demand and Population growth signals",
+              "note": "Global signal mock adapter: Power Demand and Population growth signals"
             }
           ],
           "filing_findings": [
-            "Revenue growth of 5.0% and profit growth of 4.0% reported in demo financials",
-            "Cash generation described as Strong and leverage view as Comfortable",
-            "Margin direction is Improving"
+            {
+              "source": "DEWA PJSC integrated report 2025",
+              "finding": "Official integrated report available on DFM, used to validate regulated cash-flow, dividend, and capital expenditure assumptions."
+            }
           ],
           "money_and_accounts": [
-            "FY2023: revenue 100, profit 22 (demo units)",
-            "FY2024: revenue 105.0, profit 22.9 (demo units)",
-            "TTM: revenue 107.5, profit 23.7 (demo units)",
-            "Dividend Yield: 6.0%",
-            "Payout Ratio: 80.0%"
+            "last_price: 2.79",
+            "market cap demo input: 139.5",
+            "dividend_yield_pct: 6.0",
+            "payout_ratio_pct: 80.0",
+            "FY2024_revenue: 105.0",
+            "FY2024_profit: 22.9"
           ],
           "negative_drivers": [
-            "Allowed-return reset",
+            "Allowed-return reset risk",
             "Fuel-cost pass-through timing",
-            "Capex execution"
+            "Capex execution risks"
           ],
           "news_signals": [
-            "source: Gulf News, sentiment: Positive, summary: Global funds are turning to UAE stocks as trading grows in Abu Dhabi and Dubai.",
-            "source: The Times of India, sentiment: Neutral, summary: Report of UAE stock markets closing and trading being halted by ADX and DFM (dated March 2026)."
+            "source: Gulf News, signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, sentiment: Positive"
           ],
           "positive_drivers": [
             "Rising summer power demand supporting utility throughput",
-            "Expanding population growth supporting consumption and utilities",
-            "Strong dividend sustainability and high payout ratio"
+            "Expanding population growth supporting consumption",
+            "Strong cash generation and comfortable leverage",
+            "High dividend sustainability"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Price status is frozen closed-market prices"
+            "Data quality is labeled as demo for quote and financials"
           ],
           "symbol": "DEWA",
           "time_horizon": "12m",
@@ -5855,16 +6186,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Revenue and profit show a steady upward trend from FY2023 through TTM",
-            "Market sentiment for the sector is supported by population growth and seasonal demand"
+            "trend: Revenue and Profit Growth, observation: Revenue grew from 100 (FY2023) to 107.5 (TTM) and profit from 22 (FY2023) to 23.7 (TTM) based on demo series.",
+            "trend: Margin Direction, observation: Improving"
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23"
+            {
+              "item": "Board review for dividends",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
           "what_changed": "Dividend entitlement and payment windows have been added to the corporate actions calendar.",
-          "generated_at": "2026-06-18T13:19:36.486889+00:00",
+          "generated_at": "2026-06-18T20:59:02.736849+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5897,49 +6237,66 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "DFM official disclosure",
-              "fact": "Board meeting scheduled to review interim financials and dividend policy"
+              "type": "agent_evidence",
+              "source": "DFM official disclosure regarding board meeting",
+              "note": "DFM official disclosure regarding board meeting"
             },
             {
-              "source": "ZAWYA",
-              "fact": "Emaar Properties announced 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting"
+              "type": "agent_evidence",
+              "source": "ZAWYA report on dividend payout",
+              "note": "ZAWYA report on dividend payout"
             },
             {
-              "source": "mock-demo",
-              "fact": "Last price 13.65 AED with a demo market-cap input of 121.3 units"
+              "type": "agent_evidence",
+              "source": "DFM official filing for 2025 integrated annual report and financial statements",
+              "note": "DFM official filing for 2025 integrated annual report and financial statements"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Global signal mock adapter for tourism and population growth",
+              "note": "Global signal mock adapter for tourism and population growth"
             }
           ],
           "filing_findings": [
             {
-              "file": "filings/inbox/EMAAR-board-meeting-demo.txt",
-              "finding": "Board agenda includes review of interim financial statements, dividend policy, capital allocation, and operating performance across development, malls, and hospitality segments."
+              "source": "DFM official filing",
+              "finding": "Integrated annual report 2025 and financial statements 2025 are available on DFM."
+            },
+            {
+              "source": "DFM disclosure / Local filing snippet",
+              "finding": "Board meeting scheduled to review interim financials, capital allocation, and dividend policy."
             }
           ],
           "money_and_accounts": [
-            "FY2023: revenue 100, profit 22 (demo units)",
-            "FY2024: revenue 121.0, profit 26.0 (demo units)",
-            "TTM: revenue 118.6, profit 26.0 (demo units)"
+            "last_price: 13.65",
+            "market cap demo input: 121.3",
+            "revenue_growth_pct: 21.0",
+            "profit_growth_pct: 18.0",
+            "dividend_yield_pct: 6.2",
+            "FY2023_revenue: 100",
+            "FY2024_revenue: 121.0",
+            "FY2024_profit: 26.0"
           ],
           "negative_drivers": [
             "Rate pressure on affordability",
             "Delivery slippage",
             "Input-cost inflation",
-            "Higher rates pressure developers"
+            "Higher interest rates pressuring developers"
           ],
           "news_signals": [
-            "source: Markets.com, signal: EMAAR identified as a high-volume stock mover on DFM",
-            "source: ZAWYA, signal: Announcement of 100% dividend payout of AED 8.8bln"
+            "source: ZAWYA, signal: Announced 100% dividend payout of AED 8.8bln ($2.4bln) at AGM, sentiment: Positive",
+            "source: Markets.com, signal: EMAAR identified as a high-volume stock mover on DFM, sentiment: Neutral"
           ],
           "positive_drivers": [
-            "Strong tourism arrivals supporting real estate and malls",
+            "Strong tourism arrivals supporting malls and hospitality",
             "Expanding population growth supporting housing and consumption",
             "Lower steel input costs",
-            "Improving margin direction and strong cash generation"
+            "Improving margins and strong cash generation"
           ],
           "research_stance": "Bullish",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Price status is frozen closed-market prices"
+            "Financial series and market cap are labeled as demo/mock",
+            "Price data is frozen closed-market"
           ],
           "symbol": "EMAAR",
           "time_horizon": "12m",
@@ -5955,16 +6312,16 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Revenue Growth: 21.0%",
-            "Profit Growth: 18.0%"
+            "trend: Revenue and Profit Growth, observation: Revenue grew 21% and profit grew 18% according to demo financials.",
+            "trend: Sector Momentum, observation: Real estate sector is leading with Dubai names showing strength."
           ],
           "watch_items": [
             "Board review on 2026-07-06",
             "Entitlement window on 2026-08-02",
             "Payment target on 2026-08-23"
           ],
-          "what_changed": "Board meeting scheduled to review interim financials and dividend policy; recent high-volume trading activity noted.",
-          "generated_at": "2026-06-18T13:19:08.543828+00:00",
+          "what_changed": "Board meeting scheduled to review interim results and dividend policy; recent high-volume trading activity noted.",
+          "generated_at": "2026-06-18T20:58:08.565430+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -5997,36 +6354,35 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "type": "agent_evidence",
-              "source": "Growth score of 81",
-              "note": "Growth score of 81"
+              "source": "Official media office",
+              "fact": "Logistics expansion headline linked to regional trade corridor",
+              "impact": "Positive"
             },
             {
-              "type": "agent_evidence",
-              "source": "Revenue growth of 24.0% and profit growth of 13.0%",
-              "note": "Revenue growth of 24.0% and profit growth of 13.0%"
+              "source": "Global signal mock adapter",
+              "fact": "Regional trade flows are firm",
+              "impact": "Positive"
             },
             {
-              "type": "agent_evidence",
-              "source": "Official media headline regarding logistics expansion linked to regional trade corridor",
-              "note": "Official media headline regarding logistics expansion linked to regional trade corridor"
-            },
-            {
-              "type": "agent_evidence",
-              "source": "Global signal indicating positive impact from firm regional trade flows",
-              "note": "Global signal indicating positive impact from firm regional trade flows"
+              "source": "mock-demo quote",
+              "fact": "Last price 6.1 with a 1.1% change",
+              "impact": "Neutral"
             }
           ],
           "filing_findings": [
-            "Revenue increased from 100 in FY2023 to 124.0 in FY2024",
-            "Profit increased from 22 in FY2023 to 24.9 in FY2024",
-            "TTM revenue is 120.6 and profit is 25.1"
+            {
+              "document": "Demo annual report",
+              "finding": "Revenue growth of 24.0% and profit growth of 13.0%"
+            },
+            {
+              "document": "Demo interim financials",
+              "finding": "Margin direction is stable; cash generation is mixed"
+            }
           ],
           "money_and_accounts": [
-            "last_price: 6.1",
-            "market_cap: 31.0",
-            "revenue_growth_pct: 24.0",
-            "profit_growth_pct: 13.0"
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 124.0, profit 24.9 (demo units)",
+            "TTM: revenue 120.6, profit 25.1 (demo units)"
           ],
           "negative_drivers": [
             "Freight-cycle slowdown",
@@ -6034,8 +6390,8 @@
             "Fuel and wage cost pressure"
           ],
           "news_signals": [
-            "event: Logistics expansion, sentiment: Positive, source: Official media office, impact: Could strengthen long-term trade exposure",
-            "event: Market Sentiment, sentiment: Positive, source: Gulf News, impact: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows"
+            "source: Official media office, event: Logistics expansion linked to regional trade corridor, sentiment: Positive",
+            "source: Gulf News, event: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, sentiment: Positive"
           ],
           "positive_drivers": [
             "Strong regional trade flows supporting ports and logistics",
@@ -6044,9 +6400,9 @@
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Dividend sustainability is marked as Watch",
-            "Leverage view is marked as Watch"
+            "Data quality is demo",
+            "Leverage view is 'Watch'",
+            "Dividend sustainability is 'Watch'"
           ],
           "symbol": "ADPORTS",
           "time_horizon": "12m",
@@ -6062,16 +6418,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "Revenue and profit showing an upward trajectory from FY2023 to FY2024",
-            "Margin direction is reported as Stable"
+            "indicator: Revenue Growth, trend: Upward, value: 24.0%",
+            "indicator: Profit Growth, trend: Upward, value: 13.0%"
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23"
+            {
+              "item": "Board review for dividends",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
-          "what_changed": "Recent logistics expansion headline linked to regional trade corridor may strengthen long-term trade exposure.",
-          "generated_at": "2026-06-18T13:19:02.869813+00:00",
+          "what_changed": "Recent logistics expansion headline and firm regional trade flows have provided positive catalysts, though the overall stance remains Neutral pending a better entry price.",
+          "generated_at": "2026-06-18T20:58:00.131548+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -6104,61 +6469,42 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "mock-demo quote",
-              "fact": "Last price 3.17 AED with a demo market-cap input of 356.0 units (demo data quality)."
+              "type": "agent_evidence",
+              "source": "Global funds turning to UAE stocks (Gulf News)",
+              "note": "Global funds turning to UAE stocks (Gulf News)"
             },
             {
-              "source": "financials series",
-              "fact": "Revenue grew from 100 in FY2023 to 106.8 in TTM; profit grew from 22 in FY2023 to 23.5 in TTM."
+              "type": "agent_evidence",
+              "source": "Summer load rising supporting utility throughput (Global Factors)",
+              "note": "Summer load rising supporting utility throughput (Global Factors)"
             },
             {
-              "source": "Gulf News",
-              "fact": "TAQA named a new chairman and confirmed a Dh5 billion dividend payout on 2026-03-13."
+              "type": "agent_evidence",
+              "source": "Water demand visibility supporting regulated cash flows (Global Factors)",
+              "note": "Water demand visibility supporting regulated cash flows (Global Factors)"
             }
           ],
-          "filing_findings": [
-            {
-              "document": "Demo annual report / Demo interim financials",
-              "finding": "Revenue growth of 4.0% and profit growth of 3.0% with stable margins and strong cash generation."
-            }
-          ],
+          "filing_findings": [],
           "money_and_accounts": [
-            "Dividend Yield: 3.9%",
-            "Payout Ratio: 70.0%",
-            "Revenue (TTM): 106.8",
-            "Profit (TTM): 23.5"
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 104.0, profit 22.7 (demo units)",
+            "TTM: revenue 106.8, profit 23.5 (demo units)"
           ],
           "negative_drivers": [
-            {
-              "factor": "Interest Rates",
-              "impact": "Higher rates pressure developers (Mixed sentiment)."
-            },
-            {
-              "factor": "Gas Prices",
-              "impact": "Gas-linked revenue and generation costs move in opposite directions (Mixed sentiment)."
-            },
-            {
-              "factor": "Risks",
-              "impact": "Allowed-return reset, fuel-cost pass-through timing, and capex execution."
-            }
+            "Allowed-return reset risk",
+            "Fuel-cost pass-through timing",
+            "Capex execution risks",
+            "Higher interest rates pressuring developers"
           ],
           "news_signals": [
-            "date: 2026-03-13, signal: Positive, event: Confirmation of Dh5 billion dividend payout and appointment of new chairman.",
-            "date: 2026-06-11, signal: Positive, event: Global funds increasing interest in UAE stocks, including TAQA."
+            "date: 2026-03-13, source: Gulf News, signal: Confirmed Dh5 billion dividend payout and appointment of new chairman",
+            "date: 2026-06-11, source: Gulf News, signal: Increased interest from global funds in UAE stocks"
           ],
           "positive_drivers": [
-            {
-              "factor": "Power Demand",
-              "impact": "Rising summer load supports utility throughput and capacity planning."
-            },
-            {
-              "factor": "Desalination",
-              "impact": "Water demand visibility supports regulated utility cash flows."
-            },
-            {
-              "factor": "Cash Flow",
-              "impact": "Strong cash generation noted in financial summaries."
-            }
+            "Regulated cash flows from power and water utilities",
+            "Rising summer power demand",
+            "Stable desalination demand",
+            "Energy transition exposure"
           ],
           "research_stance": "Neutral",
           "review_flags": [
@@ -6180,24 +6526,16 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "trend: Steady Growth, observation: Consistent incremental growth in revenue and profit from FY2023 through TTM."
+            "Revenue and profit showing steady growth from FY2023 to TTM",
+            "Margin direction is stable"
           ],
           "watch_items": [
-            {
-              "item": "Board review",
-              "date": "2026-07-06"
-            },
-            {
-              "item": "Entitlement window",
-              "date": "2026-08-02"
-            },
-            {
-              "item": "Payment target",
-              "date": "2026-08-23"
-            }
+            "Board review on 2026-07-06",
+            "Entitlement window on 2026-08-02",
+            "Payment target on 2026-08-23"
           ],
-          "what_changed": "Confirmation of a Dh5 billion dividend payout and a new chairman appointment in March 2026.",
-          "generated_at": "2026-06-18T13:18:44.414793+00:00",
+          "what_changed": "Appointment of new chairman and confirmation of a Dh5 billion dividend payout.",
+          "generated_at": "2026-06-18T20:57:50.030909+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -6230,43 +6568,32 @@
           "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
           "evidence": [
             {
-              "source": "mock-demo",
-              "fact": "Last price 3.52 AED with a market cap of 270.0 (demo)"
+              "source": "mock-demo quote",
+              "fact": "Last price 3.52 AED with a demo market-cap input of 270.0 units (demo data)."
             },
             {
-              "source": "Demo annual report / Demo interim financials",
-              "fact": "Revenue growth of 5.0% and profit growth of 6.0%"
+              "source": "financials",
+              "fact": "Revenue growth of 5.0% and profit growth of 6.0%."
             },
             {
-              "source": "Exposure map / Global signal mock adapter",
-              "fact": "Steady LNG demand supports gas processing visibility"
+              "source": "dividends",
+              "fact": "Yield of 4.7% with a payout ratio of 62.0%."
             }
           ],
           "filing_findings": [
             {
-              "period": "FY2023",
-              "revenue": 100,
-              "profit": 22,
-              "status": "demo"
+              "document": "Demo annual report",
+              "finding": "Revenue and profit trends show steady growth from FY2023 to TTM."
             },
             {
-              "period": "FY2024",
-              "revenue": 105.0,
-              "profit": 23.3,
-              "status": "demo"
-            },
-            {
-              "period": "TTM",
-              "revenue": 107.5,
-              "profit": 24.0,
-              "status": "demo"
+              "document": "Demo interim financials",
+              "finding": "Cash generation is described as Strong and leverage as Comfortable."
             }
           ],
           "money_and_accounts": [
-            "Dividend Yield: 4.7%",
-            "Payout Ratio: 62.0%",
-            "Cash Generation: Strong",
-            "Leverage View: Comfortable"
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 105.0, profit 23.3 (demo units)",
+            "TTM: revenue 107.5, profit 24.0 (demo units)"
           ],
           "negative_drivers": [
             "Commodity spread volatility",
@@ -6274,17 +6601,17 @@
             "Policy or offtake changes"
           ],
           "news_signals": [
-            "source: Gulf News, signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, impact: Positive for overall market liquidity",
-            "source: The National, signal: UAE stocks retreat due to regional war, impact: Negative macro pressure"
+            "source: Gulf News, signal: Global funds are turning to UAE stocks as Abu Dhabi and Dubai trading grows., impact: Positive for general market liquidity.",
+            "source: The National, signal: UAE stocks retreat due to regional war concerns., impact: Negative systemic pressure."
           ],
           "positive_drivers": [
-            "Steady LNG demand",
-            "Improving margins",
+            "Steady LNG demand supporting gas processing visibility",
+            "Improving margin direction",
             "Strong dividend sustainability"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo"
+            "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
           ],
           "symbol": "ADNOCGAS",
           "time_horizon": "12m",
@@ -6300,25 +6627,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "indicator: Revenue/Profit, direction: Upward, observation: Consistent growth from FY2023 to TTM",
-            "indicator: Margins, direction: Improving, observation: Margin direction noted as improving"
+            "Profitability: n/a",
+            "Margins: n/a"
           ],
           "watch_items": [
             {
-              "event": "Board review",
+              "item": "Board review",
               "date": "2026-07-06"
             },
             {
-              "event": "Entitlement window",
+              "item": "Entitlement window",
               "date": "2026-08-02"
             },
             {
-              "event": "Payment target",
+              "item": "Payment target",
               "date": "2026-08-23"
             }
           ],
-          "what_changed": "No recent internal events provided; market context shows a mix of global fund interest and regional geopolitical volatility.",
-          "generated_at": "2026-06-18T13:18:36.038364+00:00",
+          "what_changed": "The stock is currently in a 'Watch' phase, awaiting a price correction to the buy zone (below 3.31) despite steady fundamental growth and positive LNG demand signals.",
+          "generated_at": "2026-06-18T20:57:44.978496+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -6352,71 +6679,82 @@
           "evidence": [
             {
               "fact": "Revenue growth of 18.0% and profit growth of 14.0% reported.",
-              "source": "financials"
+              "source": "Demo annual report, Demo interim financials"
             },
             {
-              "fact": "Tourism momentum and population growth are identified as positive global factors.",
-              "source": "global_factors"
+              "fact": "Tourism momentum and population growth are identified as positive global factors for the real estate sector.",
+              "source": "Exposure map, Global signal mock adapter"
             },
             {
-              "fact": "Foreign ownership is currently at 15% with a permitted limit of 49%.",
-              "source": "ownership"
+              "fact": "Current price is 8.76 with a 12m target of 9.68.",
+              "source": "mock-demo quote / price_signal"
             }
           ],
           "filing_findings": [
             {
-              "document": "Demo annual report",
-              "finding": "Revenue and profit growth trends observed across FY2023 and FY2024."
+              "finding": "Revenue increased from 100 in FY2023 to 118.0 in FY2024.",
+              "period": "FY2023-FY2024",
+              "source": "Demo annual report"
             },
             {
-              "document": "Demo interim financials",
-              "finding": "Margin direction is improving."
+              "finding": "Profit increased from 22 in FY2023 to 25.1 in FY2024.",
+              "period": "FY2023-FY2024",
+              "source": "Demo annual report"
             }
           ],
           "money_and_accounts": [
-            "last_price: 8.76",
-            "market cap demo input: 68.9",
-            "FY2024 revenue: 118.0",
-            "FY2024 profit: 25.1",
-            "dividend_yield_pct: 2.6"
+            "Last Price: 8.76",
+            "Market Cap: 68.9",
+            "Dividend Yield: 2.6%",
+            "Payout Ratio: 34.0%"
           ],
           "negative_drivers": [
             {
-              "driver": "Interest Rate Pressure",
-              "impact": "Higher rates pressure developers and affect affordability."
+              "driver": "Rate pressure on affordability",
+              "impact": "Higher rates pressure developers",
+              "source": "Global signal mock adapter"
             },
             {
-              "driver": "Operational Risks",
-              "impact": "Delivery slippage and input-cost inflation."
+              "driver": "Delivery slippage",
+              "impact": "Operational risk",
+              "source": "Top Risks"
+            },
+            {
+              "driver": "Input-cost inflation",
+              "impact": "Margin pressure",
+              "source": "Top Risks"
             }
           ],
           "news_signals": [
-            "signal: Global funds turning to UAE stocks, sentiment: Positive, source: Gulf News",
-            "signal: Regional war causing market retreats, sentiment: Negative, source: The National"
+            "signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows, sentiment: Positive, source: Gulf News, date: 2026-06-11",
+            "signal: UAE stock market opens higher with ADX gains over 1 percent, sentiment: Positive, source: Economy Middle East, date: 2026-06-16"
           ],
           "positive_drivers": [
             {
-              "driver": "Tourism",
-              "impact": "Strong arrivals support real estate and malls."
+              "driver": "Tourism momentum",
+              "impact": "Supports real estate and malls",
+              "source": "Exposure map"
             },
             {
-              "driver": "Demographics",
-              "impact": "Expanding population supports housing demand."
+              "driver": "Population growth",
+              "impact": "Supports housing and consumption",
+              "source": "Exposure map"
             },
             {
-              "driver": "Input Costs",
-              "impact": "Lower steel costs can benefit developers."
+              "driver": "Lower steel input costs",
+              "impact": "Potential benefit for developers",
+              "source": "Exposure map"
             }
           ],
           "research_stance": "Bullish",
           "review_flags": [
             "Leverage view marked as 'Watch'",
             "Dividend sustainability marked as 'Watch'",
-            "Cash generation is 'Mixed'",
+            "Cash generation described as 'Mixed'",
             "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
           ],
           "symbol": "ALDAR",
-          "time_horizon": "12m",
+          "time_horizon": "12 months",
           "trading_plan": {
             "label": "Watch",
             "buy_or_not": "Wait for buy zone",
@@ -6429,12 +6767,12 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "trend: Improving Margins, observation: Financials indicate margin direction is improving.",
-            "trend: Growth Momentum, observation: Revenue and profit showing positive growth from FY2023 to FY2024."
+            "trend: Improving margins, direction: Upward, source: Financials",
+            "trend: Revenue and Profit Growth, direction: Upward, source: Financials"
           ],
           "watch_items": [
             {
-              "item": "Board review",
+              "item": "Board review for dividends",
               "date": "2026-07-06"
             },
             {
@@ -6446,8 +6784,8 @@
               "date": "2026-08-23"
             }
           ],
-          "what_changed": "The stock is currently in a 'Watch' phase according to the price signal, despite a Bullish research stance, awaiting a more favorable entry point below 8.23.",
-          "generated_at": "2026-06-18T13:18:29.280136+00:00",
+          "what_changed": "The stock maintains a bullish stance supported by growth in revenue and profit, though the price signal suggests waiting for a lower entry point (8.23) to optimize returns.",
+          "generated_at": "2026-06-18T20:57:35.622793+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -6481,15 +6819,11 @@
           "evidence": [
             {
               "source": "mock-demo",
-              "fact": "Last price 412.8, market cap 900.0 (demo quality)."
+              "fact": "Last price 412.8 AED with a market cap of 900.0 (demo quality)."
             },
             {
               "source": "Demo annual report / Demo interim financials",
               "fact": "Revenue growth of 12.0% and profit growth of 8.0%."
-            },
-            {
-              "source": "Exposure map / Global signal mock adapter",
-              "fact": "Private-asset marks and food-input inflation are identified as cautious factors."
             }
           ],
           "filing_findings": [
@@ -6512,31 +6846,44 @@
           "money_and_accounts": [
             "Revenue Growth: 12.0%",
             "Profit Growth: 8.0%",
-            "Dividend Yield: 0.0%",
-            "Margin Direction: Stable"
+            "Dividend Yield: 0.0%"
           ],
           "negative_drivers": [
-            "Disclosure opacity",
-            "Private-asset marks valuation uncertainty",
-            "Acquisition integration risks",
-            "Input-cost inflation in food and restaurant segments"
+            {
+              "factor": "Disclosure opacity",
+              "impact": "High risk regarding private-asset marks and acquisition integration."
+            },
+            {
+              "factor": "Food Inputs",
+              "impact": "Input-cost inflation (+1.4%) may compress food and restaurant margins."
+            },
+            {
+              "factor": "Private Assets",
+              "impact": "Valuation marks require stronger disclosure evidence."
+            }
           ],
           "news_signals": [
             "source: Gulf News, signal: Global funds turning to UAE stocks as Abu Dhabi and Dubai trading grows.",
             "source: The National, signal: UAE stocks retreat due to regional war concerns."
           ],
           "positive_drivers": [
-            "Resilient demand in healthcare sector",
-            "Diversified exposure across healthcare, food, industry, and technology"
+            {
+              "factor": "Healthcare",
+              "impact": "Defensive demand remains resilient."
+            },
+            {
+              "factor": "Growth Scores",
+              "impact": "Growth score rated at 70."
+            }
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is labeled as demo",
-            "Leverage view is marked as Watch",
-            "Dividend sustainability is marked as Watch"
+            "Demo data quality",
+            "Disclosure opacity",
+            "Private-asset valuation uncertainty"
           ],
           "symbol": "IHC",
-          "time_horizon": "12m",
+          "time_horizon": "12 months",
           "trading_plan": {
             "label": "Avoid",
             "buy_or_not": "Do not buy yet",
@@ -6549,18 +6896,29 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "indicator: Composite Score, value: 55",
-            "indicator: Growth Score, value: 70",
-            "indicator: Stability Score, value: 52"
+            "trend: Revenue and Profit, direction: Upward, observation: Consistent growth from FY2023 to TTM.",
+            "trend: Margins, direction: Stable, observation: Margin direction listed as Stable."
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23",
-            "Rates path"
+            {
+              "item": "Board review",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            },
+            {
+              "item": "Leverage",
+              "status": "Watch"
+            }
           ],
-          "what_changed": "No recent events provided to indicate a change in fundamental trend.",
-          "generated_at": "2026-06-18T13:18:21.675279+00:00",
+          "what_changed": "The stock is currently in a 'Neutral' stance with a 'Do not buy yet' signal, reflecting a balance between growth in financials and risks associated with disclosure and private asset valuations.",
+          "generated_at": "2026-06-18T20:57:27.533828+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -6622,13 +6980,12 @@
           "money_and_accounts": [
             "last_price: 15.42",
             "market_cap: 170.4",
-            "dividend_yield: 5.1",
-            "FY2023_revenue: 100",
-            "FY2023_profit: 22",
-            "FY2024_revenue: 107.0",
-            "FY2024_profit: 24.2",
-            "TTM_revenue: 108.9",
-            "TTM_profit: 24.6"
+            "revenue_growth_pct: 7.0",
+            "profit_growth_pct: 10.0",
+            "dividend_yield_pct: 5.1",
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 107.0, profit 24.2 (demo units)",
+            "TTM: revenue 108.9, profit 24.6 (demo units)"
           ],
           "negative_drivers": [
             "Credit-cost surprise",
@@ -6637,17 +6994,17 @@
             "Higher rates may pressure developers"
           ],
           "news_signals": [
-            "source: scanx.trade, summary: Hexaware Technologies Board Meeting Scheduled to Consider First Interim Dividend for FY 2026, relevance: Low/Indirect (Related symbol FAB mentioned in RSS feed but content refers to Hexaware)"
+            "title: Hexaware Technologies Board Meeting Scheduled to Consider First Interim Dividend for FY 2026, sentiment: Neutral, relevance: Low (Related symbol listed but content focuses on Hexaware)"
           ],
           "positive_drivers": [
+            "Improving margins",
             "Strong cash generation",
-            "Improving margin direction",
             "Stable credit conditions supporting asset quality",
-            "Supportive oil liquidity for regional deposits"
+            "Supportive oil liquidity aiding regional deposits"
           ],
           "research_stance": "Neutral",
           "review_flags": [
-            "Data quality is marked as demo",
+            "Data quality is labeled as demo",
             "Price status is frozen closed-market prices"
           ],
           "symbol": "FAB",
@@ -6664,17 +7021,25 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "trend: Revenue Growth, direction: Upward, detail: Revenue increased from 100 (FY2023) to 108.9 (TTM)",
-            "trend: Profit Growth, direction: Upward, detail: Profit increased from 22 (FY2023) to 24.6 (TTM)"
+            "trend: Revenue and Profit Growth, observation: Consistent upward trend from FY2023 to TTM",
+            "trend: Margin Direction, observation: Improving"
           ],
           "watch_items": [
-            "Board review on 2026-07-06",
-            "Entitlement window on 2026-08-02",
-            "Payment target on 2026-08-23",
-            "Asset quality and credit costs"
+            {
+              "item": "Board review",
+              "date": "2026-07-06"
+            },
+            {
+              "item": "Entitlement window",
+              "date": "2026-08-02"
+            },
+            {
+              "item": "Payment target",
+              "date": "2026-08-23"
+            }
           ],
-          "what_changed": "Quarterly results confirm stable net interest income and controlled credit costs.",
-          "generated_at": "2026-06-18T13:18:15.110060+00:00",
+          "what_changed": "Quarterly results confirmed stable net interest income and controlled credit costs.",
+          "generated_at": "2026-06-18T20:57:11.390757+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
@@ -6691,7 +7056,7 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-18T13:23:37.898911+00:00",
+    "last_build": "2026-06-18T21:04:37.601174+00:00",
     "provider_status": {
       "generated_at": "2026-06-18T13:17:36.699188+00:00",
       "market": {
@@ -6716,6 +7081,15 @@
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
+        "errors": []
+      },
+      "disclosures": {
+        "generated_at": "2026-06-18T20:56:37.514508+00:00",
+        "provider": "official_disclosure_manifest",
+        "success": 3,
+        "failed": 0,
+        "data_quality": "official_metadata",
+        "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
         "errors": []
       }
     },
@@ -6798,29 +7172,36 @@
         "queue": 0
       },
       {
+        "source": "Official filings manifest",
+        "last_run": "2026-06-18T20:56:37.514508+00:00",
+        "success_rate": 3,
+        "status": "official_metadata",
+        "queue": 0
+      },
+      {
         "source": "ADX disclosures",
-        "last_run": "2026-06-18T13:23:37.898911+00:00",
-        "success_rate": 100,
-        "status": "mocked",
+        "last_run": "2026-06-18T21:04:37.601174+00:00",
+        "success_rate": 0,
+        "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-18T13:23:37.898911+00:00",
-        "success_rate": 100,
-        "status": "mocked",
+        "last_run": "2026-06-18T20:56:37.514508+00:00",
+        "success_rate": 3,
+        "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-18T13:23:37.898911+00:00",
+        "last_run": "2026-06-18T21:04:37.601174+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-18T13:23:37.898911+00:00",
+        "last_run": "2026-06-18T21:04:37.601174+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

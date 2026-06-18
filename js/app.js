@@ -284,6 +284,10 @@ function renderAdmin() {
         ${refreshJobPanel()}
       </div>
       <div class="panel">
+        <h2>Official filings</h2>
+        ${officialFilingsPanel()}
+      </div>
+      <div class="panel">
         <h2>Publish</h2>
         <div class="agent-card">
           <strong>GitHub Pages</strong>
@@ -555,6 +559,8 @@ function priceSignalPanel(signal) {
 
 function mizanReportPanel(report) {
   const plan = report.trading_plan || {};
+  const filingFindings = report.filing_findings || [];
+  const evidenceRefs = report.evidence || [];
   return `<article class="mizan-panel">
     <div class="section-head compact">
       <div>
@@ -574,7 +580,10 @@ function mizanReportPanel(report) {
       <div><h3>Money and accounts</h3><ul>${(report.money_and_accounts || []).slice(0, 4).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul></div>
       <div><h3>Watch items</h3><ul>${(report.watch_items || []).slice(0, 4).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul></div>
     </div>
+    ${filingFindings.length ? `<h3>Filing findings</h3><ul class="agent-list">${filingFindings.slice(0, 4).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul>` : ""}
+    ${evidenceRefs.length ? `<h3>Evidence references</h3><ul class="agent-list">${evidenceRefs.slice(0, 5).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul>` : ""}
     ${(report.news_signals || []).length ? `<h3>News as signals</h3><ul class="agent-news">${report.news_signals.slice(0, 4).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul>` : ""}
+    ${report.disclaimer ? `<p class="muted">${formatAgentText(report.disclaimer)}</p>` : ""}
     ${(report.review_flags || []).length ? `<p class="warning-note">${formatAgentText(report.review_flags[0])}</p>` : ""}
   </article>`;
 }
@@ -600,6 +609,19 @@ function refreshJobPanel() {
     <div class="queue-row"><strong>Deploy</strong><span>${job.deploy ? "Yes" : "No"}</span></div>
     <div class="queue-row"><strong>Logs</strong><span>${job.logs?.stdout || "tmp/refresh.out.log"}</span></div>
     <p class="muted">${job.quote_policy || "Closed-market quote API calls stay frozen."}</p>
+  </div>`;
+}
+
+function officialFilingsPanel() {
+  const filings = App.data.official_disclosures || {};
+  const status = App.data.admin?.provider_status?.disclosures || {};
+  const events = filings.events || [];
+  return `<div class="queue-list">
+    <div class="queue-row"><strong>Records</strong><span class="${events.length ? "positive" : "watch"}">${events.length}</span></div>
+    <div class="queue-row"><strong>Provider</strong><span>${filings.provider || "not_run"}</span></div>
+    <div class="queue-row"><strong>Quality</strong><span>${filings.data_quality || status.data_quality || "missing"}</span></div>
+    <div class="queue-row"><strong>Errors</strong><span>${(filings.errors || status.errors || []).length}</span></div>
+    <p class="muted">${filings.rights_note || "Official metadata and source links only."}</p>
   </div>`;
 }
 
@@ -643,12 +665,17 @@ function evidencePanel(item) {
 }
 
 function disclosureRow(event) {
+  const sourceLinks = [
+    event.source_url ? `<a href="${event.source_url}" target="_blank" rel="noopener noreferrer">Source index</a>` : "",
+    event.document_url ? `<a href="${event.document_url}" target="_blank" rel="noopener noreferrer">Document</a>` : ""
+  ].filter(Boolean).join("");
   return `<article class="disclosure-row">
     <div>
       <span class="badge ${badgeClass(event.source_type)}">${event.source_type.replace("_", " ")}</span>
       <a href="#/stocks/${event.symbol}"><strong>${event.symbol}</strong> ${event.title_en}</a>
-      <p lang="ar" dir="rtl">${event.title_ar}</p>
-      <small>${event.source_name} · ${timeAgo(event.timestamp)} · Translation: app generated</small>
+      ${event.title_ar ? `<p lang="ar" dir="rtl">${event.title_ar}</p>` : ""}
+      <small>${event.source_name} · ${timeAgo(event.timestamp)}${event.title_ar ? " · Translation: app generated" : ""}</small>
+      ${sourceLinks ? `<div class="source-actions">${sourceLinks}</div>` : ""}
     </div>
     <aside>
       <span class="materiality">${event.materiality}</span>

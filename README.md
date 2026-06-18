@@ -4,6 +4,12 @@ Isolated Codex build from `/Users/khalidalbastaki/Downloads/UAE Equities Intelli
 
 This folder is intentionally self-contained and separate from any Claude lane or `/Users/khalidalbastaki/Projects/uae-stocks`.
 
+Live isolated Pages app:
+
+```text
+https://khaloodalbastaki-beep.github.io/codex-stocks-app/
+```
+
 ## What It Is
 
 A static bilingual PWA for UAE public-market intelligence:
@@ -51,6 +57,13 @@ cd "/Users/khalidalbastaki/Documents/codex stocks app"
 bash tools/refresh_live.sh
 ```
 
+Manual refresh + publish to GitHub Pages:
+
+```bash
+cd "/Users/khalidalbastaki/Documents/codex stocks app"
+bash tools/refresh_live.sh --deploy
+```
+
 Install the 5-minute Mac refresh job:
 
 ```bash
@@ -59,6 +72,13 @@ bash tools/install_refresh_agent.sh
 ```
 
 The quote updater checks the UAE market clock. When the market is closed, it skips quote API calls and keeps the last published prices frozen. News metadata still refreshes from RSS.
+
+Deploy only the current static app:
+
+```bash
+cd "/Users/khalidalbastaki/Documents/codex stocks app"
+bash tools/deploy_pages.sh
+```
 
 ## Test
 

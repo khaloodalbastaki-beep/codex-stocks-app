@@ -1,4 +1,4 @@
-const CACHE_NAME = "uae-stocks-intelligence-v1";
+const CACHE_NAME = "uae-stocks-intelligence-v2";
 const ASSETS = [
   "./",
   "index.html",
@@ -34,4 +34,3 @@ self.addEventListener("fetch", (event) => {
       .catch(() => caches.match(event.request).then((cached) => cached || caches.match("./")))
   );
 });
-

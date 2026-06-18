@@ -254,6 +254,7 @@ def build_app_data(output_dir: str | Path = "data") -> dict:
             "app_name": "UAE Stocks Intelligence",
             "build_time": now,
             "scope": "Isolated Codex build from blueprint DOCX",
+            "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
             "market_scope": ["ADX ordinary equities", "DFM ordinary equities"],
             "data_quality": data_quality,
             "price_status": price_status,

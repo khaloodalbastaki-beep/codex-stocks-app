@@ -280,6 +280,14 @@ function renderAdmin() {
         ${marketClockPanel()}
       </div>
       <div class="panel">
+        <h2>Publish</h2>
+        <div class="agent-card">
+          <strong>GitHub Pages</strong>
+          <p><a href="${App.data.metadata.live_url}" target="_blank" rel="noopener noreferrer">${App.data.metadata.live_url}</a></p>
+          <code>bash tools/refresh_live.sh --deploy</code>
+        </div>
+      </div>
+      <div class="panel">
         <h2>Agents</h2>
         <div class="agent-card">
           <strong>Mizan Codex</strong>

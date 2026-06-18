@@ -8,6 +8,7 @@
   <array>
     <string>/bin/bash</string>
     <string>/Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh</string>
+    <string>--deploy</string>
   </array>
   <key>WorkingDirectory</key>
   <string>/Users/khalidalbastaki/Documents/codex stocks app</string>
@@ -21,4 +22,3 @@
   <string>/Users/khalidalbastaki/Documents/codex stocks app/tmp/refresh.err.log</string>
 </dict>
 </plist>
-

@@ -243,7 +243,7 @@ def build_app_data(output_dir: str | Path = "data") -> dict:
     for symbol, quote in runtime["live_quotes"].get("quotes", {}).items():
         if symbol in quotes:
             quotes[symbol].update(quote)
-    events = sorted(provider.load_events(), key=lambda row: row["timestamp"], reverse=True)
+    events = sorted(provider.load_events() + runtime["official_disclosures"].get("events", []), key=lambda row: row["timestamp"], reverse=True)
     securities = [_build_security(item, quotes[item["symbol"]], events) for item in SECURITIES]
     now = datetime.now(timezone.utc).isoformat()
     market = runtime["provider_status"].get("market") or market_state().__dict__
@@ -266,6 +266,7 @@ def build_app_data(output_dir: str | Path = "data") -> dict:
         "market_pulse": provider.load_market_pulse(),
         "securities": securities,
         "events": events,
+        "official_disclosures": runtime["official_disclosures"],
         "news": runtime["news"],
         "global_signals": list(EXPOSURE_DEFINITIONS.values()),
         "agents": _agent_reports(),
@@ -294,7 +295,25 @@ def _runtime_data() -> dict:
     )
     provider_status = _load_json(root / "data" / "provider_status.json", {"market": market_state().__dict__})
     refresh_job = _load_json(root / "data" / "refresh_job.json", _default_refresh_job())
-    return {"live_quotes": live_quotes, "news": news, "provider_status": provider_status, "refresh_job": refresh_job}
+    official_disclosures = _load_json(
+        root / "data" / "official_disclosures.json",
+        {
+            "generated_at": None,
+            "provider": "not_run",
+            "data_quality": "missing",
+            "rights_note": "Run tools/update_disclosures.py to normalize official filing metadata.",
+            "sources": [],
+            "events": [],
+            "errors": [],
+        },
+    )
+    return {
+        "live_quotes": live_quotes,
+        "news": news,
+        "provider_status": provider_status,
+        "refresh_job": refresh_job,
+        "official_disclosures": official_disclosures,
+    }
 
 
 def _load_json(path: Path, default: dict) -> dict:
@@ -360,6 +379,7 @@ def _admin(now: str, provider_status: dict | None = None, refresh_job: dict | No
     refresh_job = refresh_job or _default_refresh_job()
     quote_status = provider_status.get("quotes", {})
     news_status = provider_status.get("news", {})
+    disclosure_status = provider_status.get("disclosures", {})
     return {
         "last_build": now,
         "provider_status": provider_status,
@@ -376,8 +396,9 @@ def _admin(now: str, provider_status: dict | None = None, refresh_job: dict | No
             {"source": "Scheduled publish refresh", "last_run": refresh_job.get("finished_at") or refresh_job.get("started_at") or now, "success_rate": 100 if refresh_job.get("status") == "success" else 0, "status": refresh_job.get("status", "not_run"), "queue": 0 if refresh_job.get("last_exit_code") in (None, 0) else 1},
             {"source": "Public quote refresh", "last_run": provider_status.get("generated_at", now), "success_rate": quote_status.get("success", 0), "status": "frozen" if quote_status.get("skipped") else "attempted", "queue": quote_status.get("failed", 0)},
             {"source": "Real news RSS", "last_run": news_status.get("generated_at", now), "success_rate": news_status.get("success", 0), "status": "real_news_metadata", "queue": news_status.get("failed", 0)},
-            {"source": "ADX disclosures", "last_run": now, "success_rate": 100, "status": "mocked", "queue": 0},
-            {"source": "DFM corporate actions", "last_run": now, "success_rate": 100, "status": "mocked", "queue": 0},
+            {"source": "Official filings manifest", "last_run": disclosure_status.get("generated_at", now), "success_rate": disclosure_status.get("success", 0), "status": disclosure_status.get("data_quality", "not_run"), "queue": disclosure_status.get("failed", 0)},
+            {"source": "ADX disclosures", "last_run": now, "success_rate": 0, "status": "source_indexed", "queue": 0},
+            {"source": "DFM corporate actions", "last_run": disclosure_status.get("generated_at", now), "success_rate": disclosure_status.get("success", 0), "status": "official_metadata", "queue": disclosure_status.get("failed", 0)},
             {"source": "Issuer IR", "last_run": now, "success_rate": 96, "status": "mocked", "queue": 3},
             {"source": "Global factors", "last_run": now, "success_rate": 98, "status": "mocked", "queue": 1},
         ],

@@ -41,6 +41,17 @@
 }
 ```
 
+Official filing events may also include source links:
+
+```json
+{
+  "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+  "document_url": "https://feeds.dfm.ae/documents/...",
+  "data_quality": "official_metadata",
+  "signals": ["financial_statements", "dividend_policy"]
+}
+```
+
 ## Launch Readiness
 
 ```json

@@ -75,6 +75,14 @@ The quote updater checks the UAE market clock. When the market is closed, it ski
 
 Every refresh writes `data/refresh_job.json`, including the 300-second interval, last run, next due time, deploy flag, and quote-freeze policy. Admin publishes the same heartbeat under **Refresh job**.
 
+Official filing metadata comes from:
+
+```text
+filings/official_disclosures.json
+```
+
+The refresh job normalizes it with `python3 tools/update_disclosures.py`. The app publishes source/document links only, then merges those filings into the disclosure feed and AI evidence.
+
 Deploy only the current static app:
 
 ```bash

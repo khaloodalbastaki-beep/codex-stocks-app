@@ -36,6 +36,7 @@ bash tools/build.sh
 ```text
 tools/update_live.py  -> data/live_quotes.json + data/provider_status.json
 tools/update_news.py  -> data/news.json + data/provider_status.json
+tools/update_disclosures.py -> data/official_disclosures.json + data/provider_status.json
 tools/refresh_status.py -> data/refresh_job.json
 brain/pipeline.py     -> web/data/app_data.json
 web/js/app.js         -> market status, frozen quotes, news view, AI signal

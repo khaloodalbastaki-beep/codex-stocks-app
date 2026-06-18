@@ -38,6 +38,7 @@ else
   python3 tools/update_live.py
 fi
 python3 tools/update_news.py
+python3 tools/update_disclosures.py
 python3 tools/refresh_status.py finish --exit-code 0
 REFRESH_FINALIZED=1
 bash tools/build.sh

@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
+  "sources": [
+    {
+      "id": "dfm-disclosures",
+      "name": "DFM Disclosures",
+      "url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+      "source_type": "official_exchange",
+      "notes": "Official DFM disclosure index for listed-company filings."
+    },
+    {
+      "id": "dfm-market-data-providers",
+      "name": "DFM Market Data Providers",
+      "url": "https://www.dfm.ae/the-exchange/market-information/marketdata-providers",
+      "source_type": "official_exchange",
+      "notes": "Official DFM page for authorised market-data distribution posture."
+    },
+    {
+      "id": "adx-xbrl",
+      "name": "ADX XBRL",
+      "url": "https://www.adx.ae/issuers/issuers-information/xbrl",
+      "source_type": "official_exchange",
+      "notes": "ADX describes machine-readable financial disclosure collection through XBRL."
+    }
+  ],
+  "records": [
+    {
+      "id": "dfm-emaar-fs-2025",
+      "symbol": "EMAAR",
+      "exchange": "DFM",
+      "source_name": "DFM official filing",
+      "source_type": "official_exchange",
+      "category": "financial_statements",
+      "event_type": "results",
+      "title_en": "Emaar Properties PJSC and subsidiaries 2025 financial statements",
+      "title_ar": "",
+      "published_at": "2026-02-12T00:00:00+04:00",
+      "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+      "document_url": "https://feeds.dfm.ae/documents/2026/Feb/12/9e0de168-d6ee-4ebe-a343-58b56a84ab2f/Emaar%20Properties%20PJS.pdf",
+      "summary": "Official DFM-hosted annual financial statements metadata for Emaar Properties. Review the source document before changing model financials.",
+      "why_it_matters": "The filing can validate revenue, profit, cash flow, and dividend-policy assumptions used by the AI research report.",
+      "signals": ["financial_statements", "dividend_policy", "audited_accounts"],
+      "materiality": 88,
+      "sentiment": "Positive"
+    },
+    {
+      "id": "dfm-emaar-integrated-report-2025",
+      "symbol": "EMAAR",
+      "exchange": "DFM",
+      "source_name": "DFM official filing",
+      "source_type": "official_exchange",
+      "category": "annual_report",
+      "event_type": "results",
+      "title_en": "Emaar Properties PJSC integrated annual report 2025",
+      "title_ar": "",
+      "published_at": "2026-03-12T00:00:00+04:00",
+      "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+      "document_url": "https://feeds.dfm.ae/documents/2026/Mar/12/32866abb-3299-459c-970b-277f10a11956/Emaar%20Properties%20IR%20.pdf",
+      "summary": "Official DFM-hosted integrated annual report metadata for Emaar Properties.",
+      "why_it_matters": "The report can improve the agent's business-segment, governance, dividend, and risk-context extraction.",
+      "signals": ["annual_report", "governance", "segment_review"],
+      "materiality": 82,
+      "sentiment": "Neutral"
+    },
+    {
+      "id": "dfm-dewa-integrated-report-2025",
+      "symbol": "DEWA",
+      "exchange": "DFM",
+      "source_name": "DFM official filing",
+      "source_type": "official_exchange",
+      "category": "annual_report",
+      "event_type": "results",
+      "title_en": "DEWA PJSC integrated report 2025",
+      "title_ar": "",
+      "published_at": "2026-03-23T00:00:00+04:00",
+      "source_url": "https://www.dfm.ae/the-exchange/news-disclosures/disclosures",
+      "document_url": "https://feeds.dfm.ae/documents/2026/Mar/23/3cb8b9df-c993-4b9f-9f2f-8c0efa605e58/DEWA%20Integrated%20Repo.pdf",
+      "summary": "Official DFM-hosted integrated report metadata for Dubai Electricity and Water Authority.",
+      "why_it_matters": "The report can validate regulated cash-flow, dividend, and capital expenditure assumptions.",
+      "signals": ["annual_report", "dividend_policy", "regulated_cashflow"],
+      "materiality": 84,
+      "sentiment": "Positive"
+    }
+  ]
+}

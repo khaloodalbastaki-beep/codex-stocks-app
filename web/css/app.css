@@ -498,6 +498,23 @@ p { color: var(--muted); }
 .disclosure-row p { margin-bottom: 4px; }
 .disclosure-row aside { display: grid; justify-items: end; align-content: start; gap: 8px; }
 
+.source-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.source-actions a {
+  display: inline-flex;
+  margin: 0;
+  padding: 5px 8px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .materiality {
   display: grid;
   place-items: center;
@@ -693,7 +710,8 @@ p { color: var(--muted); }
   color: var(--muted);
 }
 
-.agent-news {
+.agent-news,
+.agent-list {
   margin: 0 0 12px;
   padding-inline-start: 18px;
   color: var(--muted);

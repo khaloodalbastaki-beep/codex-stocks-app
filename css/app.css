@@ -280,6 +280,26 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 
 .section-head.compact { align-items: center; margin-bottom: 12px; }
 
+.section-actions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.model-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--green) 12%, var(--panel));
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 800;
+}
+
 h1, h2, h3, p { margin-top: 0; }
 h1 { margin-bottom: 8px; font-size: clamp(30px, 4vw, 48px); line-height: 1.03; letter-spacing: 0; }
 h2 { margin-bottom: 12px; font-size: 18px; line-height: 1.2; }
@@ -634,14 +654,6 @@ p { color: var(--muted); }
 }
 
 .analysis-block li + li { margin-top: 5px; }
-
-.success-note {
-  padding: 10px;
-  border: 1px solid color-mix(in srgb, var(--green) 24%, var(--line));
-  border-radius: 6px;
-  background: color-mix(in srgb, var(--green) 8%, transparent);
-  color: var(--green);
-}
 
 .warning-note {
   padding: 10px;

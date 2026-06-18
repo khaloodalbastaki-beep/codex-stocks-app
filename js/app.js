@@ -4,8 +4,7 @@ const App = {
   theme: localStorage.getItem("uae-theme") || "light",
   favorites: new Set(JSON.parse(localStorage.getItem("uae-favorites") || '["EMAAR","FAB","DEWA","SALIK"]')),
   alerts: JSON.parse(localStorage.getItem("uae-alerts") || "[]"),
-  activeTab: "overview",
-  analysisRuns: new Set()
+  activeTab: "overview"
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -106,11 +105,6 @@ function bindGlobalActions() {
     if (tab) {
       App.activeTab = tab.dataset.tab;
       renderStock(tab.dataset.symbol);
-    }
-    const analyze = event.target.closest("[data-analyze]");
-    if (analyze) {
-      App.analysisRuns.add(analyze.dataset.analyze);
-      renderStock(analyze.dataset.analyze);
     }
   });
   window.addEventListener("hashchange", route);
@@ -586,13 +580,15 @@ function foreignOwnershipPanel(item) {
 }
 
 function aiPanel(item) {
-  const run = App.analysisRuns.has(item.symbol);
   const agentReport = App.data.agents?.mizan_codex?.latest_by_symbol?.[item.symbol];
+  const agent = agentReport?.agent;
   return `<div class="section-head compact">
       <h2>${t("ai_analysis")}</h2>
-      <button class="primary-button" data-analyze="${item.symbol}">${run ? "Re-run deterministic analysis" : "AI Analyze This Stock"}</button>
+      <div class="section-actions">
+        ${agent ? `<span class="model-pill">${agent.provider || "AI"} · ${agent.model || "model"}${agent.fallback_used ? " · fallback" : ""}</span>` : ""}
+        <a class="primary-button" href="#/ai-research">AI Research Hub</a>
+      </div>
     </div>
-    ${run ? `<p class="success-note">Analysis refreshed locally from current deterministic data. No external model was called in demo mode.</p>` : ""}
     ${priceSignalPanel(item.price_signal)}
     ${agentReport ? mizanReportPanel(agentReport) : mizanEmptyPanel(item)}
     <div class="analysis-grid">
@@ -607,7 +603,7 @@ function priceSignalPanel(signal) {
   return `<article class="signal-panel">
     <div class="section-head compact">
       <div>
-        <h3>Buy / Not Buy Research Signal</h3>
+        <h3>House Buy / Not Buy Signal</h3>
         <p>${signal.method}</p>
       </div>
       <span class="impact ${signal.label === "Accumulate" ? "bullish" : signal.label === "Avoid" ? "cautious" : "neutral"}">${signal.label}</span>

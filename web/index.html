@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c1f2e" />
+    <title>UAE Stocks Intelligence</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div id="app" class="app-shell">
+      <aside class="sidebar" aria-label="Main navigation">
+        <a class="brand" href="#/">
+          <span class="brand-mark" aria-hidden="true">US</span>
+          <span>
+            <strong>UAE Stocks</strong>
+            <small>Intelligence</small>
+          </span>
+        </a>
+        <nav id="nav"></nav>
+        <section class="trust-box">
+          <span class="status-dot"></span>
+          <strong>Research support</strong>
+          <p>Official facts, media, opinion, and AI interpretation stay separated.</p>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div class="search-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"/></svg>
+            <input id="search" type="search" autocomplete="off" dir="auto" placeholder="Search symbol, company, sector, Arabic name" />
+            <div id="searchResults" class="search-results" hidden></div>
+          </div>
+          <div class="top-actions">
+            <button id="langToggle" class="ghost-button" type="button">عربي</button>
+            <button id="themeToggle" class="ghost-button icon-button" type="button" aria-label="Toggle dark mode">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+            </button>
+          </div>
+        </header>
+
+        <div id="marketStatus" class="market-status"></div>
+        <div id="view" class="view" tabindex="-1"></div>
+      </main>
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

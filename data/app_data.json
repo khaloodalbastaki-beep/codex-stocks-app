@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-18T12:58:35.106007+00:00",
+    "build_time": "2026-06-18T13:00:01.852897+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2025,7 +2025,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2261,7 +2261,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2496,7 +2496,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2732,7 +2732,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2967,7 +2967,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T12:58:35.104865+00:00"
+        "as_of": "2026-06-18T13:00:01.851653+00:00"
       },
       "scores": {
         "growth": 43,
@@ -4029,7 +4029,7 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-18T12:58:35.106007+00:00",
+    "last_build": "2026-06-18T13:00:01.852897+00:00",
     "provider_status": {
       "generated_at": "2026-06-18T12:50:12.622779+00:00",
       "market": {
@@ -4112,28 +4112,28 @@
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-18T12:58:35.106007+00:00",
+        "last_run": "2026-06-18T13:00:01.852897+00:00",
         "success_rate": 100,
         "status": "mocked",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-18T12:58:35.106007+00:00",
+        "last_run": "2026-06-18T13:00:01.852897+00:00",
         "success_rate": 100,
         "status": "mocked",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-18T12:58:35.106007+00:00",
+        "last_run": "2026-06-18T13:00:01.852897+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-18T12:58:35.106007+00:00",
+        "last_run": "2026-06-18T13:00:01.852897+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

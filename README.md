@@ -73,6 +73,8 @@ bash tools/install_refresh_agent.sh
 
 The quote updater checks the UAE market clock. When the market is closed, it skips quote API calls and keeps the last published prices frozen. News metadata still refreshes from RSS.
 
+Every refresh writes `data/refresh_job.json`, including the 300-second interval, last run, next due time, deploy flag, and quote-freeze policy. Admin publishes the same heartbeat under **Refresh job**.
+
 Deploy only the current static app:
 
 ```bash
@@ -117,6 +119,13 @@ Default model lane: Ollama Cloud through the local Ollama API, using `gemma4:31b
 ollama signin
 ollama show gemma4:31b-cloud
 python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gemma4:31b-cloud --allow-fallback --print
+bash tools/build.sh
+```
+
+Refresh every stock report:
+
+```bash
+python3 -m agents.mizan_codex.agent --all --provider ollama --model gemma4:31b-cloud --allow-fallback
 bash tools/build.sh
 ```
 

@@ -27,7 +27,7 @@ description: Use when building or operating UAE exchange intelligence, market-ho
 ```bash
 cd "/Users/khalidalbastaki/Documents/codex stocks app"
 bash tools/refresh_live.sh
-python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gemma4:31b-cloud --allow-fallback
+python3 -m agents.mizan_codex.agent --all --provider ollama --model gemma4:31b-cloud --allow-fallback
 bash tools/build.sh
 ```
 
@@ -36,6 +36,7 @@ bash tools/build.sh
 ```text
 tools/update_live.py  -> data/live_quotes.json + data/provider_status.json
 tools/update_news.py  -> data/news.json + data/provider_status.json
+tools/refresh_status.py -> data/refresh_job.json
 brain/pipeline.py     -> web/data/app_data.json
 web/js/app.js         -> market status, frozen quotes, news view, AI signal
 ```

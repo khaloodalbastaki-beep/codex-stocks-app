@@ -16,6 +16,7 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(loaded["metadata"]["data_quality"], "demo")
             self.assertGreaterEqual(len(loaded["securities"]), 10)
             self.assertIn("launch_readiness", loaded["admin"])
+            self.assertEqual(loaded["admin"]["refresh_job"]["interval_seconds"], 300)
 
     def test_every_security_has_evidence_bound_analysis(self):
         data = build_app_data()
@@ -28,4 +29,3 @@ class PipelineTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

@@ -197,10 +197,7 @@ def deterministic_report(data: dict, stock: dict, snippets: list[dict], provider
             f"{factor['label']}: {factor['move']} -> {factor['impact_tag']}. {factor['impact']}"
             for factor in stock["global_factors"][:5]
         ],
-        "news_signals": [
-            f"{item['source']}: {item['title']}" for item in news[:5]
-        ]
-        or ["No mapped real-news headline for this symbol in the current RSS fetch."],
+        "news_signals": news_signal_strings(data, stock["symbol"]),
         "positive_drivers": [
             f"{factor['label']} currently maps positive for this stock." for factor in positives[:4]
         ]
@@ -265,6 +262,13 @@ def related_news(data: dict, symbol: str) -> list[dict]:
         return related[:8]
     broad = [item for item in articles if any(term in item.get("title", "").upper() for term in ("ADX", "DFM", "UAE STOCK", "DUBAI FINANCIAL MARKET"))]
     return broad[:5]
+
+
+def news_signal_strings(data: dict, symbol: str) -> list[str]:
+    news = related_news(data, symbol)
+    return [f"{item['source']}: {item['title']}" for item in news[:5]] or [
+        "No mapped real-news headline for this symbol in the current RSS fetch."
+    ]
 
 
 def enrich_report(report: dict, provider: str, model: str, stock: dict, fallback_used: bool = False) -> dict:
@@ -387,6 +391,8 @@ def analyze_symbol(args: argparse.Namespace, data: dict, symbol: str) -> dict:
         fallback_used = True
         report = deterministic_report(data, stock, snippets, provider, model or "unknown")
         report.setdefault("review_flags", []).append(f"LLM call failed and deterministic fallback was used: {exc}")
+    if not report.get("news_signals"):
+        report["news_signals"] = news_signal_strings(data, stock["symbol"])
     return enrich_report(report, provider, model or "unknown", stock, fallback_used=fallback_used)
 
 

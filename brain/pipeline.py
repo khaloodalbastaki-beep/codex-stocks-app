@@ -269,7 +269,7 @@ def build_app_data(output_dir: str | Path = "data") -> dict:
         "news": runtime["news"],
         "global_signals": list(EXPOSURE_DEFINITIONS.values()),
         "agents": _agent_reports(),
-        "admin": _admin(now, runtime["provider_status"]),
+        "admin": _admin(now, runtime["provider_status"], runtime["refresh_job"]),
         "routes": ["/", "/markets/adx", "/markets/dfm", "/stocks/{symbol}", "/watchlist", "/alerts", "/ipos", "/screeners", "/global-factors", "/admin"],
     }
     output_path = Path(output_dir)
@@ -293,7 +293,8 @@ def _runtime_data() -> dict:
         },
     )
     provider_status = _load_json(root / "data" / "provider_status.json", {"market": market_state().__dict__})
-    return {"live_quotes": live_quotes, "news": news, "provider_status": provider_status}
+    refresh_job = _load_json(root / "data" / "refresh_job.json", _default_refresh_job())
+    return {"live_quotes": live_quotes, "news": news, "provider_status": provider_status, "refresh_job": refresh_job}
 
 
 def _load_json(path: Path, default: dict) -> dict:
@@ -336,13 +337,33 @@ def _agent_reports() -> dict:
     return {"mizan_codex": store}
 
 
-def _admin(now: str, provider_status: dict | None = None) -> dict:
+def _default_refresh_job() -> dict:
+    return {
+        "label": "com.bastaki.codex-stocks-refresh",
+        "source": "launchd",
+        "status": "not_run",
+        "interval_seconds": 300,
+        "interval_label": "5 minutes",
+        "command": "bash tools/refresh_live.sh --deploy",
+        "started_at": None,
+        "finished_at": None,
+        "next_run_after": None,
+        "last_exit_code": None,
+        "deploy": True,
+        "logs": {"stdout": "tmp/refresh.out.log", "stderr": "tmp/refresh.err.log"},
+        "quote_policy": "Quote APIs run only during continuous market hours unless --force is passed; closed-market prices stay frozen.",
+    }
+
+
+def _admin(now: str, provider_status: dict | None = None, refresh_job: dict | None = None) -> dict:
     provider_status = provider_status or {}
+    refresh_job = refresh_job or _default_refresh_job()
     quote_status = provider_status.get("quotes", {})
     news_status = provider_status.get("news", {})
     return {
         "last_build": now,
         "provider_status": provider_status,
+        "refresh_job": refresh_job,
         "launch_readiness": [
             {"id": "demo_labels", "label": "Demo labels visible", "status": "pass", "note": "All mock market data is tagged demo/delayed."},
             {"id": "provider_swap", "label": "Provider interfaces", "status": "pass", "note": "UI reads normalized JSON, not vendor-specific fields."},
@@ -352,6 +373,7 @@ def _admin(now: str, provider_status: dict | None = None) -> dict:
             {"id": "regulatory", "label": "SCA posture", "status": "blocked", "note": "Public launch needs final compliance review and wording approval."},
         ],
         "jobs": [
+            {"source": "Scheduled publish refresh", "last_run": refresh_job.get("finished_at") or refresh_job.get("started_at") or now, "success_rate": 100 if refresh_job.get("status") == "success" else 0, "status": refresh_job.get("status", "not_run"), "queue": 0 if refresh_job.get("last_exit_code") in (None, 0) else 1},
             {"source": "Public quote refresh", "last_run": provider_status.get("generated_at", now), "success_rate": quote_status.get("success", 0), "status": "frozen" if quote_status.get("skipped") else "attempted", "queue": quote_status.get("failed", 0)},
             {"source": "Real news RSS", "last_run": news_status.get("generated_at", now), "success_rate": news_status.get("success", 0), "status": "real_news_metadata", "queue": news_status.get("failed", 0)},
             {"source": "ADX disclosures", "last_run": now, "success_rate": 100, "status": "mocked", "queue": 0},

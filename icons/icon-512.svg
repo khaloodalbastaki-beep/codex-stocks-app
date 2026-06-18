@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0c1f2e"/>
+  <path d="M112 325h288" stroke="#d6a84f" stroke-width="28" stroke-linecap="round"/>
+  <path d="M142 292 218 212l68 48 88-130" fill="none" stroke="#2f9b78" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="406" text-anchor="middle" font-family="Arial, sans-serif" font-size="78" font-weight="700" fill="#f8fbfd">UAE</text>
+</svg>
+

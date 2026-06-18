@@ -1,0 +1,4197 @@
+{
+  "metadata": {
+    "app_name": "UAE Stocks Intelligence",
+    "build_time": "2026-06-18T12:56:08.346312+00:00",
+    "scope": "Isolated Codex build from blueprint DOCX",
+    "market_scope": [
+      "ADX ordinary equities",
+      "DFM ordinary equities"
+    ],
+    "data_quality": "demo",
+    "price_status": "Frozen closed-market prices",
+    "market": {
+      "is_open": false,
+      "phase": "closed_after_hours",
+      "label": "Market closed",
+      "now_local": "2026-06-18T16:50:12.622637+04:00",
+      "timezone": "Asia/Dubai",
+      "next_change_hint": "Next session: next trading day 10:00 GST"
+    },
+    "disclaimer": "Research support only. Not personalized investment advice. Public/delayed data may be cached or demo when providers fail."
+  },
+  "source_badges": [
+    {
+      "label": "Official",
+      "tone": "official",
+      "meaning": "Exchange, issuer, regulator, or government source."
+    },
+    {
+      "label": "Media",
+      "tone": "media",
+      "meaning": "Trusted news or official media-office context."
+    },
+    {
+      "label": "Opinion",
+      "tone": "opinion",
+      "meaning": "Clearly separated third-party view."
+    },
+    {
+      "label": "AI",
+      "tone": "ai",
+      "meaning": "Generated research support, never personalized advice."
+    }
+  ],
+  "source_providers": [
+    {
+      "id": "adx-official",
+      "name": "ADX official pages",
+      "layer": "official_exchange",
+      "status": "adapter_ready",
+      "cadence": "2-5 minutes when approved",
+      "rights_posture": "Use official links and licensed/public-delayed data only."
+    },
+    {
+      "id": "dfm-official",
+      "name": "DFM official pages",
+      "layer": "official_exchange",
+      "status": "adapter_ready",
+      "cadence": "2-5 minutes when approved",
+      "rights_posture": "Arabic is official; English translations are informational."
+    },
+    {
+      "id": "issuer-ir",
+      "name": "Issuer investor relations",
+      "layer": "issuer_ir",
+      "status": "mocked",
+      "cadence": "Daily plus event-triggered refresh",
+      "rights_posture": "Index source links and extracted facts with source evidence."
+    },
+    {
+      "id": "worldbank-commodities",
+      "name": "World Bank commodities",
+      "layer": "global_signals",
+      "status": "mocked",
+      "cadence": "15-30 minutes for macro checks",
+      "rights_posture": "Use public commodity series with attribution."
+    },
+    {
+      "id": "gdelt-events",
+      "name": "GDELT events",
+      "layer": "global_signals",
+      "status": "mocked",
+      "cadence": "15 minutes",
+      "rights_posture": "Use event metadata and source URLs; cluster rather than copy articles."
+    }
+  ],
+  "market_pulse": [
+    {
+      "id": "ADX",
+      "label": "ADX",
+      "level": "10,184",
+      "change_pct": 0.42,
+      "breadth": "26 up / 18 down",
+      "data_quality": "demo"
+    },
+    {
+      "id": "DFMGI",
+      "label": "DFMGI",
+      "level": "6,238",
+      "change_pct": 0.76,
+      "breadth": "19 up / 11 down",
+      "data_quality": "demo"
+    },
+    {
+      "id": "BANKS",
+      "label": "Banks",
+      "level": "Sector",
+      "change_pct": 0.36,
+      "breadth": "Margins steady",
+      "data_quality": "derived-demo"
+    },
+    {
+      "id": "REAL_ESTATE",
+      "label": "Real estate",
+      "level": "Sector",
+      "change_pct": 1.18,
+      "breadth": "Dubai names leading",
+      "data_quality": "derived-demo"
+    }
+  ],
+  "securities": [
+    {
+      "symbol": "FAB",
+      "isin": "AE0004901111",
+      "name_en": "First Abu Dhabi Bank",
+      "name_ar": "بنك أبوظبي الأول",
+      "exchange": "ADX",
+      "sector": "Banks",
+      "archetype": "bank",
+      "summary": "Largest UAE bank by assets with broad wholesale, retail, and international exposure.",
+      "index_membership": [
+        "FADGI",
+        "FTSE ADX 15"
+      ],
+      "quote": {
+        "symbol": "FAB",
+        "last_price": 15.42,
+        "change_pct": 0.8,
+        "currency": "AED",
+        "volume_m": 12.4,
+        "market_cap_bn": 170.4,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 67,
+        "stability": 74,
+        "dividend": 69,
+        "composite": 70
+      },
+      "stance": "Neutral",
+      "confidence": "high",
+      "latest_catalyst": "Results",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Credit-cost surprise",
+        "Rate-cycle reversal",
+        "Wholesale funding pressure"
+      ],
+      "top_catalysts": [
+        "Results",
+        "Income demand",
+        "Rates path"
+      ],
+      "global_factors": [
+        {
+          "key": "rates",
+          "label": "Rates",
+          "move": "+12 bps",
+          "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "credit",
+          "label": "Credit",
+          "move": "Stable spreads",
+          "impact": "Stable credit conditions support bank asset quality.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "usd",
+          "label": "USD",
+          "move": "Firm",
+          "impact": "A firm dollar affects imported inputs and regional purchasing power.",
+          "sentiment": "neutral",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "oil-liquidity",
+          "label": "Oil Liquidity",
+          "move": "Supportive",
+          "impact": "Firm oil can support regional liquidity, deposits, and investor appetite.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 48
+          },
+          {
+            "holder": "Institutions",
+            "pct": 23
+          },
+          {
+            "holder": "Free float",
+            "pct": 26
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 9,
+          "available_pct": 40,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 5.1,
+        "frequency": "Semi-annual",
+        "payout_ratio_pct": 50.0,
+        "sustainability": "Strong",
+        "confidence": "High",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 7.0,
+        "profit_growth_pct": 10.0,
+        "margin_direction": "Improving",
+        "cash_generation": "Strong",
+        "leverage_view": "Comfortable",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 107.0,
+            "profit": 24.2
+          },
+          {
+            "period": "TTM",
+            "revenue": 108.9,
+            "profit": 24.6
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "FAB next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Daily move is +0.8%, so momentum is supportive.",
+            "Latest catalyst: results.",
+            "Global factor map highlights Credit, Oil Liquidity.",
+            "Composite house score is 70/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Credit-cost surprise",
+            "Rate-cycle reversal",
+            "Wholesale funding pressure",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Growth score: 67/100.",
+            "Stability score: 74/100.",
+            "Dividend score: 69/100.",
+            "Archetype model: bank names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Credit-cost surprise",
+            "Rate-cycle reversal",
+            "Wholesale funding pressure"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 14.49,
+        "current_price": 15.42,
+        "target_12m": 17.15,
+        "expected_return_pct": 11.2,
+        "invalidation_price": 14.19,
+        "confidence": "high",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "IHC",
+      "isin": "AEI000201014",
+      "name_en": "International Holding Company",
+      "name_ar": "الشركة العالمية القابضة",
+      "exchange": "ADX",
+      "sector": "Investment Holding",
+      "archetype": "holding",
+      "summary": "Diversified holding company with exposure across healthcare, food, industry, and technology.",
+      "index_membership": [
+        "FADGI",
+        "FTSE ADX 15"
+      ],
+      "quote": {
+        "symbol": "IHC",
+        "last_price": 412.8,
+        "change_pct": -0.2,
+        "currency": "AED",
+        "volume_m": 0.9,
+        "market_cap_bn": 900.0,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 70,
+        "stability": 52,
+        "dividend": 43,
+        "composite": 55
+      },
+      "stance": "Neutral",
+      "confidence": "low",
+      "latest_catalyst": "No new catalyst",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Disclosure opacity",
+        "Private-asset marks",
+        "Acquisition integration"
+      ],
+      "top_catalysts": [
+        "Rates path"
+      ],
+      "global_factors": [
+        {
+          "key": "rates",
+          "label": "Rates",
+          "move": "+12 bps",
+          "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "private-assets",
+          "label": "Private Assets",
+          "move": "Valuation watch",
+          "impact": "Private-asset marks need stronger disclosure evidence to build confidence.",
+          "sentiment": "cautious",
+          "impact_tag": "Cautious",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "healthcare",
+          "label": "Healthcare",
+          "move": "Demand resilient",
+          "impact": "Healthcare demand is defensive, but acquisition integration matters.",
+          "sentiment": "neutral",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "food-inputs",
+          "label": "Food Inputs",
+          "move": "+1.4%",
+          "impact": "Input-cost inflation can compress food and restaurant margins.",
+          "sentiment": "cautious",
+          "impact_tag": "Cautious",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 48
+          },
+          {
+            "holder": "Institutions",
+            "pct": 22
+          },
+          {
+            "holder": "Free float",
+            "pct": 35
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 9,
+          "available_pct": 40,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 0.0,
+        "frequency": "Annual / irregular",
+        "payout_ratio_pct": 0.0,
+        "sustainability": "Watch",
+        "confidence": "Medium",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 12.0,
+        "profit_growth_pct": 8.0,
+        "margin_direction": "Stable",
+        "cash_generation": "Mixed",
+        "leverage_view": "Watch",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 112.0,
+            "profit": 23.8
+          },
+          {
+            "period": "TTM",
+            "revenue": 112.3,
+            "profit": 24.3
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "IHC next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "low",
+          "reasons": [
+            "Daily move is -0.2%, so momentum is soft.",
+            "Latest catalyst: no high-materiality disclosure today.",
+            "Global factor map highlights mixed macro inputs.",
+            "Composite house score is 55/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Disclosure opacity",
+            "Private-asset marks",
+            "Acquisition integration",
+            "Private Assets",
+            "Food Inputs"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Cautious",
+          "confidence": "low",
+          "reasons": [
+            "Growth score: 70/100.",
+            "Stability score: 52/100.",
+            "Dividend score: 43/100.",
+            "Archetype model: holding names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Disclosure opacity",
+            "Private-asset marks",
+            "Acquisition integration"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Avoid",
+        "buy_or_not": "Do not buy yet",
+        "buy_below": 371.52,
+        "current_price": 412.8,
+        "target_12m": 412.8,
+        "expected_return_pct": 0.0,
+        "invalidation_price": 392.16,
+        "confidence": "low",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "ALDAR",
+      "isin": "AEA002001013",
+      "name_en": "Aldar Properties",
+      "name_ar": "الدار العقارية",
+      "exchange": "ADX",
+      "sector": "Real Estate",
+      "archetype": "developer",
+      "summary": "Abu Dhabi developer and asset manager with recurring income and development exposure.",
+      "index_membership": [
+        "FADGI"
+      ],
+      "quote": {
+        "symbol": "ALDAR",
+        "last_price": 8.76,
+        "change_pct": 1.4,
+        "currency": "AED",
+        "volume_m": 18.0,
+        "market_cap_bn": 68.9,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 79,
+        "stability": 63,
+        "dividend": 64,
+        "composite": 69
+      },
+      "stance": "Bullish",
+      "confidence": "medium",
+      "latest_catalyst": "No new catalyst",
+      "impact_chip": "Positive",
+      "top_risks": [
+        "Rate pressure on affordability",
+        "Delivery slippage",
+        "Input-cost inflation"
+      ],
+      "top_catalysts": [
+        "Tourism momentum",
+        "Rates path"
+      ],
+      "global_factors": [
+        {
+          "key": "rates",
+          "label": "Rates",
+          "move": "+12 bps",
+          "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "tourism",
+          "label": "Tourism",
+          "move": "Strong arrivals",
+          "impact": "Tourism momentum supports aviation, real estate, malls, and toll traffic.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "steel",
+          "label": "Steel",
+          "move": "-0.6%",
+          "impact": "Lower steel input costs can help contractors and developers.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "population-growth",
+          "label": "Population",
+          "move": "Expanding",
+          "impact": "Population growth supports utilities, tolls, housing, and consumption.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 50
+          },
+          {
+            "holder": "Institutions",
+            "pct": 29
+          },
+          {
+            "holder": "Free float",
+            "pct": 40
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 15,
+          "available_pct": 34,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 2.6,
+        "frequency": "Annual / irregular",
+        "payout_ratio_pct": 34.0,
+        "sustainability": "Watch",
+        "confidence": "High",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 18.0,
+        "profit_growth_pct": 14.0,
+        "margin_direction": "Improving",
+        "cash_generation": "Mixed",
+        "leverage_view": "Watch",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 118.0,
+            "profit": 25.1
+          },
+          {
+            "period": "TTM",
+            "revenue": 116.5,
+            "profit": 25.3
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "ALDAR next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Bullish",
+          "confidence": "medium",
+          "reasons": [
+            "Daily move is +1.4%, so momentum is supportive.",
+            "Latest catalyst: no high-materiality disclosure today.",
+            "Global factor map highlights Tourism, Steel.",
+            "Composite house score is 69/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Rate pressure on affordability",
+            "Delivery slippage",
+            "Input-cost inflation",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Bullish",
+          "confidence": "medium",
+          "reasons": [
+            "Growth score: 79/100.",
+            "Stability score: 63/100.",
+            "Dividend score: 64/100.",
+            "Archetype model: developer names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Rate pressure on affordability",
+            "Delivery slippage",
+            "Input-cost inflation"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 8.23,
+        "current_price": 8.76,
+        "target_12m": 9.68,
+        "expected_return_pct": 10.5,
+        "invalidation_price": 8.06,
+        "confidence": "medium",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "ADNOCGAS",
+      "isin": "AEE01195A234",
+      "name_en": "ADNOC Gas",
+      "name_ar": "أدنوك للغاز",
+      "exchange": "ADX",
+      "sector": "Energy",
+      "archetype": "energy",
+      "summary": "Integrated gas processing company linked to LNG, industrial demand, and energy spreads.",
+      "index_membership": [
+        "FADGI"
+      ],
+      "quote": {
+        "symbol": "ADNOCGAS",
+        "last_price": 3.52,
+        "change_pct": 0.4,
+        "currency": "AED",
+        "volume_m": 22.5,
+        "market_cap_bn": 270.0,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 64,
+        "stability": 66,
+        "dividend": 69,
+        "composite": 66
+      },
+      "stance": "Neutral",
+      "confidence": "high",
+      "latest_catalyst": "No new catalyst",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Commodity spread volatility",
+        "Maintenance downtime",
+        "Policy or offtake changes"
+      ],
+      "top_catalysts": [
+        "Next disclosure"
+      ],
+      "global_factors": [
+        {
+          "key": "gas",
+          "label": "Gas",
+          "move": "+0.9%",
+          "impact": "Gas-linked revenue and generation costs move in opposite directions by sector.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "oil",
+          "label": "Oil",
+          "move": "+1.8%",
+          "impact": "Oil strength supports regional liquidity but can lift fuel-sensitive costs.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "lng",
+          "label": "LNG",
+          "move": "Asia spot steady",
+          "impact": "Steady LNG demand supports gas processing visibility.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "usd",
+          "label": "USD",
+          "move": "Firm",
+          "impact": "A firm dollar affects imported inputs and regional purchasing power.",
+          "sentiment": "neutral",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 53
+          },
+          {
+            "holder": "Institutions",
+            "pct": 24
+          },
+          {
+            "holder": "Free float",
+            "pct": 33
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 24,
+          "available_pct": 25,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 4.7,
+        "frequency": "Semi-annual",
+        "payout_ratio_pct": 62.0,
+        "sustainability": "Strong",
+        "confidence": "High",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 5.0,
+        "profit_growth_pct": 6.0,
+        "margin_direction": "Improving",
+        "cash_generation": "Strong",
+        "leverage_view": "Comfortable",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 105.0,
+            "profit": 23.3
+          },
+          {
+            "period": "TTM",
+            "revenue": 107.5,
+            "profit": 24.0
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "ADNOCGAS next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Daily move is +0.4%, so momentum is supportive.",
+            "Latest catalyst: no high-materiality disclosure today.",
+            "Global factor map highlights LNG.",
+            "Composite house score is 66/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Commodity spread volatility",
+            "Maintenance downtime",
+            "Policy or offtake changes",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Growth score: 64/100.",
+            "Stability score: 66/100.",
+            "Dividend score: 69/100.",
+            "Archetype model: energy names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Commodity spread volatility",
+            "Maintenance downtime",
+            "Policy or offtake changes"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 3.31,
+        "current_price": 3.52,
+        "target_12m": 3.82,
+        "expected_return_pct": 8.4,
+        "invalidation_price": 3.24,
+        "confidence": "high",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "TAQA",
+      "isin": "AEA002401015",
+      "name_en": "Abu Dhabi National Energy Company",
+      "name_ar": "شركة أبوظبي الوطنية للطاقة",
+      "exchange": "ADX",
+      "sector": "Utilities",
+      "archetype": "utility",
+      "summary": "Power and water utility with regulated cash flows plus energy transition exposure.",
+      "index_membership": [
+        "FADGI"
+      ],
+      "quote": {
+        "symbol": "TAQA",
+        "last_price": 3.17,
+        "change_pct": -0.5,
+        "currency": "AED",
+        "volume_m": 6.2,
+        "market_cap_bn": 356.0,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 58,
+        "stability": 68,
+        "dividend": 63,
+        "composite": 63
+      },
+      "stance": "Neutral",
+      "confidence": "high",
+      "latest_catalyst": "No new catalyst",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Allowed-return reset",
+        "Fuel-cost pass-through timing",
+        "Capex execution"
+      ],
+      "top_catalysts": [
+        "Rates path"
+      ],
+      "global_factors": [
+        {
+          "key": "rates",
+          "label": "Rates",
+          "move": "+12 bps",
+          "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "gas",
+          "label": "Gas",
+          "move": "+0.9%",
+          "impact": "Gas-linked revenue and generation costs move in opposite directions by sector.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "power-demand",
+          "label": "Power Demand",
+          "move": "Summer load rising",
+          "impact": "Higher demand supports utility throughput and capacity planning.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "desalination",
+          "label": "Desalination",
+          "move": "Stable",
+          "impact": "Water demand visibility supports regulated utility cash flows.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 49
+          },
+          {
+            "holder": "Institutions",
+            "pct": 27
+          },
+          {
+            "holder": "Free float",
+            "pct": 39
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 12,
+          "available_pct": 37,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 3.9,
+        "frequency": "Annual / irregular",
+        "payout_ratio_pct": 70.0,
+        "sustainability": "Watch",
+        "confidence": "High",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 4.0,
+        "profit_growth_pct": 3.0,
+        "margin_direction": "Stable",
+        "cash_generation": "Strong",
+        "leverage_view": "Watch",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 104.0,
+            "profit": 22.7
+          },
+          {
+            "period": "TTM",
+            "revenue": 106.8,
+            "profit": 23.5
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "TAQA next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Daily move is -0.5%, so momentum is soft.",
+            "Latest catalyst: no high-materiality disclosure today.",
+            "Global factor map highlights Power Demand, Desalination.",
+            "Composite house score is 63/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Allowed-return reset",
+            "Fuel-cost pass-through timing",
+            "Capex execution",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Growth score: 58/100.",
+            "Stability score: 68/100.",
+            "Dividend score: 63/100.",
+            "Archetype model: utility names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Allowed-return reset",
+            "Fuel-cost pass-through timing",
+            "Capex execution"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 2.98,
+        "current_price": 3.17,
+        "target_12m": 3.37,
+        "expected_return_pct": 6.3,
+        "invalidation_price": 2.92,
+        "confidence": "high",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "ADPORTS",
+      "isin": "AEA007301012",
+      "name_en": "AD Ports Group",
+      "name_ar": "مجموعة موانئ أبوظبي",
+      "exchange": "ADX",
+      "sector": "Logistics",
+      "archetype": "logistics",
+      "summary": "Ports, maritime, logistics, and economic-cities operator tied to regional trade flows.",
+      "index_membership": [
+        "FADGI"
+      ],
+      "quote": {
+        "symbol": "ADPORTS",
+        "last_price": 6.1,
+        "change_pct": 1.1,
+        "currency": "AED",
+        "volume_m": 2.7,
+        "market_cap_bn": 31.0,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 81,
+        "stability": 57,
+        "dividend": 42,
+        "composite": 60
+      },
+      "stance": "Neutral",
+      "confidence": "low",
+      "latest_catalyst": "Contract",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Freight-cycle slowdown",
+        "Integration risk",
+        "Fuel and wage cost pressure"
+      ],
+      "top_catalysts": [
+        "Contract"
+      ],
+      "global_factors": [
+        {
+          "key": "freight",
+          "label": "Freight",
+          "move": "+2.1%",
+          "impact": "Higher freight can help logistics operators but weighs on import-heavy consumers.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "trade",
+          "label": "Trade",
+          "move": "Regional flows firm",
+          "impact": "Stronger trade flows support ports, logistics, warehousing, and free-zone activity.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "move": "+1.2%",
+          "impact": "Fuel costs matter for airlines, logistics, and road-traffic economics.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "usd",
+          "label": "USD",
+          "move": "Firm",
+          "impact": "A firm dollar affects imported inputs and regional purchasing power.",
+          "sentiment": "neutral",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 52
+          },
+          {
+            "holder": "Institutions",
+            "pct": 27
+          },
+          {
+            "holder": "Free float",
+            "pct": 38
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 21,
+          "available_pct": 28,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 0.0,
+        "frequency": "Annual / irregular",
+        "payout_ratio_pct": 0.0,
+        "sustainability": "Watch",
+        "confidence": "Medium",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 24.0,
+        "profit_growth_pct": 13.0,
+        "margin_direction": "Stable",
+        "cash_generation": "Mixed",
+        "leverage_view": "Watch",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 124.0,
+            "profit": 24.9
+          },
+          {
+            "period": "TTM",
+            "revenue": 120.6,
+            "profit": 25.1
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "ADPORTS next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "low",
+          "reasons": [
+            "Daily move is +1.1%, so momentum is supportive.",
+            "Latest catalyst: contract.",
+            "Global factor map highlights Trade.",
+            "Composite house score is 60/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Freight-cycle slowdown",
+            "Integration risk",
+            "Fuel and wage cost pressure",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Neutral",
+          "confidence": "low",
+          "reasons": [
+            "Growth score: 81/100.",
+            "Stability score: 57/100.",
+            "Dividend score: 42/100.",
+            "Archetype model: logistics names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Freight-cycle slowdown",
+            "Integration risk",
+            "Fuel and wage cost pressure"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 5.73,
+        "current_price": 6.1,
+        "target_12m": 6.36,
+        "expected_return_pct": 4.2,
+        "invalidation_price": 5.61,
+        "confidence": "low",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "EMAAR",
+      "isin": "AEE000301011",
+      "name_en": "Emaar Properties",
+      "name_ar": "إعمار العقارية",
+      "exchange": "DFM",
+      "sector": "Real Estate",
+      "archetype": "developer",
+      "summary": "Dubai developer with residential, malls, hospitality, and tourism-driven earnings exposure.",
+      "index_membership": [
+        "DFMGI"
+      ],
+      "quote": {
+        "symbol": "EMAAR",
+        "last_price": 13.65,
+        "change_pct": 1.7,
+        "currency": "AED",
+        "volume_m": 35.6,
+        "market_cap_bn": 121.3,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 83,
+        "stability": 64,
+        "dividend": 67,
+        "composite": 71
+      },
+      "stance": "Bullish",
+      "confidence": "medium",
+      "latest_catalyst": "Board Meeting",
+      "impact_chip": "Positive",
+      "top_risks": [
+        "Rate pressure on affordability",
+        "Delivery slippage",
+        "Input-cost inflation"
+      ],
+      "top_catalysts": [
+        "Board Meeting",
+        "Tourism momentum",
+        "Income demand",
+        "Rates path"
+      ],
+      "global_factors": [
+        {
+          "key": "rates",
+          "label": "Rates",
+          "move": "+12 bps",
+          "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "tourism",
+          "label": "Tourism",
+          "move": "Strong arrivals",
+          "impact": "Tourism momentum supports aviation, real estate, malls, and toll traffic.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "population-growth",
+          "label": "Population",
+          "move": "Expanding",
+          "impact": "Population growth supports utilities, tolls, housing, and consumption.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "steel",
+          "label": "Steel",
+          "move": "-0.6%",
+          "impact": "Lower steel input costs can help contractors and developers.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 50
+          },
+          {
+            "holder": "Institutions",
+            "pct": 29
+          },
+          {
+            "holder": "Free float",
+            "pct": 40
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 15,
+          "available_pct": 34,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 6.2,
+        "frequency": "Semi-annual",
+        "payout_ratio_pct": 58.0,
+        "sustainability": "Strong",
+        "confidence": "High",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 21.0,
+        "profit_growth_pct": 18.0,
+        "margin_direction": "Improving",
+        "cash_generation": "Strong",
+        "leverage_view": "Comfortable",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 121.0,
+            "profit": 26.0
+          },
+          {
+            "period": "TTM",
+            "revenue": 118.6,
+            "profit": 26.0
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "Board meeting scheduled to review interim financials and dividend policy",
+          "date": "2026-06-18",
+          "agenda": [
+            "Financial results",
+            "Dividend policy",
+            "Governance update"
+          ],
+          "status": "Upcoming",
+          "source": "DFM disclosure"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Bullish",
+          "confidence": "medium",
+          "reasons": [
+            "Daily move is +1.7%, so momentum is supportive.",
+            "Latest catalyst: board meeting.",
+            "Global factor map highlights Tourism, Population.",
+            "Composite house score is 71/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Rate pressure on affordability",
+            "Delivery slippage",
+            "Input-cost inflation",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Bullish",
+          "confidence": "medium",
+          "reasons": [
+            "Growth score: 83/100.",
+            "Stability score: 64/100.",
+            "Dividend score: 67/100.",
+            "Archetype model: developer names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Rate pressure on affordability",
+            "Delivery slippage",
+            "Input-cost inflation"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 12.83,
+        "current_price": 13.65,
+        "target_12m": 15.27,
+        "expected_return_pct": 11.9,
+        "invalidation_price": 12.56,
+        "confidence": "medium",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "DEWA",
+      "isin": "AED001801011",
+      "name_en": "Dubai Electricity and Water Authority",
+      "name_ar": "هيئة كهرباء ومياه دبي",
+      "exchange": "DFM",
+      "sector": "Utilities",
+      "archetype": "utility",
+      "summary": "Dubai utility with regulated electricity, water, district cooling, and transition assets.",
+      "index_membership": [
+        "DFMGI"
+      ],
+      "quote": {
+        "symbol": "DEWA",
+        "last_price": 2.79,
+        "change_pct": 0.1,
+        "currency": "AED",
+        "volume_m": 28.0,
+        "market_cap_bn": 139.5,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 60,
+        "stability": 74,
+        "dividend": 68,
+        "composite": 68
+      },
+      "stance": "Neutral",
+      "confidence": "medium",
+      "latest_catalyst": "Dividend",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Allowed-return reset",
+        "Fuel-cost pass-through timing",
+        "Capex execution"
+      ],
+      "top_catalysts": [
+        "Dividend",
+        "Income demand",
+        "Rates path"
+      ],
+      "global_factors": [
+        {
+          "key": "gas",
+          "label": "Gas",
+          "move": "+0.9%",
+          "impact": "Gas-linked revenue and generation costs move in opposite directions by sector.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "power-demand",
+          "label": "Power Demand",
+          "move": "Summer load rising",
+          "impact": "Higher demand supports utility throughput and capacity planning.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "rates",
+          "label": "Rates",
+          "move": "+12 bps",
+          "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "population-growth",
+          "label": "Population",
+          "move": "Expanding",
+          "impact": "Population growth supports utilities, tolls, housing, and consumption.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 49
+          },
+          {
+            "holder": "Institutions",
+            "pct": 27
+          },
+          {
+            "holder": "Free float",
+            "pct": 25
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 12,
+          "available_pct": 37,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 6.0,
+        "frequency": "Semi-annual",
+        "payout_ratio_pct": 80.0,
+        "sustainability": "Strong",
+        "confidence": "High",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 5.0,
+        "profit_growth_pct": 4.0,
+        "margin_direction": "Improving",
+        "cash_generation": "Strong",
+        "leverage_view": "Comfortable",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 105.0,
+            "profit": 22.9
+          },
+          {
+            "period": "TTM",
+            "revenue": 107.5,
+            "profit": 23.7
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "DEWA next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "medium",
+          "reasons": [
+            "Daily move is +0.1%, so momentum is supportive.",
+            "Latest catalyst: dividend.",
+            "Global factor map highlights Power Demand, Population.",
+            "Composite house score is 68/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Allowed-return reset",
+            "Fuel-cost pass-through timing",
+            "Capex execution",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Neutral",
+          "confidence": "medium",
+          "reasons": [
+            "Growth score: 60/100.",
+            "Stability score: 74/100.",
+            "Dividend score: 68/100.",
+            "Archetype model: utility names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Allowed-return reset",
+            "Fuel-cost pass-through timing",
+            "Capex execution"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 2.62,
+        "current_price": 2.79,
+        "target_12m": 3.06,
+        "expected_return_pct": 9.8,
+        "invalidation_price": 2.57,
+        "confidence": "medium",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "ENBD",
+      "isin": "AEE000801010",
+      "name_en": "Emirates NBD",
+      "name_ar": "الإمارات دبي الوطني",
+      "exchange": "DFM",
+      "sector": "Banks",
+      "archetype": "bank",
+      "summary": "Dubai banking group with retail, corporate, Islamic, and regional international operations.",
+      "index_membership": [
+        "DFMGI"
+      ],
+      "quote": {
+        "symbol": "ENBD",
+        "last_price": 23.15,
+        "change_pct": 0.6,
+        "currency": "AED",
+        "volume_m": 4.6,
+        "market_cap_bn": 146.2,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 68,
+        "stability": 73,
+        "dividend": 70,
+        "composite": 70
+      },
+      "stance": "Neutral",
+      "confidence": "high",
+      "latest_catalyst": "No new catalyst",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Credit-cost surprise",
+        "Rate-cycle reversal",
+        "Wholesale funding pressure"
+      ],
+      "top_catalysts": [
+        "Tourism momentum",
+        "Income demand",
+        "Rates path"
+      ],
+      "global_factors": [
+        {
+          "key": "rates",
+          "label": "Rates",
+          "move": "+12 bps",
+          "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "credit",
+          "label": "Credit",
+          "move": "Stable spreads",
+          "impact": "Stable credit conditions support bank asset quality.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "usd",
+          "label": "USD",
+          "move": "Firm",
+          "impact": "A firm dollar affects imported inputs and regional purchasing power.",
+          "sentiment": "neutral",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "tourism",
+          "label": "Tourism",
+          "move": "Strong arrivals",
+          "impact": "Tourism momentum supports aviation, real estate, malls, and toll traffic.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 49
+          },
+          {
+            "holder": "Institutions",
+            "pct": 23
+          },
+          {
+            "holder": "Free float",
+            "pct": 36
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 12,
+          "available_pct": 37,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 5.3,
+        "frequency": "Semi-annual",
+        "payout_ratio_pct": 55.0,
+        "sustainability": "Strong",
+        "confidence": "High",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 8.0,
+        "profit_growth_pct": 11.0,
+        "margin_direction": "Improving",
+        "cash_generation": "Strong",
+        "leverage_view": "Comfortable",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 108.0,
+            "profit": 24.4
+          },
+          {
+            "period": "TTM",
+            "revenue": 109.5,
+            "profit": 24.8
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "ENBD next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Daily move is +0.6%, so momentum is supportive.",
+            "Latest catalyst: no high-materiality disclosure today.",
+            "Global factor map highlights Credit, Tourism.",
+            "Composite house score is 70/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Credit-cost surprise",
+            "Rate-cycle reversal",
+            "Wholesale funding pressure",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Growth score: 68/100.",
+            "Stability score: 73/100.",
+            "Dividend score: 70/100.",
+            "Archetype model: bank names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Credit-cost surprise",
+            "Rate-cycle reversal",
+            "Wholesale funding pressure"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 21.76,
+        "current_price": 23.15,
+        "target_12m": 25.74,
+        "expected_return_pct": 11.2,
+        "invalidation_price": 21.3,
+        "confidence": "high",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "DIB",
+      "isin": "AED000201015",
+      "name_en": "Dubai Islamic Bank",
+      "name_ar": "بنك دبي الإسلامي",
+      "exchange": "DFM",
+      "sector": "Banks",
+      "archetype": "bank",
+      "summary": "Islamic bank with corporate, retail, and sukuk-market sensitivity.",
+      "index_membership": [
+        "DFMGI"
+      ],
+      "quote": {
+        "symbol": "DIB",
+        "last_price": 7.34,
+        "change_pct": -0.1,
+        "currency": "AED",
+        "volume_m": 10.3,
+        "market_cap_bn": 53.0,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 62,
+        "stability": 70,
+        "dividend": 68,
+        "composite": 67
+      },
+      "stance": "Neutral",
+      "confidence": "high",
+      "latest_catalyst": "No new catalyst",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Credit-cost surprise",
+        "Rate-cycle reversal",
+        "Wholesale funding pressure"
+      ],
+      "top_catalysts": [
+        "Income demand",
+        "Rates path"
+      ],
+      "global_factors": [
+        {
+          "key": "rates",
+          "label": "Rates",
+          "move": "+12 bps",
+          "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "credit",
+          "label": "Credit",
+          "move": "Stable spreads",
+          "impact": "Stable credit conditions support bank asset quality.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "sukuk",
+          "label": "Sukuk",
+          "move": "Issuance active",
+          "impact": "Active sukuk markets help Islamic bank funding and investor demand.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "real-estate",
+          "label": "Real Estate",
+          "move": "Dubai prices firm",
+          "impact": "Real-estate momentum supports mortgage demand but raises affordability risk.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 48
+          },
+          {
+            "holder": "Institutions",
+            "pct": 23
+          },
+          {
+            "holder": "Free float",
+            "pct": 24
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 9,
+          "available_pct": 40,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 6.4,
+        "frequency": "Semi-annual",
+        "payout_ratio_pct": 60.0,
+        "sustainability": "Strong",
+        "confidence": "High",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 6.0,
+        "profit_growth_pct": 9.0,
+        "margin_direction": "Stable",
+        "cash_generation": "Strong",
+        "leverage_view": "Watch",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 106.0,
+            "profit": 24.0
+          },
+          {
+            "period": "TTM",
+            "revenue": 108.2,
+            "profit": 24.5
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "DIB next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Daily move is -0.1%, so momentum is soft.",
+            "Latest catalyst: no high-materiality disclosure today.",
+            "Global factor map highlights Credit, Sukuk.",
+            "Composite house score is 67/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Credit-cost surprise",
+            "Rate-cycle reversal",
+            "Wholesale funding pressure",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Growth score: 62/100.",
+            "Stability score: 70/100.",
+            "Dividend score: 68/100.",
+            "Archetype model: bank names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Credit-cost surprise",
+            "Rate-cycle reversal",
+            "Wholesale funding pressure"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 6.9,
+        "current_price": 7.34,
+        "target_12m": 8.01,
+        "expected_return_pct": 9.1,
+        "invalidation_price": 6.75,
+        "confidence": "high",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "SALIK",
+      "isin": "AEE01110S227",
+      "name_en": "Salik Company",
+      "name_ar": "سالك",
+      "exchange": "DFM",
+      "sector": "Transport",
+      "archetype": "infrastructure",
+      "summary": "Dubai toll-road operator linked to population, tourism, congestion, and mobility demand.",
+      "index_membership": [
+        "DFMGI"
+      ],
+      "quote": {
+        "symbol": "SALIK",
+        "last_price": 5.98,
+        "change_pct": 1.0,
+        "currency": "AED",
+        "volume_m": 9.4,
+        "market_cap_bn": 44.8,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 71,
+        "stability": 71,
+        "dividend": 66,
+        "composite": 70
+      },
+      "stance": "Neutral",
+      "confidence": "high",
+      "latest_catalyst": "No new catalyst",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Regulatory tariff change",
+        "Traffic demand slowdown",
+        "High payout burden"
+      ],
+      "top_catalysts": [
+        "Tourism momentum",
+        "Income demand",
+        "Rates path"
+      ],
+      "global_factors": [
+        {
+          "key": "population-growth",
+          "label": "Population",
+          "move": "Expanding",
+          "impact": "Population growth supports utilities, tolls, housing, and consumption.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "tourism",
+          "label": "Tourism",
+          "move": "Strong arrivals",
+          "impact": "Tourism momentum supports aviation, real estate, malls, and toll traffic.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "move": "+1.2%",
+          "impact": "Fuel costs matter for airlines, logistics, and road-traffic economics.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "rates",
+          "label": "Rates",
+          "move": "+12 bps",
+          "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 50
+          },
+          {
+            "holder": "Institutions",
+            "pct": 27
+          },
+          {
+            "holder": "Free float",
+            "pct": 37
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 15,
+          "available_pct": 34,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 5.7,
+        "frequency": "Semi-annual",
+        "payout_ratio_pct": 85.0,
+        "sustainability": "Strong",
+        "confidence": "High",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 9.0,
+        "profit_growth_pct": 10.0,
+        "margin_direction": "Improving",
+        "cash_generation": "Strong",
+        "leverage_view": "Watch",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 109.0,
+            "profit": 24.2
+          },
+          {
+            "period": "TTM",
+            "revenue": 110.2,
+            "profit": 24.6
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "SALIK next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Daily move is +1.0%, so momentum is supportive.",
+            "Latest catalyst: no high-materiality disclosure today.",
+            "Global factor map highlights Population, Tourism.",
+            "Composite house score is 70/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Regulatory tariff change",
+            "Traffic demand slowdown",
+            "High payout burden",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Growth score: 71/100.",
+            "Stability score: 71/100.",
+            "Dividend score: 66/100.",
+            "Archetype model: infrastructure names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Regulatory tariff change",
+            "Traffic demand slowdown",
+            "High payout burden"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 5.62,
+        "current_price": 5.98,
+        "target_12m": 6.65,
+        "expected_return_pct": 11.2,
+        "invalidation_price": 5.5,
+        "confidence": "high",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "AIRARABIA",
+      "isin": "AEA003001012",
+      "name_en": "Air Arabia",
+      "name_ar": "العربية للطيران",
+      "exchange": "DFM",
+      "sector": "Aviation",
+      "archetype": "cyclical",
+      "summary": "Low-cost carrier exposed to passenger demand, fuel prices, fleet growth, and tourism flows.",
+      "index_membership": [
+        "DFMGI"
+      ],
+      "quote": {
+        "symbol": "AIRARABIA",
+        "last_price": 3.48,
+        "change_pct": -0.7,
+        "currency": "AED",
+        "volume_m": 8.5,
+        "market_cap_bn": 16.2,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 65,
+        "stability": 60,
+        "dividend": 63,
+        "composite": 63
+      },
+      "stance": "Neutral",
+      "confidence": "high",
+      "latest_catalyst": "No new catalyst",
+      "impact_chip": "Neutral",
+      "top_risks": [
+        "Fuel price spike",
+        "Tourism demand shock",
+        "Fleet-cost inflation"
+      ],
+      "top_catalysts": [
+        "Tourism momentum",
+        "Income demand"
+      ],
+      "global_factors": [
+        {
+          "key": "oil",
+          "label": "Oil",
+          "move": "+1.8%",
+          "impact": "Oil strength supports regional liquidity but can lift fuel-sensitive costs.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "tourism",
+          "label": "Tourism",
+          "move": "Strong arrivals",
+          "impact": "Tourism momentum supports aviation, real estate, malls, and toll traffic.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "usd",
+          "label": "USD",
+          "move": "Firm",
+          "impact": "A firm dollar affects imported inputs and regional purchasing power.",
+          "sentiment": "neutral",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "freight",
+          "label": "Freight",
+          "move": "+2.1%",
+          "impact": "Higher freight can help logistics operators but weighs on import-heavy consumers.",
+          "sentiment": "mixed",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 54
+          },
+          {
+            "holder": "Institutions",
+            "pct": 26
+          },
+          {
+            "holder": "Free float",
+            "pct": 34
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 27,
+          "available_pct": 22,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 5.0,
+        "frequency": "Semi-annual",
+        "payout_ratio_pct": 55.0,
+        "sustainability": "Watch",
+        "confidence": "Medium",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": 10.0,
+        "profit_growth_pct": 8.0,
+        "margin_direction": "Stable",
+        "cash_generation": "Mixed",
+        "leverage_view": "Watch",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 110.0,
+            "profit": 23.8
+          },
+          {
+            "period": "TTM",
+            "revenue": 110.9,
+            "profit": 24.3
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "AIRARABIA next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Daily move is -0.7%, so momentum is soft.",
+            "Latest catalyst: no high-materiality disclosure today.",
+            "Global factor map highlights Tourism.",
+            "Composite house score is 63/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Fuel price spike",
+            "Tourism demand shock",
+            "Fleet-cost inflation",
+            "Unexpected disclosure change"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Neutral",
+          "confidence": "high",
+          "reasons": [
+            "Growth score: 65/100.",
+            "Stability score: 60/100.",
+            "Dividend score: 63/100.",
+            "Archetype model: cyclical names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Fuel price spike",
+            "Tourism demand shock",
+            "Fleet-cost inflation"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Watch",
+        "buy_or_not": "Wait for buy zone",
+        "buy_below": 3.27,
+        "current_price": 3.48,
+        "target_12m": 3.7,
+        "expected_return_pct": 6.3,
+        "invalidation_price": 3.2,
+        "confidence": "high",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    },
+    {
+      "symbol": "AMERICANA",
+      "isin": "AEE01135A222",
+      "name_en": "Americana Restaurants",
+      "name_ar": "أمريكانا للمطاعم",
+      "exchange": "ADX",
+      "sector": "Consumer",
+      "archetype": "consumer",
+      "summary": "Quick-service restaurant operator exposed to consumer demand, food inputs, and regional expansion.",
+      "index_membership": [
+        "FADGI"
+      ],
+      "quote": {
+        "symbol": "AMERICANA",
+        "last_price": 2.41,
+        "change_pct": -1.1,
+        "currency": "AED",
+        "volume_m": 14.7,
+        "market_cap_bn": 20.3,
+        "provider": "mock-demo",
+        "data_quality": "demo",
+        "status_label": "Demo delayed",
+        "as_of": "2026-06-18T12:56:08.345067+00:00"
+      },
+      "scores": {
+        "growth": 43,
+        "stability": 62,
+        "dividend": 58,
+        "composite": 54
+      },
+      "stance": "Cautious",
+      "confidence": "medium",
+      "latest_catalyst": "Macro Factor",
+      "impact_chip": "Cautious",
+      "top_risks": [
+        "Food input inflation",
+        "Consumer slowdown",
+        "Currency-linked purchasing pressure"
+      ],
+      "top_catalysts": [
+        "Macro Factor",
+        "Tourism momentum"
+      ],
+      "global_factors": [
+        {
+          "key": "food-inputs",
+          "label": "Food Inputs",
+          "move": "+1.4%",
+          "impact": "Input-cost inflation can compress food and restaurant margins.",
+          "sentiment": "cautious",
+          "impact_tag": "Cautious",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "usd",
+          "label": "USD",
+          "move": "Firm",
+          "impact": "A firm dollar affects imported inputs and regional purchasing power.",
+          "sentiment": "neutral",
+          "impact_tag": "Mixed",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "population-growth",
+          "label": "Population",
+          "move": "Expanding",
+          "impact": "Population growth supports utilities, tolls, housing, and consumption.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        },
+        {
+          "key": "tourism",
+          "label": "Tourism",
+          "move": "Strong arrivals",
+          "impact": "Tourism momentum supports aviation, real estate, malls, and toll traffic.",
+          "sentiment": "positive",
+          "impact_tag": "Positive",
+          "confidence": "medium",
+          "evidence": [
+            "Exposure map",
+            "Global signal mock adapter"
+          ]
+        }
+      ],
+      "ownership": {
+        "mix": [
+          {
+            "holder": "Strategic / government-linked",
+            "pct": 54
+          },
+          {
+            "holder": "Institutions",
+            "pct": 26
+          },
+          {
+            "holder": "Free float",
+            "pct": 27
+          }
+        ],
+        "foreign_ownership": {
+          "permitted_pct": 49,
+          "actual_pct": 27,
+          "available_pct": 22,
+          "data_quality": "demo"
+        }
+      },
+      "dividends": {
+        "yield_pct": 3.2,
+        "frequency": "Annual / irregular",
+        "payout_ratio_pct": 65.0,
+        "sustainability": "Watch",
+        "confidence": "Medium",
+        "next_dates": [
+          {
+            "label": "Board review",
+            "date": "2026-07-06"
+          },
+          {
+            "label": "Entitlement window",
+            "date": "2026-08-02"
+          },
+          {
+            "label": "Payment target",
+            "date": "2026-08-23"
+          }
+        ]
+      },
+      "financials": {
+        "revenue_growth_pct": -3.0,
+        "profit_growth_pct": -8.0,
+        "margin_direction": "Pressure",
+        "cash_generation": "Mixed",
+        "leverage_view": "Comfortable",
+        "source_documents": [
+          "Demo annual report",
+          "Demo interim financials"
+        ],
+        "series": [
+          {
+            "period": "FY2023",
+            "revenue": 100,
+            "profit": 22
+          },
+          {
+            "period": "FY2024",
+            "revenue": 97.0,
+            "profit": 20.2
+          },
+          {
+            "period": "TTM",
+            "revenue": 101.9,
+            "profit": 21.7
+          }
+        ]
+      },
+      "meetings": [
+        {
+          "title": "AMERICANA next governance window",
+          "date": "2026-07-20",
+          "agenda": [
+            "Routine governance calendar",
+            "Potential corporate actions"
+          ],
+          "status": "Monitor",
+          "source": "Mock calendar"
+        }
+      ],
+      "analysis": {
+        "label": "AI-generated research support. Not personalized investment advice",
+        "short_term": {
+          "stance": "Cautious",
+          "confidence": "medium",
+          "reasons": [
+            "Daily move is -1.1%, so momentum is soft.",
+            "Latest catalyst: macro factor.",
+            "Global factor map highlights Population, Tourism.",
+            "Composite house score is 54/100.",
+            "Source badges separate official facts from AI interpretation."
+          ],
+          "risks": [
+            "Food input inflation",
+            "Consumer slowdown",
+            "Currency-linked purchasing pressure",
+            "Food Inputs"
+          ],
+          "what_changes_view": "A new official disclosure, dividend timetable change, or material macro shock would recompute the stance."
+        },
+        "long_term": {
+          "stance": "Cautious",
+          "confidence": "medium",
+          "reasons": [
+            "Growth score: 43/100.",
+            "Stability score: 62/100.",
+            "Dividend score: 58/100.",
+            "Archetype model: consumer names are graded on sector-specific inputs.",
+            "Long-term view waits for validated filings before changing numeric inputs."
+          ],
+          "risks": [
+            "Food input inflation",
+            "Consumer slowdown",
+            "Currency-linked purchasing pressure"
+          ],
+          "evidence": [
+            "House scoring model",
+            "Demo financial series",
+            "Exposure map",
+            "Disclosure timeline"
+          ]
+        }
+      },
+      "price_signal": {
+        "label": "Avoid",
+        "buy_or_not": "Do not buy yet",
+        "buy_below": 2.17,
+        "current_price": 2.41,
+        "target_12m": 2.4,
+        "expected_return_pct": -0.6,
+        "invalidation_price": 2.29,
+        "confidence": "medium",
+        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-emaar-board",
+      "symbol": "EMAAR",
+      "source_type": "official_exchange",
+      "source_name": "DFM disclosure",
+      "event_type": "board_meeting",
+      "title_en": "Board meeting scheduled to review interim financials and dividend policy",
+      "title_ar": "اجتماع مجلس الإدارة لمراجعة البيانات المالية المرحلية وسياسة التوزيعات",
+      "summary": "Agenda flags interim results, capital allocation, and distribution policy.",
+      "why_it_matters": "Board agenda includes dividend policy, making it price-relevant for income holders.",
+      "materiality": 78,
+      "sentiment": "Positive",
+      "timestamp": "2026-06-18T05:15:00+00:00",
+      "evidence": [
+        "DFM official disclosure",
+        "Board agenda terms extracted"
+      ]
+    },
+    {
+      "id": "evt-fab-results",
+      "symbol": "FAB",
+      "source_type": "issuer_ir",
+      "source_name": "Issuer IR",
+      "event_type": "results",
+      "title_en": "Quarterly results show stable net interest income and controlled credit costs",
+      "title_ar": "نتائج ربع سنوية تظهر استقرار صافي دخل الفوائد وتكاليف ائتمان منضبطة",
+      "summary": "Revenue and profit trends remain supportive; credit quality is the watch item.",
+      "why_it_matters": "Bank score is sensitive to asset quality and rate margin direction.",
+      "materiality": 72,
+      "sentiment": "Neutral",
+      "timestamp": "2026-06-18T02:15:00+00:00",
+      "evidence": [
+        "Issuer results presentation",
+        "Income statement trend"
+      ]
+    },
+    {
+      "id": "evt-dewa-dividend",
+      "symbol": "DEWA",
+      "source_type": "official_exchange",
+      "source_name": "DFM corporate actions",
+      "event_type": "dividend",
+      "title_en": "Dividend entitlement and payment window added to corporate actions calendar",
+      "title_ar": "إضافة تاريخ الاستحقاق وفترة الدفع إلى تقويم إجراءات الشركات",
+      "summary": "The event updates entitlement, ex-dividend, and payment timing.",
+      "why_it_matters": "Income investors need exact dates, not just yield.",
+      "materiality": 81,
+      "sentiment": "Positive",
+      "timestamp": "2026-06-17T07:15:00+00:00",
+      "evidence": [
+        "Corporate actions calendar",
+        "Dividend timetable"
+      ]
+    },
+    {
+      "id": "evt-adports-contract",
+      "symbol": "ADPORTS",
+      "source_type": "media",
+      "source_name": "Official media office",
+      "event_type": "contract",
+      "title_en": "Logistics expansion headline linked to regional trade corridor",
+      "title_ar": "خبر توسع لوجستي مرتبط بممر تجاري إقليمي",
+      "summary": "New logistics activity could strengthen long-term trade exposure.",
+      "why_it_matters": "Growth score responds to contract-backed expansion, not generic headlines.",
+      "materiality": 66,
+      "sentiment": "Positive",
+      "timestamp": "2026-06-17T03:15:00+00:00",
+      "evidence": [
+        "Official media headline",
+        "Exposure map: trade and freight"
+      ]
+    },
+    {
+      "id": "evt-americana-inputs",
+      "symbol": "AMERICANA",
+      "source_type": "global_signal",
+      "source_name": "Commodity monitor",
+      "event_type": "macro_factor",
+      "title_en": "Food input basket moved higher; margin sensitivity flagged",
+      "title_ar": "ارتفاع سلة مدخلات الغذاء مع تنبيه لحساسية الهوامش",
+      "summary": "Input-cost pressure increases the burden on restaurant margins.",
+      "why_it_matters": "A revenue decline plus higher inputs lowers the short-term stance.",
+      "materiality": 61,
+      "sentiment": "Cautious",
+      "timestamp": "2026-06-16T07:15:00+00:00",
+      "evidence": [
+        "Commodity factor basket",
+        "Exposure map: food inputs"
+      ]
+    }
+  ],
+  "news": {
+    "generated_at": "2026-06-18T12:50:20.399074+00:00",
+    "provider": "google_news_rss",
+    "data_quality": "real_news_metadata",
+    "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
+    "articles": [
+      {
+        "id": "8df75424e11878ef",
+        "title": "UAE stock market opens higher: ADX gains over 1 percent as DFM rises 1.76 percent - Economy Middle East",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2JvZUk4NG0zMkRNV0FidWhrLU0wSUc5anNpOHBSallhNFM0dDRjSmZqYzNWeGRib3R3MHZpamRaR09CRGpWd1ZLTUpJeUhpc0o0QXYwZkYwUVNyUjZrN1RHMW03M0NVQkUzVEx6X19YMnNVelZPMGFCNHVlOTBpRzhvbG0tOXloZWZFTVBnTmJJMW9zT0M5X05pNjhuR1B1OHhETWduR2xWTXcwZW8xdl9BZXlEemc?oc=5",
+        "source": "Economy Middle East",
+        "published_at": "Tue, 16 Jun 2026 08:44:08 GMT",
+        "summary": "UAE stock market opens higher: ADX gains over 1 percent as DFM rises 1.76 percent Economy Middle East",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "16f1dc02ba8000e7",
+        "title": "UAE halts stock markets for two days after Iran strikes - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcmo2MmM2bDJTX1o2Q2NVclktM1BIdWlmd2J6cGFYZGlXbFVsZUVzY3dyMWdiUEdBdzQ5MnBpNXhmU2x5R3phTll3NEhUYnYyWE1wMkRpSVUxM3RSN3AteEt2OGlpLWlzenNDMnhQWFZmUFEyc1E1X0VMZ211X2ZXR09UdkNrMXdwWG5pZkVOOEFaRWhYeUhYWVpxUkRRdnoyYUVTNFFjTmQ?oc=5",
+        "source": "Reuters",
+        "published_at": "Sun, 01 Mar 2026 08:00:00 GMT",
+        "summary": "UAE halts stock markets for two days after Iran strikes Reuters",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "809b0f8ef3a7e2ed",
+        "title": "UAE stocks retreat as regional war continues to rage - The National",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZmtlRDJSRjd0SEpySHlKRlNNNHhTbkZFdkpMLTZmeHdVV3RoMFpKVDFVVUs2Umt3akJQbTZDNG9ZWDdTLVRwb0YzV0RGcWRLdzQyMzREVGtpenZfVUd6U3JqX3V2c0o0cFB5Y1lsT2g1VU5nSXAyYXY5LTVjVl93amRGekZkTjRvYVdERzhXYVRETVhNWXh1Q3gzUFptUUFZNl9ZblJlTHk?oc=5",
+        "source": "The National",
+        "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
+        "summary": "UAE stocks retreat as regional war continues to rage The National",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "9aba9c0fbd896dc9",
+        "title": "UAE exchanges to reopen Wednesday after two-day suspension due to Iran conflict - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc3c2UmZxYllRTF94S3c1N3JCNHctc3ZCVWtiZG1YX2FwZHBya2ZkU19HUWVLSjNSVEZ5YzVQVzd5SnRTZWNuR0xSLXVaQU1CVkR3SkgzbWdzS1NKUS1CelRpWHJFdlNxcG5jaDVOclVFLXJ6b19Xd3hsNEpJbGN2TXQ1dVJ3R1RlR3hDa1JGRGUtb3RwYmcw?oc=5",
+        "source": "Reuters",
+        "published_at": "Tue, 03 Mar 2026 08:00:00 GMT",
+        "summary": "UAE exchanges to reopen Wednesday after two-day suspension due to Iran conflict Reuters",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "5b380b8ea9d2c2df",
+        "title": "DFM and ADX High-Volume Stock Movers: Emaar Properties (EMAAR), Emirates NBD, Salik - Markets.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTh4RlJUUEJ0a0lmSWpDczlzY1dTOEhUZ3VLdzR6N2NHczloWGU0UktiUk9YQkhNU3Q1S0E0ZHJYaEZSZVlTSTB5LTdPX1FxQWVoZjNQWFRwVEN5ekZQN3VyWGFaTGRSY0VwZTJ1ZTJnOXhfZWRpOHAxQ1U5akp4QWlScFNheTZtTU5kQTRjSDFsQmtFMUhMeHdRVjNCN1ZTcEFnT0NPSjdlZDUyMkxWWA?oc=5",
+        "source": "Markets.com",
+        "published_at": "Mon, 16 Mar 2026 07:00:00 GMT",
+        "summary": "DFM and ADX High-Volume Stock Movers: Emaar Properties (EMAAR), Emirates NBD, Salik Markets.com",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [
+          "ADPORTS",
+          "EMAAR",
+          "ENBD",
+          "SALIK"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "cb7083b545b97610",
+        "title": "UAE stock markets close, trading halted by Abu Dhabi Securities Exchange and the Dubai Financial Market f - The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNbWFzU2xHeFA2VkVyeEg0Zm1GQ1Y5TDVRV191S2VKb3c4eGJ6WGVFVVlOVlB2WWVTWVdrNmJQWUxxdERaRlFxZlpZYXNqUEVLMDRDb25EYTdpejNfNGVxSV95TXFVRndPZXJMX0htWWk2eHFBLVd1WHlUaEx1dWxtMk9SdTU4QWd3QkxTRlJic3ItZkkxZUtnTDNVaUJlQWE2YTdhcXU1V0ZFQmpqMGxrcWtMVmsyNE5vay1MdVJBemd3cFRMZWpzcHBJR3pKNk8tNnV2aWJvcEZYcnZDRWxfZXJ6OVY2a1BvTEo4T1l0LUplV0FsVmIxeG9TcEJTaXVmbzlVT0dhcHM2cVFNWmowVWVJU3E0ZnZTZUdraDNGMHEtUGpiSzc4aXgxN2xsRGE3N085ZGpqN29mcENlSmREN2VBX29sOVNY0gHOAkFVX3lxTFBFb0lWYS11cXZMUzJFUE0yMzJDcE1EQk9Ud2lHRXVIWGVCTU1jNm5HZW5FemdhRGw4dk9rajVLVzBmZ0U5dGlKbkdxWkhVTDRvbnhGQlJQWFhUd0RNNWktU05qNDU5akd5YksyMUl0SmtOV2VzTGNEVkl3SE5EanpoMktweUg2TU9vUndKQ3RMOGVyRU9lZ200c2hEQVgwaGprb0pXcER6RHg2NFktUllhaUdaMEI0THhBMF9mS2VJVjFRbmZvbmJmWWFhUTdiYUE1SzU3UlNKb2NEajBqeDNuSWlqeUtXT1YxSmVNVy11bTFtWHZ3aGRQNW9laE96VGdUSjRUN2Rta1hTLUJ3YURYWGJRaVRVeHN2WEpJZjh0Q2xHandVeFNsT2hKMk1jczc1aFhnTUt0WTlaV1lkLTBYQ252REpibWV2MUhSRHc?oc=5",
+        "source": "The Times of India",
+        "published_at": "Mon, 02 Mar 2026 08:00:00 GMT",
+        "summary": "UAE stock markets close, trading halted by Abu Dhabi Securities Exchange and the Dubai Financial Market f The Times of India",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [
+          "TAQA",
+          "ADPORTS",
+          "DEWA",
+          "DIB"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "8cf2e6f6b6a09f38",
+        "title": "Global funds turn to UAE stocks as Abu Dhabi and Dubai trading grows - Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUmtqcU04QWdnV2JNd0JUZVh5RVc1Y3Y1UWt1V1lzZjVaSFJSN1RSSEJwLXVaRm9kbTZtYzZfWjhpSURQdHZpOHNvT1V3dUxDOEZZNDFqTzY4d1N1WE5zakJTa3QyYkxzbmdMeDVJWEo4cFFuTkttX3hQdm5oMERvejdSVzZkZnNLaDZibDlvRW9vcGxFNWZ2WkxNblVOd0gzcEE5NXl1VzhZbmZLU1VXUnBIT0U1RWpSTWfSAcwBQVVfeXFMT2gyVzBPLWpRVGNUdVY1NzR4eHZhbGNxV2lva19WQlNfbDNmSnBITE5jS0lJRWpUMEo4eC14MlNmYkNTQTJqYTNuQnZnUVFqNHBEbWZ2MzN3Y0hLRTlyd0piMHRmZ1UyOGxTSDFySFBxVS1ZRDU4UnZSRVRDYlhTYlFQS1N0OTVyb0wyMFFWd2ViVUlVTkFORzRlVGs2SVZ3NGFtWFZrVG40cWhxeDRFS3ZmbzQwajlJUDdxMFU3cEVqN2JfclREbVU3UmNN?oc=5",
+        "source": "Gulf News",
+        "published_at": "Thu, 11 Jun 2026 12:24:40 GMT",
+        "summary": "Global funds turn to UAE stocks as Abu Dhabi and Dubai trading grows Gulf News",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [
+          "TAQA",
+          "ADPORTS",
+          "DEWA",
+          "DIB"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "41fcbd3f9566088d",
+        "title": "UAE Exchanges Extend Shutdown Through March 3 Due to Iranian Attacks - MLQ.ai",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS1ZsR1M3dnNIdkpZR3dzbVlEa1BHV3lOSEVUemw3TWpSUC1jdU96bFVpX1AtRy1NY1g3RWRMYjl4dk42ZUJZa0c2ZTNHc0hpbnJvTW5mQUUwY2lGSUlFbUJrZU5zS3Uzc044VFBGQzZJT3otWGZMWlZQcXNrZU5OVDZHeEs4RHJfVTYydUdhUHl6dlpzMGMw?oc=5",
+        "source": "MLQ.ai",
+        "published_at": "Mon, 02 Mar 2026 08:00:00 GMT",
+        "summary": "UAE Exchanges Extend Shutdown Through March 3 Due to Iranian Attacks MLQ.ai",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "197c018e7a50f86d",
+        "title": "Bitmine’s perpetual preferred stock debuts on NYSE at $80 per share with 9.5% dividend - Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42c3RfYVp3RE5QaGtfaExXTERGZHN6X19qdlJOYm5vLUFGdEtKQTNpUllucVZsdGFSOV83cktRRUVKWXJNVXFYS3JoOGJvajkwWWhuUnVaRC1PNkJHeERISmdPTXowUjFtUTl4MGwyQQ?oc=5",
+        "source": "Crypto Briefing",
+        "published_at": "Tue, 16 Jun 2026 15:19:06 GMT",
+        "summary": "Bitmine’s perpetual preferred stock debuts on NYSE at $80 per share with 9.5% dividend Crypto Briefing",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "1541d3e02c2e3412",
+        "title": "Key Regulatory Updates for Hong Kong Listed Companies — September/October 2025 - Latham & Watkins LLP",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbGhNUi1obXEwY3Y5dkNSR1o3TDFaU0pIN3BMajlsRlVYZkk5dUt6YU9NSWdQWlpvQ2dCbzZyM3FOcUY3RzI5VEhLUnpsTkRZX2VlUUg4NXh2andobVdselNzelE2eFZ1ck1wTFJ3NFdnb1pyeEVMX2ZEN2U0b0s2QjNXWXZTTy1wakxLcUZwNkpuaTNQb19FTTdzQ00tUVpPcjR0Q2pfUHRqV3c?oc=5",
+        "source": "Latham & Watkins LLP",
+        "published_at": "Tue, 02 Dec 2025 08:00:00 GMT",
+        "summary": "Key Regulatory Updates for Hong Kong Listed Companies — September/October 2025 Latham & Watkins LLP",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "fc6dd4672d927364",
+        "title": "Air Arabia Shareholders Approve $381m Dividend Payout In AGM - Aviation Business Middle East",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMl90R3dveHhpaExrX2FNT3dvZkp2RzlpclQyUE1EcmF0bHZXQXU0NGVBTzNQRXFHN3c0YUNLVlREc1VEd2poQUFLZFdXYVJDSTNvelFkbGMxV3BMNk5XR2NHSUI1TmQweW5CUFl3RXRVRjFBSkY5M2FGZk5zV1lzSGJuVW95Ui00TkRiVXFYQUpLRzhJbWh0MDJJN2RSQXR6?oc=5",
+        "source": "Aviation Business Middle East",
+        "published_at": "Fri, 13 Mar 2026 07:00:00 GMT",
+        "summary": "Air Arabia Shareholders Approve $381m Dividend Payout In AGM Aviation Business Middle East",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [
+          "AIRARABIA"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "05967826b5883ecf",
+        "title": "eToro launches UAE-Economy portfolio - FX News Group",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDhGZXltdTZmVERVRTdXUWlUeWZ1RGd4TUJNa3Eyc1ppWUJMSVhqM01GOGU2VTBfaW5RZDMtNGF0QnJGcjJjc2xGdk9rWVpqRzBUSXZNQU9nTFJnck10U2pGcE43eGxmYnlRMWplTHpBWEJjcHFVR2JYY1V3dVR0NUF2NXlEOUNqZk1UNjlR?oc=5",
+        "source": "FX News Group",
+        "published_at": "Wed, 10 Dec 2025 08:00:00 GMT",
+        "summary": "eToro launches UAE-Economy portfolio FX News Group",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "21d854900b6707eb",
+        "title": "ALEC Holdings Finalizes IPO At AED 1.40 Per Share - Construction Business News Middle East",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcEdzcm9LZ213VjZvODAxbVZLNUE1NnhvU1dPNlAwY1pEdERrcnlwdjVINl82M2lSckRwNGlSUjBnZkFWNWtmZzh2MmV3X0Vuc21RdERVaV9Zdk8zNlVWNkY2WWNJMU5ySGRvWDlQMEE3X0hoeEhBdnNBYXBSazlEQUVKVQ?oc=5",
+        "source": "Construction Business News Middle East",
+        "published_at": "Wed, 01 Oct 2025 07:00:00 GMT",
+        "summary": "ALEC Holdings Finalizes IPO At AED 1.40 Per Share Construction Business News Middle East",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "5b11e1b870e4d352",
+        "title": "New UAE equity portfolio targets long-term growth sectors - Gulf Business",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblJDaVhkRTQ5aHE0bjh1Ul9IVk15b3Q5dEptUGZaZG1qRjVGNlRtSXBfZEd3UlBPbzJNa28yajFlNEhobGs3Rk5CV1dmOTR0VkdqSHdGRWlqZXdIWkpYTkJlVTVzUmNDQk15WGdQaHpkNndqV054a3JoUnpMTFBsRGpZdlJpa29LVl94MGt2dHB1SmZCbWtkcHRDR0g?oc=5",
+        "source": "Gulf Business",
+        "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
+        "summary": "New UAE equity portfolio targets long-term growth sectors Gulf Business",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "5441615ec660ab0b",
+        "title": "ADX achieves 99% compliance in Q1 disclosure by listed companies - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRzQyaExWZXIwSWtDUFZ2aHRFV01wSnJuVldZak1RZjIwUXdJNzFZaEtjMXRhTzdCOTEySDNTSE5SeW5UZ3FRYjZfcnQ5NzBfY0gxT2lEMUhsRHdzbnpuYkk2MUd3a1kyZFFlMUdidk9fUlpOR1pxeW5KakJDNldmZFNrNk1sSl9oVUNEb3htc1RYZEV5cUwtelp3cG9qbkNwUUVjOFJrTHUwcEp3cy1PakJRNlQzMkZDMEg1ZHRLak9xbE5FTzJJSU9VSFhDMWg4dE11VWtn?oc=5",
+        "source": "TradingView",
+        "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+        "summary": "ADX achieves 99% compliance in Q1 disclosure by listed companies TradingView",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "ed17a128fafb8475",
+        "title": "ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange - ZAWYA",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPV2x4ZlIwbFZpS3hGdWpwZ09PQkZQd2ZuWlRlY1pTSHV5TVo5Q2wtdzFjenRjOWlocjlrVHFGeHpITWVEUWNuZjVMSEdJbFVLQmRMcjJidy12WEUxelk3WXE2THBUb0RhUVBsUXRVaXItemtiYTRDelNmZVNiN3VKRDJZYS1FZTBiVU1ITm9yd3pLMG9oaXc1U1ZQY1dqSkF0SE01U1R2WWJOV3hMbjM1ck54ZUlDRUw0TzZSVmVMTTN4NHgyRWdCZ0hUZ3JkcjdkUEJDVTBISDNWVU55VkM4VWlVZ3gwMjRMbzhQNER1REVHMHo0cDZLbWhaMnpKR04xVDZJQ0wyQ1VwUzVNRGJ0UHBPcV9RaEc5ZFE?oc=5",
+        "source": "ZAWYA",
+        "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+        "summary": "ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange ZAWYA",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "f69fc920dc816aea",
+        "title": "ZAWYA: ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRGxlNnRUVU5PVFZSWEkxLTdYSFVoLXFGQmpqQVF5d3d1UGlRMktob0xrQktyLXNRbkhIektsN3BFYV91N19VUWxBRmVncVk2SGlNa2hkYWFvcHVuV242cW9faE5jc1VDWUg1Nmo4T0RJV1FGQ2J1VGNwWjIybktSa2t4djFlV002Wmc4cmRFYU5ia0NhWkJXY0RJdzBOaDM3SThOejJGVmNILXhZdzduR21ZNVBIclp2UldxQ1BUN2NSaUU0ck9VdXZkUmdwV0tMeW5XeGZxWnBZaTdNVTJ6QkVCVlA2TUY2YnE0TlpWaHZuRml0TGhrdWZ6VG9rNndrLTNYMUx3QTUzMFRFRWQ4dUJMMDZ1Qk1Hc1RjeFlqQ3JUeVl1Ni11TnBzT3U5aS1wbnRN?oc=5",
+        "source": "TradingView",
+        "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+        "summary": "ZAWYA: ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange TradingView",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "77a4a5343aa48cf3",
+        "title": "Abu Dhabi’s Eshraq initiates legal action linked to Goldilocks share pledges - Khaleej Times",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR2JTOC1oN0JtRG5oeGxCTXpTTkZ2ZjlCVFFfREhrNkFnOEgxc25HLTdGcDl6TUdmR3pxX0RFQlgxRW1ibl9PR0ZELWV3dDhRekVCdl96dDdGM0pkQUdiTnlncm5JUXlxek96RlVvMTNHSi04SVRuNjd0WkNqYTZEc1ZQcGpLV2w1ZzFkcW84VF9MWGZGMmdKYnRQSFlOQnYyUGVQQ01wUkFfaEJfemxlTUc3ONIBuwFBVV95cUxPQWZESDBjVVJ2bWc2aWpySjRtQTRfN3d5QzdjcmRVQl93NmtOZmRvUk5OWEpOc2hwMElQeFI2clZBRXQ3RlB4eDdISE9udHdydnJ0bUpHZWtJcEVoNjM5MXhVNUp5N2V4dTBSeUVyOENSNU5ZU2I1N3lXc2o5U2ZtQmg1cDNIWXh1cG91RVktVEFab1RYenBhdHdtQmpFQUVZTUluUW1oQkRiNjl6dlkyNF94U0ZQLUpvdUFF?oc=5",
+        "source": "Khaleej Times",
+        "published_at": "Mon, 01 Jun 2026 07:00:00 GMT",
+        "summary": "Abu Dhabi’s Eshraq initiates legal action linked to Goldilocks share pledges Khaleej Times",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "TAQA"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "65c06fa279ff7fbe",
+        "title": "ADX firms deliver Dh200 billion profit with 98% disclosure compliance - Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3N3VnhSSjlyYmNiQ2Y4N0pCYVJTVm50ckw3Y0ZmeTlLUkk4aUhzQTJJbHB1U2ZmRzFxMzc0MlNVSXNld3VJRnNpM2N1QUdHeFRLWXpvUW5tSXVVZ2pLd1VsRXpxZWNUSUd2Z2hQNU5FN1ZGMEx5SlRVY3pvTGhrU2FfVm0xUmFJNHBoRjdmVm4taXFjWXJkVVJwbUluSXNtYUVVczNwMUJQZ01yU1dTcnRpbkxJWExxcUHSAcwBQVVfeXFMTWJuQy1qcnBDQXRQQ29rc1p6VFdMbkZqWl84R0ZvTVhtWG9NX2lnY0Z0dUMzdF9abncwRnVOVVA0WXB2V25YX1Zpb0pDV1dtVzk0aDVlWDY2YU4zLVFuSk9sdWdDTHZkRTF2MzRnYnJxQzNNenRQTGZQbXdOMUtldldRTHpBN1NFTTBhb3VIOWtHNkpBR1NFSHNKNVZEc3hSandnZzBmS1FfMWdfWm9ETzZ3SUwtaTFkRUVySEg1ZXF6aWhMQ2dseUFFbnVW?oc=5",
+        "source": "Gulf News",
+        "published_at": "Sun, 12 Apr 2026 07:00:00 GMT",
+        "summary": "ADX firms deliver Dh200 billion profit with 98% disclosure compliance Gulf News",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "e24553ef3898610d",
+        "title": "UAE’s 2PointZero unit acquires stake in US wearable tech firm Whoop - Gulf Business",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMzZ3TmlTWEtFRzlDZjVFQ1JkVDFQMVFSdnFCbGhwMklsOGpfeVozdkNFZDhyQXIxcE9Wejg1ZERHbE9PdWpjOWtJQjZsR2ZOQXV6ZmpmeHhFdWJEZ0lJQXJ6cnNYNEF0RVRPalBKSFJ3d3ZzcDRUSXVwWS1yMFhmSEh5d3RjQ2hVMTlSM1l5RHdqQQ?oc=5",
+        "source": "Gulf Business",
+        "published_at": "Thu, 05 Mar 2026 08:00:00 GMT",
+        "summary": "UAE’s 2PointZero unit acquires stake in US wearable tech firm Whoop Gulf Business",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "ee5270031606c3f2",
+        "title": "ESG considerations in the UAE: what businesses need to know - Charles Russell Speechlys",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQWxTYUpaVVBQSDhmOC1zeWRHVjlGMEpVQ1NfaHJpYTZzaWZWX1ZxMS1uY2c0SUdJRm9MWjRsZmlqQnk3QzFZaGxOZGJyQnFNLVdvZEJDcFlSMnJPTVdpZGxEbmRRZUZqSHoyc0ZMWDAtMkRiRXdLeS1ocGpSZFNFMWlaVkJWUldxTjdUNFpXWjh5c2ppUkJfNVBhaW1IMVRsQkFHMWRBNm5rTzdDYlhzS25PS0JxQXNaTFByc3pkRHdOSVo3VXZXRWFXNHR3QjdNZDlFVEVxekFrdGx3U1RjSGRmMXRRQQ?oc=5",
+        "source": "Charles Russell Speechlys",
+        "published_at": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "summary": "ESG considerations in the UAE: what businesses need to know Charles Russell Speechlys",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "cbe0aaa3314627f4",
+        "title": "Abu Dhabi Islamic Bank Egypt Stock (EGS60111C019): Ownership Structure And Insider Moves In Focus - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdks2QnpzZ29FSHoweXp5bERnZW9ZM0JNLVpGOXNOY1VEQmVZQTh3T3h0OUZiTTBaM1ZHd3VXOURGamZIZ3I4NXo4TG5jamw0bjdFRDFqTkZOS3ZNdHdHRTlBNldXQlBkRnI0VWZLVzVXT2NULVpYLUI3aFQyazdqcGVaSWVwYjdOLVhyTkR4VnVyamw2QkF5al9SYTJJY19QdDBjSWF2THFWVkx2bDZxcVo2bVlZcDRJbVNWaWMyeDlNdl9fbmVCTWxR?oc=5",
+        "source": "AD HOC NEWS",
+        "published_at": "Mon, 15 Jun 2026 20:51:45 GMT",
+        "summary": "Abu Dhabi Islamic Bank Egypt Stock (EGS60111C019): Ownership Structure And Insider Moves In Focus AD HOC NEWS",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "TAQA",
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "10ffeb52db36fdbd",
+        "title": "Hexaware Technologies Board Meeting Scheduled to Consider First Interim Dividend for FY 2026 - scanx.trade",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbUFUWERXLTctTUV6dlBid0Q5MUkzZGNKTmRaLWhQR1pPZTZWNVZJdUN0MjZ5b1VCaHNpSW1NcG1JSEpGTlQ1cGZFb3NaZ2lOaHNPX2FGUTZzazhiWm5pbmNmNTItai1naktBVDlpNHdPRVJ5TkUyTnNHZ2RJOThoclhkbzZPMk56WU9tY0FoYm1JaFV3X0ltU2VYUkE0WUlPZ3dRdy05YXJsNFJObE1pdlFkMUpKa3JZM2R4dHdMVEhzWFF3VUF2azd0bnVkT2NCVjBia2pISXlhV3BIc3NMbDFIdw?oc=5",
+        "source": "scanx.trade",
+        "published_at": "Tue, 21 Apr 2026 07:00:00 GMT",
+        "summary": "Hexaware Technologies Board Meeting Scheduled to Consider First Interim Dividend for FY 2026 scanx.trade",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [
+          "FAB",
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "ec30ed6b0b1fd8aa",
+        "title": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore - HDFC Sky",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnZQZGtUSzlIZlZmVmtPRWV6dE1uaTdmUEpuWE14TlpuWVZTSVlrVENqMmdXLUpKUGhua1BKY2JlN2JaQmtwNFR2YTNVQXhPMWY5OGZweWVOd09DV2lhU0JYcExjVUwtLVFzUFNKN2V0UURKaHN4NEZqN0ZfNzdwVkdBYU9sZEpRZGd1WjVUeUw0clQ3b1pfZWdzSWs4QQ?oc=5",
+        "source": "HDFC Sky",
+        "published_at": "Wed, 18 Feb 2026 08:00:00 GMT",
+        "summary": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore HDFC Sky",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "ee618f0250af7d9c",
+        "title": "Emaar Properties announces 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting - ZAWYA",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZWRpbnB4b3J5LVRwTnRHd1JoQy1vakRsaTNzMFZDVjVUMUh4RnFZdnZWOVFWZEotaU9rWFNHanpLc3dKR3dUS0hXT21rMVhHNjFOTFdRWmZlQmRLcFIxSzBUcmY0dmZ3OWxGVDZWMjdEbUhSdm5NQk9JRzkteUFRN1FmUVNxS095YVVDYzBsZ3pJTEtXeHdvZXdoV2k1SHBqRkg1ajl4c193N2dZUkNMY3VZcUZzSXdOeUxqVmZqUGZmaXREV0V4NndWZlFpbGNTc1VvRTdndV9LOTJ5UnBOODJqbU5YVjh0U0E?oc=5",
+        "source": "ZAWYA",
+        "published_at": "Wed, 25 Mar 2026 07:00:00 GMT",
+        "summary": "Emaar Properties announces 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting ZAWYA",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [
+          "EMAAR"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "49297e78458f958f",
+        "title": "Vedanta shares fall 4% ahead of board meeting for third interim dividend. Check details - The Economic Times",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTjViWGxubXpDZm5idHFBYXNxUEhoaHlxZWZ6SVQzeEg5dUgxc2ZRZHZoVEpoVEhuZi1MZG1OSFJ4ckVFRGVUUnhmRTl0OXNuMU5ieXhNNXRJbHl2YlQ5OGR4YW5EcnpPRnpsclhMVFhGVUYwQmhmM2hNRXlxVXo5X3JTRjgwNkdqN1dKRGNKcFphR3B3TGFSNkJYemxCZDRHdzVMR0l0a293OFkydjh4bHlrNkloOU9wZ2VEYS1TbnJSellPUkxtdUNLLVd0Uk52YUs0eUpFY0pobWhiZy1reUdTOFZyWWpxQ0dBcUhEbDBwS1XSAfgBQVVfeXFMT21CNXFiS0VhMWI0S0pneG44aXhhSlBUcFFIb08zbmhBV19ISy11QmsyXzRTNUVuV2dZZGhKUDVWMEtrMF9kUU5meWFhTndTSlB6MWE1YmVxQmhsV0JjZlpLaU4tbXp0eVd1OUVOQ2dNeWwzQnhYRVpUN0dkbld2TV9hbFYwLXQ1Sl9fQlFUc1Zza1BQdnNmaGR1M1BpX2g1Vm5XYkNFS2ZnLTNKVThONnhMd3hRaVNBNW9IZk9vUzN4c0lMYjBiVExzcmVaRGp1MG5GMWNCYUVkTnljaDZ4NmFwT0xfUFU0dFliU0F6MzZuOWQ5Qi02c2I?oc=5",
+        "source": "The Economic Times",
+        "published_at": "Mon, 23 Mar 2026 07:00:00 GMT",
+        "summary": "Vedanta shares fall 4% ahead of board meeting for third interim dividend. Check details The Economic Times",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "4640f71bb65b1ef6",
+        "title": "TAQA names new chairman and confirms Dh5 billion dividend payout - Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUC1weElKNGFmbGYtVkliZVNFUmlsU1hXeXJVTUphb1dQVk5BYzZjX2pRVnk1YlBGVkxFWEp5WTU3WXY3NjBDLXo4WHBYOEZ2RE5hX1ZackFMT2thT21mWW55ZkN5ZExNTzZBbXdSV0JDeFpGQ21aWWpLczRWUjRobFYwOU1NOUdFbURhSXJYR0hfMFF3Y1p6OEdYWlRtWDJjU0puRTQ0UHJjVkgzVmp3RUxSM1DSAccBQVVfeXFMT0JjU1hCYW5Yb2pMVlh6LXE4NlI5UDkwY21VaFd3U2JZU0hmM3hfcFJYZUMtN1doTUxDd3htcGlCS3gyMHc0OGJyVms5VHlRS2d1d3pqdkFPZmlWbElDOFlSbXd5b08xamtVZUp5bVZaUG9zRWtiVWgwT1ZjYzNUQ3JnN0dQN0ktN0FxR1Ywd1hLVFFFaVJRWVc0WHhzNkdUMGIwVkk5WUhDWVVScG1TWTNCU0x6eGlSMGxiaG5HN1J0V3Z5THFkWQ?oc=5",
+        "source": "Gulf News",
+        "published_at": "Fri, 13 Mar 2026 07:00:00 GMT",
+        "summary": "TAQA names new chairman and confirms Dh5 billion dividend payout Gulf News",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [
+          "TAQA",
+          "AIRARABIA"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "3754d4c88774d5a8",
+        "title": "Ramky Infrastructure FY26 profit rises, declares dividend - scanx.trade",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc21WaTZyLUgxQzE5NzBWQ0F3Q0RtRFVGWkM0YmFfSEtVMVpNaWhScFpMSzZqMURqWHlpeWdXODllVmNBYjVub01fMl9ESnN0cGpuTG5TUmF2WFdGRjV2czc3N3pLM2FjdXg3bEMzMUR2ckZ4NU16Tkx3UWZjOHFrclpDQWJCV0dEU0xRSHlJMk9RS1FLVXhEakk4OHZaOFF4aG5qeDFoVVY3UXhmRWcyMWxoLXp4TXZtazJiUlpn?oc=5",
+        "source": "scanx.trade",
+        "published_at": "Thu, 28 May 2026 07:00:00 GMT",
+        "summary": "Ramky Infrastructure FY26 profit rises, declares dividend scanx.trade",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "0fc0e602745a6547",
+        "title": "MOIL Declares ₹3.53 Interim Dividend; Stock Slips 3.08% - HDFC Sky",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbGZWQnpYazBWcU5YXzNLbm93U1RPdlZBcG90SXFuMmFwYUY5R3VpV0Ntc1M0UGJqTGlESWxBM3lhbThCWGh2M1Jyc3ZFVWx1bTFYVWhjVjc1SVRtTmUtQ0tRTkREbDM2YzJ0elI4TmdvM3dVbmtnUi1SeXotQzNfQ0dR?oc=5",
+        "source": "HDFC Sky",
+        "published_at": "Thu, 05 Feb 2026 08:00:00 GMT",
+        "summary": "MOIL Declares ₹3.53 Interim Dividend; Stock Slips 3.08% HDFC Sky",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "ecd809e866d30e7e",
+        "title": "HDFC board to consider 1st ever bonus stock issue - The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY08zVjU1WFIwSFJyRGVULUxieTJVMzRIejhuZWFaTDZpQlV2Ym9YR0NrX0llcWtlSEJZVmJfdHhZT3hXWFhZX2RnZkFYZ09lOGpMd1h3dW54YUo1Z29XR1p3TXZtdkx1VTVfR0JRVXBsTVZfVTV4WHhrWVR2WmVXNjhadXhBNkhSYWJlcm11ZXNrUTZaX0N2QlZoaC1SSDhTNGRRMGRocnA2OHA5VW1rbVBmOTdJRUFNZW9zdXU5Zl9DLVpyTkp4TFFrOHJNUFZB0gHWAUFVX3lxTE5FVndYaTZDOWtWZzBxUXV1anJwQTNSRklMTnBoSTNPYUVZV0pDR3BrbkF0U214Y1hwMEo3NmNBU25zbExVYnVhTmhFUVVUXzBRRmxTaGVJc0dSaGFvWjBLOXVDVmlZLTdOejZjTERIXzB0S3FHNXBGb3JubGZtRXBDOEhxMC04TVFpS3l0RmZ2SlctT2Q4dXlRYnpOVkxhSEpTYkpKbjF1NTVjVnMxUVZJWG90dC1XRWpKYTRoVnhqeVU0VlFzUUpzZVNlQWJDeVVkVmk3OXc?oc=5",
+        "source": "The Times of India",
+        "published_at": "Thu, 17 Jul 2025 07:00:00 GMT",
+        "summary": "HDFC board to consider 1st ever bonus stock issue The Times of India",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      }
+    ],
+    "errors": []
+  },
+  "global_signals": [
+    {
+      "label": "Rates",
+      "move": "+12 bps",
+      "impact": "Higher rates pressure developers and support bank margins until credit costs rise.",
+      "sentiment": "mixed"
+    },
+    {
+      "label": "Credit",
+      "move": "Stable spreads",
+      "impact": "Stable credit conditions support bank asset quality.",
+      "sentiment": "positive"
+    },
+    {
+      "label": "USD",
+      "move": "Firm",
+      "impact": "A firm dollar affects imported inputs and regional purchasing power.",
+      "sentiment": "neutral"
+    },
+    {
+      "label": "Oil",
+      "move": "+1.8%",
+      "impact": "Oil strength supports regional liquidity but can lift fuel-sensitive costs.",
+      "sentiment": "mixed"
+    },
+    {
+      "label": "Oil Liquidity",
+      "move": "Supportive",
+      "impact": "Firm oil can support regional liquidity, deposits, and investor appetite.",
+      "sentiment": "positive"
+    },
+    {
+      "label": "Fuel",
+      "move": "+1.2%",
+      "impact": "Fuel costs matter for airlines, logistics, and road-traffic economics.",
+      "sentiment": "mixed"
+    },
+    {
+      "label": "Gas",
+      "move": "+0.9%",
+      "impact": "Gas-linked revenue and generation costs move in opposite directions by sector.",
+      "sentiment": "mixed"
+    },
+    {
+      "label": "LNG",
+      "move": "Asia spot steady",
+      "impact": "Steady LNG demand supports gas processing visibility.",
+      "sentiment": "positive"
+    },
+    {
+      "label": "Steel",
+      "move": "-0.6%",
+      "impact": "Lower steel input costs can help contractors and developers.",
+      "sentiment": "positive"
+    },
+    {
+      "label": "Freight",
+      "move": "+2.1%",
+      "impact": "Higher freight can help logistics operators but weighs on import-heavy consumers.",
+      "sentiment": "mixed"
+    },
+    {
+      "label": "Trade",
+      "move": "Regional flows firm",
+      "impact": "Stronger trade flows support ports, logistics, warehousing, and free-zone activity.",
+      "sentiment": "positive"
+    },
+    {
+      "label": "Tourism",
+      "move": "Strong arrivals",
+      "impact": "Tourism momentum supports aviation, real estate, malls, and toll traffic.",
+      "sentiment": "positive"
+    },
+    {
+      "label": "Population",
+      "move": "Expanding",
+      "impact": "Population growth supports utilities, tolls, housing, and consumption.",
+      "sentiment": "positive"
+    },
+    {
+      "label": "Food Inputs",
+      "move": "+1.4%",
+      "impact": "Input-cost inflation can compress food and restaurant margins.",
+      "sentiment": "cautious"
+    },
+    {
+      "label": "Power Demand",
+      "move": "Summer load rising",
+      "impact": "Higher demand supports utility throughput and capacity planning.",
+      "sentiment": "positive"
+    },
+    {
+      "label": "Desalination",
+      "move": "Stable",
+      "impact": "Water demand visibility supports regulated utility cash flows.",
+      "sentiment": "positive"
+    },
+    {
+      "label": "Private Assets",
+      "move": "Valuation watch",
+      "impact": "Private-asset marks need stronger disclosure evidence to build confidence.",
+      "sentiment": "cautious"
+    },
+    {
+      "label": "Healthcare",
+      "move": "Demand resilient",
+      "impact": "Healthcare demand is defensive, but acquisition integration matters.",
+      "sentiment": "neutral"
+    },
+    {
+      "label": "Real Estate",
+      "move": "Dubai prices firm",
+      "impact": "Real-estate momentum supports mortgage demand but raises affordability risk.",
+      "sentiment": "mixed"
+    },
+    {
+      "label": "Sukuk",
+      "move": "Issuance active",
+      "impact": "Active sukuk markets help Islamic bank funding and investor demand.",
+      "sentiment": "positive"
+    }
+  ],
+  "agents": {
+    "mizan_codex": {
+      "generated_at": "2026-06-18T12:52:45.118159+00:00",
+      "agent": {
+        "id": "mizan-codex",
+        "name": "Mizan Codex",
+        "provider": "ollama",
+        "model": "gpt-oss:120b-cloud",
+        "fallback_used": false,
+        "lives_in": "agents/mizan_codex"
+      },
+      "reports": [
+        {
+          "alert_rules": [
+            {
+              "type": "disclosure",
+              "symbol": "EMAAR",
+              "reason": "New official disclosure changes materiality or stance."
+            },
+            {
+              "type": "dividend",
+              "symbol": "EMAAR",
+              "reason": "Dividend date, payout amount, or policy wording changes."
+            },
+            {
+              "type": "global_factor",
+              "symbol": "EMAAR",
+              "reason": "Mapped macro or commodity exposure becomes high materiality."
+            }
+          ],
+          "company": "Emaar Properties",
+          "confidence": "medium",
+          "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
+          "evidence": [
+            {
+              "type": "agent_evidence",
+              "source": "DFM official disclosure (board meeting event)",
+              "note": "DFM official disclosure (board meeting event)"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Local filing snippet: EMAAR-board-meeting-demo.txt",
+              "note": "Local filing snippet: EMAAR-board-meeting-demo.txt"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Global factor signals (rates, tourism, population, steel)",
+              "note": "Global factor signals (rates, tourism, population, steel)"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Price signal method (composite score, stance, latest price)",
+              "note": "Price signal method (composite score, stance, latest price)"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Market pulse data (ADX, DFMGI, Real estate sector)",
+              "note": "Market pulse data (ADX, DFMGI, Real estate sector)"
+            }
+          ],
+          "filing_findings": [
+            "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation.",
+            "Agenda includes performance review of development, malls, and hospitality segments.",
+            "Dividend language highlighted as material for income‑focused investors.",
+            "No specific dividend amount disclosed in the snippet."
+          ],
+          "money_and_accounts": [
+            "FY2023 revenue 100 (units as reported), profit 22.",
+            "FY2024 revenue 121, profit 26 – revenue growth 21% YoY, profit growth 18% YoY.",
+            "TTM revenue 118.6, profit 26 – consistent profit level with FY2024.",
+            "Margin direction: Improving.",
+            "Cash generation: Strong.",
+            "Leverage view: Comfortable.",
+            "Dividend yield 6.2% (semi‑annual), payout ratio 58%, sustainability rated Strong."
+          ],
+          "negative_drivers": [
+            "Rate pressure on affordability (higher rates may curb demand).",
+            "Delivery slippage risk.",
+            "Input‑cost inflation risk.",
+            "Higher rates impact developers (mixed impact)."
+          ],
+          "positive_drivers": [
+            "Tourism momentum supports real estate, malls, hospitality, and toll traffic.",
+            "Population growth drives housing, utilities, and consumption demand.",
+            "Lower steel input costs benefit developers.",
+            "Real estate sector up 1.18% with Dubai names leading.",
+            "Board meeting could reaffirm dividend policy, supporting income investors."
+          ],
+          "research_stance": "Bullish",
+          "review_flags": [
+            "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
+          ],
+          "symbol": "EMAAR",
+          "time_horizon": "12 months",
+          "trading_plan": {
+            "label": "Watch",
+            "buy_or_not": "Wait for buy zone",
+            "buy_below": 12.83,
+            "current_price": 13.65,
+            "target_12m": 15.27,
+            "expected_return_pct": 11.9,
+            "invalidation_price": 12.56,
+            "confidence": "medium",
+            "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+          },
+          "trend_findings": [
+            "ADX index at 10,184 (+0.42%).",
+            "DFMGI at 6,238 (+0.76%).",
+            "Real estate sector up 1.18% – Dubai names leading the gain.",
+            "Bank sector up 0.36% with steady margins."
+          ],
+          "watch_items": [
+            "Price signal label: Watch.",
+            "Board meeting scheduled 2026-07-06 (review of interim results and dividend policy).",
+            "Tourism arrivals strong – positive catalyst."
+          ],
+          "what_changed": "A board meeting has been scheduled to review interim financials and dividend policy, adding material relevance for income investors. The price signal remains a 'Watch' with a buy‑zone below 12.83 AED, while sector momentum is positive, especially in real estate.",
+          "generated_at": "2026-06-18T12:52:45.116968+00:00",
+          "agent": {
+            "id": "mizan-codex",
+            "name": "Mizan Codex",
+            "provider": "ollama",
+            "model": "gpt-oss:120b-cloud",
+            "fallback_used": false,
+            "lives_in": "agents/mizan_codex"
+          }
+        }
+      ],
+      "latest_by_symbol": {
+        "EMAAR": {
+          "alert_rules": [
+            {
+              "type": "disclosure",
+              "symbol": "EMAAR",
+              "reason": "New official disclosure changes materiality or stance."
+            },
+            {
+              "type": "dividend",
+              "symbol": "EMAAR",
+              "reason": "Dividend date, payout amount, or policy wording changes."
+            },
+            {
+              "type": "global_factor",
+              "symbol": "EMAAR",
+              "reason": "Mapped macro or commodity exposure becomes high materiality."
+            }
+          ],
+          "company": "Emaar Properties",
+          "confidence": "medium",
+          "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
+          "evidence": [
+            {
+              "type": "agent_evidence",
+              "source": "DFM official disclosure (board meeting event)",
+              "note": "DFM official disclosure (board meeting event)"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Local filing snippet: EMAAR-board-meeting-demo.txt",
+              "note": "Local filing snippet: EMAAR-board-meeting-demo.txt"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Global factor signals (rates, tourism, population, steel)",
+              "note": "Global factor signals (rates, tourism, population, steel)"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Price signal method (composite score, stance, latest price)",
+              "note": "Price signal method (composite score, stance, latest price)"
+            },
+            {
+              "type": "agent_evidence",
+              "source": "Market pulse data (ADX, DFMGI, Real estate sector)",
+              "note": "Market pulse data (ADX, DFMGI, Real estate sector)"
+            }
+          ],
+          "filing_findings": [
+            "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation.",
+            "Agenda includes performance review of development, malls, and hospitality segments.",
+            "Dividend language highlighted as material for income‑focused investors.",
+            "No specific dividend amount disclosed in the snippet."
+          ],
+          "money_and_accounts": [
+            "FY2023 revenue 100 (units as reported), profit 22.",
+            "FY2024 revenue 121, profit 26 – revenue growth 21% YoY, profit growth 18% YoY.",
+            "TTM revenue 118.6, profit 26 – consistent profit level with FY2024.",
+            "Margin direction: Improving.",
+            "Cash generation: Strong.",
+            "Leverage view: Comfortable.",
+            "Dividend yield 6.2% (semi‑annual), payout ratio 58%, sustainability rated Strong."
+          ],
+          "negative_drivers": [
+            "Rate pressure on affordability (higher rates may curb demand).",
+            "Delivery slippage risk.",
+            "Input‑cost inflation risk.",
+            "Higher rates impact developers (mixed impact)."
+          ],
+          "positive_drivers": [
+            "Tourism momentum supports real estate, malls, hospitality, and toll traffic.",
+            "Population growth drives housing, utilities, and consumption demand.",
+            "Lower steel input costs benefit developers.",
+            "Real estate sector up 1.18% with Dubai names leading.",
+            "Board meeting could reaffirm dividend policy, supporting income investors."
+          ],
+          "research_stance": "Bullish",
+          "review_flags": [
+            "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
+          ],
+          "symbol": "EMAAR",
+          "time_horizon": "12 months",
+          "trading_plan": {
+            "label": "Watch",
+            "buy_or_not": "Wait for buy zone",
+            "buy_below": 12.83,
+            "current_price": 13.65,
+            "target_12m": 15.27,
+            "expected_return_pct": 11.9,
+            "invalidation_price": 12.56,
+            "confidence": "medium",
+            "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+          },
+          "trend_findings": [
+            "ADX index at 10,184 (+0.42%).",
+            "DFMGI at 6,238 (+0.76%).",
+            "Real estate sector up 1.18% – Dubai names leading the gain.",
+            "Bank sector up 0.36% with steady margins."
+          ],
+          "watch_items": [
+            "Price signal label: Watch.",
+            "Board meeting scheduled 2026-07-06 (review of interim results and dividend policy).",
+            "Tourism arrivals strong – positive catalyst."
+          ],
+          "what_changed": "A board meeting has been scheduled to review interim financials and dividend policy, adding material relevance for income investors. The price signal remains a 'Watch' with a buy‑zone below 12.83 AED, while sector momentum is positive, especially in real estate.",
+          "generated_at": "2026-06-18T12:52:45.116968+00:00",
+          "agent": {
+            "id": "mizan-codex",
+            "name": "Mizan Codex",
+            "provider": "ollama",
+            "model": "gpt-oss:120b-cloud",
+            "fallback_used": false,
+            "lives_in": "agents/mizan_codex"
+          }
+        }
+      },
+      "status": "ready",
+      "home": "agents/mizan_codex",
+      "runbook": "agents/mizan_codex/RUNBOOK.md"
+    }
+  },
+  "admin": {
+    "last_build": "2026-06-18T12:56:08.346312+00:00",
+    "provider_status": {
+      "generated_at": "2026-06-18T12:50:12.622779+00:00",
+      "market": {
+        "is_open": false,
+        "phase": "closed_after_hours",
+        "label": "Market closed",
+        "now_local": "2026-06-18T16:50:12.622637+04:00",
+        "timezone": "Asia/Dubai",
+        "next_change_hint": "Next session: next trading day 10:00 GST"
+      },
+      "quotes": {
+        "attempted": false,
+        "provider": "yahoo_chart_public",
+        "success": 0,
+        "failed": 0,
+        "skipped": true,
+        "errors": [],
+        "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
+      },
+      "news": {
+        "generated_at": "2026-06-18T12:50:20.399074+00:00",
+        "provider": "google_news_rss",
+        "success": 30,
+        "failed": 0,
+        "errors": []
+      }
+    },
+    "launch_readiness": [
+      {
+        "id": "demo_labels",
+        "label": "Demo labels visible",
+        "status": "pass",
+        "note": "All mock market data is tagged demo/delayed."
+      },
+      {
+        "id": "provider_swap",
+        "label": "Provider interfaces",
+        "status": "pass",
+        "note": "UI reads normalized JSON, not vendor-specific fields."
+      },
+      {
+        "id": "ai_boundary",
+        "label": "AI boundary",
+        "status": "pass",
+        "note": "Numbers are deterministic; AI copy is labelled research support."
+      },
+      {
+        "id": "bilingual",
+        "label": "Arabic original preserved",
+        "status": "pass",
+        "note": "Disclosure cards include Arabic titles and translation badges."
+      },
+      {
+        "id": "data_rights",
+        "label": "Market data rights",
+        "status": "blocked",
+        "note": "Real-time redistribution needs licensed feed or exchange approval."
+      },
+      {
+        "id": "regulatory",
+        "label": "SCA posture",
+        "status": "blocked",
+        "note": "Public launch needs final compliance review and wording approval."
+      }
+    ],
+    "jobs": [
+      {
+        "source": "Public quote refresh",
+        "last_run": "2026-06-18T12:50:12.622779+00:00",
+        "success_rate": 0,
+        "status": "frozen",
+        "queue": 0
+      },
+      {
+        "source": "Real news RSS",
+        "last_run": "2026-06-18T12:50:20.399074+00:00",
+        "success_rate": 30,
+        "status": "real_news_metadata",
+        "queue": 0
+      },
+      {
+        "source": "ADX disclosures",
+        "last_run": "2026-06-18T12:56:08.346312+00:00",
+        "success_rate": 100,
+        "status": "mocked",
+        "queue": 0
+      },
+      {
+        "source": "DFM corporate actions",
+        "last_run": "2026-06-18T12:56:08.346312+00:00",
+        "success_rate": 100,
+        "status": "mocked",
+        "queue": 0
+      },
+      {
+        "source": "Issuer IR",
+        "last_run": "2026-06-18T12:56:08.346312+00:00",
+        "success_rate": 96,
+        "status": "mocked",
+        "queue": 3
+      },
+      {
+        "source": "Global factors",
+        "last_run": "2026-06-18T12:56:08.346312+00:00",
+        "success_rate": 98,
+        "status": "mocked",
+        "queue": 1
+      }
+    ],
+    "queues": [
+      {
+        "name": "Parsing errors",
+        "count": 0,
+        "tone": "ok"
+      },
+      {
+        "name": "Unmapped entities",
+        "count": 2,
+        "tone": "watch"
+      },
+      {
+        "name": "Translation queue",
+        "count": 4,
+        "tone": "watch"
+      },
+      {
+        "name": "AI extraction queue",
+        "count": 6,
+        "tone": "watch"
+      },
+      {
+        "name": "Alert generation queue",
+        "count": 1,
+        "tone": "ok"
+      }
+    ],
+    "agents": [
+      {
+        "id": "mizan-codex",
+        "name": "Mizan Codex",
+        "home": "agents/mizan_codex",
+        "default_provider": "ollama",
+        "optional_providers": [
+          "gemini",
+          "groq",
+          "openrouter",
+          "stub"
+        ],
+        "output": "agent_out/mizan_codex_reports.json",
+        "hermes": "optional --send-hermes safe-capture bus handoff"
+      }
+    ]
+  },
+  "routes": [
+    "/",
+    "/markets/adx",
+    "/markets/dfm",
+    "/stocks/{symbol}",
+    "/watchlist",
+    "/alerts",
+    "/ipos",
+    "/screeners",
+    "/global-factors",
+    "/admin"
+  ]
+}

@@ -13,6 +13,23 @@ from brain.scoring import score_security, stance_from_scores
 
 OLD_SIGNAL_METHOD = "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
 HOUSE_SIGNAL_METHOD = "House signal from composite score, research stance, and latest published price. Not personalized advice."
+AGENT_COPY_REPLACEMENTS = {
+    OLD_SIGNAL_METHOD: HOUSE_SIGNAL_METHOD,
+    "Financial series and market cap are labeled as demo/mock": "Financial and market-cap inputs need licensed or official validation before valuation use.",
+    "Data quality is labeled as demo/mock": "Data quality is clearly labelled; verify valuation inputs against official filings or a licensed data feed.",
+    "market cap demo input": "market-cap input requiring licensed validation",
+    "demo market-cap input": "market-cap input requiring licensed validation",
+    "demo financials": "current financial input series",
+    "Demo financial series": "Financial input series",
+    "demo financial series": "financial input series",
+    "Global signal mock adapter": "Global factor adapter",
+    "mock-demo quote": "quote input",
+    "mock-demo": "source-quality tagged input",
+    "demo data quality": "source-quality labelled",
+    "demo quality": "source-quality labelled",
+    "demo input": "input value",
+    "demo units": "input units",
+}
 
 
 def _source_badges():
@@ -362,7 +379,9 @@ def _agent_reports() -> dict:
 
 def _normalize_agent_copy(value):
     if isinstance(value, str):
-        return value.replace(OLD_SIGNAL_METHOD, HOUSE_SIGNAL_METHOD)
+        for old, new in AGENT_COPY_REPLACEMENTS.items():
+            value = value.replace(old, new)
+        return value
     if isinstance(value, list):
         return [_normalize_agent_copy(item) for item in value]
     if isinstance(value, dict):

@@ -24,6 +24,22 @@ DEFAULT_DATA = ROOT / "web" / "data" / "app_data.json"
 DEFAULT_FILINGS = ROOT / "filings" / "inbox"
 DEFAULT_OUT = ROOT / "agent_out" / "mizan_codex_reports.json"
 DEFAULT_OLLAMA_CLOUD_MODEL = "gemma4:31b-cloud"
+REPORT_COPY_REPLACEMENTS = {
+    "Financial series and market cap are labeled as demo/mock": "Financial and market-cap inputs need licensed or official validation before valuation use.",
+    "Data quality is labeled as demo/mock": "Data quality is clearly labelled; verify valuation inputs against official filings or a licensed data feed.",
+    "market cap demo input": "market-cap input requiring licensed validation",
+    "demo market-cap input": "market-cap input requiring licensed validation",
+    "demo financials": "current financial input series",
+    "Demo financial series": "Financial input series",
+    "demo financial series": "financial input series",
+    "Global signal mock adapter": "Global factor adapter",
+    "mock-demo quote": "quote input",
+    "mock-demo": "source-quality tagged input",
+    "demo data quality": "source-quality labelled",
+    "demo quality": "source-quality labelled",
+    "demo input": "input value",
+    "demo units": "input units",
+}
 
 
 SYSTEM_PROMPT = """You are Mizan Codex, a UAE equities research-support agent.
@@ -330,15 +346,17 @@ def _stringify_agent_item(item) -> str:
         if "metric" in item:
             return _clean_demo_units(f"{item.get('metric')}: {item.get('value', item.get('value_pct', 'n/a'))}")
         if "period" in item:
-            return _clean_demo_units(f"{item.get('period')}: revenue {item.get('revenue')}, profit {item.get('profit')} (demo units)")
+            return _clean_demo_units(f"{item.get('period')}: revenue {item.get('revenue')}, profit {item.get('profit')} (source-quality tagged units)")
         return _clean_demo_units(", ".join(f"{key}: {value}" for key, value in item.items()))
     return _clean_demo_units(str(item))
 
 
 def _clean_demo_units(text: str) -> str:
-    text = text.replace("AED 121bn", "121 demo units").replace("AED 26bn", "26 demo units")
+    text = text.replace("AED 121bn", "121 input units").replace("AED 26bn", "26 input units")
     text = re.sub(r"\bmarket_cap_bn:\s*([0-9.]+)\b", r"market cap demo input: \1", text, flags=re.I)
     text = re.sub(r"\bmarket cap(?:italization)?(?: of)?[: ]+([0-9.]+)\s*(?:bn|billion)\b", r"demo market-cap input of \1 units", text, flags=re.I)
+    for old, new in REPORT_COPY_REPLACEMENTS.items():
+        text = text.replace(old, new)
     return text
 
 

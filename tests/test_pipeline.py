@@ -26,6 +26,14 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(security["quote"]["data_quality"], "demo")
             self.assertIn(security["stance"], {"Bullish", "Neutral", "Cautious"})
 
+    def test_agent_copy_uses_reader_facing_source_quality_language(self):
+        data = build_app_data()
+        serialized = json.dumps(data["agents"], ensure_ascii=False)
+        self.assertNotIn("Financial series and market cap are labeled as demo/mock", serialized)
+        self.assertNotIn("Data quality is labeled as demo/mock", serialized)
+        self.assertNotIn("market cap demo input", serialized)
+        self.assertIn("Financial and market-cap inputs need licensed or official validation", serialized)
+
 
 if __name__ == "__main__":
     unittest.main()

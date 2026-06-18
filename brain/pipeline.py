@@ -11,6 +11,9 @@ from brain.market_hours import market_state
 from brain.registry import EXPOSURE_DEFINITIONS, SECURITIES, SOURCE_PROVIDERS
 from brain.scoring import score_security, stance_from_scores
 
+OLD_SIGNAL_METHOD = "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
+HOUSE_SIGNAL_METHOD = "House signal from composite score, research stance, and latest published price. Not personalized advice."
+
 
 def _source_badges():
     return [
@@ -232,7 +235,7 @@ def _price_signal(quote: dict, scores: dict, stance: str, confidence: str) -> di
         "expected_return_pct": round(target_pct, 1),
         "invalidation_price": round(invalidation, 3 if invalidation < 1 else 2),
         "confidence": confidence,
-        "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice.",
+        "method": HOUSE_SIGNAL_METHOD,
     }
 
 
@@ -271,7 +274,7 @@ def build_app_data(output_dir: str | Path = "data") -> dict:
         "global_signals": list(EXPOSURE_DEFINITIONS.values()),
         "agents": _agent_reports(),
         "admin": _admin(now, runtime["provider_status"], runtime["refresh_job"]),
-        "routes": ["/", "/markets/adx", "/markets/dfm", "/stocks/{symbol}", "/watchlist", "/alerts", "/ipos", "/screeners", "/global-factors", "/admin"],
+        "routes": ["/", "/markets/adx", "/markets/dfm", "/ai-research", "/stocks/{symbol}", "/watchlist", "/alerts", "/ipos", "/screeners", "/global-factors", "/admin"],
     }
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -350,10 +353,21 @@ def _agent_reports() -> dict:
                 "latest_by_symbol": {},
             }
         }
+    store = _normalize_agent_copy(store)
     store.setdefault("status", "ready")
     store.setdefault("home", "agents/mizan_codex")
     store.setdefault("runbook", "agents/mizan_codex/RUNBOOK.md")
     return {"mizan_codex": store}
+
+
+def _normalize_agent_copy(value):
+    if isinstance(value, str):
+        return value.replace(OLD_SIGNAL_METHOD, HOUSE_SIGNAL_METHOD)
+    if isinstance(value, list):
+        return [_normalize_agent_copy(item) for item in value]
+    if isinstance(value, dict):
+        return {key: _normalize_agent_copy(item) for key, item in value.items()}
+    return value
 
 
 def _default_refresh_job() -> dict:

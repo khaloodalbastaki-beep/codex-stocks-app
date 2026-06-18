@@ -280,6 +280,10 @@ function renderAdmin() {
         ${marketClockPanel()}
       </div>
       <div class="panel">
+        <h2>Refresh job</h2>
+        ${refreshJobPanel()}
+      </div>
+      <div class="panel">
         <h2>Publish</h2>
         <div class="agent-card">
           <strong>GitHub Pages</strong>
@@ -584,6 +588,25 @@ function marketClockPanel() {
     <div class="queue-row"><strong>Quote calls</strong><span>${quote.skipped ? "Skipped/frozen" : quote.attempted ? "Attempted" : "Not run"}</span></div>
     <div class="queue-row"><strong>Success / failed</strong><span>${quote.success || 0} / ${quote.failed || 0}</span></div>
   </div>`;
+}
+
+function refreshJobPanel() {
+  const job = App.data.admin?.refresh_job || {};
+  return `<div class="queue-list">
+    <div class="queue-row"><strong>Status</strong><span class="${job.status === "success" ? "positive" : job.status === "running" ? "watch" : "muted"}">${job.status || "not_run"}</span></div>
+    <div class="queue-row"><strong>Interval</strong><span>${job.interval_label || `${job.interval_seconds || 300}s`}</span></div>
+    <div class="queue-row"><strong>Last run</strong><span>${formatDateTime(job.finished_at || job.started_at)}</span></div>
+    <div class="queue-row"><strong>Next due</strong><span>${formatDateTime(job.next_run_after)}</span></div>
+    <div class="queue-row"><strong>Deploy</strong><span>${job.deploy ? "Yes" : "No"}</span></div>
+    <div class="queue-row"><strong>Logs</strong><span>${job.logs?.stdout || "tmp/refresh.out.log"}</span></div>
+    <p class="muted">${job.quote_policy || "Closed-market quote API calls stay frozen."}</p>
+  </div>`;
+}
+
+function formatDateTime(value) {
+  if (!value) return "Not run";
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? String(value) : date.toLocaleString();
 }
 
 function formatAgentText(value) {

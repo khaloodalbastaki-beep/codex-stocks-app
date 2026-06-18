@@ -27,7 +27,7 @@ description: Use when building or operating UAE exchange intelligence, market-ho
 ```bash
 cd "/Users/khalidalbastaki/Documents/codex stocks app"
 bash tools/refresh_live.sh
-python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gpt-oss:120b-cloud --allow-fallback
+python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gemma4:31b-cloud --allow-fallback
 bash tools/build.sh
 ```
 
@@ -51,4 +51,3 @@ For each stock:
 5. Evaluate accounts, dividends, trend, sector, and global factors.
 6. Produce signal label, buy zone, target, invalidation, confidence, and evidence.
 7. Add review flags when data is stale, demo, unlicensed, or contradictory.
-

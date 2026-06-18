@@ -291,8 +291,8 @@ function renderAdmin() {
         <h2>Agents</h2>
         <div class="agent-card">
           <strong>Mizan Codex</strong>
-          <p>Lives in <code>agents/mizan_codex</code>. Default lane: Ollama Cloud through this Mac. Reports: ${agent?.reports?.length || 0}.</p>
-          <code>python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gpt-oss:120b-cloud --allow-fallback</code>
+          <p>Lives in <code>agents/mizan_codex</code>. Default lane: Ollama Cloud Gemma through this Mac. Reports: ${agent?.reports?.length || 0}.</p>
+          <code>python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gemma4:31b-cloud --allow-fallback</code>
         </div>
       </div>
       <div class="panel span-3">
@@ -570,7 +570,8 @@ function mizanReportPanel(report) {
       <div><h3>Money and accounts</h3><ul>${(report.money_and_accounts || []).slice(0, 4).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul></div>
       <div><h3>Watch items</h3><ul>${(report.watch_items || []).slice(0, 4).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul></div>
     </div>
-    ${(report.review_flags || []).length ? `<p class="warning-note">${report.review_flags[0]}</p>` : ""}
+    ${(report.news_signals || []).length ? `<h3>News as signals</h3><ul class="agent-news">${report.news_signals.slice(0, 4).map((row) => `<li>${formatAgentText(row)}</li>`).join("")}</ul>` : ""}
+    ${(report.review_flags || []).length ? `<p class="warning-note">${formatAgentText(report.review_flags[0])}</p>` : ""}
   </article>`;
 }
 
@@ -595,7 +596,7 @@ function mizanEmptyPanel(item) {
   return `<article class="mizan-panel muted-panel">
     <h3>Mizan Codex Agent Report</h3>
     <p>No agent report is built into the app data for ${item.symbol} yet. Run:</p>
-    <code>python3 -m agents.mizan_codex.agent --symbol ${item.symbol} --provider ollama --model gpt-oss:120b-cloud --allow-fallback</code>
+    <code>python3 -m agents.mizan_codex.agent --symbol ${item.symbol} --provider ollama --model gemma4:31b-cloud --allow-fallback</code>
     <p>Then run <code>bash tools/build.sh</code>.</p>
   </article>`;
 }

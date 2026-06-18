@@ -693,6 +693,12 @@ p { color: var(--muted); }
   color: var(--muted);
 }
 
+.agent-news {
+  margin: 0 0 12px;
+  padding-inline-start: 18px;
+  color: var(--muted);
+}
+
 .mini-bars {
   display: grid;
   gap: 14px;

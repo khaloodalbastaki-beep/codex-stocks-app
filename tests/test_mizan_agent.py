@@ -14,6 +14,7 @@ class MizanAgentTests(unittest.TestCase):
         self.assertIn(report["research_stance"], {"Bullish", "Neutral", "Cautious", "Needs Review"})
         self.assertTrue(report["money_and_accounts"])
         self.assertTrue(report["watch_items"])
+        self.assertTrue(report["news_signals"])
         self.assertTrue(report["alert_rules"])
         self.assertIn("Not personalized", report["disclaimer"])
 

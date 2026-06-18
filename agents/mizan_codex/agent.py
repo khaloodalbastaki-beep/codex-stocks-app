@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DATA = ROOT / "web" / "data" / "app_data.json"
 DEFAULT_FILINGS = ROOT / "filings" / "inbox"
 DEFAULT_OUT = ROOT / "agent_out" / "mizan_codex_reports.json"
+DEFAULT_OLLAMA_CLOUD_MODEL = "gemma4:31b-cloud"
 
 
 SYSTEM_PROMPT = """You are Mizan Codex, a UAE equities research-support agent.
@@ -45,6 +46,7 @@ REQUIRED_KEYS = {
     "money_and_accounts",
     "filing_findings",
     "trend_findings",
+    "news_signals",
     "positive_drivers",
     "negative_drivers",
     "watch_items",
@@ -93,6 +95,7 @@ def filing_snippets(filings_dir: Path, symbol: str, limit_chars: int = 9000) -> 
 
 def build_prompt(data: dict, stock: dict, snippets: list[dict]) -> str:
     events = [event for event in data["events"] if event["symbol"] == stock["symbol"]]
+    news = related_news(data, stock["symbol"])
     compact = {
         "metadata": data["metadata"],
         "stock": {
@@ -115,6 +118,7 @@ def build_prompt(data: dict, stock: dict, snippets: list[dict]) -> str:
             "top_catalysts": stock["top_catalysts"],
         },
         "recent_events": events,
+        "real_news_signals": news,
         "market_pulse": data["market_pulse"],
         "source_rules": data["source_badges"],
         "local_filing_snippets": snippets,
@@ -125,6 +129,7 @@ def build_prompt(data: dict, stock: dict, snippets: list[dict]) -> str:
             "money_and_accounts": [],
             "filing_findings": [],
             "trend_findings": [],
+            "news_signals": [],
             "positive_drivers": [],
             "negative_drivers": [],
             "watch_items": [],
@@ -139,7 +144,7 @@ def build_prompt(data: dict, stock: dict, snippets: list[dict]) -> str:
         "Use `research_stance` values only: Bullish, Neutral, Cautious, or Needs Review.\n"
         "Use `confidence` values only: low, medium, high.\n"
         "For `trading_plan`, prefer the supplied `stock.price_signal` keys: buy_or_not, buy_below, target_12m, invalidation_price, expected_return_pct.\n"
-        "Do not describe demo financial series as AED or billions unless the input says the units are AED.\n"
+        "Do not describe demo financial series, mock quotes, or demo market-cap fields as audited, confirmed, AED-denominated, or billions unless the input source explicitly says so.\n"
         "The output must match these keys exactly, with arrays where the template has arrays:\n"
         f"{json.dumps(schema_hint, ensure_ascii=False)}\n\n"
         "Input data:\n"
@@ -149,6 +154,7 @@ def build_prompt(data: dict, stock: dict, snippets: list[dict]) -> str:
 
 def deterministic_report(data: dict, stock: dict, snippets: list[dict], provider: str = "stub", model: str = "deterministic") -> dict:
     events = [event for event in data["events"] if event["symbol"] == stock["symbol"]]
+    news = related_news(data, stock["symbol"])
     positives = [factor for factor in stock["global_factors"] if factor["impact_tag"] == "Positive"]
     negatives = [factor for factor in stock["global_factors"] if factor["impact_tag"] == "Cautious"]
     stance = stock["stance"]
@@ -191,6 +197,10 @@ def deterministic_report(data: dict, stock: dict, snippets: list[dict], provider
             f"{factor['label']}: {factor['move']} -> {factor['impact_tag']}. {factor['impact']}"
             for factor in stock["global_factors"][:5]
         ],
+        "news_signals": [
+            f"{item['source']}: {item['title']}" for item in news[:5]
+        ]
+        or ["No mapped real-news headline for this symbol in the current RSS fetch."],
         "positive_drivers": [
             f"{factor['label']} currently maps positive for this stock." for factor in positives[:4]
         ]
@@ -248,6 +258,15 @@ def parse_llm_json(text: str) -> dict:
     return report
 
 
+def related_news(data: dict, symbol: str) -> list[dict]:
+    articles = data.get("news", {}).get("articles", [])
+    related = [item for item in articles if symbol in item.get("related_symbols", [])]
+    if related:
+        return related[:8]
+    broad = [item for item in articles if any(term in item.get("title", "").upper() for term in ("ADX", "DFM", "UAE STOCK", "DUBAI FINANCIAL MARKET"))]
+    return broad[:5]
+
+
 def enrich_report(report: dict, provider: str, model: str, stock: dict, fallback_used: bool = False) -> dict:
     report["symbol"] = report.get("symbol") or stock["symbol"]
     report["company"] = report.get("company") or stock["name_en"]
@@ -267,7 +286,8 @@ def enrich_report(report: dict, provider: str, model: str, stock: dict, fallback
         report["trading_plan"] = _normalize_trading_plan(report["trading_plan"], stock.get("price_signal", {}))
     report["money_and_accounts"] = [_stringify_agent_item(item) for item in report.get("money_and_accounts", [])]
     report["trend_findings"] = [_clean_demo_units(_stringify_agent_item(item)) for item in report.get("trend_findings", [])]
-    flags = list(report.get("review_flags") or [])
+    report["news_signals"] = [_stringify_agent_item(item) for item in report.get("news_signals", [])]
+    flags = [_stringify_agent_item(flag) for flag in list(report.get("review_flags") or [])]
     if stock.get("quote", {}).get("data_quality") in {"demo", "stale", "unknown"} and not any("demo" in str(flag).lower() for flag in flags):
         flags.append("Current quote/data quality is demo or stale; do not treat the price signal as live trading advice.")
     report["review_flags"] = flags
@@ -279,7 +299,7 @@ def enrich_report(report: dict, provider: str, model: str, stock: dict, fallback
         ]
     if isinstance(report.get("evidence"), list):
         report["evidence"] = [
-            item if isinstance(item, dict) else {"type": "agent_evidence", "source": str(item), "note": str(item)}
+            _clean_evidence_item(item) if isinstance(item, dict) else {"type": "agent_evidence", "source": str(item), "note": _clean_demo_units(str(item))}
             for item in report["evidence"]
         ]
     return report
@@ -312,7 +332,17 @@ def _stringify_agent_item(item) -> str:
 
 
 def _clean_demo_units(text: str) -> str:
-    return text.replace("AED 121bn", "121 demo units").replace("AED 26bn", "26 demo units")
+    text = text.replace("AED 121bn", "121 demo units").replace("AED 26bn", "26 demo units")
+    text = re.sub(r"\bmarket_cap_bn:\s*([0-9.]+)\b", r"market cap demo input: \1", text, flags=re.I)
+    text = re.sub(r"\bmarket cap(?:italization)?(?: of)?[: ]+([0-9.]+)\s*(?:bn|billion)\b", r"demo market-cap input of \1 units", text, flags=re.I)
+    return text
+
+
+def _clean_evidence_item(item: dict) -> dict:
+    cleaned = {}
+    for key, value in item.items():
+        cleaned[key] = _clean_demo_units(value) if isinstance(value, str) else value
+    return cleaned
 
 
 def load_existing_reports(path: Path) -> dict[str, Any]:
@@ -365,7 +395,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--symbol", help="Analyze one symbol, e.g. EMAAR")
     parser.add_argument("--all", action="store_true", help="Analyze all symbols in app data")
     parser.add_argument("--provider", default=os.getenv("MIZAN_PROVIDER", "ollama"), choices=["ollama", "gemini", "groq", "openrouter", "stub"])
-    parser.add_argument("--model", default=os.getenv("MIZAN_MODEL", "gpt-oss:120b-cloud"))
+    parser.add_argument("--model", default=os.getenv("MIZAN_MODEL", DEFAULT_OLLAMA_CLOUD_MODEL))
     parser.add_argument("--data", default=str(DEFAULT_DATA))
     parser.add_argument("--filings-dir", default=str(DEFAULT_FILINGS))
     parser.add_argument("--out", default=str(DEFAULT_OUT))

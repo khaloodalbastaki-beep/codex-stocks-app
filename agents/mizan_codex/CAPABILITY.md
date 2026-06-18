@@ -5,7 +5,7 @@
 - **Home:** `/Users/khalidalbastaki/Documents/codex stocks app/agents/mizan_codex`
 - **Inputs:** normalized app data, local filing snippets, optional LLM provider
 - **Outputs:** structured stock reports in `agent_out/mizan_codex_reports.json`
-- **Default model lane:** Ollama Cloud through Khalid's Mac
+- **Default model lane:** Ollama Cloud through Khalid's Mac, currently `gemma4:31b-cloud`
 - **Optional free cloud lanes:** Gemini, Groq, OpenRouter
 - **Hermes integration:** optional safe-capture bus handoff with `--send-hermes`
 - **Boundary:** research support only, not personalized financial advice

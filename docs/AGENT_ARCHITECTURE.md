@@ -24,7 +24,7 @@ Mizan Codex sits beside that as:
 normalized JSON + local filings -> LLM/agent report -> JSON -> PWA + optional Hermes handoff
 ```
 
-The default lane is Ollama Cloud through the local Ollama CLI/API, using `gpt-oss:120b-cloud`. Optional free-tier cloud LLMs remain available when Khalid explicitly adds keys.
+The default lane is Ollama Cloud through the local Ollama CLI/API, using `gemma4:31b-cloud`. Optional free-tier cloud LLMs remain available when Khalid explicitly adds keys.
 
 ## Agent Responsibilities
 

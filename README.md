@@ -111,14 +111,16 @@ The stock-research agent lives at:
 agents/mizan_codex
 ```
 
-Default model lane: Ollama Cloud through the local Ollama API.
+Default model lane: Ollama Cloud through the local Ollama API, using `gemma4:31b-cloud` for the analyst agent.
 
 ```bash
 ollama signin
-ollama pull gpt-oss:120b-cloud
-python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gpt-oss:120b-cloud --allow-fallback --print
+ollama show gemma4:31b-cloud
+python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gemma4:31b-cloud --allow-fallback --print
 bash tools/build.sh
 ```
+
+Other Ollama Cloud lanes worth testing later are `gemma3:27b-cloud` as the current fallback, and `kimi-k2.6:cloud`, `qwen3.5:cloud`, `glm-5.1:cloud`, or `deepseek-v4-pro:cloud` after the Ollama account has access to higher subscription tiers.
 
 The agent reads `web/data/app_data.json` and local snippets in `filings/inbox/`, then writes `agent_out/mizan_codex_reports.json`. The PWA shows the latest report in the stock AI Analysis tab and the agent command in Admin.
 

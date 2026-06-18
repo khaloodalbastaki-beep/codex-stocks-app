@@ -34,18 +34,18 @@ It returns a structured research-support report. It does not issue personal buy/
 
 ## Run With Ollama Cloud From The Mac
 
-Sign in to Ollama if needed, then pull the cloud model:
+Sign in to Ollama if needed, then confirm the cloud model is visible:
 
 ```bash
 ollama signin
-ollama pull gpt-oss:120b-cloud
+ollama show gemma4:31b-cloud
 ```
 
 Run one stock:
 
 ```bash
 cd "/Users/khalidalbastaki/Documents/codex stocks app"
-python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gpt-oss:120b-cloud --allow-fallback --print
+python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gemma4:31b-cloud --allow-fallback --print
 bash tools/build.sh
 ```
 
@@ -53,9 +53,15 @@ Run every stock:
 
 ```bash
 cd "/Users/khalidalbastaki/Documents/codex stocks app"
-python3 -m agents.mizan_codex.agent --all --provider ollama --model gpt-oss:120b-cloud --allow-fallback
+python3 -m agents.mizan_codex.agent --all --provider ollama --model gemma4:31b-cloud --allow-fallback
 bash tools/build.sh
 ```
+
+Good Ollama Cloud alternates to compare later:
+
+- `gemma3:27b-cloud` as the current accessible fallback.
+- `kimi-k2.6:cloud` for Hermes-style agent workflows after the account has the required subscription tier.
+- `qwen3.5:cloud`, `glm-5.1:cloud`, and `deepseek-v4-pro:cloud` for higher-tier comparison runs.
 
 ## Run Deterministic Stub
 
@@ -115,7 +121,7 @@ To send a safe-capture message to Hermes:
 
 ```bash
 cd "/Users/khalidalbastaki/Documents/codex stocks app"
-python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gpt-oss:120b-cloud --allow-fallback --send-hermes
+python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gemma4:31b-cloud --allow-fallback --send-hermes
 ```
 
 This writes a message to:

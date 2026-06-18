@@ -14,6 +14,8 @@ import urllib.request
 from dataclasses import dataclass
 from typing import Any
 
+DEFAULT_OLLAMA_CLOUD_MODEL = "gemma4:31b-cloud"
+
 
 class LLMError(RuntimeError):
     pass
@@ -81,7 +83,7 @@ def _post_json(url: str, payload: dict[str, Any], headers: dict[str, str] | None
 
 def _ollama(model: str, system: str, user: str, timeout: int) -> LLMResponse:
     base = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434").rstrip("/")
-    model = model or os.getenv("OLLAMA_MODEL", "gpt-oss:120b-cloud")
+    model = model or os.getenv("OLLAMA_MODEL", DEFAULT_OLLAMA_CLOUD_MODEL)
     payload = {
         "model": model,
         "stream": False,

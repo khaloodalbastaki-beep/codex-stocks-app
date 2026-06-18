@@ -31,10 +31,15 @@ function security(symbol) {
 function route() {
   const hash = window.location.hash || "#/";
   const path = hash.replace("#", "");
-  if (path.startsWith("/stocks/")) return renderStock(path.split("/").pop());
+  if (path.startsWith("/stocks/")) {
+    const parts = path.split("/").filter(Boolean);
+    if (parts[2]) App.activeTab = parts[2];
+    return renderStock(parts[1]);
+  }
   if (path.startsWith("/news/")) return renderNewsArticle(path.split("/").pop());
   if (path === "/markets/adx") return renderMarket("ADX");
   if (path === "/markets/dfm") return renderMarket("DFM");
+  if (path === "/ai-research") return renderAIResearch();
   if (path === "/watchlist") return renderWatchlist();
   if (path === "/alerts") return renderAlerts();
   if (path === "/screeners") return renderScreeners();
@@ -52,6 +57,7 @@ function initChrome() {
     ["#/", "nav_home", iconHome()],
     ["#/markets/adx", "nav_adx", iconExchange()],
     ["#/markets/dfm", "nav_dfm", iconExchange()],
+    ["#/ai-research", "nav_ai", iconAI()],
     ["#/watchlist", "nav_watchlist", iconStar()],
     ["#/alerts", "nav_alerts", iconBell()],
     ["#/screeners", "nav_screeners", iconFilter()],
@@ -142,7 +148,7 @@ function renderHome() {
             <h1>UAE Stocks Intelligence</h1>
             <p>Official-first market intelligence for ADX and DFM equities, with Arabic originals, evidence-linked summaries, and deterministic house scores.</p>
           </div>
-          <a class="primary-button" href="#/stocks/${featured.symbol}">${t("ai_support")}</a>
+          <a class="primary-button" href="#/ai-research">${t("ai_support")}</a>
         </div>
         <h2>${t("market_pulse")}</h2>
         <div class="pulse-grid">${App.data.market_pulse.map(marketPulseCard).join("")}</div>
@@ -177,6 +183,66 @@ function renderHome() {
         <div class="factor-list">${globalFactorRows().slice(0, 6).join("")}</div>
       </div>
     </section>`;
+}
+
+function renderAIResearch() {
+  setActive("#/ai-research");
+  const agent = App.data.agents?.mizan_codex || {};
+  const reports = agent.reports || [];
+  const latest = agent.latest_by_symbol || {};
+  const officialCount = App.data.official_disclosures?.events?.length || 0;
+  $("#view").innerHTML = `
+    <section class="page-head">
+      <h1>${t("ai_support")}</h1>
+      <p>Research-support hub for Mizan Codex. It separates official filings, real-news metadata, deterministic scores, and AI interpretation before opening any stock-specific page.</p>
+    </section>
+    <section class="dashboard-grid">
+      <div class="panel span-2">
+        <h2>Mizan Codex</h2>
+        <div class="quick-grid">
+          ${kv("Provider", agent.agent?.provider || "not_run")}
+          ${kv("Model", agent.agent?.model || "not_run")}
+          ${kv("Reports", reports.length)}
+          ${kv("Fallback used", agent.agent?.fallback_used ? "Yes" : "No")}
+        </div>
+        <p class="muted">Lives in <code>agents/mizan_codex</code>. Reports are research support only, not personalized financial advice.</p>
+      </div>
+      <div class="panel">
+        <h2>Inputs</h2>
+        <div class="queue-list">
+          <div class="queue-row"><strong>Official filings</strong><span>${officialCount}</span></div>
+          <div class="queue-row"><strong>News provider</strong><span>${App.data.news?.provider || "not_run"}</span></div>
+          <div class="queue-row"><strong>Market data</strong><span>${App.data.metadata.price_status || "unknown"}</span></div>
+        </div>
+      </div>
+      <div class="panel span-3">
+        <div class="section-head compact"><h2>Stock research reports</h2><span>${reports.length} reports</span></div>
+        <div class="agent-report-grid">
+          ${App.data.securities.map((item) => aiResearchCard(item, latest[item.symbol])).join("")}
+        </div>
+      </div>
+    </section>`;
+}
+
+function aiResearchCard(item, report) {
+  const plan = report?.trading_plan || item.price_signal || {};
+  const findings = report?.filing_findings || [];
+  return `<article class="agent-report-card">
+    <div class="section-head compact">
+      <div>
+        <strong>${item.symbol}</strong>
+        <p>${nameOf(item)} · ${item.exchange}</p>
+      </div>
+      <span class="impact ${String(report?.research_stance || item.stance).toLowerCase()}">${report?.research_stance || item.stance}</span>
+    </div>
+    <div class="quick-grid compact">
+      ${kv("Decision", plan.buy_or_not || item.price_signal?.buy_or_not || "Review")}
+      ${plan.buy_below ? kv("Buy below", `AED ${fmt.format(plan.buy_below)}`) : ""}
+      ${plan.target_12m ? kv("Target", `AED ${fmt.format(plan.target_12m)}`) : ""}
+    </div>
+    ${findings.length ? `<p class="muted">${formatAgentText(findings[0])}</p>` : `<p class="muted">No agent filing finding built for this stock yet.</p>`}
+    <a class="primary-button small-button" href="#/stocks/${item.symbol}/ai">Open AI report</a>
+  </article>`;
 }
 
 function renderMarket(exchange) {
@@ -835,6 +901,7 @@ function iconFilter() { return `<svg viewBox="0 0 24 24"><path d="M4 5h16l-6 7v6
 function iconGlobe() { return `<svg viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm-8-9h16M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>`; }
 function iconCalendar() { return `<svg viewBox="0 0 24 24"><path d="M7 3v4m10-4v4M4 9h16M5 5h14v16H5Z"/></svg>`; }
 function iconSettings() { return `<svg viewBox="0 0 24 24"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm8 4h2M2 12h2m14.4-6.4 1.4-1.4M4.2 19.8l1.4-1.4m0-12.8L4.2 4.2m15.6 15.6-1.4-1.4"/></svg>`; }
+function iconAI() { return `<svg viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M7.8 7.8 5.7 5.7m12.6 12.6-2.1-2.1m0-8.4 2.1-2.1M5.7 18.3l2.1-2.1M9 9h6v6H9Z"/></svg>`; }
 
 async function boot() {
   try {

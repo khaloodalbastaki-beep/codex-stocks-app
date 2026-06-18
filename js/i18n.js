@@ -3,6 +3,7 @@ window.UAE_I18N = {
     nav_home: "Home",
     nav_adx: "ADX",
     nav_dfm: "DFM",
+    nav_ai: "AI Research",
     nav_watchlist: "Watchlist",
     nav_alerts: "Alerts",
     nav_screeners: "Screeners",
@@ -32,6 +33,7 @@ window.UAE_I18N = {
     nav_home: "الرئيسية",
     nav_adx: "أبوظبي",
     nav_dfm: "دبي",
+    nav_ai: "بحث الذكاء",
     nav_watchlist: "المفضلة",
     nav_alerts: "التنبيهات",
     nav_screeners: "الفلاتر",
@@ -58,4 +60,3 @@ window.UAE_I18N = {
     ai_analysis: "تحليل الذكاء الاصطناعي"
   }
 };
-

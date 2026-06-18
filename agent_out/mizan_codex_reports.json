@@ -1,0 +1,253 @@
+{
+  "generated_at": "2026-06-18T12:29:36.668109+00:00",
+  "agent": {
+    "id": "mizan-codex",
+    "name": "Mizan Codex",
+    "provider": "ollama",
+    "model": "gpt-oss:120b-cloud",
+    "fallback_used": false,
+    "lives_in": "agents/mizan_codex"
+  },
+  "reports": [
+    {
+      "alert_rules": [
+        {
+          "type": "disclosure",
+          "symbol": "EMAAR",
+          "reason": "New official disclosure changes materiality or stance."
+        },
+        {
+          "type": "dividend",
+          "symbol": "EMAAR",
+          "reason": "Dividend date, payout amount, or policy wording changes."
+        },
+        {
+          "type": "global_factor",
+          "symbol": "EMAAR",
+          "reason": "Mapped macro or commodity exposure becomes high materiality."
+        }
+      ],
+      "company": "Emaar Properties",
+      "confidence": "medium",
+      "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
+      "evidence": [
+        {
+          "type": "agent_evidence",
+          "source": "DFM official disclosure (board meeting announcement)",
+          "note": "DFM official disclosure (board meeting announcement)"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Board agenda terms extracted from filing snippet",
+          "note": "Board agenda terms extracted from filing snippet"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Exposure map and Global signal mock adapter (global factors)",
+          "note": "Exposure map and Global signal mock adapter (global factors)"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Market pulse derived-demo (sector and index performance)",
+          "note": "Market pulse derived-demo (sector and index performance)"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Financial series data (FY2023, FY2024, TTM)",
+          "note": "Financial series data (FY2023, FY2024, TTM)"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Dividends data (yield, payout ratio, schedule)",
+          "note": "Dividends data (yield, payout ratio, schedule)"
+        }
+      ],
+      "filing_findings": [
+        "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation.",
+        "Agenda includes operating performance review of development, malls, hospitality segments.",
+        "Dividend language flagged as material for income investors; no specific dividend amount disclosed."
+      ],
+      "money_and_accounts": [
+        "Revenue FY2023: 100 (units), FY2024: 121.0, TTM: 118.6 – 21% YoY growth.",
+        "Profit FY2023: 22, FY2024: 26.0, TTM: 26.0 – 18% YoY growth.",
+        "Margin direction: Improving.",
+        "Cash generation: Strong.",
+        "Leverage view: Comfortable.",
+        "Dividend yield: 6.2% (semi‑annual).",
+        "Payout ratio: 58% (strong sustainability, confidence high)."
+      ],
+      "negative_drivers": [
+        "Higher interest rates pressure affordability for developers.",
+        "Potential delivery slippage on ongoing projects.",
+        "Input‑cost inflation (materials, labor).",
+        "Rate‑driven credit cost rise could affect financing."
+      ],
+      "positive_drivers": [
+        "Tourism momentum supporting hospitality, malls, and toll traffic.",
+        "Population growth driving housing demand and consumption.",
+        "Lower steel input costs benefiting construction margins.",
+        "Strong dividend yield and payout sustainability.",
+        "Improving profit margins and robust cash generation.",
+        "Comfortable leverage profile.",
+        "Board meeting sentiment flagged as positive for income investors.",
+        "Real‑estate sector outperformance (+1.18% sector change)."
+      ],
+      "research_stance": "Bullish",
+      "review_flags": [
+        "Data quality marked as demo; prices delayed.",
+        "Financial figures are illustrative (units not specified)."
+      ],
+      "symbol": "EMAAR",
+      "time_horizon": "Medium-term",
+      "trend_findings": [
+        "Revenue and profit showing double‑digit YoY growth (21% and 18%).",
+        "Real‑estate sector index up 1.18% on the day, indicating sector strength.",
+        "DFM General Index up 0.76%, suggesting broader market bullishness.",
+        "Dividend policy under board review could reinforce income appeal."
+      ],
+      "watch_items": [
+        "Outcome of the board meeting (dividend amount, capital allocation).",
+        "Future movements in regional interest rates.",
+        "Progress on project deliveries and any slippage.",
+        "Input‑cost trends, especially steel and construction materials.",
+        "Tourism arrival figures and related revenue streams.",
+        "Changes in foreign ownership limits or actual foreign holding levels."
+      ],
+      "what_changed": [
+        "Recent board meeting announcement introduces potential dividend policy update.",
+        "Global factor signals show positive moves in tourism, population growth, and steel cost reduction.",
+        "Sector momentum: Real‑estate sector outperformed broader market on the latest trading day."
+      ],
+      "generated_at": "2026-06-18T12:29:36.663158+00:00",
+      "agent": {
+        "id": "mizan-codex",
+        "name": "Mizan Codex",
+        "provider": "ollama",
+        "model": "gpt-oss:120b-cloud",
+        "fallback_used": false,
+        "lives_in": "agents/mizan_codex"
+      }
+    }
+  ],
+  "latest_by_symbol": {
+    "EMAAR": {
+      "alert_rules": [
+        {
+          "type": "disclosure",
+          "symbol": "EMAAR",
+          "reason": "New official disclosure changes materiality or stance."
+        },
+        {
+          "type": "dividend",
+          "symbol": "EMAAR",
+          "reason": "Dividend date, payout amount, or policy wording changes."
+        },
+        {
+          "type": "global_factor",
+          "symbol": "EMAAR",
+          "reason": "Mapped macro or commodity exposure becomes high materiality."
+        }
+      ],
+      "company": "Emaar Properties",
+      "confidence": "medium",
+      "disclaimer": "Research support only. Not personalized financial advice, not a buy/sell instruction.",
+      "evidence": [
+        {
+          "type": "agent_evidence",
+          "source": "DFM official disclosure (board meeting announcement)",
+          "note": "DFM official disclosure (board meeting announcement)"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Board agenda terms extracted from filing snippet",
+          "note": "Board agenda terms extracted from filing snippet"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Exposure map and Global signal mock adapter (global factors)",
+          "note": "Exposure map and Global signal mock adapter (global factors)"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Market pulse derived-demo (sector and index performance)",
+          "note": "Market pulse derived-demo (sector and index performance)"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Financial series data (FY2023, FY2024, TTM)",
+          "note": "Financial series data (FY2023, FY2024, TTM)"
+        },
+        {
+          "type": "agent_evidence",
+          "source": "Dividends data (yield, payout ratio, schedule)",
+          "note": "Dividends data (yield, payout ratio, schedule)"
+        }
+      ],
+      "filing_findings": [
+        "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation.",
+        "Agenda includes operating performance review of development, malls, hospitality segments.",
+        "Dividend language flagged as material for income investors; no specific dividend amount disclosed."
+      ],
+      "money_and_accounts": [
+        "Revenue FY2023: 100 (units), FY2024: 121.0, TTM: 118.6 – 21% YoY growth.",
+        "Profit FY2023: 22, FY2024: 26.0, TTM: 26.0 – 18% YoY growth.",
+        "Margin direction: Improving.",
+        "Cash generation: Strong.",
+        "Leverage view: Comfortable.",
+        "Dividend yield: 6.2% (semi‑annual).",
+        "Payout ratio: 58% (strong sustainability, confidence high)."
+      ],
+      "negative_drivers": [
+        "Higher interest rates pressure affordability for developers.",
+        "Potential delivery slippage on ongoing projects.",
+        "Input‑cost inflation (materials, labor).",
+        "Rate‑driven credit cost rise could affect financing."
+      ],
+      "positive_drivers": [
+        "Tourism momentum supporting hospitality, malls, and toll traffic.",
+        "Population growth driving housing demand and consumption.",
+        "Lower steel input costs benefiting construction margins.",
+        "Strong dividend yield and payout sustainability.",
+        "Improving profit margins and robust cash generation.",
+        "Comfortable leverage profile.",
+        "Board meeting sentiment flagged as positive for income investors.",
+        "Real‑estate sector outperformance (+1.18% sector change)."
+      ],
+      "research_stance": "Bullish",
+      "review_flags": [
+        "Data quality marked as demo; prices delayed.",
+        "Financial figures are illustrative (units not specified)."
+      ],
+      "symbol": "EMAAR",
+      "time_horizon": "Medium-term",
+      "trend_findings": [
+        "Revenue and profit showing double‑digit YoY growth (21% and 18%).",
+        "Real‑estate sector index up 1.18% on the day, indicating sector strength.",
+        "DFM General Index up 0.76%, suggesting broader market bullishness.",
+        "Dividend policy under board review could reinforce income appeal."
+      ],
+      "watch_items": [
+        "Outcome of the board meeting (dividend amount, capital allocation).",
+        "Future movements in regional interest rates.",
+        "Progress on project deliveries and any slippage.",
+        "Input‑cost trends, especially steel and construction materials.",
+        "Tourism arrival figures and related revenue streams.",
+        "Changes in foreign ownership limits or actual foreign holding levels."
+      ],
+      "what_changed": [
+        "Recent board meeting announcement introduces potential dividend policy update.",
+        "Global factor signals show positive moves in tourism, population growth, and steel cost reduction.",
+        "Sector momentum: Real‑estate sector outperformed broader market on the latest trading day."
+      ],
+      "generated_at": "2026-06-18T12:29:36.663158+00:00",
+      "agent": {
+        "id": "mizan-codex",
+        "name": "Mizan Codex",
+        "provider": "ollama",
+        "model": "gpt-oss:120b-cloud",
+        "fallback_used": false,
+        "lives_in": "agents/mizan_codex"
+      }
+    }
+  }
+}

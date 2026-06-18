@@ -1,0 +1,14 @@
+Symbol: EMAAR
+Source type: official_exchange_demo
+Language: bilingual
+Title EN: Board meeting scheduled to review interim financials and dividend policy.
+Title AR: اجتماع مجلس الإدارة لمراجعة البيانات المالية المرحلية وسياسة التوزيعات.
+Agenda:
+- Review interim financial statements.
+- Discuss dividend policy and capital allocation.
+- Review operating performance of development, malls, and hospitality segments.
+Investor relevance:
+- Dividend language is material for income holders.
+- Segment performance can affect the long-term growth score.
+- No approved dividend amount is included in this demo snippet.
+

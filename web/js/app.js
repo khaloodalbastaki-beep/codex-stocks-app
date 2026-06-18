@@ -246,6 +246,7 @@ function renderIpos() {
 function renderAdmin() {
   setActive("#/admin");
   const admin = App.data.admin;
+  const agent = App.data.agents?.mizan_codex;
   $("#view").innerHTML = `
     <section class="page-head">
       <h1>${t("nav_admin")}</h1>
@@ -259,6 +260,14 @@ function renderAdmin() {
       <div class="panel">
         <h2>Queues</h2>
         <div class="queue-list">${admin.queues.map(queueRow).join("")}</div>
+      </div>
+      <div class="panel">
+        <h2>Agents</h2>
+        <div class="agent-card">
+          <strong>Mizan Codex</strong>
+          <p>Lives in <code>agents/mizan_codex</code>. Default lane: Ollama Cloud through this Mac. Reports: ${agent?.reports?.length || 0}.</p>
+          <code>python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gpt-oss:120b-cloud --allow-fallback</code>
+        </div>
       </div>
       <div class="panel span-3">
         <h2>Source providers</h2>
@@ -451,16 +460,51 @@ function foreignOwnershipPanel(item) {
 
 function aiPanel(item) {
   const run = App.analysisRuns.has(item.symbol);
+  const agentReport = App.data.agents?.mizan_codex?.latest_by_symbol?.[item.symbol];
   return `<div class="section-head compact">
       <h2>${t("ai_analysis")}</h2>
       <button class="primary-button" data-analyze="${item.symbol}">${run ? "Re-run deterministic analysis" : "AI Analyze This Stock"}</button>
     </div>
     ${run ? `<p class="success-note">Analysis refreshed locally from current deterministic data. No external model was called in demo mode.</p>` : ""}
+    ${agentReport ? mizanReportPanel(agentReport) : mizanEmptyPanel(item)}
     <div class="analysis-grid">
       ${analysisBlock("Short term direction", item.analysis.short_term)}
       ${analysisBlock("Long term direction", item.analysis.long_term)}
     </div>
     <p class="muted">${item.analysis.label}.</p>`;
+}
+
+function mizanReportPanel(report) {
+  return `<article class="mizan-panel">
+    <div class="section-head compact">
+      <div>
+        <h3>Mizan Codex Agent Report</h3>
+        <p>${report.agent?.provider || "unknown"} · ${report.agent?.model || "unknown"} · ${new Date(report.generated_at).toLocaleString()}</p>
+      </div>
+      <span class="impact ${String(report.research_stance).toLowerCase()}">${report.research_stance}</span>
+    </div>
+    <p><strong>What changed:</strong> ${formatAgentText(report.what_changed)}</p>
+    <div class="agent-columns">
+      <div><h3>Money and accounts</h3><ul>${(report.money_and_accounts || []).slice(0, 4).map((row) => `<li>${row}</li>`).join("")}</ul></div>
+      <div><h3>Watch items</h3><ul>${(report.watch_items || []).slice(0, 4).map((row) => `<li>${row}</li>`).join("")}</ul></div>
+    </div>
+    ${(report.review_flags || []).length ? `<p class="warning-note">${report.review_flags[0]}</p>` : ""}
+  </article>`;
+}
+
+function formatAgentText(value) {
+  if (Array.isArray(value)) return value.join(" ");
+  if (value && typeof value === "object") return Object.values(value).join(" ");
+  return value || "";
+}
+
+function mizanEmptyPanel(item) {
+  return `<article class="mizan-panel muted-panel">
+    <h3>Mizan Codex Agent Report</h3>
+    <p>No agent report is built into the app data for ${item.symbol} yet. Run:</p>
+    <code>python3 -m agents.mizan_codex.agent --symbol ${item.symbol} --provider ollama --model gpt-oss:120b-cloud --allow-fallback</code>
+    <p>Then run <code>bash tools/build.sh</code>.</p>
+  </article>`;
 }
 
 function analysisBlock(title, block) {

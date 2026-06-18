@@ -65,6 +65,25 @@ Future providers should implement the normalized adapter shape in `brain/adapter
 
 The frontend should not know whether the data came from ADX, DFM, issuer IR, World Bank, GDELT, or a licensed vendor.
 
+## Mizan Codex Agent
+
+The stock-research agent lives at:
+
+```text
+agents/mizan_codex
+```
+
+Default model lane: Ollama Cloud through the local Ollama API.
+
+```bash
+ollama signin
+ollama pull gpt-oss:120b-cloud
+python3 -m agents.mizan_codex.agent --symbol EMAAR --provider ollama --model gpt-oss:120b-cloud --allow-fallback --print
+bash tools/build.sh
+```
+
+The agent reads `web/data/app_data.json` and local snippets in `filings/inbox/`, then writes `agent_out/mizan_codex_reports.json`. The PWA shows the latest report in the stock AI Analysis tab and the agent command in Admin.
+
 ## Compliance Guardrails
 
 The app visibly separates:
@@ -87,4 +106,3 @@ Launch blockers are shown in Admin:
 - `web/` — static PWA
 - `tests/` — scoring, pipeline, and contract tests
 - `docs/` — blueprint interpretation and architecture notes
-

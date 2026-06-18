@@ -226,6 +226,7 @@ def build_app_data(output_dir: str | Path = "data") -> dict:
         "securities": securities,
         "events": events,
         "global_signals": list(EXPOSURE_DEFINITIONS.values()),
+        "agents": _agent_reports(),
         "admin": _admin(now),
         "routes": ["/", "/markets/adx", "/markets/dfm", "/stocks/{symbol}", "/watchlist", "/alerts", "/ipos", "/screeners", "/global-factors", "/admin"],
     }
@@ -233,6 +234,37 @@ def build_app_data(output_dir: str | Path = "data") -> dict:
     output_path.mkdir(parents=True, exist_ok=True)
     (output_path / "app_data.json").write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     return data
+
+
+def _agent_reports() -> dict:
+    root = Path(__file__).resolve().parents[1]
+    path = root / "agent_out" / "mizan_codex_reports.json"
+    if not path.exists():
+        return {
+            "mizan_codex": {
+                "status": "not_run",
+                "home": "agents/mizan_codex",
+                "runbook": "agents/mizan_codex/RUNBOOK.md",
+                "reports": [],
+                "latest_by_symbol": {},
+            }
+        }
+    try:
+        store = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {
+            "mizan_codex": {
+                "status": "invalid_json",
+                "home": "agents/mizan_codex",
+                "runbook": "agents/mizan_codex/RUNBOOK.md",
+                "reports": [],
+                "latest_by_symbol": {},
+            }
+        }
+    store.setdefault("status", "ready")
+    store.setdefault("home", "agents/mizan_codex")
+    store.setdefault("runbook", "agents/mizan_codex/RUNBOOK.md")
+    return {"mizan_codex": store}
 
 
 def _admin(now: str) -> dict:
@@ -258,5 +290,16 @@ def _admin(now: str) -> dict:
             {"name": "Translation queue", "count": 4, "tone": "watch"},
             {"name": "AI extraction queue", "count": 6, "tone": "watch"},
             {"name": "Alert generation queue", "count": 1, "tone": "ok"},
+        ],
+        "agents": [
+            {
+                "id": "mizan-codex",
+                "name": "Mizan Codex",
+                "home": "agents/mizan_codex",
+                "default_provider": "ollama",
+                "optional_providers": ["gemini", "groq", "openrouter", "stub"],
+                "output": "agent_out/mizan_codex_reports.json",
+                "hermes": "optional --send-hermes safe-capture bus handoff",
+            }
         ],
     }

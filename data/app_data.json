@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-18T13:00:01.852897+00:00",
+    "build_time": "2026-06-18T13:11:36.058440+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2025,7 +2025,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2261,7 +2261,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2496,7 +2496,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2732,7 +2732,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2967,7 +2967,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-18T13:00:01.851653+00:00"
+        "as_of": "2026-06-18T13:11:36.057096+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3780,12 +3780,12 @@
   ],
   "agents": {
     "mizan_codex": {
-      "generated_at": "2026-06-18T12:52:45.118159+00:00",
+      "generated_at": "2026-06-18T13:09:52.280642+00:00",
       "agent": {
         "id": "mizan-codex",
         "name": "Mizan Codex",
         "provider": "ollama",
-        "model": "gpt-oss:120b-cloud",
+        "model": "gemma4:31b-cloud",
         "fallback_used": false,
         "lives_in": "agents/mizan_codex"
       },
@@ -3814,64 +3814,52 @@
           "evidence": [
             {
               "type": "agent_evidence",
-              "source": "DFM official disclosure (board meeting event)",
-              "note": "DFM official disclosure (board meeting event)"
+              "source": "DFM official disclosure regarding board meeting",
+              "note": "DFM official disclosure regarding board meeting"
             },
             {
               "type": "agent_evidence",
-              "source": "Local filing snippet: EMAAR-board-meeting-demo.txt",
-              "note": "Local filing snippet: EMAAR-board-meeting-demo.txt"
+              "source": "ZAWYA report on 100% dividend payout",
+              "note": "ZAWYA report on 100% dividend payout"
             },
             {
               "type": "agent_evidence",
-              "source": "Global factor signals (rates, tourism, population, steel)",
-              "note": "Global factor signals (rates, tourism, population, steel)"
-            },
-            {
-              "type": "agent_evidence",
-              "source": "Price signal method (composite score, stance, latest price)",
-              "note": "Price signal method (composite score, stance, latest price)"
-            },
-            {
-              "type": "agent_evidence",
-              "source": "Market pulse data (ADX, DFMGI, Real estate sector)",
-              "note": "Market pulse data (ADX, DFMGI, Real estate sector)"
+              "source": "Global signal mock adapter for tourism and population growth",
+              "note": "Global signal mock adapter for tourism and population growth"
             }
           ],
           "filing_findings": [
-            "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation.",
-            "Agenda includes performance review of development, malls, and hospitality segments.",
-            "Dividend language highlighted as material for income‑focused investors.",
-            "No specific dividend amount disclosed in the snippet."
+            "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation",
+            "Agenda includes review of operating performance across development, malls, and hospitality segments"
           ],
           "money_and_accounts": [
-            "FY2023 revenue 100 (units as reported), profit 22.",
-            "FY2024 revenue 121, profit 26 – revenue growth 21% YoY, profit growth 18% YoY.",
-            "TTM revenue 118.6, profit 26 – consistent profit level with FY2024.",
-            "Margin direction: Improving.",
-            "Cash generation: Strong.",
-            "Leverage view: Comfortable.",
-            "Dividend yield 6.2% (semi‑annual), payout ratio 58%, sustainability rated Strong."
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 121.0, profit 26.0 (demo units)",
+            "TTM: revenue 118.6, profit 26.0 (demo units)"
           ],
           "negative_drivers": [
-            "Rate pressure on affordability (higher rates may curb demand).",
-            "Delivery slippage risk.",
-            "Input‑cost inflation risk.",
-            "Higher rates impact developers (mixed impact)."
+            "Rate pressure on affordability",
+            "Delivery slippage",
+            "Input-cost inflation",
+            "Higher rates potentially pressuring developers"
+          ],
+          "news_signals": [
+            "source: ZAWYA, event: Announced 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting, sentiment: Positive",
+            "source: Markets.com, event: Identified as a high-volume stock mover on DFM, sentiment: Neutral"
           ],
           "positive_drivers": [
-            "Tourism momentum supports real estate, malls, hospitality, and toll traffic.",
-            "Population growth drives housing, utilities, and consumption demand.",
-            "Lower steel input costs benefit developers.",
-            "Real estate sector up 1.18% with Dubai names leading.",
-            "Board meeting could reaffirm dividend policy, supporting income investors."
+            "Strong tourism arrivals supporting real estate and malls",
+            "Expanding population growth supporting housing demand",
+            "Lower steel input costs",
+            "Improving margin direction and strong cash generation"
           ],
           "research_stance": "Bullish",
           "review_flags": [
-            "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
+            "Data quality is labeled as demo",
+            "Price status is frozen closed-market prices"
           ],
           "symbol": "EMAAR",
-          "time_horizon": "12 months",
+          "time_horizon": "12m",
           "trading_plan": {
             "label": "Watch",
             "buy_or_not": "Wait for buy zone",
@@ -3884,23 +3872,21 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "ADX index at 10,184 (+0.42%).",
-            "DFMGI at 6,238 (+0.76%).",
-            "Real estate sector up 1.18% – Dubai names leading the gain.",
-            "Bank sector up 0.36% with steady margins."
+            "Revenue growth of 21.0% and profit growth of 18.0%",
+            "Real estate sector in Dubai is leading market breadth"
           ],
           "watch_items": [
-            "Price signal label: Watch.",
-            "Board meeting scheduled 2026-07-06 (review of interim results and dividend policy).",
-            "Tourism arrivals strong – positive catalyst."
+            "Board review on 2026-07-06",
+            "Entitlement window on 2026-08-02",
+            "Payment target on 2026-08-23"
           ],
-          "what_changed": "A board meeting has been scheduled to review interim financials and dividend policy, adding material relevance for income investors. The price signal remains a 'Watch' with a buy‑zone below 12.83 AED, while sector momentum is positive, especially in real estate.",
-          "generated_at": "2026-06-18T12:52:45.116968+00:00",
+          "what_changed": "Board meeting scheduled to review interim financials and dividend policy; high-volume trading activity noted.",
+          "generated_at": "2026-06-18T13:09:52.277504+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
             "provider": "ollama",
-            "model": "gpt-oss:120b-cloud",
+            "model": "gemma4:31b-cloud",
             "fallback_used": false,
             "lives_in": "agents/mizan_codex"
           }
@@ -3931,64 +3917,52 @@
           "evidence": [
             {
               "type": "agent_evidence",
-              "source": "DFM official disclosure (board meeting event)",
-              "note": "DFM official disclosure (board meeting event)"
+              "source": "DFM official disclosure regarding board meeting",
+              "note": "DFM official disclosure regarding board meeting"
             },
             {
               "type": "agent_evidence",
-              "source": "Local filing snippet: EMAAR-board-meeting-demo.txt",
-              "note": "Local filing snippet: EMAAR-board-meeting-demo.txt"
+              "source": "ZAWYA report on 100% dividend payout",
+              "note": "ZAWYA report on 100% dividend payout"
             },
             {
               "type": "agent_evidence",
-              "source": "Global factor signals (rates, tourism, population, steel)",
-              "note": "Global factor signals (rates, tourism, population, steel)"
-            },
-            {
-              "type": "agent_evidence",
-              "source": "Price signal method (composite score, stance, latest price)",
-              "note": "Price signal method (composite score, stance, latest price)"
-            },
-            {
-              "type": "agent_evidence",
-              "source": "Market pulse data (ADX, DFMGI, Real estate sector)",
-              "note": "Market pulse data (ADX, DFMGI, Real estate sector)"
+              "source": "Global signal mock adapter for tourism and population growth",
+              "note": "Global signal mock adapter for tourism and population growth"
             }
           ],
           "filing_findings": [
-            "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation.",
-            "Agenda includes performance review of development, malls, and hospitality segments.",
-            "Dividend language highlighted as material for income‑focused investors.",
-            "No specific dividend amount disclosed in the snippet."
+            "Board meeting scheduled to review interim financial statements, dividend policy, and capital allocation",
+            "Agenda includes review of operating performance across development, malls, and hospitality segments"
           ],
           "money_and_accounts": [
-            "FY2023 revenue 100 (units as reported), profit 22.",
-            "FY2024 revenue 121, profit 26 – revenue growth 21% YoY, profit growth 18% YoY.",
-            "TTM revenue 118.6, profit 26 – consistent profit level with FY2024.",
-            "Margin direction: Improving.",
-            "Cash generation: Strong.",
-            "Leverage view: Comfortable.",
-            "Dividend yield 6.2% (semi‑annual), payout ratio 58%, sustainability rated Strong."
+            "FY2023: revenue 100, profit 22 (demo units)",
+            "FY2024: revenue 121.0, profit 26.0 (demo units)",
+            "TTM: revenue 118.6, profit 26.0 (demo units)"
           ],
           "negative_drivers": [
-            "Rate pressure on affordability (higher rates may curb demand).",
-            "Delivery slippage risk.",
-            "Input‑cost inflation risk.",
-            "Higher rates impact developers (mixed impact)."
+            "Rate pressure on affordability",
+            "Delivery slippage",
+            "Input-cost inflation",
+            "Higher rates potentially pressuring developers"
+          ],
+          "news_signals": [
+            "source: ZAWYA, event: Announced 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting, sentiment: Positive",
+            "source: Markets.com, event: Identified as a high-volume stock mover on DFM, sentiment: Neutral"
           ],
           "positive_drivers": [
-            "Tourism momentum supports real estate, malls, hospitality, and toll traffic.",
-            "Population growth drives housing, utilities, and consumption demand.",
-            "Lower steel input costs benefit developers.",
-            "Real estate sector up 1.18% with Dubai names leading.",
-            "Board meeting could reaffirm dividend policy, supporting income investors."
+            "Strong tourism arrivals supporting real estate and malls",
+            "Expanding population growth supporting housing demand",
+            "Lower steel input costs",
+            "Improving margin direction and strong cash generation"
           ],
           "research_stance": "Bullish",
           "review_flags": [
-            "Current quote/data quality is demo or stale; do not treat the price signal as live trading advice."
+            "Data quality is labeled as demo",
+            "Price status is frozen closed-market prices"
           ],
           "symbol": "EMAAR",
-          "time_horizon": "12 months",
+          "time_horizon": "12m",
           "trading_plan": {
             "label": "Watch",
             "buy_or_not": "Wait for buy zone",
@@ -4001,23 +3975,21 @@
             "method": "Deterministic research signal from composite score, stance, and latest published price. Not personalized advice."
           },
           "trend_findings": [
-            "ADX index at 10,184 (+0.42%).",
-            "DFMGI at 6,238 (+0.76%).",
-            "Real estate sector up 1.18% – Dubai names leading the gain.",
-            "Bank sector up 0.36% with steady margins."
+            "Revenue growth of 21.0% and profit growth of 18.0%",
+            "Real estate sector in Dubai is leading market breadth"
           ],
           "watch_items": [
-            "Price signal label: Watch.",
-            "Board meeting scheduled 2026-07-06 (review of interim results and dividend policy).",
-            "Tourism arrivals strong – positive catalyst."
+            "Board review on 2026-07-06",
+            "Entitlement window on 2026-08-02",
+            "Payment target on 2026-08-23"
           ],
-          "what_changed": "A board meeting has been scheduled to review interim financials and dividend policy, adding material relevance for income investors. The price signal remains a 'Watch' with a buy‑zone below 12.83 AED, while sector momentum is positive, especially in real estate.",
-          "generated_at": "2026-06-18T12:52:45.116968+00:00",
+          "what_changed": "Board meeting scheduled to review interim financials and dividend policy; high-volume trading activity noted.",
+          "generated_at": "2026-06-18T13:09:52.277504+00:00",
           "agent": {
             "id": "mizan-codex",
             "name": "Mizan Codex",
             "provider": "ollama",
-            "model": "gpt-oss:120b-cloud",
+            "model": "gemma4:31b-cloud",
             "fallback_used": false,
             "lives_in": "agents/mizan_codex"
           }
@@ -4029,7 +4001,7 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-18T13:00:01.852897+00:00",
+    "last_build": "2026-06-18T13:11:36.058440+00:00",
     "provider_status": {
       "generated_at": "2026-06-18T12:50:12.622779+00:00",
       "market": {
@@ -4112,28 +4084,28 @@
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-18T13:00:01.852897+00:00",
+        "last_run": "2026-06-18T13:11:36.058440+00:00",
         "success_rate": 100,
         "status": "mocked",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-18T13:00:01.852897+00:00",
+        "last_run": "2026-06-18T13:11:36.058440+00:00",
         "success_rate": 100,
         "status": "mocked",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-18T13:00:01.852897+00:00",
+        "last_run": "2026-06-18T13:11:36.058440+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-18T13:00:01.852897+00:00",
+        "last_run": "2026-06-18T13:11:36.058440+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

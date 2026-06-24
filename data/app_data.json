@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-24T23:40:11.612882+00:00",
+    "build_time": "2026-06-24T23:45:22.255868+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_pre_market",
       "label": "Market closed",
-      "now_local": "2026-06-25T03:40:03.232734+04:00",
+      "now_local": "2026-06-25T03:45:14.355755+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Pre-open starts 09:30 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T23:40:11.611929+00:00"
+        "as_of": "2026-06-24T23:45:22.254928+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-24T23:40:11.442615+00:00",
+    "generated_at": "2026-06-24T23:45:22.088949+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-24T23:40:11.338993+00:00",
+    "generated_at": "2026-06-24T23:45:21.982012+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3549,22 +3549,6 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "5b380b8ea9d2c2df",
-        "title": "DFM and ADX High-Volume Stock Movers: Emaar Properties (EMAAR), Emirates NBD, Salik - Markets.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTh4RlJUUEJ0a0lmSWpDczlzY1dTOEhUZ3VLdzR6N2NHczloWGU0UktiUk9YQkhNU3Q1S0E0ZHJYaEZSZVlTSTB5LTdPX1FxQWVoZjNQWFRwVEN5ekZQN3VyWGFaTGRSY0VwZTJ1ZTJnOXhfZWRpOHAxQ1U5akp4QWlScFNheTZtTU5kQTRjSDFsQmtFMUhMeHdRVjNCN1ZTcEFnT0NPSjdlZDUyMkxWWA?oc=5",
-        "source": "Markets.com",
-        "published_at": "Mon, 16 Mar 2026 07:00:00 GMT",
-        "summary": "DFM and ADX High-Volume Stock Movers: Emaar Properties (EMAAR), Emirates NBD, Salik Markets.com",
-        "query": "ADX DFM UAE stocks",
-        "related_symbols": [
-          "ADPORTS",
-          "EMAAR",
-          "ENBD",
-          "SALIK"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "cb7083b545b97610",
         "title": "UAE stock markets close, trading halted by Abu Dhabi Securities Exchange and the Dubai Financial Market f - The Times of India",
         "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNbWFzU2xHeFA2VkVyeEg0Zm1GQ1Y5TDVRV191S2VKb3c4eGJ6WGVFVVlOVlB2WWVTWVdrNmJQWUxxdERaRlFxZlpZYXNqUEVLMDRDb25EYTdpejNfNGVxSV95TXFVRndPZXJMX0htWWk2eHFBLVd1WHlUaEx1dWxtMk9SdTU4QWd3QkxTRlJic3ItZkkxZUtnTDNVaUJlQWE2YTdhcXU1V0ZFQmpqMGxrcWtMVmsyNE5vay1MdVJBemd3cFRMZWpzcHBJR3pKNk8tNnV2aWJvcEZYcnZDRWxfZXJ6OVY2a1BvTEo4T1l0LUplV0FsVmIxeG9TcEJTaXVmbzlVT0dhcHM2cVFNWmowVWVJU3E0ZnZTZUdraDNGMHEtUGpiSzc4aXgxN2xsRGE3N085ZGpqN29mcENlSmREN2VBX29sOVNY0gHOAkFVX3lxTFBFb0lWYS11cXZMUzJFUE0yMzJDcE1EQk9Ud2lHRXVIWGVCTU1jNm5HZW5FemdhRGw4dk9rajVLVzBmZ0U5dGlKbkdxWkhVTDRvbnhGQlJQWFhUd0RNNWktU05qNDU5akd5YksyMUl0SmtOV2VzTGNEVkl3SE5EanpoMktweUg2TU9vUndKQ3RMOGVyRU9lZ200c2hEQVgwaGprb0pXcER6RHg2NFktUllhaUdaMEI0THhBMF9mS2VJVjFRbmZvbmJmWWFhUTdiYUE1SzU3UlNKb2NEajBqeDNuSWlqeUtXT1YxSmVNVy11bTFtWHZ3aGRQNW9laE96VGdUSjRUN2Rta1hTLUJ3YURYWGJRaVRVeHN2WEpJZjh0Q2xHandVeFNsT2hKMk1jczc1aFhnTUt0WTlaV1lkLTBYQ252REpibWV2MUhSRHc?oc=5",
@@ -3577,6 +3561,22 @@
           "ADPORTS",
           "DEWA",
           "DIB"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "5b380b8ea9d2c2df",
+        "title": "DFM and ADX High-Volume Stock Movers: Emaar Properties (EMAAR), Emirates NBD, Salik - Markets.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTh4RlJUUEJ0a0lmSWpDczlzY1dTOEhUZ3VLdzR6N2NHczloWGU0UktiUk9YQkhNU3Q1S0E0ZHJYaEZSZVlTSTB5LTdPX1FxQWVoZjNQWFRwVEN5ekZQN3VyWGFaTGRSY0VwZTJ1ZTJnOXhfZWRpOHAxQ1U5akp4QWlScFNheTZtTU5kQTRjSDFsQmtFMUhMeHdRVjNCN1ZTcEFnT0NPSjdlZDUyMkxWWA?oc=5",
+        "source": "Markets.com",
+        "published_at": "Mon, 16 Mar 2026 07:00:00 GMT",
+        "summary": "DFM and ADX High-Volume Stock Movers: Emaar Properties (EMAAR), Emirates NBD, Salik Markets.com",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [
+          "ADPORTS",
+          "EMAAR",
+          "ENBD",
+          "SALIK"
         ],
         "source_type": "real_news_rss"
       },
@@ -6973,14 +6973,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-24T23:40:11.612882+00:00",
+    "last_build": "2026-06-24T23:45:22.255868+00:00",
     "provider_status": {
-      "generated_at": "2026-06-24T23:40:03.232946+00:00",
+      "generated_at": "2026-06-24T23:45:14.356252+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_pre_market",
         "label": "Market closed",
-        "now_local": "2026-06-25T03:40:03.232734+04:00",
+        "now_local": "2026-06-25T03:45:14.355755+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Pre-open starts 09:30 GST"
       },
@@ -6994,14 +6994,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-24T23:40:11.338993+00:00",
+        "generated_at": "2026-06-24T23:45:21.982012+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-24T23:40:11.442615+00:00",
+        "generated_at": "2026-06-24T23:45:22.088949+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7017,9 +7017,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-24T23:40:03.162397+00:00",
-      "finished_at": "2026-06-24T23:40:11.482202+00:00",
-      "next_run_after": "2026-06-24T23:45:11.482202+00:00",
+      "started_at": "2026-06-24T23:45:14.273674+00:00",
+      "finished_at": "2026-06-24T23:45:22.127554+00:00",
+      "next_run_after": "2026-06-24T23:50:22.127554+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7069,56 +7069,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-24T23:40:11.482202+00:00",
+        "last_run": "2026-06-24T23:45:22.127554+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-24T23:40:03.232946+00:00",
+        "last_run": "2026-06-24T23:45:14.356252+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-24T23:40:11.338993+00:00",
+        "last_run": "2026-06-24T23:45:21.982012+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-24T23:40:11.442615+00:00",
+        "last_run": "2026-06-24T23:45:22.088949+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-24T23:40:11.612882+00:00",
+        "last_run": "2026-06-24T23:45:22.255868+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-24T23:40:11.442615+00:00",
+        "last_run": "2026-06-24T23:45:22.088949+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-24T23:40:11.612882+00:00",
+        "last_run": "2026-06-24T23:45:22.255868+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-24T23:40:11.612882+00:00",
+        "last_run": "2026-06-24T23:45:22.255868+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

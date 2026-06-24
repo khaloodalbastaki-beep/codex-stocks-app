@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-24T01:45:21.151182+00:00",
+    "build_time": "2026-06-24T01:50:38.455312+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_pre_market",
       "label": "Market closed",
-      "now_local": "2026-06-24T05:45:11.105766+04:00",
+      "now_local": "2026-06-24T05:50:31.357967+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Pre-open starts 09:30 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T01:45:21.150163+00:00"
+        "as_of": "2026-06-24T01:50:38.454352+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-24T01:45:19.439127+00:00",
+    "generated_at": "2026-06-24T01:50:37.845232+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-24T01:45:19.135128+00:00",
+    "generated_at": "2026-06-24T01:50:37.705705+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3842,6 +3842,17 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "302e5e0043e89d12",
+        "title": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion - وكالة وام",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU1Robk9faGI3S1V3OXdMamd0MG1Qeks2TUpVYmdXNzJFVFhyVXQ1bkNpNFFpWjRqQk9SWDlpSUlFbkxobkFOZDh3ZjNUUjJocEQzM3Q5OUR3RzdzOHFDS0Y3dG5pWTRHb2owVEEzbldPYTNIdlIta3VIRkFreUtZai05VGhpd0xmd3pYVXdGaw?oc=5",
+        "source": "وكالة وام",
+        "published_at": "Wed, 01 Oct 2025 07:00:00 GMT",
+        "summary": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion وكالة وام",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "8ff1e723401b2bd2",
         "title": "Suraj Products Limited Schedules Board Meeting on May 26, 2026 to Consider FY26 Audited Results and Final Dividend - scanx.trade",
         "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRzFLbXZCbHpaT1MyWW5JR18zeS1GS3lVQmkxeXdSOHdjQkpYb0g2WloyX2ZTSmJjaU04MndteUdMZ3h3enFXX0ZmX3BjOTBLZXNfV3ZPRU1abzJMZHZUQU13ZWtEcUJQdzcwWjU2WHlXTm9CT2lVTTFfdnpTX3d1bmMzM3dnN2kwSHVMRno3UHZSUWRVMkU0VTVTQ1RReXI0M3JZU2pHbGhHV3FQTWo0RFFEbDdTSUhaMzJUWjdBZG9Pb05MSVdHS05NSnZmbWJDZUhfNWdGQmtRYWFVRFJWYkFEMEJLUG1Gbml4Qi1WQldQYVRNUTNXSzlqWDBsb2s?oc=5",
@@ -3865,17 +3876,6 @@
         "related_symbols": [
           "ADPORTS"
         ],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "ce7226e46b25dd6a",
-        "title": "RIL to announce Q4 earnings on April 24; board to consider final dividend - The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYVlBcTVVdGFFc1pwdUxFTXg4VnlCLW9rclFGbE04QnE5VXlIMXVBYVFvcTBzUlJVeFRCeDRLMC1LczV2cWo1YW1uSXo0SzllZnl5VUE2WDh6RzFOR09Mak4xcWE0YXpXNno2YlVzMXNuT1p6Zk85VHUwbkl5NFZRSFVWQUdyeGJpQnE1YTJ2YzVnWWZLZlU0SWdIei05LURBRDBjOTU2M2lpdkpWNjVrUkMxMElmWk01QVFxWm9nVlIydlZBSDk4SmtTSGVndEtZMFA0b1YtTzg5a1dnZkhEeHFhdnPSAeoBQVVfeXFMTXF5WXZzQUFCVlRONF8zWjdtVHZwNGpFU0NmdzdtNm9Ta3RPd1RHSTIyXzVZQ1ZuaWQwd24xalVhVnBZLVF6SE05OC10d3h3SVRxMUpwb2RIalF5RDBqSFkydFUwci16RmZCQUVjMHdjNFNoSjdhVkFVa2NfNUQ1ZmZ0bDdvZDlDaEFpaGk0ZUpqcDhNU05IX2NCSi1IR1R1bmwwdUlpVzMwZk9jNGt1WlJOV2tvTFFoRnBNbW12ODJfU2U1czBGZ3NsREtQNHBERnJ5dXgzSTFTZFpnRDJGLTBDMEF0VXVYc193?oc=5",
-        "source": "The Economic Times",
-        "published_at": "Fri, 17 Apr 2026 07:00:00 GMT",
-        "summary": "RIL to announce Q4 earnings on April 24; board to consider final dividend The Economic Times",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [],
         "source_type": "real_news_rss"
       }
     ],
@@ -6988,14 +6988,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-24T01:45:21.151182+00:00",
+    "last_build": "2026-06-24T01:50:38.455312+00:00",
     "provider_status": {
-      "generated_at": "2026-06-24T01:45:11.106258+00:00",
+      "generated_at": "2026-06-24T01:50:31.358184+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_pre_market",
         "label": "Market closed",
-        "now_local": "2026-06-24T05:45:11.105766+04:00",
+        "now_local": "2026-06-24T05:50:31.357967+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Pre-open starts 09:30 GST"
       },
@@ -7009,14 +7009,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-24T01:45:19.135128+00:00",
+        "generated_at": "2026-06-24T01:50:37.705705+00:00",
         "provider": "google_news_rss",
         "success": 31,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-24T01:45:19.439127+00:00",
+        "generated_at": "2026-06-24T01:50:37.845232+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7032,9 +7032,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-24T01:45:09.207169+00:00",
-      "finished_at": "2026-06-24T01:45:19.689603+00:00",
-      "next_run_after": "2026-06-24T01:50:19.689603+00:00",
+      "started_at": "2026-06-24T01:50:31.243517+00:00",
+      "finished_at": "2026-06-24T01:50:37.887814+00:00",
+      "next_run_after": "2026-06-24T01:55:37.887814+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7084,56 +7084,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-24T01:45:19.689603+00:00",
+        "last_run": "2026-06-24T01:50:37.887814+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-24T01:45:11.106258+00:00",
+        "last_run": "2026-06-24T01:50:31.358184+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-24T01:45:19.135128+00:00",
+        "last_run": "2026-06-24T01:50:37.705705+00:00",
         "success_rate": 31,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-24T01:45:19.439127+00:00",
+        "last_run": "2026-06-24T01:50:37.845232+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-24T01:45:21.151182+00:00",
+        "last_run": "2026-06-24T01:50:38.455312+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-24T01:45:19.439127+00:00",
+        "last_run": "2026-06-24T01:50:37.845232+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-24T01:45:21.151182+00:00",
+        "last_run": "2026-06-24T01:50:38.455312+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-24T01:45:21.151182+00:00",
+        "last_run": "2026-06-24T01:50:38.455312+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

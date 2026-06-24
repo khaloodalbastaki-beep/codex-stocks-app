@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-24T15:12:55.675368+00:00",
+    "build_time": "2026-06-24T15:18:06.502376+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_after_hours",
       "label": "Market closed",
-      "now_local": "2026-06-24T19:12:46.915945+04:00",
+      "now_local": "2026-06-24T19:17:59.012537+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Next session: next trading day 10:00 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T15:12:55.673085+00:00"
+        "as_of": "2026-06-24T15:18:06.501452+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-24T15:12:55.344647+00:00",
+    "generated_at": "2026-06-24T15:18:06.336168+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-24T15:12:55.230408+00:00",
+    "generated_at": "2026-06-24T15:18:06.230577+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3495,19 +3495,6 @@
         "summary": "UAE halts stock markets for two days after Iran strikes Reuters",
         "query": "ADX DFM UAE stocks",
         "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "8df75424e11878ef",
-        "title": "UAE stock market opens higher: ADX gains over 1 percent as DFM rises 1.76 percent - Economy Middle East",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2JvZUk4NG0zMkRNV0FidWhrLU0wSUc5anNpOHBSallhNFM0dDRjSmZqYzNWeGRib3R3MHZpamRaR09CRGpWd1ZLTUpJeUhpc0o0QXYwZkYwUVNyUjZrN1RHMW03M0NVQkUzVEx6X19YMnNVelZPMGFCNHVlOTBpRzhvbG0tOXloZWZFTVBnTmJJMW9zT0M5X05pNjhuR1B1OHhETWduR2xWTXcwZW8xdl9BZXlEemc?oc=5",
-        "source": "Economy Middle East",
-        "published_at": "Tue, 16 Jun 2026 08:44:08 GMT",
-        "summary": "UAE stock market opens higher: ADX gains over 1 percent as DFM rises 1.76 percent Economy Middle East",
-        "query": "ADX DFM UAE stocks",
-        "related_symbols": [
-          "ADPORTS"
-        ],
         "source_type": "real_news_rss"
       },
       {
@@ -3530,6 +3517,19 @@
         "summary": "UAE exchanges to reopen Wednesday after two-day suspension due to Iran conflict Reuters",
         "query": "ADX DFM UAE stocks",
         "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "e4bfbc3d466e7612",
+        "title": "UAE stock markets rally: DFM jumps 2.84 percent as ADX gains near 1 percent - Economy Middle East",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2ZacXpqRXN1dURjRm5feUJDWi1LUWZVaF9ydDA3RFBJUXdycENNbFdhcEJEMDNFam5FVkFlM0lEeEFyR05GM2VXbVdYcjhsRmFxX0dTMkhCbTBVQk1FMGRGRVlzZm1vTkVONWt3NHJsU0ZQRlVtNGI4MnF0azhkQUU5V21XYnFtQmhNWFd6T1F2c3N3RWI4V3REZkVCSUEta2ZpQW9raXplTGpLaFhn?oc=5",
+        "source": "Economy Middle East",
+        "published_at": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "summary": "UAE stock markets rally: DFM jumps 2.84 percent as ADX gains near 1 percent Economy Middle East",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [
+          "ADPORTS"
+        ],
         "source_type": "real_news_rss"
       },
       {
@@ -3616,23 +3616,23 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "0a1d02a38f2e0d8a",
-        "title": "Retail Investors Get Worldwide UAE Access with eToro as 56% Expect Market Rally - Finance Magnates",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcy1iZzZjUUNZNi1JRlM1Y0hfMjVmRlJIUDNZbHA2MDNZRm9EejhNNHhIa0dvM1ZDQUFtdUxCZFFDUVRfMmdhbUxBSG9BV2ZrV2poVjhSMzhtWFBWYnF4VFFzSV84X191WFZFc19nb3ZROUhCZWUxSjIxZU1DdERzY1lHV1N2WXRQTWJNeVpHWVJLSjZGZUhBbFBkdG13cDNVT01McmprWURpMWZQVFNCOUFjamI4NTVlaGVJ?oc=5",
-        "source": "Finance Magnates",
-        "published_at": "Wed, 10 Dec 2025 08:00:00 GMT",
-        "summary": "Retail Investors Get Worldwide UAE Access with eToro as 56% Expect Market Rally Finance Magnates",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "5b11e1b870e4d352",
         "title": "New UAE equity portfolio targets long-term growth sectors - Gulf Business",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblJDaVhkRTQ5aHE0bjh1Ul9IVk15b3Q5dEptUGZaZG1qRjVGNlRtSXBfZEd3UlBPbzJNa28yajFlNEhobGs3Rk5CV1dmOTR0VkdqSHdGRWlqZXdIWkpYTkJlVTVzUmNDQk15WGdQaHpkNndqV054a3JoUnpMTFBsRGpZdlJpa29LVl94MGt2dHB1SmZCbWtkcHRDR0g?oc=5",
         "source": "Gulf Business",
         "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
         "summary": "New UAE equity portfolio targets long-term growth sectors Gulf Business",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "0a1d02a38f2e0d8a",
+        "title": "Retail Investors Get Worldwide UAE Access with eToro as 56% Expect Market Rally - Finance Magnates",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcy1iZzZjUUNZNi1JRlM1Y0hfMjVmRlJIUDNZbHA2MDNZRm9EejhNNHhIa0dvM1ZDQUFtdUxCZFFDUVRfMmdhbUxBSG9BV2ZrV2poVjhSMzhtWFBWYnF4VFFzSV84X191WFZFc19nb3ZROUhCZWUxSjIxZU1DdERzY1lHV1N2WXRQTWJNeVpHWVJLSjZGZUhBbFBkdG13cDNVT01McmprWURpMWZQVFNCOUFjamI4NTVlaGVJ?oc=5",
+        "source": "Finance Magnates",
+        "published_at": "Wed, 10 Dec 2025 08:00:00 GMT",
+        "summary": "Retail Investors Get Worldwide UAE Access with eToro as 56% Expect Market Rally Finance Magnates",
         "query": "Dubai Financial Market listed company disclosure dividend",
         "related_symbols": [],
         "source_type": "real_news_rss"
@@ -3651,12 +3651,12 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "05967826b5883ecf",
-        "title": "eToro launches UAE-Economy portfolio - FX News Group",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDhGZXltdTZmVERVRTdXUWlUeWZ1RGd4TUJNa3Eyc1ppWUJMSVhqM01GOGU2VTBfaW5RZDMtNGF0QnJGcjJjc2xGdk9rWVpqRzBUSXZNQU9nTFJnck10U2pGcE43eGxmYnlRMWplTHpBWEJjcHFVR2JYY1V3dVR0NUF2NXlEOUNqZk1UNjlR?oc=5",
-        "source": "FX News Group",
-        "published_at": "Wed, 10 Dec 2025 08:00:00 GMT",
-        "summary": "eToro launches UAE-Economy portfolio FX News Group",
+        "id": "21d854900b6707eb",
+        "title": "ALEC Holdings Finalizes IPO At AED 1.40 Per Share - Construction Business News Middle East",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcEdzcm9LZ213VjZvODAxbVZLNUE1NnhvU1dPNlAwY1pEdERrcnlwdjVINl82M2lSckRwNGlSUjBnZkFWNWtmZzh2MmV3X0Vuc21RdERVaV9Zdk8zNlVWNkY2WWNJMU5ySGRvWDlQMEE3X0hoeEhBdnNBYXBSazlEQUVKVQ?oc=5",
+        "source": "Construction Business News Middle East",
+        "published_at": "Wed, 01 Oct 2025 07:00:00 GMT",
+        "summary": "ALEC Holdings Finalizes IPO At AED 1.40 Per Share Construction Business News Middle East",
         "query": "Dubai Financial Market listed company disclosure dividend",
         "related_symbols": [],
         "source_type": "real_news_rss"
@@ -6975,14 +6975,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-24T15:12:55.675368+00:00",
+    "last_build": "2026-06-24T15:18:06.502376+00:00",
     "provider_status": {
-      "generated_at": "2026-06-24T15:12:46.917163+00:00",
+      "generated_at": "2026-06-24T15:17:59.013035+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_after_hours",
         "label": "Market closed",
-        "now_local": "2026-06-24T19:12:46.915945+04:00",
+        "now_local": "2026-06-24T19:17:59.012537+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Next session: next trading day 10:00 GST"
       },
@@ -6996,14 +6996,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-24T15:12:55.230408+00:00",
+        "generated_at": "2026-06-24T15:18:06.230577+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-24T15:12:55.344647+00:00",
+        "generated_at": "2026-06-24T15:18:06.336168+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7019,9 +7019,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-24T15:12:46.754186+00:00",
-      "finished_at": "2026-06-24T15:12:55.411294+00:00",
-      "next_run_after": "2026-06-24T15:17:55.411294+00:00",
+      "started_at": "2026-06-24T15:17:58.925274+00:00",
+      "finished_at": "2026-06-24T15:18:06.374076+00:00",
+      "next_run_after": "2026-06-24T15:23:06.374076+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7071,56 +7071,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-24T15:12:55.411294+00:00",
+        "last_run": "2026-06-24T15:18:06.374076+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-24T15:12:46.917163+00:00",
+        "last_run": "2026-06-24T15:17:59.013035+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-24T15:12:55.230408+00:00",
+        "last_run": "2026-06-24T15:18:06.230577+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-24T15:12:55.344647+00:00",
+        "last_run": "2026-06-24T15:18:06.336168+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-24T15:12:55.675368+00:00",
+        "last_run": "2026-06-24T15:18:06.502376+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-24T15:12:55.344647+00:00",
+        "last_run": "2026-06-24T15:18:06.336168+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-24T15:12:55.675368+00:00",
+        "last_run": "2026-06-24T15:18:06.502376+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-24T15:12:55.675368+00:00",
+        "last_run": "2026-06-24T15:18:06.502376+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

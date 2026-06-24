@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-24T14:46:59.420144+00:00",
+    "build_time": "2026-06-24T14:52:10.946248+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_after_hours",
       "label": "Market closed",
-      "now_local": "2026-06-24T18:46:53.640334+04:00",
+      "now_local": "2026-06-24T18:52:02.714124+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Next session: next trading day 10:00 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-24T14:46:59.418546+00:00"
+        "as_of": "2026-06-24T14:52:10.944969+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-24T14:46:59.121431+00:00",
+    "generated_at": "2026-06-24T14:52:10.644842+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-24T14:46:59.006582+00:00",
+    "generated_at": "2026-06-24T14:52:10.529694+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -6975,14 +6975,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-24T14:46:59.420144+00:00",
+    "last_build": "2026-06-24T14:52:10.946248+00:00",
     "provider_status": {
-      "generated_at": "2026-06-24T14:46:53.640929+00:00",
+      "generated_at": "2026-06-24T14:52:02.715173+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_after_hours",
         "label": "Market closed",
-        "now_local": "2026-06-24T18:46:53.640334+04:00",
+        "now_local": "2026-06-24T18:52:02.714124+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Next session: next trading day 10:00 GST"
       },
@@ -6996,14 +6996,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-24T14:46:59.006582+00:00",
+        "generated_at": "2026-06-24T14:52:10.529694+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-24T14:46:59.121431+00:00",
+        "generated_at": "2026-06-24T14:52:10.644842+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7019,9 +7019,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-24T14:46:53.508736+00:00",
-      "finished_at": "2026-06-24T14:46:59.185195+00:00",
-      "next_run_after": "2026-06-24T14:51:59.185195+00:00",
+      "started_at": "2026-06-24T14:52:02.586045+00:00",
+      "finished_at": "2026-06-24T14:52:10.714676+00:00",
+      "next_run_after": "2026-06-24T14:57:10.714676+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7071,56 +7071,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-24T14:46:59.185195+00:00",
+        "last_run": "2026-06-24T14:52:10.714676+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-24T14:46:53.640929+00:00",
+        "last_run": "2026-06-24T14:52:02.715173+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-24T14:46:59.006582+00:00",
+        "last_run": "2026-06-24T14:52:10.529694+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-24T14:46:59.121431+00:00",
+        "last_run": "2026-06-24T14:52:10.644842+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-24T14:46:59.420144+00:00",
+        "last_run": "2026-06-24T14:52:10.946248+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-24T14:46:59.121431+00:00",
+        "last_run": "2026-06-24T14:52:10.644842+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-24T14:46:59.420144+00:00",
+        "last_run": "2026-06-24T14:52:10.946248+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-24T14:46:59.420144+00:00",
+        "last_run": "2026-06-24T14:52:10.946248+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

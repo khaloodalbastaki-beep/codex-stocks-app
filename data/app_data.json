@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-25T00:16:32.734813+00:00",
+    "build_time": "2026-06-25T00:21:44.403516+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_pre_market",
       "label": "Market closed",
-      "now_local": "2026-06-25T04:16:25.685931+04:00",
+      "now_local": "2026-06-25T04:21:35.590671+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Pre-open starts 09:30 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-25T00:16:32.733849+00:00"
+        "as_of": "2026-06-25T00:21:44.402586+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-25T00:16:32.562653+00:00",
+    "generated_at": "2026-06-25T00:21:44.233002+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-25T00:16:32.454618+00:00",
+    "generated_at": "2026-06-25T00:21:44.129919+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3616,41 +3616,6 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "5b11e1b870e4d352",
-        "title": "New UAE equity portfolio targets long-term growth sectors - Gulf Business",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblJDaVhkRTQ5aHE0bjh1Ul9IVk15b3Q5dEptUGZaZG1qRjVGNlRtSXBfZEd3UlBPbzJNa28yajFlNEhobGs3Rk5CV1dmOTR0VkdqSHdGRWlqZXdIWkpYTkJlVTVzUmNDQk15WGdQaHpkNndqV054a3JoUnpMTFBsRGpZdlJpa29LVl94MGt2dHB1SmZCbWtkcHRDR0g?oc=5",
-        "source": "Gulf Business",
-        "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
-        "summary": "New UAE equity portfolio targets long-term growth sectors Gulf Business",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "0a1d02a38f2e0d8a",
-        "title": "Retail Investors Get Worldwide UAE Access with eToro as 56% Expect Market Rally - Finance Magnates",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcy1iZzZjUUNZNi1JRlM1Y0hfMjVmRlJIUDNZbHA2MDNZRm9EejhNNHhIa0dvM1ZDQUFtdUxCZFFDUVRfMmdhbUxBSG9BV2ZrV2poVjhSMzhtWFBWYnF4VFFzSV84X191WFZFc19nb3ZROUhCZWUxSjIxZU1DdERzY1lHV1N2WXRQTWJNeVpHWVJLSjZGZUhBbFBkdG13cDNVT01McmprWURpMWZQVFNCOUFjamI4NTVlaGVJ?oc=5",
-        "source": "Finance Magnates",
-        "published_at": "Wed, 10 Dec 2025 08:00:00 GMT",
-        "summary": "Retail Investors Get Worldwide UAE Access with eToro as 56% Expect Market Rally Finance Magnates",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "fc6dd4672d927364",
-        "title": "Air Arabia Shareholders Approve $381m Dividend Payout In AGM - Aviation Business Middle East",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMl90R3dveHhpaExrX2FNT3dvZkp2RzlpclQyUE1EcmF0bHZXQXU0NGVBTzNQRXFHN3c0YUNLVlREc1VEd2poQUFLZFdXYVJDSTNvelFkbGMxV3BMNk5XR2NHSUI1TmQweW5CUFl3RXRVRjFBSkY5M2FGZk5zV1lzSGJuVW95Ui00TkRiVXFYQUpLRzhJbWh0MDJJN2RSQXR6?oc=5",
-        "source": "Aviation Business Middle East",
-        "published_at": "Fri, 13 Mar 2026 07:00:00 GMT",
-        "summary": "Air Arabia Shareholders Approve $381m Dividend Payout In AGM Aviation Business Middle East",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [
-          "AIRARABIA"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "21d854900b6707eb",
         "title": "ALEC Holdings Finalizes IPO At AED 1.40 Per Share - Construction Business News Middle East",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcEdzcm9LZ213VjZvODAxbVZLNUE1NnhvU1dPNlAwY1pEdERrcnlwdjVINl82M2lSckRwNGlSUjBnZkFWNWtmZzh2MmV3X0Vuc21RdERVaV9Zdk8zNlVWNkY2WWNJMU5ySGRvWDlQMEE3X0hoeEhBdnNBYXBSazlEQUVKVQ?oc=5",
@@ -3662,25 +3627,50 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "f69fc920dc816aea",
-        "title": "ZAWYA: ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRGxlNnRUVU5PVFZSWEkxLTdYSFVoLXFGQmpqQVF5d3d1UGlRMktob0xrQktyLXNRbkhIektsN3BFYV91N19VUWxBRmVncVk2SGlNa2hkYWFvcHVuV242cW9faE5jc1VDWUg1Nmo4T0RJV1FGQ2J1VGNwWjIybktSa2t4djFlV002Wmc4cmRFYU5ia0NhWkJXY0RJdzBOaDM3SThOejJGVmNILXhZdzduR21ZNVBIclp2UldxQ1BUN2NSaUU0ck9VdXZkUmdwV0tMeW5XeGZxWnBZaTdNVTJ6QkVCVlA2TUY2YnE0TlpWaHZuRml0TGhrdWZ6VG9rNndrLTNYMUx3QTUzMFRFRWQ4dUJMMDZ1Qk1Hc1RjeFlqQ3JUeVl1Ni11TnBzT3U5aS1wbnRN?oc=5",
-        "source": "TradingView",
-        "published_at": "Fri, 22 May 2026 07:00:00 GMT",
-        "summary": "ZAWYA: ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange TradingView",
-        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "id": "ad30b7524cb7507d",
+        "title": "Dubai Investments clarifies status of DIP IPO, says no final decision on timing - Khaleej Times",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM2tlbkhfYmlCMnVRM3pGTUlkYXMyM244aS1kV0tVcURIVWRKYjQ4SWNnazU4U3Fia3pTQUQzUUtUWFdoRW9iNkhVN3F2Qlc0d2pSVFBFa2pvQVFXTVNsZmNTYUpXTkgwNHJJS3c0NC1mdWdHRkdrd0pYTy1WNTlXdmFYSdIBiwFBVV95cUxPSnYxV0Eya1F6cnp1LWlzMlZ0YnRlYkxZRk1mbG1iSWtqaHhyeE9SQjBYeC11QTZ0VWtYMENwelBfX1UzWFhQT1QyNGR0dVJUNm9OX2N3blRpNmpKUF8zc2N5S2c3UFdiaHJzOE5oNjVlWDFTbHVyM0MyNWVIMHBQdVlsaUt6ZzRwbVBZ?oc=5",
+        "source": "Khaleej Times",
+        "published_at": "Mon, 27 Apr 2026 07:00:00 GMT",
+        "summary": "Dubai Investments clarifies status of DIP IPO, says no final decision on timing Khaleej Times",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [
+          "DEWA",
+          "DIB"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "c812beda279ae186",
+        "title": "Why dividend growth investing has staying power - T. Rowe Price",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaXVGY2xaaTNQU2kxV1F0eHlJZ25tZEJxTWg1TThWa1k1ckp3UHBiWGNqNHNSVXRZS3NyeXl2ajR1bC1vU3B1OE9iMHJKdWxfdk1VdmRqWktIZ2YycHg4ZGw1VUxXSU9UaG5yUkN3OFpHNWlrdWg4S2l4VnMwVGJaS1d3QXkzTklocXdKNFdIX3BtajA?oc=5",
+        "source": "T. Rowe Price",
+        "published_at": "Thu, 12 Mar 2026 02:18:38 GMT",
+        "summary": "Why dividend growth investing has staying power T. Rowe Price",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "65c06fa279ff7fbe",
+        "title": "ADX firms deliver Dh200 billion profit with 98% disclosure compliance - Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3N3VnhSSjlyYmNiQ2Y4N0pCYVJTVm50ckw3Y0ZmeTlLUkk4aUhzQTJJbHB1U2ZmRzFxMzc0MlNVSXNld3VJRnNpM2N1QUdHeFRLWXpvUW5tSXVVZ2pLd1VsRXpxZWNUSUd2Z2hQNU5FN1ZGMEx5SlRVY3pvTGhrU2FfVm0xUmFJNHBoRjdmVm4taXFjWXJkVVJwbUluSXNtYUVVczNwMUJQZ01yU1dTcnRpbkxJWExxcUHSAcwBQVVfeXFMTWJuQy1qcnBDQXRQQ29rc1p6VFdMbkZqWl84R0ZvTVhtWG9NX2lnY0Z0dUMzdF9abncwRnVOVVA0WXB2V25YX1Zpb0pDV1dtVzk0aDVlWDY2YU4zLVFuSk9sdWdDTHZkRTF2MzRnYnJxQzNNenRQTGZQbXdOMUtldldRTHpBN1NFTTBhb3VIOWtHNkpBR1NFSHNKNVZEc3hSandnZzBmS1FfMWdfWm9ETzZ3SUwtaTFkRUVySEg1ZXF6aWhMQ2dseUFFbnVW?oc=5",
+        "source": "Gulf News",
+        "published_at": "Sun, 12 Apr 2026 07:00:00 GMT",
+        "summary": "ADX firms deliver Dh200 billion profit with 98% disclosure compliance Gulf News",
+        "query": "Dubai Financial Market listed company disclosure dividend",
         "related_symbols": [
           "ADPORTS"
         ],
         "source_type": "real_news_rss"
       },
       {
-        "id": "5441615ec660ab0b",
-        "title": "ADX achieves 99% compliance in Q1 disclosure by listed companies - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRzQyaExWZXIwSWtDUFZ2aHRFV01wSnJuVldZak1RZjIwUXdJNzFZaEtjMXRhTzdCOTEySDNTSE5SeW5UZ3FRYjZfcnQ5NzBfY0gxT2lEMUhsRHdzbnpuYkk2MUd3a1kyZFFlMUdidk9fUlpOR1pxeW5KakJDNldmZFNrNk1sSl9oVUNEb3htc1RYZEV5cUwtelp3cG9qbkNwUUVjOFJrTHUwcEp3cy1PakJRNlQzMkZDMEg1ZHRLak9xbE5FTzJJSU9VSFhDMWg4dE11VWtn?oc=5",
+        "id": "f69fc920dc816aea",
+        "title": "ZAWYA: ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRGxlNnRUVU5PVFZSWEkxLTdYSFVoLXFGQmpqQVF5d3d1UGlRMktob0xrQktyLXNRbkhIektsN3BFYV91N19VUWxBRmVncVk2SGlNa2hkYWFvcHVuV242cW9faE5jc1VDWUg1Nmo4T0RJV1FGQ2J1VGNwWjIybktSa2t4djFlV002Wmc4cmRFYU5ia0NhWkJXY0RJdzBOaDM3SThOejJGVmNILXhZdzduR21ZNVBIclp2UldxQ1BUN2NSaUU0ck9VdXZkUmdwV0tMeW5XeGZxWnBZaTdNVTJ6QkVCVlA2TUY2YnE0TlpWaHZuRml0TGhrdWZ6VG9rNndrLTNYMUx3QTUzMFRFRWQ4dUJMMDZ1Qk1Hc1RjeFlqQ3JUeVl1Ni11TnBzT3U5aS1wbnRN?oc=5",
         "source": "TradingView",
         "published_at": "Fri, 22 May 2026 07:00:00 GMT",
-        "summary": "ADX achieves 99% compliance in Q1 disclosure by listed companies TradingView",
+        "summary": "ZAWYA: ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange TradingView",
         "query": "Abu Dhabi Securities Exchange listed company disclosure",
         "related_symbols": [
           "ADPORTS"
@@ -3701,6 +3691,19 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "5441615ec660ab0b",
+        "title": "ADX achieves 99% compliance in Q1 disclosure by listed companies - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRzQyaExWZXIwSWtDUFZ2aHRFV01wSnJuVldZak1RZjIwUXdJNzFZaEtjMXRhTzdCOTEySDNTSE5SeW5UZ3FRYjZfcnQ5NzBfY0gxT2lEMUhsRHdzbnpuYkk2MUd3a1kyZFFlMUdidk9fUlpOR1pxeW5KakJDNldmZFNrNk1sSl9oVUNEb3htc1RYZEV5cUwtelp3cG9qbkNwUUVjOFJrTHUwcEp3cy1PakJRNlQzMkZDMEg1ZHRLak9xbE5FTzJJSU9VSFhDMWg4dE11VWtn?oc=5",
+        "source": "TradingView",
+        "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+        "summary": "ADX achieves 99% compliance in Q1 disclosure by listed companies TradingView",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "77a4a5343aa48cf3",
         "title": "Abu Dhabi’s Eshraq initiates legal action linked to Goldilocks share pledges - Khaleej Times",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR2JTOC1oN0JtRG5oeGxCTXpTTkZ2ZjlCVFFfREhrNkFnOEgxc25HLTdGcDl6TUdmR3pxX0RFQlgxRW1ibl9PR0ZELWV3dDhRekVCdl96dDdGM0pkQUdiTnlncm5JUXlxek96RlVvMTNHSi04SVRuNjd0WkNqYTZEc1ZQcGpLV2w1ZzFkcW84VF9MWGZGMmdKYnRQSFlOQnYyUGVQQ01wUkFfaEJfemxlTUc3ONIBuwFBVV95cUxPQWZESDBjVVJ2bWc2aWpySjRtQTRfN3d5QzdjcmRVQl93NmtOZmRvUk5OWEpOc2hwMElQeFI2clZBRXQ3RlB4eDdISE9udHdydnJ0bUpHZWtJcEVoNjM5MXhVNUp5N2V4dTBSeUVyOENSNU5ZU2I1N3lXc2o5U2ZtQmg1cDNIWXh1cG91RVktVEFab1RYenBhdHdtQmpFQUVZTUluUW1oQkRiNjl6dlkyNF94U0ZQLUpvdUFF?oc=5",
@@ -3714,16 +3717,14 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "65c06fa279ff7fbe",
-        "title": "ADX firms deliver Dh200 billion profit with 98% disclosure compliance - Gulf News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3N3VnhSSjlyYmNiQ2Y4N0pCYVJTVm50ckw3Y0ZmeTlLUkk4aUhzQTJJbHB1U2ZmRzFxMzc0MlNVSXNld3VJRnNpM2N1QUdHeFRLWXpvUW5tSXVVZ2pLd1VsRXpxZWNUSUd2Z2hQNU5FN1ZGMEx5SlRVY3pvTGhrU2FfVm0xUmFJNHBoRjdmVm4taXFjWXJkVVJwbUluSXNtYUVVczNwMUJQZ01yU1dTcnRpbkxJWExxcUHSAcwBQVVfeXFMTWJuQy1qcnBDQXRQQ29rc1p6VFdMbkZqWl84R0ZvTVhtWG9NX2lnY0Z0dUMzdF9abncwRnVOVVA0WXB2V25YX1Zpb0pDV1dtVzk0aDVlWDY2YU4zLVFuSk9sdWdDTHZkRTF2MzRnYnJxQzNNenRQTGZQbXdOMUtldldRTHpBN1NFTTBhb3VIOWtHNkpBR1NFSHNKNVZEc3hSandnZzBmS1FfMWdfWm9ETzZ3SUwtaTFkRUVySEg1ZXF6aWhMQ2dseUFFbnVW?oc=5",
-        "source": "Gulf News",
-        "published_at": "Sun, 12 Apr 2026 07:00:00 GMT",
-        "summary": "ADX firms deliver Dh200 billion profit with 98% disclosure compliance Gulf News",
+        "id": "ee5270031606c3f2",
+        "title": "ESG considerations in the UAE: what businesses need to know - Charles Russell Speechlys",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQWxTYUpaVVBQSDhmOC1zeWRHVjlGMEpVQ1NfaHJpYTZzaWZWX1ZxMS1uY2c0SUdJRm9MWjRsZmlqQnk3QzFZaGxOZGJyQnFNLVdvZEJDcFlSMnJPTVdpZGxEbmRRZUZqSHoyc0ZMWDAtMkRiRXdLeS1ocGpSZFNFMWlaVkJWUldxTjdUNFpXWjh5c2ppUkJfNVBhaW1IMVRsQkFHMWRBNm5rTzdDYlhzS25PS0JxQXNaTFByc3pkRHdOSVo3VXZXRWFXNHR3QjdNZDlFVEVxekFrdGx3U1RjSGRmMXRRQQ?oc=5",
+        "source": "Charles Russell Speechlys",
+        "published_at": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "summary": "ESG considerations in the UAE: what businesses need to know Charles Russell Speechlys",
         "query": "Abu Dhabi Securities Exchange listed company disclosure",
-        "related_symbols": [
-          "ADPORTS"
-        ],
+        "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
@@ -3738,29 +3739,16 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "1182fd4ca3a9fbe9",
-        "title": "UAE markets reopen after 2 day shutdown: Dubai, Abu Dhabi stocks tumble as Iran war shock hits investors - The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPUkZPdWlWbXl1cGx3UDB2bjFkNWdvdVZUOU5sM0F1TlAwZjZWSDRyeVlLbWNqUHp2cWlnUTg1VmhlM05LOWtxdkVtbXpEMmpLZmIwSUFGdFhFU2VYN2JwNXM5NlRYTWlwcU44V3RmZjl5X09zbk1JNGw2ZmMxVjE2cjZYTldrOTZqQ2lVMHJSMGFpbFBPemZUTHFOQjlWX2lEOC01WHlmS2RKSFBnRjdvbURYWTlnTWg1aEp0ZUVyaDlZSFUzcVljQlZ3djhYLURla0loQVRONWQ2OGtmS1A3WHRWeTh6SGRKcWN3dHIzdUZyQTBmVHZ6cXBVYkg2eXJvMldNNFlkakVycFRveWJEY3ZkR3Z4RGs4ZS1wOTJZZDNEQdIBpwJBVV95cUxPenZtcnZ1Zy10UEg0b3Etd0hwTFhjdDdRWmV3TnNBYks4YXNFakV5Q2piVEFWa1NVWFJpdVo5cVZJVGxval9vTkJja29NQ1M0cFZJMnZuUHBmNGVRaVZ0enR3ZUVBdjc2Qmt6MVdxazRNRlVlQUdBZVFiTzI5RW9rVzZKV2psYlNkUnZ6dExra2lVUEMxVVdrWjlLS1J4bWV3ck1TMG4tT2QtSU83aFVVWnBVS2JLTVZpcktfaGxmLWd1dnoxc0VTTXc5b3VZaG43RXJVNEpOUHJIbG1uWlJOSjJybXVCbXFNeWpXSG1ZT3c0aFRsTlpITlBoTjN1TzlnYkNoWXUyNGM4clVxalVhMkpXek9uTWtwQlZCUzFFbDh0SzhCa1Vv?oc=5",
-        "source": "The Times of India",
+        "id": "f1aa76098401ac32",
+        "title": "UAE bourses ADX and DFM close lower amid Middle East conflict - ZAWYA",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamZfeGtHZnRhelJMaXdjSWozZ3lmWHJqYlA5U2hoXzZBUGFlLUhHczVfNF9FdXpkYnRucElJckUzbHA0RVM3cUFWUF81dC1BVWxIZFZibHlOdG1lYjFna09ybTltdWhSTVV0SkRDaFBYcFpRT0FSVFlxd2NUc2tNbk52ZkpJdmVRZ240N2NOYU9uWnRLMTgtVS0xbGYtVmo3V3lNTWdTT2s0Tkg2cU9QVUM1SVZ0bDRRVmNSaA?oc=5",
+        "source": "ZAWYA",
         "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
-        "summary": "UAE markets reopen after 2 day shutdown: Dubai, Abu Dhabi stocks tumble as Iran war shock hits investors The Times of India",
+        "summary": "UAE bourses ADX and DFM close lower amid Middle East conflict ZAWYA",
         "query": "Abu Dhabi Securities Exchange listed company disclosure",
         "related_symbols": [
-          "TAQA",
-          "DEWA",
-          "DIB"
+          "ADPORTS"
         ],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "4f7ca34eb4e59e8d",
-        "title": "Breaking! This company has received a delisting decision for its stock. The delisting arrangement period will commence on March 20 | Post-market announcement highlights - 富途牛牛",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSDc2M3V1QkNnclJWNXVpX3VobWtraW5FVlh3T2k3eUdyeTBzVWNRdE1zZjloaFZZb2l0ci1mRjJwOXJhRU1VLXJKRWpYLVBwVWRGN19KdUxEZVF0MldhQ21Sdm5EX3dZUGQ5blpHSGZfT1NKNDllOEdHLXhrektMcWFNdlh6WmpZS0VxR09Oa2JkRVdLVkVmVjkyM2ZyQm9wTFpRWGpVVQ?oc=5",
-        "source": "富途牛牛",
-        "published_at": "Thu, 12 Mar 2026 07:00:00 GMT",
-        "summary": "Breaking! This company has received a delisting decision for its stock. The delisting arrangement period will commence on March 20 | Post-market announcement highlights 富途牛牛",
-        "query": "Abu Dhabi Securities Exchange listed company disclosure",
-        "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
@@ -6971,14 +6959,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-25T00:16:32.734813+00:00",
+    "last_build": "2026-06-25T00:21:44.403516+00:00",
     "provider_status": {
-      "generated_at": "2026-06-25T00:16:25.686431+00:00",
+      "generated_at": "2026-06-25T00:21:35.591317+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_pre_market",
         "label": "Market closed",
-        "now_local": "2026-06-25T04:16:25.685931+04:00",
+        "now_local": "2026-06-25T04:21:35.590671+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Pre-open starts 09:30 GST"
       },
@@ -6992,14 +6980,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-25T00:16:32.454618+00:00",
+        "generated_at": "2026-06-25T00:21:44.129919+00:00",
         "provider": "google_news_rss",
-        "success": 30,
+        "success": 29,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-25T00:16:32.562653+00:00",
+        "generated_at": "2026-06-25T00:21:44.233002+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7015,9 +7003,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-25T00:16:25.604516+00:00",
-      "finished_at": "2026-06-25T00:16:32.601620+00:00",
-      "next_run_after": "2026-06-25T00:21:32.601620+00:00",
+      "started_at": "2026-06-25T00:21:35.498000+00:00",
+      "finished_at": "2026-06-25T00:21:44.271701+00:00",
+      "next_run_after": "2026-06-25T00:26:44.271701+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7067,56 +7055,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-25T00:16:32.601620+00:00",
+        "last_run": "2026-06-25T00:21:44.271701+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-25T00:16:25.686431+00:00",
+        "last_run": "2026-06-25T00:21:35.591317+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-25T00:16:32.454618+00:00",
-        "success_rate": 30,
+        "last_run": "2026-06-25T00:21:44.129919+00:00",
+        "success_rate": 29,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-25T00:16:32.562653+00:00",
+        "last_run": "2026-06-25T00:21:44.233002+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-25T00:16:32.734813+00:00",
+        "last_run": "2026-06-25T00:21:44.403516+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-25T00:16:32.562653+00:00",
+        "last_run": "2026-06-25T00:21:44.233002+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-25T00:16:32.734813+00:00",
+        "last_run": "2026-06-25T00:21:44.403516+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-25T00:16:32.734813+00:00",
+        "last_run": "2026-06-25T00:21:44.403516+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

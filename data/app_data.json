@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-26T23:40:53.348355+00:00",
+    "build_time": "2026-06-26T23:46:04.162210+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_weekend",
       "label": "Market closed",
-      "now_local": "2026-06-27T03:40:46.086381+04:00",
+      "now_local": "2026-06-27T03:45:55.951758+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Next session: Monday 10:00 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:40:53.347274+00:00"
+        "as_of": "2026-06-26T23:46:04.161261+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-26T23:40:53.145230+00:00",
+    "generated_at": "2026-06-26T23:46:03.997371+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-26T23:40:53.054816+00:00",
+    "generated_at": "2026-06-26T23:46:03.899529+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3616,12 +3616,12 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "5b11e1b870e4d352",
-        "title": "New UAE equity portfolio targets long-term growth sectors - Gulf Business",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblJDaVhkRTQ5aHE0bjh1Ul9IVk15b3Q5dEptUGZaZG1qRjVGNlRtSXBfZEd3UlBPbzJNa28yajFlNEhobGs3Rk5CV1dmOTR0VkdqSHdGRWlqZXdIWkpYTkJlVTVzUmNDQk15WGdQaHpkNndqV054a3JoUnpMTFBsRGpZdlJpa29LVl94MGt2dHB1SmZCbWtkcHRDR0g?oc=5",
-        "source": "Gulf Business",
-        "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
-        "summary": "New UAE equity portfolio targets long-term growth sectors Gulf Business",
+        "id": "197c018e7a50f86d",
+        "title": "Bitmine’s perpetual preferred stock debuts on NYSE at $80 per share with 9.5% dividend - Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42c3RfYVp3RE5QaGtfaExXTERGZHN6X19qdlJOYm5vLUFGdEtKQTNpUllucVZsdGFSOV83cktRRUVKWXJNVXFYS3JoOGJvajkwWWhuUnVaRC1PNkJHeERISmdPTXowUjFtUTl4MGwyQQ?oc=5",
+        "source": "Crypto Briefing",
+        "published_at": "Tue, 16 Jun 2026 14:32:50 GMT",
+        "summary": "Bitmine’s perpetual preferred stock debuts on NYSE at $80 per share with 9.5% dividend Crypto Briefing",
         "query": "Dubai Financial Market listed company disclosure dividend",
         "related_symbols": [],
         "source_type": "real_news_rss"
@@ -3640,40 +3640,25 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "05967826b5883ecf",
-        "title": "eToro launches UAE-Economy portfolio - FX News Group",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDhGZXltdTZmVERVRTdXUWlUeWZ1RGd4TUJNa3Eyc1ppWUJMSVhqM01GOGU2VTBfaW5RZDMtNGF0QnJGcjJjc2xGdk9rWVpqRzBUSXZNQU9nTFJnck10U2pGcE43eGxmYnlRMWplTHpBWEJjcHFVR2JYY1V3dVR0NUF2NXlEOUNqZk1UNjlR?oc=5",
-        "source": "FX News Group",
-        "published_at": "Wed, 10 Dec 2025 08:00:00 GMT",
-        "summary": "eToro launches UAE-Economy portfolio FX News Group",
+        "id": "5b11e1b870e4d352",
+        "title": "New UAE equity portfolio targets long-term growth sectors - Gulf Business",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblJDaVhkRTQ5aHE0bjh1Ul9IVk15b3Q5dEptUGZaZG1qRjVGNlRtSXBfZEd3UlBPbzJNa28yajFlNEhobGs3Rk5CV1dmOTR0VkdqSHdGRWlqZXdIWkpYTkJlVTVzUmNDQk15WGdQaHpkNndqV054a3JoUnpMTFBsRGpZdlJpa29LVl94MGt2dHB1SmZCbWtkcHRDR0g?oc=5",
+        "source": "Gulf Business",
+        "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
+        "summary": "New UAE equity portfolio targets long-term growth sectors Gulf Business",
         "query": "Dubai Financial Market listed company disclosure dividend",
         "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
-        "id": "f1aa76098401ac32",
-        "title": "UAE bourses ADX and DFM close lower amid Middle East conflict - ZAWYA",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamZfeGtHZnRhelJMaXdjSWozZ3lmWHJqYlA5U2hoXzZBUGFlLUhHczVfNF9FdXpkYnRucElJckUzbHA0RVM3cUFWUF81dC1BVWxIZFZibHlOdG1lYjFna09ybTltdWhSTVV0SkRDaFBYcFpRT0FSVFlxd2NUc2tNbk52ZkpJdmVRZ240N2NOYU9uWnRLMTgtVS0xbGYtVmo3V3lNTWdTT2s0Tkg2cU9QVUM1SVZ0bDRRVmNSaA?oc=5",
-        "source": "ZAWYA",
-        "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
-        "summary": "UAE bourses ADX and DFM close lower amid Middle East conflict ZAWYA",
+        "id": "bfb6a08961eaadbe",
+        "title": "Global tax guide to doing business in the UAE - Dentons",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNXBPRTE2S0c0WXJScTM3VUtlQmt1eE5IbjNESnNVZF9iQnBuaFpUZmVXcDM2R3Y0bUFvZkI2YVphVTNaeWFncUVzVW85cEhEWWd3VGFXZFVaaG9SZmhaQUZuQVFSeGNtNU1YLUpuUEx0UU00eTJUeEtkc1N5ODBfTzdJaDFsN3BCeWRsRklLZ2NqQnNoTEE?oc=5",
+        "source": "Dentons",
+        "published_at": "Wed, 01 Oct 2025 13:12:27 GMT",
+        "summary": "Global tax guide to doing business in the UAE Dentons",
         "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [
-          "ADPORTS"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "08f34b7bae41c05c",
-        "title": "Abu Dhabi-listed firms' net profits jump 17% to over Dh200 billion in 2025 - Khaleej Times",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY21KVnd3ZnZ3R3JWb3BCRXMtMkZLcU9zZUlYaHhrZndZcFhPd19mQXE1dXVWOElYNE0weTByQkE0X09yZEVSbmhFbzhreFBHOUg0NzFaZjJKbnBiU3c4b3dzemJBY2dIRE8wT2pwZ3oyQW1vdEswcXpXVGg2cGNfeld0MVR0a2p3TjlYVnBvUi02NVluZHlSSXJKY3BydUVGeUZIa2QxVzFqR1E2bXdKMUo2V3VtaVEzTVE?oc=5",
-        "source": "Khaleej Times",
-        "published_at": "Sun, 12 Apr 2026 07:00:00 GMT",
-        "summary": "Abu Dhabi-listed firms' net profits jump 17% to over Dh200 billion in 2025 Khaleej Times",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [
-          "TAQA"
-        ],
+        "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
@@ -3750,6 +3735,19 @@
         "summary": "UAE’s 2PointZero unit acquires stake in US wearable tech firm Whoop Gulf Business",
         "query": "Abu Dhabi Securities Exchange listed company disclosure",
         "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "f1aa76098401ac32",
+        "title": "UAE bourses ADX and DFM close lower amid Middle East conflict - ZAWYA",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamZfeGtHZnRhelJMaXdjSWozZ3lmWHJqYlA5U2hoXzZBUGFlLUhHczVfNF9FdXpkYnRucElJckUzbHA0RVM3cUFWUF81dC1BVWxIZFZibHlOdG1lYjFna09ybTltdWhSTVV0SkRDaFBYcFpRT0FSVFlxd2NUc2tNbk52ZkpJdmVRZ240N2NOYU9uWnRLMTgtVS0xbGYtVmo3V3lNTWdTT2s0Tkg2cU9QVUM1SVZ0bDRRVmNSaA?oc=5",
+        "source": "ZAWYA",
+        "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
+        "summary": "UAE bourses ADX and DFM close lower amid Middle East conflict ZAWYA",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "ADPORTS"
+        ],
         "source_type": "real_news_rss"
       },
       {
@@ -6973,14 +6971,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-26T23:40:53.348355+00:00",
+    "last_build": "2026-06-26T23:46:04.162210+00:00",
     "provider_status": {
-      "generated_at": "2026-06-26T23:40:46.086942+00:00",
+      "generated_at": "2026-06-26T23:45:55.951956+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_weekend",
         "label": "Market closed",
-        "now_local": "2026-06-27T03:40:46.086381+04:00",
+        "now_local": "2026-06-27T03:45:55.951758+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Next session: Monday 10:00 GST"
       },
@@ -6994,14 +6992,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-26T23:40:53.054816+00:00",
+        "generated_at": "2026-06-26T23:46:03.899529+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-26T23:40:53.145230+00:00",
+        "generated_at": "2026-06-26T23:46:03.997371+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7017,9 +7015,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-26T23:40:46.003679+00:00",
-      "finished_at": "2026-06-26T23:40:53.192976+00:00",
-      "next_run_after": "2026-06-26T23:45:53.192976+00:00",
+      "started_at": "2026-06-26T23:45:55.879233+00:00",
+      "finished_at": "2026-06-26T23:46:04.036586+00:00",
+      "next_run_after": "2026-06-26T23:51:04.036586+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7069,56 +7067,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-26T23:40:53.192976+00:00",
+        "last_run": "2026-06-26T23:46:04.036586+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-26T23:40:46.086942+00:00",
+        "last_run": "2026-06-26T23:45:55.951956+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-26T23:40:53.054816+00:00",
+        "last_run": "2026-06-26T23:46:03.899529+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-26T23:40:53.145230+00:00",
+        "last_run": "2026-06-26T23:46:03.997371+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-26T23:40:53.348355+00:00",
+        "last_run": "2026-06-26T23:46:04.162210+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-26T23:40:53.145230+00:00",
+        "last_run": "2026-06-26T23:46:03.997371+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-26T23:40:53.348355+00:00",
+        "last_run": "2026-06-26T23:46:04.162210+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-26T23:40:53.348355+00:00",
+        "last_run": "2026-06-26T23:46:04.162210+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

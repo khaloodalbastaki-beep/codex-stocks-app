@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-26T18:04:46.866946+00:00",
+    "build_time": "2026-06-26T18:09:57.532160+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_after_hours",
       "label": "Market closed",
-      "now_local": "2026-06-26T22:04:40.084746+04:00",
+      "now_local": "2026-06-26T22:09:49.587821+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Next session: next trading day 10:00 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T18:04:46.865881+00:00"
+        "as_of": "2026-06-26T18:09:57.531212+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-26T18:04:46.662532+00:00",
+    "generated_at": "2026-06-26T18:09:57.371852+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-26T18:04:46.577424+00:00",
+    "generated_at": "2026-06-26T18:09:57.272242+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3806,63 +3806,64 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "ee618f0250af7d9c",
-        "title": "Emaar Properties announces 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting - ZAWYA",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZWRpbnB4b3J5LVRwTnRHd1JoQy1vakRsaTNzMFZDVjVUMUh4RnFZdnZWOVFWZEotaU9rWFNHanpLc3dKR3dUS0hXT21rMVhHNjFOTFdRWmZlQmRLcFIxSzBUcmY0dmZ3OWxGVDZWMjdEbUhSdm5NQk9JRzkteUFRN1FmUVNxS095YVVDYzBsZ3pJTEtXeHdvZXdoV2k1SHBqRkg1ajl4c193N2dZUkNMY3VZcUZzSXdOeUxqVmZqUGZmaXREV0V4NndWZlFpbGNTc1VvRTdndV9LOTJ5UnBOODJqbU5YVjh0U0E?oc=5",
-        "source": "ZAWYA",
-        "published_at": "Wed, 25 Mar 2026 07:00:00 GMT",
-        "summary": "Emaar Properties announces 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting ZAWYA",
+        "id": "3754d4c88774d5a8",
+        "title": "Ramky Infrastructure FY26 profit rises, declares dividend - scanx.trade",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc21WaTZyLUgxQzE5NzBWQ0F3Q0RtRFVGWkM0YmFfSEtVMVpNaWhScFpMSzZqMURqWHlpeWdXODllVmNBYjVub01fMl9ESnN0cGpuTG5TUmF2WFdGRjV2czc3N3pLM2FjdXg3bEMzMUR2ckZ4NU16Tkx3UWZjOHFrclpDQWJCV0dEU0xRSHlJMk9RS1FLVXhEakk4OHZaOFF4aG5qeDFoVVY3UXhmRWcyMWxoLXp4TXZtazJiUlpn?oc=5",
+        "source": "scanx.trade",
+        "published_at": "Thu, 28 May 2026 07:00:00 GMT",
+        "summary": "Ramky Infrastructure FY26 profit rises, declares dividend scanx.trade",
         "query": "UAE stock market board meeting dividend",
         "related_symbols": [
-          "EMAAR"
+          "ADPORTS"
         ],
         "source_type": "real_news_rss"
       },
       {
-        "id": "4640f71bb65b1ef6",
-        "title": "TAQA names new chairman and confirms Dh5 billion dividend payout - Gulf News",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUC1weElKNGFmbGYtVkliZVNFUmlsU1hXeXJVTUphb1dQVk5BYzZjX2pRVnk1YlBGVkxFWEp5WTU3WXY3NjBDLXo4WHBYOEZ2RE5hX1ZackFMT2thT21mWW55ZkN5ZExNTzZBbXdSV0JDeFpGQ21aWWpLczRWUjRobFYwOU1NOUdFbURhSXJYR0hfMFF3Y1p6OEdYWlRtWDJjU0puRTQ0UHJjVkgzVmp3RUxSM1DSAccBQVVfeXFMT0JjU1hCYW5Yb2pMVlh6LXE4NlI5UDkwY21VaFd3U2JZU0hmM3hfcFJYZUMtN1doTUxDd3htcGlCS3gyMHc0OGJyVms5VHlRS2d1d3pqdkFPZmlWbElDOFlSbXd5b08xamtVZUp5bVZaUG9zRWtiVWgwT1ZjYzNUQ3JnN0dQN0ktN0FxR1Ywd1hLVFFFaVJRWVc0WHhzNkdUMGIwVkk5WUhDWVVScG1TWTNCU0x6eGlSMGxiaG5HN1J0V3Z5THFkWQ?oc=5",
-        "source": "Gulf News",
-        "published_at": "Fri, 13 Mar 2026 07:00:00 GMT",
-        "summary": "TAQA names new chairman and confirms Dh5 billion dividend payout Gulf News",
+        "id": "b6f9b6983d0b59a4",
+        "title": "NRB Bearings Q4FY26 Earnings Call Scheduled May 11 with Management Participation - scanx.trade",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObFNsSWppSjVZdGpOZUJHSTZrc0RlbzF2NjNBakM0aFFVcFhjMWp3eFhUZzVMT2RtcnV0LV9rUVFJSWtfSHZnakY5OE9KVHhoZ2xBaTd1eEgwb2FZdlI3NHlLUm5qby1mNlYybTN0WUdXbHNxZVAzWDU2eXdrekNzVUxyVGNneEZHQzU2UDRZVlU2d0J4R0ZyMEVaaUpUSUQwamZJRWxDM2tPMzgyajdEX2tNNlZHYnBrcXdaYUkxVkRnb3hiRjhPVXRPOGl5am1vTlBxNi1ZcFA3bGN0aEV3VzBFakN3cW55QTl3?oc=5",
+        "source": "scanx.trade",
+        "published_at": "Thu, 30 Apr 2026 07:00:00 GMT",
+        "summary": "NRB Bearings Q4FY26 Earnings Call Scheduled May 11 with Management Participation scanx.trade",
         "query": "UAE stock market board meeting dividend",
         "related_symbols": [
-          "TAQA",
-          "AIRARABIA"
+          "ADPORTS"
         ],
         "source_type": "real_news_rss"
       },
       {
-        "id": "a503a80e411bb06b",
-        "title": "Alec Holdings announces distribution of Dh250 million dividend - Khaleej Times",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeVhlQlBxYkdCTTh4bDdQOGJYQU9nalhBVHFKcDRiZnFSQ25GNk53bWNqQVRNZ3lXSG1aUldDaGwyME1vT09xbkx4MmFKdWpURld4QnlrUXNrZ2YyeU16VWtWSUFXY2dKa2VoWXVfeHNuN1JfLV8yOWVfWjZqTWU2S2JWY1BFMS0yanUtY2JURzFlNVFKa3A5cnYxRldicU9mSVJSdEtDUDZvV1hC0gG0AUFVX3lxTE01emNmU2w3VGdoZV9vdERkdTRqX0owS1ZWVWZ6ODFCX01oRVpaMEFPRFJIUkJJNENRYUd2Y0I0bzZKODdCcXlGVWpNU3pCN1BRTWthcGVDaWstYkpxMUxzVEY4UnZKRHZ3UEpYZGpqUjBXZXlzdHVhclZSTHQwM2pzZFZIZk9IelIxeWhpNzFXa29RTWpwWHc5V29mZnFZeGZfZ09yUUhrWXdza0dCelZJZEc3aw?oc=5",
-        "source": "Khaleej Times",
-        "published_at": "Thu, 26 Mar 2026 07:00:00 GMT",
-        "summary": "Alec Holdings announces distribution of Dh250 million dividend Khaleej Times",
+        "id": "a07081fe8d6e0468",
+        "title": "Vedanta Board Meeting Today: Second Interim Dividend Announcement on Thursday; Shares Flat Amid Demerger - Goodreturns",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSmdoZnpBSEE3LVZSNzVWMV9LMHFCZ3NMOGlCdzZLcENpeVdaVUdwbG9UTEZSSWdFWWlyX1hPRXYwcUh0VWpSODF5czFNRk5IREItSHJVTzlKSUduRnh2eWIwcnNzVEU4bXJfc19hSXk0RmtUVjJkX1RETHVSQXFWOS0teEs3OVFCWWdRdlBDMWJiQlRndXMycUlfcGx3QUxSX0JkYTBtenNNX1RzSEpoUV9aaTM5Ry1KaGVkcC10b21WT2dXMFNCc2tZUmt6Y1lndHAxUjZ4R2ZvUFk?oc=5",
+        "source": "Goodreturns",
+        "published_at": "Thu, 21 Aug 2025 07:00:00 GMT",
+        "summary": "Vedanta Board Meeting Today: Second Interim Dividend Announcement on Thursday; Shares Flat Amid Demerger Goodreturns",
         "query": "UAE stock market board meeting dividend",
         "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
-        "id": "302e5e0043e89d12",
-        "title": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion - وكالة وام",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU1Robk9faGI3S1V3OXdMamd0MG1Qeks2TUpVYmdXNzJFVFhyVXQ1bkNpNFFpWjRqQk9SWDlpSUlFbkxobkFOZDh3ZjNUUjJocEQzM3Q5OUR3RzdzOHFDS0Y3dG5pWTRHb2owVEEzbldPYTNIdlIta3VIRkFreUtZai05VGhpd0xmd3pYVXdGaw?oc=5",
-        "source": "وكالة وام",
-        "published_at": "Wed, 01 Oct 2025 07:00:00 GMT",
-        "summary": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion وكالة وام",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "6508910cefa908ec",
-        "title": "Trent Q4 result: Board approves 1:2 bonus issue, declares ₹6 per share dividend - Upstox",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOckxPZE4wZTNvaTl6X0NvTUFjdTk3RmhtNlBQX0hZOEhkeXVLeWhFTjBobGQ4TERJOVJteE5yU3I1cGFmSUt4Wmg2NVJOdnh0T2ZrSUFYTmgwbzRxM25uam81bW5abEZSQ1lMdkFqaWk0d1l0N01ndkZhdmNmOW5JWDRjbE8zbHRKS1lxdE1jTU1QeHcyVXZtbkFBLUdGTlNNbXdQRFdNS2NfUlpQdTRUbEdOUktETEttSmFfTGlLR1VudEgtOWo5Rlh4bHBLaEdqWTZWVGtsNA?oc=5",
-        "source": "Upstox",
+        "id": "08e50ef47391afe9",
+        "title": "Trent Q4FY26 results: Profit jumps 32.6% to ₹413 cr; board okays dividend - Business Standard",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWWtsNjlLSkZuVldraVVISnFEa3lHRWNsLVZlTkczMDlqZ1BrN1ZPWUxscF9wNGhPVk1KajFGWW9fczU5WTM3Ti1fVnAtLTdJYUVORHZDeDhCV2RUdDdRTV9BTERmRlJ6aS1IczNxQjF1WGE5RHVYQ2NEUE9CNHlzemQzeTVXWGNnRk5yVUZia2tyVkRxMGdzU180NXVvWVFUZEtuQk0yZ05XRC1lWXFpbW1hSEsyVnFCY091eHFrc1h0QWdGYUpIaGNvQlVZNWlhZDAzRVlCZUxmVzRsR1FLTGp6RFdwR3dv0gHuAUFVX3lxTE95RDJiclBTUVhXOWJQa0htbUJNVG4tNzZFaXd0NGV0MlBjUWZDX1hRNzRLc2hEU1hrZEFfd29jOE9tTl9kbklSQW9SY2JhYUdXaHBrRk1JekN0RVVTQngtVTduUXE3VVBCT2czRDQ1aTR6T0VQMmNBZlBhX2FuTUh1N0RNUVljT0NTR0o5aGFhXy1jOWZkTGF4dFFVeHV4Z2JidDc2SU55NnpTQmYySlpGSnRsMzNNR2ktTDFWYWZOaVpRdV8tbDRDaGdYUUhXaFdYNW5qNTZTR1Nld2c5NzRwX1YwNThyZGE3clVqNmc?oc=5",
+        "source": "Business Standard",
         "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
-        "summary": "Trent Q4 result: Board approves 1:2 bonus issue, declares ₹6 per share dividend Upstox",
+        "summary": "Trent Q4FY26 results: Profit jumps 32.6% to ₹413 cr; board okays dividend Business Standard",
         "query": "UAE stock market board meeting dividend",
         "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "4cc6042f43316d9d",
+        "title": "Shaily Engineering Plastics Board Meeting Scheduled for May 19, 2026 to Approve FY26 Results and Consider Dividend - scanx.trade",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNMkJ1NmVRUzVzTkFGQ1ZndnZoXzQ0ejNkcXdYWHdkTExIVkdoRkpkeFNPYUZqazlDTzMybjNhbzUxUl9YWVZOSllpV012THN2NWp0bENPb1piYzRPTkdmTXNKdHJjTVh2cVRPSXpRbmJmWnRwbWViZnlVYm0zWmhMekJYQm5MWXdSV2lDRUJHT1V4eDlqLXhkOWxiZENXZXhLcmw1ODI2R0RLbTYwWk96Y2pJdHdLODFkODQ2ZFEyNlVETlNrQlV1UHJSWTJHZmowS1ViNENmQ20wbmI3OV9HTTJVMlpIZ0JkRXl3Qll5aWVtZmNfZGJjT3k3ZnNWNkE?oc=5",
+        "source": "scanx.trade",
+        "published_at": "Thu, 14 May 2026 07:00:00 GMT",
+        "summary": "Shaily Engineering Plastics Board Meeting Scheduled for May 19, 2026 to Approve FY26 Results and Consider Dividend scanx.trade",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [
+          "ADPORTS"
+        ],
         "source_type": "real_news_rss"
       }
     ],
@@ -6975,14 +6976,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-26T18:04:46.866946+00:00",
+    "last_build": "2026-06-26T18:09:57.532160+00:00",
     "provider_status": {
-      "generated_at": "2026-06-26T18:04:40.085373+00:00",
+      "generated_at": "2026-06-26T18:09:49.588024+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_after_hours",
         "label": "Market closed",
-        "now_local": "2026-06-26T22:04:40.084746+04:00",
+        "now_local": "2026-06-26T22:09:49.587821+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Next session: next trading day 10:00 GST"
       },
@@ -6996,14 +6997,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-26T18:04:46.577424+00:00",
+        "generated_at": "2026-06-26T18:09:57.272242+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-26T18:04:46.662532+00:00",
+        "generated_at": "2026-06-26T18:09:57.371852+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7019,9 +7020,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-26T18:04:39.983465+00:00",
-      "finished_at": "2026-06-26T18:04:46.711904+00:00",
-      "next_run_after": "2026-06-26T18:09:46.711904+00:00",
+      "started_at": "2026-06-26T18:09:49.529221+00:00",
+      "finished_at": "2026-06-26T18:09:57.409198+00:00",
+      "next_run_after": "2026-06-26T18:14:57.409198+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7071,56 +7072,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-26T18:04:46.711904+00:00",
+        "last_run": "2026-06-26T18:09:57.409198+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-26T18:04:40.085373+00:00",
+        "last_run": "2026-06-26T18:09:49.588024+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-26T18:04:46.577424+00:00",
+        "last_run": "2026-06-26T18:09:57.272242+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-26T18:04:46.662532+00:00",
+        "last_run": "2026-06-26T18:09:57.371852+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-26T18:04:46.866946+00:00",
+        "last_run": "2026-06-26T18:09:57.532160+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-26T18:04:46.662532+00:00",
+        "last_run": "2026-06-26T18:09:57.371852+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-26T18:04:46.866946+00:00",
+        "last_run": "2026-06-26T18:09:57.532160+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-26T18:04:46.866946+00:00",
+        "last_run": "2026-06-26T18:09:57.532160+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-26T07:42:48.997666+00:00",
+    "build_time": "2026-06-26T07:48:06.943156+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": true,
       "phase": "continuous",
       "label": "Market open",
-      "now_local": "2026-06-26T11:42:36.441705+04:00",
+      "now_local": "2026-06-26T11:47:51.611624+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Continuous trading ends 14:45 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T07:42:48.996745+00:00"
+        "as_of": "2026-06-26T07:48:06.942189+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-26T07:42:48.837171+00:00",
+    "generated_at": "2026-06-26T07:48:06.780694+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-26T07:42:48.738430+00:00",
+    "generated_at": "2026-06-26T07:48:06.681540+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3849,16 +3849,14 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "d1b1c5f46d3db022",
-        "title": "Engineers India Limited Declares Second Interim Dividend of ₹1.50 per Share for FY2025-26 - scanx.trade",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOT0VQTndReWNIcEN4RUk4VGx1MlRIT3lpWmVnSDRIX1BjYV9VcEhuYUM4dGEycWFTS3JpZ3Etb2RCYnRQOW9WLXg1TWtjVnBJenFMZFhRVmg3VFdiUnNucWU1SVFud1dMVzItVmhFVXVhMHNXS2lwbEJDa3hnR0NKZTdFQ09rdTFINUI0WFhySDExaTk4bGxlUXRIUXlfZ1FQeWFjREFxSzBRcmhiU2pITzVicXVOQWRVUWlvajhPV1FJRWxZUS1fN3JkcWo1TkhjQ2J6ZGd2R2lJZjVON1J2Z2NR?oc=5",
-        "source": "scanx.trade",
-        "published_at": "Thu, 26 Feb 2026 08:00:00 GMT",
-        "summary": "Engineers India Limited Declares Second Interim Dividend of ₹1.50 per Share for FY2025-26 scanx.trade",
+        "id": "6508910cefa908ec",
+        "title": "Trent Q4 result: Board approves 1:2 bonus issue, declares ₹6 per share dividend - Upstox",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOckxPZE4wZTNvaTl6X0NvTUFjdTk3RmhtNlBQX0hZOEhkeXVLeWhFTjBobGQ4TERJOVJteE5yU3I1cGFmSUt4Wmg2NVJOdnh0T2ZrSUFYTmgwbzRxM25uam81bW5abEZSQ1lMdkFqaWk0d1l0N01ndkZhdmNmOW5JWDRjbE8zbHRKS1lxdE1jTU1QeHcyVXZtbkFBLUdGTlNNbXdQRFdNS2NfUlpQdTRUbEdOUktETEttSmFfTGlLR1VudEgtOWo5Rlh4bHBLaEdqWTZWVGtsNA?oc=5",
+        "source": "Upstox",
+        "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
+        "summary": "Trent Q4 result: Board approves 1:2 bonus issue, declares ₹6 per share dividend Upstox",
         "query": "UAE stock market board meeting dividend",
-        "related_symbols": [
-          "ADPORTS"
-        ],
+        "related_symbols": [],
         "source_type": "real_news_rss"
       }
     ],
@@ -6971,14 +6969,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-26T07:42:48.997666+00:00",
+    "last_build": "2026-06-26T07:48:06.943156+00:00",
     "provider_status": {
-      "generated_at": "2026-06-26T07:42:36.441924+00:00",
+      "generated_at": "2026-06-26T07:47:51.612020+00:00",
       "market": {
         "is_open": true,
         "phase": "continuous",
         "label": "Market open",
-        "now_local": "2026-06-26T11:42:36.441705+04:00",
+        "now_local": "2026-06-26T11:47:51.611624+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Continuous trading ends 14:45 GST"
       },
@@ -7058,14 +7056,14 @@
         "note": ""
       },
       "news": {
-        "generated_at": "2026-06-26T07:42:48.738430+00:00",
+        "generated_at": "2026-06-26T07:48:06.681540+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-26T07:42:48.837171+00:00",
+        "generated_at": "2026-06-26T07:48:06.780694+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7081,9 +7079,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-26T07:42:36.382566+00:00",
-      "finished_at": "2026-06-26T07:42:48.874048+00:00",
-      "next_run_after": "2026-06-26T07:47:48.874048+00:00",
+      "started_at": "2026-06-26T07:47:51.530217+00:00",
+      "finished_at": "2026-06-26T07:48:06.817852+00:00",
+      "next_run_after": "2026-06-26T07:53:06.817852+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7133,56 +7131,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-26T07:42:48.874048+00:00",
+        "last_run": "2026-06-26T07:48:06.817852+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-26T07:42:36.441924+00:00",
+        "last_run": "2026-06-26T07:47:51.612020+00:00",
         "success_rate": 0,
         "status": "attempted",
         "queue": 13
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-26T07:42:48.738430+00:00",
+        "last_run": "2026-06-26T07:48:06.681540+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-26T07:42:48.837171+00:00",
+        "last_run": "2026-06-26T07:48:06.780694+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-26T07:42:48.997666+00:00",
+        "last_run": "2026-06-26T07:48:06.943156+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-26T07:42:48.837171+00:00",
+        "last_run": "2026-06-26T07:48:06.780694+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-26T07:42:48.997666+00:00",
+        "last_run": "2026-06-26T07:48:06.943156+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-26T07:42:48.997666+00:00",
+        "last_run": "2026-06-26T07:48:06.943156+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

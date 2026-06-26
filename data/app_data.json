@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-26T10:18:26.643337+00:00",
+    "build_time": "2026-06-26T10:23:44.470444+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": true,
       "phase": "continuous",
       "label": "Market open",
-      "now_local": "2026-06-26T14:18:11.147548+04:00",
+      "now_local": "2026-06-26T14:23:29.313456+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Continuous trading ends 14:45 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T10:18:26.642382+00:00"
+        "as_of": "2026-06-26T10:23:44.469484+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-26T10:18:26.466757+00:00",
+    "generated_at": "2026-06-26T10:23:44.233196+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-26T10:18:26.360734+00:00",
+    "generated_at": "2026-06-26T10:23:44.132291+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3616,6 +3616,17 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "5b11e1b870e4d352",
+        "title": "New UAE equity portfolio targets long-term growth sectors - Gulf Business",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblJDaVhkRTQ5aHE0bjh1Ul9IVk15b3Q5dEptUGZaZG1qRjVGNlRtSXBfZEd3UlBPbzJNa28yajFlNEhobGs3Rk5CV1dmOTR0VkdqSHdGRWlqZXdIWkpYTkJlVTVzUmNDQk15WGdQaHpkNndqV054a3JoUnpMTFBsRGpZdlJpa29LVl94MGt2dHB1SmZCbWtkcHRDR0g?oc=5",
+        "source": "Gulf Business",
+        "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
+        "summary": "New UAE equity portfolio targets long-term growth sectors Gulf Business",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "fc6dd4672d927364",
         "title": "Air Arabia Shareholders Approve $381m Dividend Payout In AGM - Aviation Business Middle East",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMl90R3dveHhpaExrX2FNT3dvZkp2RzlpclQyUE1EcmF0bHZXQXU0NGVBTzNQRXFHN3c0YUNLVlREc1VEd2poQUFLZFdXYVJDSTNvelFkbGMxV3BMNk5XR2NHSUI1TmQweW5CUFl3RXRVRjFBSkY5M2FGZk5zV1lzSGJuVW95Ui00TkRiVXFYQUpLRzhJbWh0MDJJN2RSQXR6?oc=5",
@@ -3640,31 +3651,14 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "4be5ce4a412d7295",
-        "title": "eToro launches UAE-Economy portfolio, giving users diversified exposure to Dubai and Abu Dhabi stocks - eToro",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOTZsMnJXQ0k4d0hCUk52dW9EV3llNUZoeUdYd09ZSWt5VC1yV3RlWUJreGRZWjV2OExDN0szOUE1ZUZ3LVdwYVNHdGlveWJvaXdaaUs5Y0hWSXI1YXdRZmdselhKbWJBWXBOc1JWa0VrVGxtc1d5N0VyRk15TFNSeFBGb3otZDk0em9uS3NjNWV2dmpaVHJrRUVLZVBiT3JCUFRZcWZNdGI3RTVpaFJsZWxtNzNWS3JmaHBCVGNJd0Y4VVZLWGMxVnBhZnczOFFZcjRUQkpVbFozRWFrYTJxS0NKa0Q1RmhzM291bg?oc=5",
-        "source": "eToro",
+        "id": "05967826b5883ecf",
+        "title": "eToro launches UAE-Economy portfolio - FX News Group",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDhGZXltdTZmVERVRTdXUWlUeWZ1RGd4TUJNa3Eyc1ppWUJMSVhqM01GOGU2VTBfaW5RZDMtNGF0QnJGcjJjc2xGdk9rWVpqRzBUSXZNQU9nTFJnck10U2pGcE43eGxmYnlRMWplTHpBWEJjcHFVR2JYY1V3dVR0NUF2NXlEOUNqZk1UNjlR?oc=5",
+        "source": "FX News Group",
         "published_at": "Wed, 10 Dec 2025 08:00:00 GMT",
-        "summary": "eToro launches UAE-Economy portfolio, giving users diversified exposure to Dubai and Abu Dhabi stocks eToro",
+        "summary": "eToro launches UAE-Economy portfolio FX News Group",
         "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [
-          "TAQA",
-          "DEWA",
-          "DIB"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "80b954b8c871512a",
-        "title": "DEWA reports record Dhs32.8bn in revenue for 2025, net profit climbs 25.6% - Gulf Business",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSkZiN1BSWkpkczdEcmFnUWZoaGl1MVVsck5NM3hkMkRFb0tFdm9RcEZCMExNaWI4TFprcjFSTWRTYWFwZVdmYWVuajBGYkIxQWdmZFNNVWxVX01HS2pXZVBsWjNFUlp4aGZnQXdNQUhBcmtiTXVqeEl6NEVYODVnT0xEM3pQeXp3TDVqX21qZmtGbXpJ?oc=5",
-        "source": "Gulf Business",
-        "published_at": "Wed, 11 Feb 2026 08:00:00 GMT",
-        "summary": "DEWA reports record Dhs32.8bn in revenue for 2025, net profit climbs 25.6% Gulf Business",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [
-          "DEWA"
-        ],
+        "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
@@ -6977,14 +6971,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-26T10:18:26.643337+00:00",
+    "last_build": "2026-06-26T10:23:44.470444+00:00",
     "provider_status": {
-      "generated_at": "2026-06-26T10:18:11.148145+00:00",
+      "generated_at": "2026-06-26T10:23:29.313687+00:00",
       "market": {
         "is_open": true,
         "phase": "continuous",
         "label": "Market open",
-        "now_local": "2026-06-26T14:18:11.147548+04:00",
+        "now_local": "2026-06-26T14:23:29.313456+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Continuous trading ends 14:45 GST"
       },
@@ -7064,14 +7058,14 @@
         "note": ""
       },
       "news": {
-        "generated_at": "2026-06-26T10:18:26.360734+00:00",
+        "generated_at": "2026-06-26T10:23:44.132291+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-26T10:18:26.466757+00:00",
+        "generated_at": "2026-06-26T10:23:44.233196+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7087,9 +7081,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-26T10:18:11.061411+00:00",
-      "finished_at": "2026-06-26T10:18:26.505007+00:00",
-      "next_run_after": "2026-06-26T10:23:26.505007+00:00",
+      "started_at": "2026-06-26T10:23:29.244391+00:00",
+      "finished_at": "2026-06-26T10:23:44.270909+00:00",
+      "next_run_after": "2026-06-26T10:28:44.270909+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7139,56 +7133,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-26T10:18:26.505007+00:00",
+        "last_run": "2026-06-26T10:23:44.270909+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-26T10:18:11.148145+00:00",
+        "last_run": "2026-06-26T10:23:29.313687+00:00",
         "success_rate": 0,
         "status": "attempted",
         "queue": 13
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-26T10:18:26.360734+00:00",
+        "last_run": "2026-06-26T10:23:44.132291+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-26T10:18:26.466757+00:00",
+        "last_run": "2026-06-26T10:23:44.233196+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-26T10:18:26.643337+00:00",
+        "last_run": "2026-06-26T10:23:44.470444+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-26T10:18:26.466757+00:00",
+        "last_run": "2026-06-26T10:23:44.233196+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-26T10:18:26.643337+00:00",
+        "last_run": "2026-06-26T10:23:44.470444+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-26T10:18:26.643337+00:00",
+        "last_run": "2026-06-26T10:23:44.470444+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

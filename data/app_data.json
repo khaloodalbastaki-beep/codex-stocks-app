@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-26T05:56:48.805795+00:00",
+    "build_time": "2026-06-26T06:02:05.699545+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -9,14 +9,14 @@
       "DFM ordinary equities"
     ],
     "data_quality": "demo",
-    "price_status": "Frozen closed-market prices",
+    "price_status": "Public delayed",
     "market": {
-      "is_open": false,
-      "phase": "pre_open",
-      "label": "Pre-open",
-      "now_local": "2026-06-26T09:56:41.550828+04:00",
+      "is_open": true,
+      "phase": "continuous",
+      "label": "Market open",
+      "now_local": "2026-06-26T10:01:51.420989+04:00",
       "timezone": "Asia/Dubai",
-      "next_change_hint": "Continuous trading starts 10:00 GST"
+      "next_change_hint": "Continuous trading ends 14:45 GST"
     },
     "disclaimer": "Research support only. Not personalized investment advice. Public/delayed data may be cached or demo when providers fail."
   },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T05:56:48.804891+00:00"
+        "as_of": "2026-06-26T06:02:05.698602+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-26T05:56:48.644537+00:00",
+    "generated_at": "2026-06-26T06:02:05.541192+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-26T05:56:48.543429+00:00",
+    "generated_at": "2026-06-26T06:02:05.441721+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -6969,35 +6969,101 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-26T05:56:48.805795+00:00",
+    "last_build": "2026-06-26T06:02:05.699545+00:00",
     "provider_status": {
-      "generated_at": "2026-06-26T05:56:41.551387+00:00",
+      "generated_at": "2026-06-26T06:01:51.421221+00:00",
       "market": {
-        "is_open": false,
-        "phase": "pre_open",
-        "label": "Pre-open",
-        "now_local": "2026-06-26T09:56:41.550828+04:00",
+        "is_open": true,
+        "phase": "continuous",
+        "label": "Market open",
+        "now_local": "2026-06-26T10:01:51.420989+04:00",
         "timezone": "Asia/Dubai",
-        "next_change_hint": "Continuous trading starts 10:00 GST"
+        "next_change_hint": "Continuous trading ends 14:45 GST"
       },
       "quotes": {
-        "attempted": false,
+        "attempted": true,
         "provider": "yahoo_chart_public",
         "success": 0,
-        "failed": 0,
-        "skipped": true,
-        "errors": [],
-        "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
+        "failed": 13,
+        "skipped": false,
+        "errors": [
+          {
+            "symbol": "FAB",
+            "provider_symbol": "FAB.AD",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "IHC",
+            "provider_symbol": "IHC.AD",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "ALDAR",
+            "provider_symbol": "ALDAR.AD",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "ADNOCGAS",
+            "provider_symbol": "ADNOCGAS.AD",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "TAQA",
+            "provider_symbol": "TAQA.AD",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "ADPORTS",
+            "provider_symbol": "ADPORTS.AD",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "EMAAR",
+            "provider_symbol": "EMAAR.DU",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "DEWA",
+            "provider_symbol": "DEWA.DU",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "ENBD",
+            "provider_symbol": "ENBD.DU",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "DIB",
+            "provider_symbol": "DIB.DU",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "SALIK",
+            "provider_symbol": "SALIK.DU",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "AIRARABIA",
+            "provider_symbol": "AIRARABIA.DU",
+            "error": "HTTP Error 404: Not Found"
+          },
+          {
+            "symbol": "AMERICANA",
+            "provider_symbol": "AMERICANA.AD",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ],
+        "note": ""
       },
       "news": {
-        "generated_at": "2026-06-26T05:56:48.543429+00:00",
+        "generated_at": "2026-06-26T06:02:05.441721+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-26T05:56:48.644537+00:00",
+        "generated_at": "2026-06-26T06:02:05.541192+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7013,9 +7079,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-26T05:56:41.463597+00:00",
-      "finished_at": "2026-06-26T05:56:48.681734+00:00",
-      "next_run_after": "2026-06-26T06:01:48.681734+00:00",
+      "started_at": "2026-06-26T06:01:51.354129+00:00",
+      "finished_at": "2026-06-26T06:02:05.578246+00:00",
+      "next_run_after": "2026-06-26T06:07:05.578246+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7065,56 +7131,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-26T05:56:48.681734+00:00",
+        "last_run": "2026-06-26T06:02:05.578246+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-26T05:56:41.551387+00:00",
+        "last_run": "2026-06-26T06:01:51.421221+00:00",
         "success_rate": 0,
-        "status": "frozen",
-        "queue": 0
+        "status": "attempted",
+        "queue": 13
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-26T05:56:48.543429+00:00",
+        "last_run": "2026-06-26T06:02:05.441721+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-26T05:56:48.644537+00:00",
+        "last_run": "2026-06-26T06:02:05.541192+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-26T05:56:48.805795+00:00",
+        "last_run": "2026-06-26T06:02:05.699545+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-26T05:56:48.644537+00:00",
+        "last_run": "2026-06-26T06:02:05.541192+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-26T05:56:48.805795+00:00",
+        "last_run": "2026-06-26T06:02:05.699545+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-26T05:56:48.805795+00:00",
+        "last_run": "2026-06-26T06:02:05.699545+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-27T07:47:11.849907+00:00",
+    "build_time": "2026-06-27T07:52:21.811157+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_weekend",
       "label": "Market closed",
-      "now_local": "2026-06-27T11:47:03.587529+04:00",
+      "now_local": "2026-06-27T11:52:14.717773+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Next session: Monday 10:00 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-27T07:47:11.848982+00:00"
+        "as_of": "2026-06-27T07:52:21.810246+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-27T07:47:11.687514+00:00",
+    "generated_at": "2026-06-27T07:52:21.638862+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,18 +3481,18 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-27T07:47:11.583778+00:00",
+    "generated_at": "2026-06-27T07:52:21.522676+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
     "articles": [
       {
-        "id": "9aba9c0fbd896dc9",
-        "title": "UAE exchanges to reopen Wednesday after two-day suspension due to Iran conflict - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc3c2UmZxYllRTF94S3c1N3JCNHctc3ZCVWtiZG1YX2FwZHBya2ZkU19HUWVLSjNSVEZ5YzVQVzd5SnRTZWNuR0xSLXVaQU1CVkR3SkgzbWdzS1NKUS1CelRpWHJFdlNxcG5jaDVOclVFLXJ6b19Xd3hsNEpJbGN2TXQ1dVJ3R1RlR3hDa1JGRGUtb3RwYmcw?oc=5",
+        "id": "16f1dc02ba8000e7",
+        "title": "UAE halts stock markets for two days after Iran strikes - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcmo2MmM2bDJTX1o2Q2NVclktM1BIdWlmd2J6cGFYZGlXbFVsZUVzY3dyMWdiUEdBdzQ5MnBpNXhmU2x5R3phTll3NEhUYnYyWE1wMkRpSVUxM3RSN3AteEt2OGlpLWlzenNDMnhQWFZmUFEyc1E1X0VMZ211X2ZXR09UdkNrMXdwWG5pZkVOOEFaRWhYeUhYWVpxUkRRdnoyYUVTNFFjTmQ?oc=5",
         "source": "Reuters",
-        "published_at": "Tue, 03 Mar 2026 08:00:00 GMT",
-        "summary": "UAE exchanges to reopen Wednesday after two-day suspension due to Iran conflict Reuters",
+        "published_at": "Sun, 01 Mar 2026 08:00:00 GMT",
+        "summary": "UAE halts stock markets for two days after Iran strikes Reuters",
         "query": "ADX DFM UAE stocks",
         "related_symbols": [],
         "source_type": "real_news_rss"
@@ -3504,6 +3504,17 @@
         "source": "The National",
         "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
         "summary": "UAE stocks retreat as regional war continues to rage The National",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "9aba9c0fbd896dc9",
+        "title": "UAE exchanges to reopen Wednesday after two-day suspension due to Iran conflict - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc3c2UmZxYllRTF94S3c1N3JCNHctc3ZCVWtiZG1YX2FwZHBya2ZkU19HUWVLSjNSVEZ5YzVQVzd5SnRTZWNuR0xSLXVaQU1CVkR3SkgzbWdzS1NKUS1CelRpWHJFdlNxcG5jaDVOclVFLXJ6b19Xd3hsNEpJbGN2TXQ1dVJ3R1RlR3hDa1JGRGUtb3RwYmcw?oc=5",
+        "source": "Reuters",
+        "published_at": "Tue, 03 Mar 2026 08:00:00 GMT",
+        "summary": "UAE exchanges to reopen Wednesday after two-day suspension due to Iran conflict Reuters",
         "query": "ADX DFM UAE stocks",
         "related_symbols": [],
         "source_type": "real_news_rss"
@@ -3583,19 +3594,6 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "c4a93bf9ee250d32",
-        "title": "UAE Suspends Stock Trading Amid Iran Strikes - BeInCrypto",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BQ0d0M2YtcWprZVFqb3RFdWxYMmdSS3ZwOThJWlR2TUlqNVJFekNoajBUcXN5RXhMdlBZMVFEZzZ4OC0xWDRDYVFVeFJUZEk2VmVDTnRBSlBTVjFSVzZFMmcteXNad1pqcWFaMzBB?oc=5",
-        "source": "BeInCrypto",
-        "published_at": "Sun, 01 Mar 2026 08:00:00 GMT",
-        "summary": "UAE Suspends Stock Trading Amid Iran Strikes BeInCrypto",
-        "query": "ADX DFM UAE stocks",
-        "related_symbols": [
-          "ADPORTS"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "6026bed005b56d54",
         "title": "Weekly market commentary - blackrock.com",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
@@ -3613,6 +3611,28 @@
         "source": "Latham & Watkins LLP",
         "published_at": "Tue, 02 Dec 2025 08:00:00 GMT",
         "summary": "Key Regulatory Updates for Hong Kong Listed Companies — September/October 2025 Latham & Watkins LLP",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "197c018e7a50f86d",
+        "title": "Bitmine’s perpetual preferred stock debuts on NYSE at $80 per share with 9.5% dividend - Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42c3RfYVp3RE5QaGtfaExXTERGZHN6X19qdlJOYm5vLUFGdEtKQTNpUllucVZsdGFSOV83cktRRUVKWXJNVXFYS3JoOGJvajkwWWhuUnVaRC1PNkJHeERISmdPTXowUjFtUTl4MGwyQQ?oc=5",
+        "source": "Crypto Briefing",
+        "published_at": "Tue, 16 Jun 2026 14:32:50 GMT",
+        "summary": "Bitmine’s perpetual preferred stock debuts on NYSE at $80 per share with 9.5% dividend Crypto Briefing",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "5b11e1b870e4d352",
+        "title": "New UAE equity portfolio targets long-term growth sectors - Gulf Business",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblJDaVhkRTQ5aHE0bjh1Ul9IVk15b3Q5dEptUGZaZG1qRjVGNlRtSXBfZEd3UlBPbzJNa28yajFlNEhobGs3Rk5CV1dmOTR0VkdqSHdGRWlqZXdIWkpYTkJlVTVzUmNDQk15WGdQaHpkNndqV054a3JoUnpMTFBsRGpZdlJpa29LVl94MGt2dHB1SmZCbWtkcHRDR0g?oc=5",
+        "source": "Gulf Business",
+        "published_at": "Wed, 22 Apr 2026 07:00:00 GMT",
+        "summary": "New UAE equity portfolio targets long-term growth sectors Gulf Business",
         "query": "Dubai Financial Market listed company disclosure dividend",
         "related_symbols": [],
         "source_type": "real_news_rss"
@@ -3642,42 +3662,27 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "4be5ce4a412d7295",
-        "title": "eToro launches UAE-Economy portfolio, giving users diversified exposure to Dubai and Abu Dhabi stocks - eToro",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOTZsMnJXQ0k4d0hCUk52dW9EV3llNUZoeUdYd09ZSWt5VC1yV3RlWUJreGRZWjV2OExDN0szOUE1ZUZ3LVdwYVNHdGlveWJvaXdaaUs5Y0hWSXI1YXdRZmdselhKbWJBWXBOc1JWa0VrVGxtc1d5N0VyRk15TFNSeFBGb3otZDk0em9uS3NjNWV2dmpaVHJrRUVLZVBiT3JCUFRZcWZNdGI3RTVpaFJsZWxtNzNWS3JmaHBCVGNJd0Y4VVZLWGMxVnBhZnczOFFZcjRUQkpVbFozRWFrYTJxS0NKa0Q1RmhzM291bg?oc=5",
-        "source": "eToro",
+        "id": "05967826b5883ecf",
+        "title": "eToro launches UAE-Economy portfolio - FX News Group",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDhGZXltdTZmVERVRTdXUWlUeWZ1RGd4TUJNa3Eyc1ppWUJMSVhqM01GOGU2VTBfaW5RZDMtNGF0QnJGcjJjc2xGdk9rWVpqRzBUSXZNQU9nTFJnck10U2pGcE43eGxmYnlRMWplTHpBWEJjcHFVR2JYY1V3dVR0NUF2NXlEOUNqZk1UNjlR?oc=5",
+        "source": "FX News Group",
         "published_at": "Wed, 10 Dec 2025 08:00:00 GMT",
-        "summary": "eToro launches UAE-Economy portfolio, giving users diversified exposure to Dubai and Abu Dhabi stocks eToro",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [
-          "TAQA",
-          "DEWA",
-          "DIB"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "80b954b8c871512a",
-        "title": "DEWA reports record Dhs32.8bn in revenue for 2025, net profit climbs 25.6% - Gulf Business",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSkZiN1BSWkpkczdEcmFnUWZoaGl1MVVsck5NM3hkMkRFb0tFdm9RcEZCMExNaWI4TFprcjFSTWRTYWFwZVdmYWVuajBGYkIxQWdmZFNNVWxVX01HS2pXZVBsWjNFUlp4aGZnQXdNQUhBcmtiTXVqeEl6NEVYODVnT0xEM3pQeXp3TDVqX21qZmtGbXpJ?oc=5",
-        "source": "Gulf Business",
-        "published_at": "Wed, 11 Feb 2026 08:00:00 GMT",
-        "summary": "DEWA reports record Dhs32.8bn in revenue for 2025, net profit climbs 25.6% Gulf Business",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [
-          "DEWA"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "c812beda279ae186",
-        "title": "Why dividend growth investing has staying power - T. Rowe Price",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaXVGY2xaaTNQU2kxV1F0eHlJZ25tZEJxTWg1TThWa1k1ckp3UHBiWGNqNHNSVXRZS3NyeXl2ajR1bC1vU3B1OE9iMHJKdWxfdk1VdmRqWktIZ2YycHg4ZGw1VUxXSU9UaG5yUkN3OFpHNWlrdWg4S2l4VnMwVGJaS1d3QXkzTklocXdKNFdIX3BtajA?oc=5",
-        "source": "T. Rowe Price",
-        "published_at": "Thu, 12 Mar 2026 02:18:38 GMT",
-        "summary": "Why dividend growth investing has staying power T. Rowe Price",
+        "summary": "eToro launches UAE-Economy portfolio FX News Group",
         "query": "Dubai Financial Market listed company disclosure dividend",
         "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "f69fc920dc816aea",
+        "title": "ZAWYA: ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRGxlNnRUVU5PVFZSWEkxLTdYSFVoLXFGQmpqQVF5d3d1UGlRMktob0xrQktyLXNRbkhIektsN3BFYV91N19VUWxBRmVncVk2SGlNa2hkYWFvcHVuV242cW9faE5jc1VDWUg1Nmo4T0RJV1FGQ2J1VGNwWjIybktSa2t4djFlV002Wmc4cmRFYU5ia0NhWkJXY0RJdzBOaDM3SThOejJGVmNILXhZdzduR21ZNVBIclp2UldxQ1BUN2NSaUU0ck9VdXZkUmdwV0tMeW5XeGZxWnBZaTdNVTJ6QkVCVlA2TUY2YnE0TlpWaHZuRml0TGhrdWZ6VG9rNndrLTNYMUx3QTUzMFRFRWQ4dUJMMDZ1Qk1Hc1RjeFlqQ3JUeVl1Ni11TnBzT3U5aS1wbnRN?oc=5",
+        "source": "TradingView",
+        "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+        "summary": "ZAWYA: ADX achieves 99% compliance rate in Q1 2026 financial statements disclosure by publicly listed companies trading on the exchange TradingView",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "ADPORTS"
+        ],
         "source_type": "real_news_rss"
       },
       {
@@ -3720,17 +3725,6 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "739a3df644dec6cf",
-        "title": "Breaking! This company has received a delisting decision for its stock and will enter the delisting arrangement period on March 20th | Post-market announcement highlights - Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObGJoYndXQXdXNU1teGlZV2NLX1FYZGQwRVhWR29VVk0tZlkzUm1tMG9jbWNqdlJfUnozTllqVldkZWxtcF9JUFNDLXc1UDZDRkZuSkdudXlmd3MyWm1pWWVuUEpDeUN5Q1F5bUNfME9MNFpmcmFTUDhBSlN3V0E5clJsbkRKSks4N1NYS0tOdEtDS2V0TEhXNTZpc1llVkZBeEs5Q3FvNVA?oc=5",
-        "source": "Moomoo",
-        "published_at": "Thu, 12 Mar 2026 07:00:00 GMT",
-        "summary": "Breaking! This company has received a delisting decision for its stock and will enter the delisting arrangement period on March 20th | Post-market announcement highlights Moomoo",
-        "query": "Abu Dhabi Securities Exchange listed company disclosure",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "65c06fa279ff7fbe",
         "title": "ADX firms deliver Dh200 billion profit with 98% disclosure compliance - Gulf News",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3N3VnhSSjlyYmNiQ2Y4N0pCYVJTVm50ckw3Y0ZmeTlLUkk4aUhzQTJJbHB1U2ZmRzFxMzc0MlNVSXNld3VJRnNpM2N1QUdHeFRLWXpvUW5tSXVVZ2pLd1VsRXpxZWNUSUd2Z2hQNU5FN1ZGMEx5SlRVY3pvTGhrU2FfVm0xUmFJNHBoRjdmVm4taXFjWXJkVVJwbUluSXNtYUVVczNwMUJQZ01yU1dTcnRpbkxJWExxcUHSAcwBQVVfeXFMTWJuQy1qcnBDQXRQQ29rc1p6VFdMbkZqWl84R0ZvTVhtWG9NX2lnY0Z0dUMzdF9abncwRnVOVVA0WXB2V25YX1Zpb0pDV1dtVzk0aDVlWDY2YU4zLVFuSk9sdWdDTHZkRTF2MzRnYnJxQzNNenRQTGZQbXdOMUtldldRTHpBN1NFTTBhb3VIOWtHNkpBR1NFSHNKNVZEc3hSandnZzBmS1FfMWdfWm9ETzZ3SUwtaTFkRUVySEg1ZXF6aWhMQ2dseUFFbnVW?oc=5",
@@ -3755,6 +3749,19 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "f1aa76098401ac32",
+        "title": "UAE bourses ADX and DFM close lower amid Middle East conflict - ZAWYA",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamZfeGtHZnRhelJMaXdjSWozZ3lmWHJqYlA5U2hoXzZBUGFlLUhHczVfNF9FdXpkYnRucElJckUzbHA0RVM3cUFWUF81dC1BVWxIZFZibHlOdG1lYjFna09ybTltdWhSTVV0SkRDaFBYcFpRT0FSVFlxd2NUc2tNbk52ZkpJdmVRZ240N2NOYU9uWnRLMTgtVS0xbGYtVmo3V3lNTWdTT2s0Tkg2cU9QVUM1SVZ0bDRRVmNSaA?oc=5",
+        "source": "ZAWYA",
+        "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
+        "summary": "UAE bourses ADX and DFM close lower amid Middle East conflict ZAWYA",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "4f7ca34eb4e59e8d",
         "title": "Breaking! This company has received a delisting decision for its stock. The delisting arrangement period will commence on March 20 | Post-market announcement highlights - 富途牛牛",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSDc2M3V1QkNnclJWNXVpX3VobWtraW5FVlh3T2k3eUdyeTBzVWNRdE1zZjloaFZZb2l0ci1mRjJwOXJhRU1VLXJKRWpYLVBwVWRGN19KdUxEZVF0MldhQ21Sdm5EX3dZUGQ5blpHSGZfT1NKNDllOEdHLXhrektMcWFNdlh6WmpZS0VxR09Oa2JkRVdLVkVmVjkyM2ZyQm9wTFpRWGpVVQ?oc=5",
@@ -3763,21 +3770,6 @@
         "summary": "Breaking! This company has received a delisting decision for its stock. The delisting arrangement period will commence on March 20 | Post-market announcement highlights 富途牛牛",
         "query": "Abu Dhabi Securities Exchange listed company disclosure",
         "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "1182fd4ca3a9fbe9",
-        "title": "UAE markets reopen after 2 day shutdown: Dubai, Abu Dhabi stocks tumble as Iran war shock hits investors - The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPUkZPdWlWbXl1cGx3UDB2bjFkNWdvdVZUOU5sM0F1TlAwZjZWSDRyeVlLbWNqUHp2cWlnUTg1VmhlM05LOWtxdkVtbXpEMmpLZmIwSUFGdFhFU2VYN2JwNXM5NlRYTWlwcU44V3RmZjl5X09zbk1JNGw2ZmMxVjE2cjZYTldrOTZqQ2lVMHJSMGFpbFBPemZUTHFOQjlWX2lEOC01WHlmS2RKSFBnRjdvbURYWTlnTWg1aEp0ZUVyaDlZSFUzcVljQlZ3djhYLURla0loQVRONWQ2OGtmS1A3WHRWeTh6SGRKcWN3dHIzdUZyQTBmVHZ6cXBVYkg2eXJvMldNNFlkakVycFRveWJEY3ZkR3Z4RGs4ZS1wOTJZZDNEQdIBpwJBVV95cUxPenZtcnZ1Zy10UEg0b3Etd0hwTFhjdDdRWmV3TnNBYks4YXNFakV5Q2piVEFWa1NVWFJpdVo5cVZJVGxval9vTkJja29NQ1M0cFZJMnZuUHBmNGVRaVZ0enR3ZUVBdjc2Qmt6MVdxazRNRlVlQUdBZVFiTzI5RW9rVzZKV2psYlNkUnZ6dExra2lVUEMxVVdrWjlLS1J4bWV3ck1TMG4tT2QtSU83aFVVWnBVS2JLTVZpcktfaGxmLWd1dnoxc0VTTXc5b3VZaG43RXJVNEpOUHJIbG1uWlJOSjJybXVCbXFNeWpXSG1ZT3c0aFRsTlpITlBoTjN1TzlnYkNoWXUyNGM4clVxalVhMkpXek9uTWtwQlZCUzFFbDh0SzhCa1Vv?oc=5",
-        "source": "The Times of India",
-        "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
-        "summary": "UAE markets reopen after 2 day shutdown: Dubai, Abu Dhabi stocks tumble as Iran war shock hits investors The Times of India",
-        "query": "Abu Dhabi Securities Exchange listed company disclosure",
-        "related_symbols": [
-          "TAQA",
-          "DEWA",
-          "DIB"
-        ],
         "source_type": "real_news_rss"
       },
       {
@@ -6990,14 +6982,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-27T07:47:11.849907+00:00",
+    "last_build": "2026-06-27T07:52:21.811157+00:00",
     "provider_status": {
-      "generated_at": "2026-06-27T07:47:03.587731+00:00",
+      "generated_at": "2026-06-27T07:52:14.719018+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_weekend",
         "label": "Market closed",
-        "now_local": "2026-06-27T11:47:03.587529+04:00",
+        "now_local": "2026-06-27T11:52:14.717773+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Next session: Monday 10:00 GST"
       },
@@ -7011,14 +7003,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-27T07:47:11.583778+00:00",
+        "generated_at": "2026-06-27T07:52:21.522676+00:00",
         "provider": "google_news_rss",
         "success": 31,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-27T07:47:11.687514+00:00",
+        "generated_at": "2026-06-27T07:52:21.638862+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7034,9 +7026,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-27T07:47:03.520544+00:00",
-      "finished_at": "2026-06-27T07:47:11.724814+00:00",
-      "next_run_after": "2026-06-27T07:52:11.724814+00:00",
+      "started_at": "2026-06-27T07:52:14.444996+00:00",
+      "finished_at": "2026-06-27T07:52:21.680627+00:00",
+      "next_run_after": "2026-06-27T07:57:21.680627+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7086,56 +7078,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-27T07:47:11.724814+00:00",
+        "last_run": "2026-06-27T07:52:21.680627+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-27T07:47:03.587731+00:00",
+        "last_run": "2026-06-27T07:52:14.719018+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-27T07:47:11.583778+00:00",
+        "last_run": "2026-06-27T07:52:21.522676+00:00",
         "success_rate": 31,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-27T07:47:11.687514+00:00",
+        "last_run": "2026-06-27T07:52:21.638862+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-27T07:47:11.849907+00:00",
+        "last_run": "2026-06-27T07:52:21.811157+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-27T07:47:11.687514+00:00",
+        "last_run": "2026-06-27T07:52:21.638862+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-27T07:47:11.849907+00:00",
+        "last_run": "2026-06-27T07:52:21.811157+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-27T07:47:11.849907+00:00",
+        "last_run": "2026-06-27T07:52:21.811157+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

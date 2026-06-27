@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-26T23:56:25.335647+00:00",
+    "build_time": "2026-06-27T00:01:36.892037+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_weekend",
       "label": "Market closed",
-      "now_local": "2026-06-27T03:56:17.122639+04:00",
+      "now_local": "2026-06-27T04:01:27.969342+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Next session: Monday 10:00 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 67,
@@ -249,15 +249,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -292,7 +292,7 @@
       "meetings": [
         {
           "title": "FAB next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 70,
@@ -484,15 +484,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -527,7 +527,7 @@
       "meetings": [
         {
           "title": "IHC next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 79,
@@ -720,15 +720,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -763,7 +763,7 @@
       "meetings": [
         {
           "title": "ALDAR next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 64,
@@ -954,15 +954,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -997,7 +997,7 @@
       "meetings": [
         {
           "title": "ADNOCGAS next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1188,15 +1188,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -1231,7 +1231,7 @@
       "meetings": [
         {
           "title": "TAQA next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1422,15 +1422,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -1465,7 +1465,7 @@
       "meetings": [
         {
           "title": "ADPORTS next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1659,15 +1659,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -1702,7 +1702,7 @@
       "meetings": [
         {
           "title": "Board meeting scheduled to review interim financials and dividend policy",
-          "date": "2026-06-26",
+          "date": "2026-06-27",
           "agenda": [
             "Financial results",
             "Dividend policy",
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 60,
@@ -1897,15 +1897,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -1940,7 +1940,7 @@
       "meetings": [
         {
           "title": "DEWA next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2133,15 +2133,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -2176,7 +2176,7 @@
       "meetings": [
         {
           "title": "ENBD next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2368,15 +2368,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -2411,7 +2411,7 @@
       "meetings": [
         {
           "title": "DIB next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2604,15 +2604,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -2647,7 +2647,7 @@
       "meetings": [
         {
           "title": "SALIK next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2839,15 +2839,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -2882,7 +2882,7 @@
       "meetings": [
         {
           "title": "AIRARABIA next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-26T23:56:25.334694+00:00"
+        "as_of": "2026-06-27T00:01:36.891125+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3074,15 +3074,15 @@
         "next_dates": [
           {
             "label": "Board review",
-            "date": "2026-07-14"
+            "date": "2026-07-15"
           },
           {
             "label": "Entitlement window",
-            "date": "2026-08-10"
+            "date": "2026-08-11"
           },
           {
             "label": "Payment target",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
           }
         ]
       },
@@ -3117,7 +3117,7 @@
       "meetings": [
         {
           "title": "AMERICANA next governance window",
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "agenda": [
             "Routine governance calendar",
             "Potential corporate actions"
@@ -3195,7 +3195,7 @@
       "why_it_matters": "Board agenda includes dividend policy, making it price-relevant for income holders.",
       "materiality": 78,
       "sentiment": "Positive",
-      "timestamp": "2026-06-26T05:15:00+00:00",
+      "timestamp": "2026-06-27T05:15:00+00:00",
       "evidence": [
         "DFM official disclosure",
         "Board agenda terms extracted"
@@ -3213,7 +3213,7 @@
       "why_it_matters": "Bank score is sensitive to asset quality and rate margin direction.",
       "materiality": 72,
       "sentiment": "Neutral",
-      "timestamp": "2026-06-26T02:15:00+00:00",
+      "timestamp": "2026-06-27T02:15:00+00:00",
       "evidence": [
         "Issuer results presentation",
         "Income statement trend"
@@ -3231,7 +3231,7 @@
       "why_it_matters": "Income investors need exact dates, not just yield.",
       "materiality": 81,
       "sentiment": "Positive",
-      "timestamp": "2026-06-25T07:15:00+00:00",
+      "timestamp": "2026-06-26T07:15:00+00:00",
       "evidence": [
         "Corporate actions calendar",
         "Dividend timetable"
@@ -3249,7 +3249,7 @@
       "why_it_matters": "Growth score responds to contract-backed expansion, not generic headlines.",
       "materiality": 66,
       "sentiment": "Positive",
-      "timestamp": "2026-06-25T03:15:00+00:00",
+      "timestamp": "2026-06-26T03:15:00+00:00",
       "evidence": [
         "Official media headline",
         "Exposure map: trade and freight"
@@ -3267,7 +3267,7 @@
       "why_it_matters": "A revenue decline plus higher inputs lowers the short-term stance.",
       "materiality": 61,
       "sentiment": "Cautious",
-      "timestamp": "2026-06-24T07:15:00+00:00",
+      "timestamp": "2026-06-25T07:15:00+00:00",
       "evidence": [
         "Commodity factor basket",
         "Exposure map: food inputs"
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-26T23:56:25.168847+00:00",
+    "generated_at": "2026-06-27T00:01:36.726643+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-26T23:56:25.065696+00:00",
+    "generated_at": "2026-06-27T00:01:36.614193+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3746,7 +3746,7 @@
         "title": "UAE’s 2PointZero unit acquires stake in US wearable tech firm Whoop - Gulf Business",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMzZ3TmlTWEtFRzlDZjVFQ1JkVDFQMVFSdnFCbGhwMklsOGpfeVozdkNFZDhyQXIxcE9Wejg1ZERHbE9PdWpjOWtJQjZsR2ZOQXV6ZmpmeHhFdWJEZ0lJQXJ6cnNYNEF0RVRPalBKSFJ3d3ZzcDRUSXVwWS1yMFhmSEh5d3RjQ2hVMTlSM1l5RHdqQQ?oc=5",
         "source": "Gulf Business",
-        "published_at": "Thu, 05 Mar 2026 08:00:00 GMT",
+        "published_at": "Mon, 13 Apr 2026 23:01:30 GMT",
         "summary": "UAE’s 2PointZero unit acquires stake in US wearable tech firm Whoop Gulf Business",
         "query": "Abu Dhabi Securities Exchange listed company disclosure",
         "related_symbols": [],
@@ -6973,14 +6973,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-26T23:56:25.335647+00:00",
+    "last_build": "2026-06-27T00:01:36.892037+00:00",
     "provider_status": {
-      "generated_at": "2026-06-26T23:56:17.123305+00:00",
+      "generated_at": "2026-06-27T00:01:27.969994+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_weekend",
         "label": "Market closed",
-        "now_local": "2026-06-27T03:56:17.122639+04:00",
+        "now_local": "2026-06-27T04:01:27.969342+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Next session: Monday 10:00 GST"
       },
@@ -6994,14 +6994,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-26T23:56:25.065696+00:00",
+        "generated_at": "2026-06-27T00:01:36.614193+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-26T23:56:25.168847+00:00",
+        "generated_at": "2026-06-27T00:01:36.726643+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7017,9 +7017,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-26T23:56:17.036409+00:00",
-      "finished_at": "2026-06-26T23:56:25.206664+00:00",
-      "next_run_after": "2026-06-27T00:01:25.206664+00:00",
+      "started_at": "2026-06-27T00:01:27.874886+00:00",
+      "finished_at": "2026-06-27T00:01:36.764497+00:00",
+      "next_run_after": "2026-06-27T00:06:36.764497+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7069,56 +7069,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-26T23:56:25.206664+00:00",
+        "last_run": "2026-06-27T00:01:36.764497+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-26T23:56:17.123305+00:00",
+        "last_run": "2026-06-27T00:01:27.969994+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-26T23:56:25.065696+00:00",
+        "last_run": "2026-06-27T00:01:36.614193+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-26T23:56:25.168847+00:00",
+        "last_run": "2026-06-27T00:01:36.726643+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-26T23:56:25.335647+00:00",
+        "last_run": "2026-06-27T00:01:36.892037+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-26T23:56:25.168847+00:00",
+        "last_run": "2026-06-27T00:01:36.726643+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-26T23:56:25.335647+00:00",
+        "last_run": "2026-06-27T00:01:36.892037+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-26T23:56:25.335647+00:00",
+        "last_run": "2026-06-27T00:01:36.892037+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

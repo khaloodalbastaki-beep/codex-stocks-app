@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-29T19:57:26.256460+00:00",
+    "build_time": "2026-06-29T20:02:37.580694+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -12,11 +12,11 @@
     "price_status": "Frozen closed-market prices",
     "market": {
       "is_open": false,
-      "phase": "closed_after_hours",
+      "phase": "closed_pre_market",
       "label": "Market closed",
-      "now_local": "2026-06-29T23:57:18.401242+04:00",
+      "now_local": "2026-06-30T00:02:29.246039+04:00",
       "timezone": "Asia/Dubai",
-      "next_change_hint": "Next session: next trading day 10:00 GST"
+      "next_change_hint": "Pre-open starts 09:30 GST"
     },
     "disclaimer": "Research support only. Not personalized investment advice. Public/delayed data may be cached or demo when providers fail."
   },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-29T19:57:26.255515+00:00"
+        "as_of": "2026-06-29T20:02:37.579746+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-29T19:57:26.098302+00:00",
+    "generated_at": "2026-06-29T20:02:37.414951+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-29T19:57:26.001408+00:00",
+    "generated_at": "2026-06-29T20:02:37.312679+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3780,6 +3780,17 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "ec30ed6b0b1fd8aa",
+        "title": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore - HDFC Sky",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnZQZGtUSzlIZlZmVmtPRWV6dE1uaTdmUEpuWE14TlpuWVZTSVlrVENqMmdXLUpKUGhua1BKY2JlN2JaQmtwNFR2YTNVQXhPMWY5OGZweWVOd09DV2lhU0JYcExjVUwtLVFzUFNKN2V0UURKaHN4NEZqN0ZfNzdwVkdBYU9sZEpRZGd1WjVUeUw0clQ3b1pfZWdzSWs4QQ?oc=5",
+        "source": "HDFC Sky",
+        "published_at": "Wed, 18 Feb 2026 08:00:00 GMT",
+        "summary": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore HDFC Sky",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "10ffeb52db36fdbd",
         "title": "Hexaware Technologies Board Meeting Scheduled to Consider First Interim Dividend for FY 2026 - scanx.trade",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbUFUWERXLTctTUV6dlBid0Q5MUkzZGNKTmRaLWhQR1pPZTZWNVZJdUN0MjZ5b1VCaHNpSW1NcG1JSEpGTlQ1cGZFb3NaZ2lOaHNPX2FGUTZzazhiWm5pbmNmNTItai1naktBVDlpNHdPRVJ5TkUyTnNHZ2RJOThoclhkbzZPMk56WU9tY0FoYm1JaFV3X0ltU2VYUkE0WUlPZ3dRdy05YXJsNFJObE1pdlFkMUpKa3JZM2R4dHdMVEhzWFF3VUF2azd0bnVkT2NCVjBia2pISXlhV3BIc3NMbDFIdw?oc=5",
@@ -3791,17 +3802,6 @@
           "FAB",
           "ADPORTS"
         ],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "ec30ed6b0b1fd8aa",
-        "title": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore - HDFC Sky",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnZQZGtUSzlIZlZmVmtPRWV6dE1uaTdmUEpuWE14TlpuWVZTSVlrVENqMmdXLUpKUGhua1BKY2JlN2JaQmtwNFR2YTNVQXhPMWY5OGZweWVOd09DV2lhU0JYcExjVUwtLVFzUFNKN2V0UURKaHN4NEZqN0ZfNzdwVkdBYU9sZEpRZGd1WjVUeUw0clQ3b1pfZWdzSWs4QQ?oc=5",
-        "source": "HDFC Sky",
-        "published_at": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "summary": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore HDFC Sky",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
@@ -6976,16 +6976,16 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-29T19:57:26.256460+00:00",
+    "last_build": "2026-06-29T20:02:37.580694+00:00",
     "provider_status": {
-      "generated_at": "2026-06-29T19:57:18.401441+00:00",
+      "generated_at": "2026-06-29T20:02:29.246672+00:00",
       "market": {
         "is_open": false,
-        "phase": "closed_after_hours",
+        "phase": "closed_pre_market",
         "label": "Market closed",
-        "now_local": "2026-06-29T23:57:18.401242+04:00",
+        "now_local": "2026-06-30T00:02:29.246039+04:00",
         "timezone": "Asia/Dubai",
-        "next_change_hint": "Next session: next trading day 10:00 GST"
+        "next_change_hint": "Pre-open starts 09:30 GST"
       },
       "quotes": {
         "attempted": false,
@@ -6997,14 +6997,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-29T19:57:26.001408+00:00",
+        "generated_at": "2026-06-29T20:02:37.312679+00:00",
         "provider": "google_news_rss",
         "success": 31,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-29T19:57:26.098302+00:00",
+        "generated_at": "2026-06-29T20:02:37.414951+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7020,9 +7020,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-29T19:57:18.341074+00:00",
-      "finished_at": "2026-06-29T19:57:26.135239+00:00",
-      "next_run_after": "2026-06-29T20:02:26.135239+00:00",
+      "started_at": "2026-06-29T20:02:29.164706+00:00",
+      "finished_at": "2026-06-29T20:02:37.452233+00:00",
+      "next_run_after": "2026-06-29T20:07:37.452233+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7072,56 +7072,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-29T19:57:26.135239+00:00",
+        "last_run": "2026-06-29T20:02:37.452233+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-29T19:57:18.401441+00:00",
+        "last_run": "2026-06-29T20:02:29.246672+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-29T19:57:26.001408+00:00",
+        "last_run": "2026-06-29T20:02:37.312679+00:00",
         "success_rate": 31,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-29T19:57:26.098302+00:00",
+        "last_run": "2026-06-29T20:02:37.414951+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-29T19:57:26.256460+00:00",
+        "last_run": "2026-06-29T20:02:37.580694+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-29T19:57:26.098302+00:00",
+        "last_run": "2026-06-29T20:02:37.414951+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-29T19:57:26.256460+00:00",
+        "last_run": "2026-06-29T20:02:37.580694+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-29T19:57:26.256460+00:00",
+        "last_run": "2026-06-29T20:02:37.580694+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

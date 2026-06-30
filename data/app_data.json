@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-30T21:59:06.970739+00:00",
+    "build_time": "2026-06-30T22:04:23.233856+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_pre_market",
       "label": "Market closed",
-      "now_local": "2026-07-01T01:58:56.981172+04:00",
+      "now_local": "2026-07-01T02:04:12.495276+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Pre-open starts 09:30 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T21:59:06.969774+00:00"
+        "as_of": "2026-06-30T22:04:23.232719+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-30T21:59:06.791115+00:00",
+    "generated_at": "2026-06-30T22:04:21.141741+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-30T21:59:06.690908+00:00",
+    "generated_at": "2026-06-30T22:04:20.291517+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3811,17 +3811,6 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "e0b5d8c4c95055e4",
-        "title": "HDFC Bank shares in focus as board approves schedule for AGM; check dividend payment date - Upstox",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTkFxYTUwbkZGR1hGNUd5TGRiTi1CNld2VzZ1RnJodUJaR3ZGVmVTQW1NSHpiVUwwRjhHc0FyUnN2SFJwRF9VWUx5cGxwUXNqZm1DMS1JR0RXSy1vWDdRU01STV9oNGhOQkhOLUpBSWhvU3QtX1lVMWY4bzlnbzVkcWJNSlpFS2R5SmhxS1EzMFRrTVk1RndPbnJZbmY2Snl1cmVwOGw5U3VmV0F4SlphMU1uU2U0YTBodk9XdFlPbHR1dFFHSnp1SVI0MjRabkNZVXdfczVZdjdsZ3dLSVp3Mw?oc=5",
-        "source": "Upstox",
-        "published_at": "Thu, 18 Jun 2026 07:00:00 GMT",
-        "summary": "HDFC Bank shares in focus as board approves schedule for AGM; check dividend payment date Upstox",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "ee618f0250af7d9c",
         "title": "Emaar Properties announces 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting - ZAWYA",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZWRpbnB4b3J5LVRwTnRHd1JoQy1vakRsaTNzMFZDVjVUMUh4RnFZdnZWOVFWZEotaU9rWFNHanpLc3dKR3dUS0hXT21rMVhHNjFOTFdRWmZlQmRLcFIxSzBUcmY0dmZ3OWxGVDZWMjdEbUhSdm5NQk9JRzkteUFRN1FmUVNxS095YVVDYzBsZ3pJTEtXeHdvZXdoV2k1SHBqRkg1ajl4c193N2dZUkNMY3VZcUZzSXdOeUxqVmZqUGZmaXREV0V4NndWZlFpbGNTc1VvRTdndV9LOTJ5UnBOODJqbU5YVjh0U0E?oc=5",
@@ -3868,6 +3857,19 @@
         "summary": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion وكالة وام",
         "query": "UAE stock market board meeting dividend",
         "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "49297e78458f958f",
+        "title": "Vedanta shares fall 4% ahead of board meeting for third interim dividend. Check details - The Economic Times",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTjViWGxubXpDZm5idHFBYXNxUEhoaHlxZWZ6SVQzeEg5dUgxc2ZRZHZoVEpoVEhuZi1MZG1OSFJ4ckVFRGVUUnhmRTl0OXNuMU5ieXhNNXRJbHl2YlQ5OGR4YW5EcnpPRnpsclhMVFhGVUYwQmhmM2hNRXlxVXo5X3JTRjgwNkdqN1dKRGNKcFphR3B3TGFSNkJYemxCZDRHdzVMR0l0a293OFkydjh4bHlrNkloOU9wZ2VEYS1TbnJSellPUkxtdUNLLVd0Uk52YUs0eUpFY0pobWhiZy1reUdTOFZyWWpxQ0dBcUhEbDBwS1XSAfgBQVVfeXFMT21CNXFiS0VhMWI0S0pneG44aXhhSlBUcFFIb08zbmhBV19ISy11QmsyXzRTNUVuV2dZZGhKUDVWMEtrMF9kUU5meWFhTndTSlB6MWE1YmVxQmhsV0JjZlpLaU4tbXp0eVd1OUVOQ2dNeWwzQnhYRVpUN0dkbld2TV9hbFYwLXQ1Sl9fQlFUc1Zza1BQdnNmaGR1M1BpX2g1Vm5XYkNFS2ZnLTNKVThONnhMd3hRaVNBNW9IZk9vUzN4c0lMYjBiVExzcmVaRGp1MG5GMWNCYUVkTnljaDZ4NmFwT0xfUFU0dFliU0F6MzZuOWQ5Qi02c2I?oc=5",
+        "source": "The Economic Times",
+        "published_at": "Mon, 23 Mar 2026 07:00:00 GMT",
+        "summary": "Vedanta shares fall 4% ahead of board meeting for third interim dividend. Check details The Economic Times",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [
+          "ADPORTS"
+        ],
         "source_type": "real_news_rss"
       }
     ],
@@ -6980,14 +6982,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-30T21:59:06.970739+00:00",
+    "last_build": "2026-06-30T22:04:23.233856+00:00",
     "provider_status": {
-      "generated_at": "2026-06-30T21:58:56.981684+00:00",
+      "generated_at": "2026-06-30T22:04:12.495944+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_pre_market",
         "label": "Market closed",
-        "now_local": "2026-07-01T01:58:56.981172+04:00",
+        "now_local": "2026-07-01T02:04:12.495276+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Pre-open starts 09:30 GST"
       },
@@ -7001,14 +7003,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-30T21:59:06.690908+00:00",
+        "generated_at": "2026-06-30T22:04:20.291517+00:00",
         "provider": "google_news_rss",
         "success": 31,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-30T21:59:06.791115+00:00",
+        "generated_at": "2026-06-30T22:04:21.141741+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7024,9 +7026,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-30T21:58:56.754120+00:00",
-      "finished_at": "2026-06-30T21:59:06.830136+00:00",
-      "next_run_after": "2026-06-30T22:04:06.830136+00:00",
+      "started_at": "2026-06-30T22:04:12.245466+00:00",
+      "finished_at": "2026-06-30T22:04:21.392443+00:00",
+      "next_run_after": "2026-06-30T22:09:21.392443+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7076,56 +7078,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-30T21:59:06.830136+00:00",
+        "last_run": "2026-06-30T22:04:21.392443+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-30T21:58:56.981684+00:00",
+        "last_run": "2026-06-30T22:04:12.495944+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-30T21:59:06.690908+00:00",
+        "last_run": "2026-06-30T22:04:20.291517+00:00",
         "success_rate": 31,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-30T21:59:06.791115+00:00",
+        "last_run": "2026-06-30T22:04:21.141741+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-30T21:59:06.970739+00:00",
+        "last_run": "2026-06-30T22:04:23.233856+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-30T21:59:06.791115+00:00",
+        "last_run": "2026-06-30T22:04:21.141741+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-30T21:59:06.970739+00:00",
+        "last_run": "2026-06-30T22:04:23.233856+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-30T21:59:06.970739+00:00",
+        "last_run": "2026-06-30T22:04:23.233856+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

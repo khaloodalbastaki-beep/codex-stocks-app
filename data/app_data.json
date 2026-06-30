@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-30T13:32:01.798249+00:00",
+    "build_time": "2026-06-30T13:37:10.963280+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_after_hours",
       "label": "Market closed",
-      "now_local": "2026-06-30T17:31:56.144446+04:00",
+      "now_local": "2026-06-30T17:37:04.635502+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Next session: next trading day 10:00 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T13:32:01.797310+00:00"
+        "as_of": "2026-06-30T13:37:10.925737+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-30T13:32:01.637431+00:00",
+    "generated_at": "2026-06-30T13:37:10.755531+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-30T13:32:01.535668+00:00",
+    "generated_at": "2026-06-30T13:37:10.645900+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3594,17 +3594,6 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "6026bed005b56d54",
-        "title": "Weekly market commentary - blackrock.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
-        "source": "blackrock.com",
-        "published_at": "Tue, 30 Jun 2026 04:21:37 GMT",
-        "summary": "Weekly market commentary blackrock.com",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "1541d3e02c2e3412",
         "title": "Key Regulatory Updates for Hong Kong Listed Companies — September/October 2025 - Latham & Watkins LLP",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbGhNUi1obXEwY3Y5dkNSR1o3TDFaU0pIN3BMajlsRlVYZkk5dUt6YU9NSWdQWlpvQ2dCbzZyM3FOcUY3RzI5VEhLUnpsTkRZX2VlUUg4NXh2andobVdselNzelE2eFZ1ck1wTFJ3NFdnb1pyeEVMX2ZEN2U0b0s2QjNXWXZTTy1wakxLcUZwNkpuaTNQb19FTTdzQ00tUVpPcjR0Q2pfUHRqV3c?oc=5",
@@ -3637,6 +3626,17 @@
         "related_symbols": [
           "AIRARABIA"
         ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "bfb6a08961eaadbe",
+        "title": "Global tax guide to doing business in the UAE - Dentons",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNXBPRTE2S0c0WXJScTM3VUtlQmt1eE5IbjNESnNVZF9iQnBuaFpUZmVXcDM2R3Y0bUFvZkI2YVphVTNaeWFncUVzVW85cEhEWWd3VGFXZFVaaG9SZmhaQUZuQVFSeGNtNU1YLUpuUEx0UU00eTJUeEtkc1N5ODBfTzdJaDFsN3BCeWRsRklLZ2NqQnNoTEE?oc=5",
+        "source": "Dentons",
+        "published_at": "Wed, 01 Oct 2025 13:12:27 GMT",
+        "summary": "Global tax guide to doing business in the UAE Dentons",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
@@ -3699,19 +3699,6 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "7e280c79bcb849a2",
-        "title": "ADX-listed companies post $54.5bn profit as disclosure compliance reaches 98% - Arabian Business",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQXc4WWc3MjZqTUhCUXduTlhkUnctN213TlFhOXhZTHRHXzJqeEsydW4xcm9NUkx5YnhHTDYxNDZraVc1TFowRVRNWDJsSF9FTC04MndIMEJtaFIxa0F3dFdBZlMwSy1oWnVCT29kNUlDWklhU01LaDBuUkU2RHFJMDVYTGF5MDlJVmQ2VURPMmtobGFZcDVfYVIxRzluSGtwSHRmV2VWb3hfY3V0cFAxXzFiSEZsSlRtdHZCbzJVLTM?oc=5",
-        "source": "Arabian Business",
-        "published_at": "Fri, 10 Apr 2026 07:00:00 GMT",
-        "summary": "ADX-listed companies post $54.5bn profit as disclosure compliance reaches 98% Arabian Business",
-        "query": "Abu Dhabi Securities Exchange listed company disclosure",
-        "related_symbols": [
-          "ADPORTS"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "65c06fa279ff7fbe",
         "title": "ADX firms deliver Dh200 billion profit with 98% disclosure compliance - Gulf News",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3N3VnhSSjlyYmNiQ2Y4N0pCYVJTVm50ckw3Y0ZmeTlLUkk4aUhzQTJJbHB1U2ZmRzFxMzc0MlNVSXNld3VJRnNpM2N1QUdHeFRLWXpvUW5tSXVVZ2pLd1VsRXpxZWNUSUd2Z2hQNU5FN1ZGMEx5SlRVY3pvTGhrU2FfVm0xUmFJNHBoRjdmVm4taXFjWXJkVVJwbUluSXNtYUVVczNwMUJQZ01yU1dTcnRpbkxJWExxcUHSAcwBQVVfeXFMTWJuQy1qcnBDQXRQQ29rc1p6VFdMbkZqWl84R0ZvTVhtWG9NX2lnY0Z0dUMzdF9abncwRnVOVVA0WXB2V25YX1Zpb0pDV1dtVzk0aDVlWDY2YU4zLVFuSk9sdWdDTHZkRTF2MzRnYnJxQzNNenRQTGZQbXdOMUtldldRTHpBN1NFTTBhb3VIOWtHNkpBR1NFSHNKNVZEc3hSandnZzBmS1FfMWdfWm9ETzZ3SUwtaTFkRUVySEg1ZXF6aWhMQ2dseUFFbnVW?oc=5",
@@ -3757,6 +3744,21 @@
         "summary": "UAE’s 2PointZero unit acquires stake in US wearable tech firm Whoop Gulf Business",
         "query": "Abu Dhabi Securities Exchange listed company disclosure",
         "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "1182fd4ca3a9fbe9",
+        "title": "UAE markets reopen after 2 day shutdown: Dubai, Abu Dhabi stocks tumble as Iran war shock hits investors - The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPUkZPdWlWbXl1cGx3UDB2bjFkNWdvdVZUOU5sM0F1TlAwZjZWSDRyeVlLbWNqUHp2cWlnUTg1VmhlM05LOWtxdkVtbXpEMmpLZmIwSUFGdFhFU2VYN2JwNXM5NlRYTWlwcU44V3RmZjl5X09zbk1JNGw2ZmMxVjE2cjZYTldrOTZqQ2lVMHJSMGFpbFBPemZUTHFOQjlWX2lEOC01WHlmS2RKSFBnRjdvbURYWTlnTWg1aEp0ZUVyaDlZSFUzcVljQlZ3djhYLURla0loQVRONWQ2OGtmS1A3WHRWeTh6SGRKcWN3dHIzdUZyQTBmVHZ6cXBVYkg2eXJvMldNNFlkakVycFRveWJEY3ZkR3Z4RGs4ZS1wOTJZZDNEQdIBpwJBVV95cUxPenZtcnZ1Zy10UEg0b3Etd0hwTFhjdDdRWmV3TnNBYks4YXNFakV5Q2piVEFWa1NVWFJpdVo5cVZJVGxval9vTkJja29NQ1M0cFZJMnZuUHBmNGVRaVZ0enR3ZUVBdjc2Qmt6MVdxazRNRlVlQUdBZVFiTzI5RW9rVzZKV2psYlNkUnZ6dExra2lVUEMxVVdrWjlLS1J4bWV3ck1TMG4tT2QtSU83aFVVWnBVS2JLTVZpcktfaGxmLWd1dnoxc0VTTXc5b3VZaG43RXJVNEpOUHJIbG1uWlJOSjJybXVCbXFNeWpXSG1ZT3c0aFRsTlpITlBoTjN1TzlnYkNoWXUyNGM4clVxalVhMkpXek9uTWtwQlZCUzFFbDh0SzhCa1Vv?oc=5",
+        "source": "The Times of India",
+        "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
+        "summary": "UAE markets reopen after 2 day shutdown: Dubai, Abu Dhabi stocks tumble as Iran war shock hits investors The Times of India",
+        "query": "Abu Dhabi Securities Exchange listed company disclosure",
+        "related_symbols": [
+          "TAQA",
+          "DEWA",
+          "DIB"
+        ],
         "source_type": "real_news_rss"
       },
       {
@@ -6969,14 +6971,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-30T13:32:01.798249+00:00",
+    "last_build": "2026-06-30T13:37:10.963280+00:00",
     "provider_status": {
-      "generated_at": "2026-06-30T13:31:56.144653+00:00",
+      "generated_at": "2026-06-30T13:37:04.636010+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_after_hours",
         "label": "Market closed",
-        "now_local": "2026-06-30T17:31:56.144446+04:00",
+        "now_local": "2026-06-30T17:37:04.635502+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Next session: next trading day 10:00 GST"
       },
@@ -6990,14 +6992,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-30T13:32:01.535668+00:00",
+        "generated_at": "2026-06-30T13:37:10.645900+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-30T13:32:01.637431+00:00",
+        "generated_at": "2026-06-30T13:37:10.755531+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7013,9 +7015,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-30T13:31:56.086460+00:00",
-      "finished_at": "2026-06-30T13:32:01.674578+00:00",
-      "next_run_after": "2026-06-30T13:37:01.674578+00:00",
+      "started_at": "2026-06-30T13:37:04.558734+00:00",
+      "finished_at": "2026-06-30T13:37:10.792547+00:00",
+      "next_run_after": "2026-06-30T13:42:10.792547+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7065,56 +7067,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-30T13:32:01.674578+00:00",
+        "last_run": "2026-06-30T13:37:10.792547+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-30T13:31:56.144653+00:00",
+        "last_run": "2026-06-30T13:37:04.636010+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-30T13:32:01.535668+00:00",
+        "last_run": "2026-06-30T13:37:10.645900+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-30T13:32:01.637431+00:00",
+        "last_run": "2026-06-30T13:37:10.755531+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-30T13:32:01.798249+00:00",
+        "last_run": "2026-06-30T13:37:10.963280+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-30T13:32:01.637431+00:00",
+        "last_run": "2026-06-30T13:37:10.755531+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-30T13:32:01.798249+00:00",
+        "last_run": "2026-06-30T13:37:10.963280+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-30T13:32:01.798249+00:00",
+        "last_run": "2026-06-30T13:37:10.963280+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

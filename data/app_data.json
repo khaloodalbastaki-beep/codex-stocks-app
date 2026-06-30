@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-30T18:37:06.755637+00:00",
+    "build_time": "2026-06-30T18:42:16.499028+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_after_hours",
       "label": "Market closed",
-      "now_local": "2026-06-30T22:36:58.947188+04:00",
+      "now_local": "2026-06-30T22:42:09.702484+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Next session: next trading day 10:00 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T18:37:06.754665+00:00"
+        "as_of": "2026-06-30T18:42:16.498070+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-30T18:37:06.582098+00:00",
+    "generated_at": "2026-06-30T18:42:16.332374+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-30T18:37:06.476372+00:00",
+    "generated_at": "2026-06-30T18:42:16.225171+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3533,22 +3533,6 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "8cf2e6f6b6a09f38",
-        "title": "Global funds turn to UAE stocks as Abu Dhabi and Dubai trading grows - Gulf News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUmtqcU04QWdnV2JNd0JUZVh5RVc1Y3Y1UWt1V1lzZjVaSFJSN1RSSEJwLXVaRm9kbTZtYzZfWjhpSURQdHZpOHNvT1V3dUxDOEZZNDFqTzY4d1N1WE5zakJTa3QyYkxzbmdMeDVJWEo4cFFuTkttX3hQdm5oMERvejdSVzZkZnNLaDZibDlvRW9vcGxFNWZ2WkxNblVOd0gzcEE5NXl1VzhZbmZLU1VXUnBIT0U1RWpSTWfSAcwBQVVfeXFMT2gyVzBPLWpRVGNUdVY1NzR4eHZhbGNxV2lva19WQlNfbDNmSnBITE5jS0lJRWpUMEo4eC14MlNmYkNTQTJqYTNuQnZnUVFqNHBEbWZ2MzN3Y0hLRTlyd0piMHRmZ1UyOGxTSDFySFBxVS1ZRDU4UnZSRVRDYlhTYlFQS1N0OTVyb0wyMFFWd2ViVUlVTkFORzRlVGs2SVZ3NGFtWFZrVG40cWhxeDRFS3ZmbzQwajlJUDdxMFU3cEVqN2JfclREbVU3UmNN?oc=5",
-        "source": "Gulf News",
-        "published_at": "Thu, 11 Jun 2026 07:00:00 GMT",
-        "summary": "Global funds turn to UAE stocks as Abu Dhabi and Dubai trading grows Gulf News",
-        "query": "ADX DFM UAE stocks",
-        "related_symbols": [
-          "TAQA",
-          "ADPORTS",
-          "DEWA",
-          "DIB"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "cb7083b545b97610",
         "title": "UAE stock markets close, trading halted by Abu Dhabi Securities Exchange and the Dubai Financial Market f - The Times of India",
         "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNbWFzU2xHeFA2VkVyeEg0Zm1GQ1Y5TDVRV191S2VKb3c4eGJ6WGVFVVlOVlB2WWVTWVdrNmJQWUxxdERaRlFxZlpZYXNqUEVLMDRDb25EYTdpejNfNGVxSV95TXFVRndPZXJMX0htWWk2eHFBLVd1WHlUaEx1dWxtMk9SdTU4QWd3QkxTRlJic3ItZkkxZUtnTDNVaUJlQWE2YTdhcXU1V0ZFQmpqMGxrcWtMVmsyNE5vay1MdVJBemd3cFRMZWpzcHBJR3pKNk8tNnV2aWJvcEZYcnZDRWxfZXJ6OVY2a1BvTEo4T1l0LUplV0FsVmIxeG9TcEJTaXVmbzlVT0dhcHM2cVFNWmowVWVJU3E0ZnZTZUdraDNGMHEtUGpiSzc4aXgxN2xsRGE3N085ZGpqN29mcENlSmREN2VBX29sOVNY0gHOAkFVX3lxTFBFb0lWYS11cXZMUzJFUE0yMzJDcE1EQk9Ud2lHRXVIWGVCTU1jNm5HZW5FemdhRGw4dk9rajVLVzBmZ0U5dGlKbkdxWkhVTDRvbnhGQlJQWFhUd0RNNWktU05qNDU5akd5YksyMUl0SmtOV2VzTGNEVkl3SE5EanpoMktweUg2TU9vUndKQ3RMOGVyRU9lZ200c2hEQVgwaGprb0pXcER6RHg2NFktUllhaUdaMEI0THhBMF9mS2VJVjFRbmZvbmJmWWFhUTdiYUE1SzU3UlNKb2NEajBqeDNuSWlqeUtXT1YxSmVNVy11bTFtWHZ3aGRQNW9laE96VGdUSjRUN2Rta1hTLUJ3YURYWGJRaVRVeHN2WEpJZjh0Q2xHandVeFNsT2hKMk1jczc1aFhnTUt0WTlaV1lkLTBYQ252REpibWV2MUhSRHc?oc=5",
@@ -3577,6 +3561,22 @@
           "EMAAR",
           "ENBD",
           "SALIK"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "8cf2e6f6b6a09f38",
+        "title": "Global funds turn to UAE stocks as Abu Dhabi and Dubai trading grows - Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUmtqcU04QWdnV2JNd0JUZVh5RVc1Y3Y1UWt1V1lzZjVaSFJSN1RSSEJwLXVaRm9kbTZtYzZfWjhpSURQdHZpOHNvT1V3dUxDOEZZNDFqTzY4d1N1WE5zakJTa3QyYkxzbmdMeDVJWEo4cFFuTkttX3hQdm5oMERvejdSVzZkZnNLaDZibDlvRW9vcGxFNWZ2WkxNblVOd0gzcEE5NXl1VzhZbmZLU1VXUnBIT0U1RWpSTWfSAcwBQVVfeXFMT2gyVzBPLWpRVGNUdVY1NzR4eHZhbGNxV2lva19WQlNfbDNmSnBITE5jS0lJRWpUMEo4eC14MlNmYkNTQTJqYTNuQnZnUVFqNHBEbWZ2MzN3Y0hLRTlyd0piMHRmZ1UyOGxTSDFySFBxVS1ZRDU4UnZSRVRDYlhTYlFQS1N0OTVyb0wyMFFWd2ViVUlVTkFORzRlVGs2SVZ3NGFtWFZrVG40cWhxeDRFS3ZmbzQwajlJUDdxMFU3cEVqN2JfclREbVU3UmNN?oc=5",
+        "source": "Gulf News",
+        "published_at": "Thu, 11 Jun 2026 07:00:00 GMT",
+        "summary": "Global funds turn to UAE stocks as Abu Dhabi and Dubai trading grows Gulf News",
+        "query": "ADX DFM UAE stocks",
+        "related_symbols": [
+          "TAQA",
+          "ADPORTS",
+          "DEWA",
+          "DIB"
         ],
         "source_type": "real_news_rss"
       },
@@ -3800,6 +3800,19 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "a43b9f18ddc3d384",
+        "title": "ITC Shares Fall Ahead of Q3 Results, Likely Dividend Announcement; Stock Down 22% in 6 Months - lokmattimes.com",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOXRYV0hLQ3gzSEUxcXh0czk2Mkd5TlNvRElwQjRaVUNhLVVxdVZETTduRW9QTDZVY25XUlJ4a0gtNGp5QUthNHh3eHNjYlcyMVljdEFEUFRoWGxhMkx2MGJlWGVjWkRBcm9zbTZtUkhZZkVwaV9RdHMxSWtGMmdrYmtPZGVVM0Y5NmhXejQ0N0plVkQtZ1BsN0pncldFeUVpRHRub3AxcXdPdVAyWkZjd1hJWThQUlNielNMU3hLcGpOaWljLWhMQnlXb3BNQQ?oc=5",
+        "source": "lokmattimes.com",
+        "published_at": "Thu, 29 Jan 2026 08:00:00 GMT",
+        "summary": "ITC Shares Fall Ahead of Q3 Results, Likely Dividend Announcement; Stock Down 22% in 6 Months lokmattimes.com",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "ee618f0250af7d9c",
         "title": "Emaar Properties announces 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting - ZAWYA",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZWRpbnB4b3J5LVRwTnRHd1JoQy1vakRsaTNzMFZDVjVUMUh4RnFZdnZWOVFWZEotaU9rWFNHanpLc3dKR3dUS0hXT21rMVhHNjFOTFdRWmZlQmRLcFIxSzBUcmY0dmZ3OWxGVDZWMjdEbUhSdm5NQk9JRzkteUFRN1FmUVNxS095YVVDYzBsZ3pJTEtXeHdvZXdoV2k1SHBqRkg1ajl4c193N2dZUkNMY3VZcUZzSXdOeUxqVmZqUGZmaXREV0V4NndWZlFpbGNTc1VvRTdndV9LOTJ5UnBOODJqbU5YVjh0U0E?oc=5",
@@ -3813,6 +3826,30 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "3de5bc2bd2cd7ac5",
+        "title": "Vedanta Share Price Today: Stock Falls 5% to ₹638 Ahead of Dividend and Demerger - Analytics Insight",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOODM2VEZNYkhYQ0NPdmV1c3Q1UElERXhZYzRBb3k2aUZEQklTalBhRWRzOWotbmVfcW1qSmZySmF4REVHWEJPUnFadm1PUC1sQ0VYdmlsMlgzQmhnS3pNN3NhZFVWc2pIaERROHJEb0Y1N09oWXJ3QXJQY3VXaVhSRmE4NWRuRUNJaVNtYXhYS2ZmcHY2UXhFdGxTcUE1R1Eta2JUZ0RqZjY1aWVtY0NOVjM5RzBFeHNo0gHGAUFVX3lxTE90RU1ibjVheFhUbWJXU3hEV0Qzc3RDZFhJRjJpUjgwN0VrNUE1MTdOWUV5Y1Yxa0U5ZXl0M0hwdFhfNmNEVi1Jdm9md25ySGhoZVpNalFYUExPTURCNlo3QlNPdUFHbTdpMVF0VXhsZVRyd3Z3c1EtVG5xMzFWUWE1Y2F6c0R6ZnNEVHVhMWc2c0dZNXd6UzdXdHJla1ZtMjF4QmZPREV2UktkSXpWbjFHbU81cHVRTjZ0VjY1MnQwUnI1TVBYZw?oc=5",
+        "source": "Analytics Insight",
+        "published_at": "Mon, 23 Mar 2026 07:00:00 GMT",
+        "summary": "Vedanta Share Price Today: Stock Falls 5% to ₹638 Ahead of Dividend and Demerger Analytics Insight",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [
+          "ADPORTS"
+        ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "6ad5373f95a98cf0",
+        "title": "Q4 results today: HDFC Bank, ICICI Bank - Dividend, date, time announcement details | Preview, expectations - Business Today",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYjU5S04xdWpuTl9sNXhCX0FFS3pyRTVaSkd4aHJhM1N2ZzJaemJKSUY2YkFGTUpvQUtZQWctRzZ0Tm94aDdfaV9WbXdUZm5kakdFSmxCcFRUeVJIRlZrOVFGanBqLVoyOXVfemhMMHVOYXB2cVVIdkxhdHhYRkVpcGRfaG1KeVk2cEtMblhRWk5fUVlWNXktc0o1V3NqZUNKcGl6M3kyNExZdGRWTnd3bVVNcDJ0YU9YMmg1VVB3VUtpX1EzTUNzZ1BkSmtzSTdvejV5aHh3bkNPMjN3QVNWVEcyQjgzNXN1R3RXSFZTN2xMSm0wQi1oMHVJaHEwOUtGMTRr0gGIAkFVX3lxTE9FbzY1eVdNeTdBZTVtTlJId1hXb1JGVTMxYnVNWHpFRmtPMFpOSEQtUDNJTGQtUHAydDBqcmdLR29aR0JVeWRjV3Y0OXZzU2pKVk1zeGhlUDU3ZkxRT3Y0eHl6QTgwM29PVzBkN21TSmF4NXpFY0x6aXRRS3BpZmlTcTF0RU1BSm1FYnp1RU05d2lzOXhnb1JwYWFocGhhek5reDhXb3JpX2JVbXljaHJQRlBGM2x0cmt4VThLUFlZMVloTGRCWUFpZ0hDcXZSaWxjM0lHdG94YjNwU01mbDRTUVlQVlRUQll6MkhucXFWaEV0Z19xWEl5X2kxeXdZaXhvREZ5cWpEUg?oc=5",
+        "source": "Business Today",
+        "published_at": "Sat, 18 Apr 2026 07:00:00 GMT",
+        "summary": "Q4 results today: HDFC Bank, ICICI Bank - Dividend, date, time announcement details | Preview, expectations Business Today",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "4640f71bb65b1ef6",
         "title": "TAQA names new chairman and confirms Dh5 billion dividend payout - Gulf News",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUC1weElKNGFmbGYtVkliZVNFUmlsU1hXeXJVTUphb1dQVk5BYzZjX2pRVnk1YlBGVkxFWEp5WTU3WXY3NjBDLXo4WHBYOEZ2RE5hX1ZackFMT2thT21mWW55ZkN5ZExNTzZBbXdSV0JDeFpGQ21aWWpLczRWUjRobFYwOU1NOUdFbURhSXJYR0hfMFF3Y1p6OEdYWlRtWDJjU0puRTQ0UHJjVkgzVmp3RUxSM1DSAccBQVVfeXFMT0JjU1hCYW5Yb2pMVlh6LXE4NlI5UDkwY21VaFd3U2JZU0hmM3hfcFJYZUMtN1doTUxDd3htcGlCS3gyMHc0OGJyVms5VHlRS2d1d3pqdkFPZmlWbElDOFlSbXd5b08xamtVZUp5bVZaUG9zRWtiVWgwT1ZjYzNUQ3JnN0dQN0ktN0FxR1Ywd1hLVFFFaVJRWVc0WHhzNkdUMGIwVkk5WUhDWVVScG1TWTNCU0x6eGlSMGxiaG5HN1J0V3Z5THFkWQ?oc=5",
@@ -3823,41 +3860,6 @@
         "related_symbols": [
           "TAQA",
           "AIRARABIA"
-        ],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "a503a80e411bb06b",
-        "title": "Alec Holdings announces distribution of Dh250 million dividend - Khaleej Times",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeVhlQlBxYkdCTTh4bDdQOGJYQU9nalhBVHFKcDRiZnFSQ25GNk53bWNqQVRNZ3lXSG1aUldDaGwyME1vT09xbkx4MmFKdWpURld4QnlrUXNrZ2YyeU16VWtWSUFXY2dKa2VoWXVfeHNuN1JfLV8yOWVfWjZqTWU2S2JWY1BFMS0yanUtY2JURzFlNVFKa3A5cnYxRldicU9mSVJSdEtDUDZvV1hC0gG0AUFVX3lxTE01emNmU2w3VGdoZV9vdERkdTRqX0owS1ZWVWZ6ODFCX01oRVpaMEFPRFJIUkJJNENRYUd2Y0I0bzZKODdCcXlGVWpNU3pCN1BRTWthcGVDaWstYkpxMUxzVEY4UnZKRHZ3UEpYZGpqUjBXZXlzdHVhclZSTHQwM2pzZFZIZk9IelIxeWhpNzFXa29RTWpwWHc5V29mZnFZeGZfZ09yUUhrWXdza0dCelZJZEc3aw?oc=5",
-        "source": "Khaleej Times",
-        "published_at": "Thu, 26 Mar 2026 07:00:00 GMT",
-        "summary": "Alec Holdings announces distribution of Dh250 million dividend Khaleej Times",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "302e5e0043e89d12",
-        "title": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion - وكالة وام",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU1Robk9faGI3S1V3OXdMamd0MG1Qeks2TUpVYmdXNzJFVFhyVXQ1bkNpNFFpWjRqQk9SWDlpSUlFbkxobkFOZDh3ZjNUUjJocEQzM3Q5OUR3RzdzOHFDS0Y3dG5pWTRHb2owVEEzbldPYTNIdlIta3VIRkFreUtZai05VGhpd0xmd3pYVXdGaw?oc=5",
-        "source": "وكالة وام",
-        "published_at": "Wed, 01 Oct 2025 07:00:00 GMT",
-        "summary": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion وكالة وام",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "49297e78458f958f",
-        "title": "Vedanta shares fall 4% ahead of board meeting for third interim dividend. Check details - The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTjViWGxubXpDZm5idHFBYXNxUEhoaHlxZWZ6SVQzeEg5dUgxc2ZRZHZoVEpoVEhuZi1MZG1OSFJ4ckVFRGVUUnhmRTl0OXNuMU5ieXhNNXRJbHl2YlQ5OGR4YW5EcnpPRnpsclhMVFhGVUYwQmhmM2hNRXlxVXo5X3JTRjgwNkdqN1dKRGNKcFphR3B3TGFSNkJYemxCZDRHdzVMR0l0a293OFkydjh4bHlrNkloOU9wZ2VEYS1TbnJSellPUkxtdUNLLVd0Uk52YUs0eUpFY0pobWhiZy1reUdTOFZyWWpxQ0dBcUhEbDBwS1XSAfgBQVVfeXFMT21CNXFiS0VhMWI0S0pneG44aXhhSlBUcFFIb08zbmhBV19ISy11QmsyXzRTNUVuV2dZZGhKUDVWMEtrMF9kUU5meWFhTndTSlB6MWE1YmVxQmhsV0JjZlpLaU4tbXp0eVd1OUVOQ2dNeWwzQnhYRVpUN0dkbld2TV9hbFYwLXQ1Sl9fQlFUc1Zza1BQdnNmaGR1M1BpX2g1Vm5XYkNFS2ZnLTNKVThONnhMd3hRaVNBNW9IZk9vUzN4c0lMYjBiVExzcmVaRGp1MG5GMWNCYUVkTnljaDZ4NmFwT0xfUFU0dFliU0F6MzZuOWQ5Qi02c2I?oc=5",
-        "source": "The Economic Times",
-        "published_at": "Mon, 23 Mar 2026 07:00:00 GMT",
-        "summary": "Vedanta shares fall 4% ahead of board meeting for third interim dividend. Check details The Economic Times",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [
-          "ADPORTS"
         ],
         "source_type": "real_news_rss"
       }
@@ -6971,14 +6973,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-30T18:37:06.755637+00:00",
+    "last_build": "2026-06-30T18:42:16.499028+00:00",
     "provider_status": {
-      "generated_at": "2026-06-30T18:36:58.947785+00:00",
+      "generated_at": "2026-06-30T18:42:09.702981+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_after_hours",
         "label": "Market closed",
-        "now_local": "2026-06-30T22:36:58.947188+04:00",
+        "now_local": "2026-06-30T22:42:09.702484+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Next session: next trading day 10:00 GST"
       },
@@ -6992,14 +6994,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-30T18:37:06.476372+00:00",
+        "generated_at": "2026-06-30T18:42:16.225171+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-30T18:37:06.582098+00:00",
+        "generated_at": "2026-06-30T18:42:16.332374+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7015,9 +7017,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-30T18:36:58.865554+00:00",
-      "finished_at": "2026-06-30T18:37:06.621191+00:00",
-      "next_run_after": "2026-06-30T18:42:06.621191+00:00",
+      "started_at": "2026-06-30T18:42:09.622548+00:00",
+      "finished_at": "2026-06-30T18:42:16.369540+00:00",
+      "next_run_after": "2026-06-30T18:47:16.369540+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7067,56 +7069,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-30T18:37:06.621191+00:00",
+        "last_run": "2026-06-30T18:42:16.369540+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-30T18:36:58.947785+00:00",
+        "last_run": "2026-06-30T18:42:09.702981+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-30T18:37:06.476372+00:00",
+        "last_run": "2026-06-30T18:42:16.225171+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-30T18:37:06.582098+00:00",
+        "last_run": "2026-06-30T18:42:16.332374+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-30T18:37:06.755637+00:00",
+        "last_run": "2026-06-30T18:42:16.499028+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-30T18:37:06.582098+00:00",
+        "last_run": "2026-06-30T18:42:16.332374+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-30T18:37:06.755637+00:00",
+        "last_run": "2026-06-30T18:42:16.499028+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-30T18:37:06.755637+00:00",
+        "last_run": "2026-06-30T18:42:16.499028+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-06-30T20:20:35.839684+00:00",
+    "build_time": "2026-06-30T20:25:48.341413+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_pre_market",
       "label": "Market closed",
-      "now_local": "2026-07-01T00:20:27.166018+04:00",
+      "now_local": "2026-07-01T00:25:39.898009+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Pre-open starts 09:30 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-06-30T20:20:35.838702+00:00"
+        "as_of": "2026-06-30T20:25:48.340445+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-06-30T20:20:35.670786+00:00",
+    "generated_at": "2026-06-30T20:25:48.165147+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-06-30T20:20:35.575629+00:00",
+    "generated_at": "2026-06-30T20:25:48.063065+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3605,6 +3605,17 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "c0210f7cbccff7fb",
+        "title": "Strategy weighs selling bitcoin to fund dividends amid Q1 net loss - CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPM2YxOUVOek1sS1U0WHVybURrYVE2OUVoTXRhRUdMSUdYbFk1cVp3alhVWFlqVm9ROTF4RUhxbE5QN0ZJNVhzZmdqZ0d6VHg2alRJTExYYXZ0ZDhXQlZ2OE93MkJ2bTNrN2hKWTRMYkZSUVJtRHExM0hqZ2RJOF9nMzRsS09sZ0VwU1JSSHA0M3ZwTHhSU3B0UkxhM3gyeVNFRm9LNVJ0VkRrZkZBS1JZUG1wc2JDdTRZS09nNmg4YkJtbThyQUFWLWpqSQ?oc=5",
+        "source": "CoinDesk",
+        "published_at": "Tue, 05 May 2026 07:00:00 GMT",
+        "summary": "Strategy weighs selling bitcoin to fund dividends amid Q1 net loss CoinDesk",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "5b11e1b870e4d352",
         "title": "New UAE equity portfolio targets long-term growth sectors - Gulf Business",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblJDaVhkRTQ5aHE0bjh1Ul9IVk15b3Q5dEptUGZaZG1qRjVGNlRtSXBfZEd3UlBPbzJNa28yajFlNEhobGs3Rk5CV1dmOTR0VkdqSHdGRWlqZXdIWkpYTkJlVTVzUmNDQk15WGdQaHpkNndqV054a3JoUnpMTFBsRGpZdlJpa29LVl94MGt2dHB1SmZCbWtkcHRDR0g?oc=5",
@@ -3626,17 +3637,6 @@
         "related_symbols": [
           "AIRARABIA"
         ],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "bfb6a08961eaadbe",
-        "title": "Global tax guide to doing business in the UAE - Dentons",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNXBPRTE2S0c0WXJScTM3VUtlQmt1eE5IbjNESnNVZF9iQnBuaFpUZmVXcDM2R3Y0bUFvZkI2YVphVTNaeWFncUVzVW85cEhEWWd3VGFXZFVaaG9SZmhaQUZuQVFSeGNtNU1YLUpuUEx0UU00eTJUeEtkc1N5ODBfTzdJaDFsN3BCeWRsRklLZ2NqQnNoTEE?oc=5",
-        "source": "Dentons",
-        "published_at": "Wed, 01 Oct 2025 13:12:27 GMT",
-        "summary": "Global tax guide to doing business in the UAE Dentons",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
@@ -3762,6 +3762,17 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "ec30ed6b0b1fd8aa",
+        "title": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore - HDFC Sky",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnZQZGtUSzlIZlZmVmtPRWV6dE1uaTdmUEpuWE14TlpuWVZTSVlrVENqMmdXLUpKUGhua1BKY2JlN2JaQmtwNFR2YTNVQXhPMWY5OGZweWVOd09DV2lhU0JYcExjVUwtLVFzUFNKN2V0UURKaHN4NEZqN0ZfNzdwVkdBYU9sZEpRZGd1WjVUeUw0clQ3b1pfZWdzSWs4QQ?oc=5",
+        "source": "HDFC Sky",
+        "published_at": "Wed, 18 Feb 2026 08:00:00 GMT",
+        "summary": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore HDFC Sky",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "10ffeb52db36fdbd",
         "title": "Hexaware Technologies Board Meeting Scheduled to Consider First Interim Dividend for FY 2026 - scanx.trade",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbUFUWERXLTctTUV6dlBid0Q5MUkzZGNKTmRaLWhQR1pPZTZWNVZJdUN0MjZ5b1VCaHNpSW1NcG1JSEpGTlQ1cGZFb3NaZ2lOaHNPX2FGUTZzazhiWm5pbmNmNTItai1naktBVDlpNHdPRVJ5TkUyTnNHZ2RJOThoclhkbzZPMk56WU9tY0FoYm1JaFV3X0ltU2VYUkE0WUlPZ3dRdy05YXJsNFJObE1pdlFkMUpKa3JZM2R4dHdMVEhzWFF3VUF2azd0bnVkT2NCVjBia2pISXlhV3BIc3NMbDFIdw?oc=5",
@@ -3776,17 +3787,6 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "ec30ed6b0b1fd8aa",
-        "title": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore - HDFC Sky",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnZQZGtUSzlIZlZmVmtPRWV6dE1uaTdmUEpuWE14TlpuWVZTSVlrVENqMmdXLUpKUGhua1BKY2JlN2JaQmtwNFR2YTNVQXhPMWY5OGZweWVOd09DV2lhU0JYcExjVUwtLVFzUFNKN2V0UURKaHN4NEZqN0ZfNzdwVkdBYU9sZEpRZGd1WjVUeUw0clQ3b1pfZWdzSWs4QQ?oc=5",
-        "source": "HDFC Sky",
-        "published_at": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "summary": "Fundviser Capital Share Price Rise 4.98% After Board Approves UAE Acquisition for ₹1.25 Crore HDFC Sky",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
         "id": "64c4d7205beb8a9b",
         "title": "Angel One board to meet on January 15 to consider stock split, first interim dividend for FY26 - The Economic Times",
         "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxONjVwbnpMaFgtVnB0T2JKOGh4QUVCOHpRdFk0TlBJbU9DbjlKTlBOemhkd240b1E4dlhuWnRyYWJTR3ZJczFUdWZkelNEYzJFQXZ0M0NFYmdUMHlMc05UV1pVVV9DcFJ4eUZpaU4weEdyLXFQakNZcGozZU9VQ2NWYmVMVXM3dTlJbm5SSE4wdTlFV0ZuOHpOWUYxVFV5dDNDVjZ3Z3c1ZE5QMGluS25oYkFPMHExM3FnREtwRXRFUXBoc0p2VU5fQ1dsemZMUXBMT1c5ZVhGSUU4YWlkeHZ2Y0xpWFhiNUhKR01OZ3FXanNYbWx5WHhUdW9Yd9IBgAJBVV95cUxOakpEek5oTVk5UWgxeGo3UEl4eWg4empTeWU4bkxuUWxGOGk0b2MwRXVweWttcE0xcHZXRVpXMTZ6a1A0VEVGelAzb3FoOF9vSXllQ2t5SDNlcGo2MWZ2amxpUEktcjNvUGRLMEpMX2NkVURBZGN1VXEtN3h2MVpZcWxhNWZjenoxY1dxMk5wTDB1Y010dHlCd2xaQVJhSjREM281UjBGRjZqckpUVW1RVzJvUG9jS1FBcU5xaThCa0xFempyN2RwNUFFbmdwUkU0MWV5Y1BDSGdoSEw2UVUzcF9saGk1NlFQYTZWZElPMzhXOXBVYnRla1pQT3c1Z3BV?oc=5",
@@ -3797,6 +3797,17 @@
         "related_symbols": [
           "FAB"
         ],
+        "source_type": "real_news_rss"
+      },
+      {
+        "id": "e0b5d8c4c95055e4",
+        "title": "HDFC Bank shares in focus as board approves schedule for AGM; check dividend payment date - Upstox",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTkFxYTUwbkZGR1hGNUd5TGRiTi1CNld2VzZ1RnJodUJaR3ZGVmVTQW1NSHpiVUwwRjhHc0FyUnN2SFJwRF9VWUx5cGxwUXNqZm1DMS1JR0RXSy1vWDdRU01STV9oNGhOQkhOLUpBSWhvU3QtX1lVMWY4bzlnbzVkcWJNSlpFS2R5SmhxS1EzMFRrTVk1RndPbnJZbmY2Snl1cmVwOGw5U3VmV0F4SlphMU1uU2U0YTBodk9XdFlPbHR1dFFHSnp1SVI0MjRabkNZVXdfczVZdjdsZ3dLSVp3Mw?oc=5",
+        "source": "Upstox",
+        "published_at": "Thu, 18 Jun 2026 07:00:00 GMT",
+        "summary": "HDFC Bank shares in focus as board approves schedule for AGM; check dividend payment date Upstox",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
         "source_type": "real_news_rss"
       },
       {
@@ -3846,19 +3857,6 @@
         "summary": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion وكالة وام",
         "query": "UAE stock market board meeting dividend",
         "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "49297e78458f958f",
-        "title": "Vedanta shares fall 4% ahead of board meeting for third interim dividend. Check details - The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTjViWGxubXpDZm5idHFBYXNxUEhoaHlxZWZ6SVQzeEg5dUgxc2ZRZHZoVEpoVEhuZi1MZG1OSFJ4ckVFRGVUUnhmRTl0OXNuMU5ieXhNNXRJbHl2YlQ5OGR4YW5EcnpPRnpsclhMVFhGVUYwQmhmM2hNRXlxVXo5X3JTRjgwNkdqN1dKRGNKcFphR3B3TGFSNkJYemxCZDRHdzVMR0l0a293OFkydjh4bHlrNkloOU9wZ2VEYS1TbnJSellPUkxtdUNLLVd0Uk52YUs0eUpFY0pobWhiZy1reUdTOFZyWWpxQ0dBcUhEbDBwS1XSAfgBQVVfeXFMT21CNXFiS0VhMWI0S0pneG44aXhhSlBUcFFIb08zbmhBV19ISy11QmsyXzRTNUVuV2dZZGhKUDVWMEtrMF9kUU5meWFhTndTSlB6MWE1YmVxQmhsV0JjZlpLaU4tbXp0eVd1OUVOQ2dNeWwzQnhYRVpUN0dkbld2TV9hbFYwLXQ1Sl9fQlFUc1Zza1BQdnNmaGR1M1BpX2g1Vm5XYkNFS2ZnLTNKVThONnhMd3hRaVNBNW9IZk9vUzN4c0lMYjBiVExzcmVaRGp1MG5GMWNCYUVkTnljaDZ4NmFwT0xfUFU0dFliU0F6MzZuOWQ5Qi02c2I?oc=5",
-        "source": "The Economic Times",
-        "published_at": "Mon, 23 Mar 2026 07:00:00 GMT",
-        "summary": "Vedanta shares fall 4% ahead of board meeting for third interim dividend. Check details The Economic Times",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [
-          "ADPORTS"
-        ],
         "source_type": "real_news_rss"
       }
     ],
@@ -6971,14 +6969,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-06-30T20:20:35.839684+00:00",
+    "last_build": "2026-06-30T20:25:48.341413+00:00",
     "provider_status": {
-      "generated_at": "2026-06-30T20:20:27.166233+00:00",
+      "generated_at": "2026-06-30T20:25:39.898624+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_pre_market",
         "label": "Market closed",
-        "now_local": "2026-07-01T00:20:27.166018+04:00",
+        "now_local": "2026-07-01T00:25:39.898009+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Pre-open starts 09:30 GST"
       },
@@ -6992,14 +6990,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-06-30T20:20:35.575629+00:00",
+        "generated_at": "2026-06-30T20:25:48.063065+00:00",
         "provider": "google_news_rss",
         "success": 30,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-06-30T20:20:35.670786+00:00",
+        "generated_at": "2026-06-30T20:25:48.165147+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7015,9 +7013,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-06-30T20:20:27.099692+00:00",
-      "finished_at": "2026-06-30T20:20:35.711252+00:00",
-      "next_run_after": "2026-06-30T20:25:35.711252+00:00",
+      "started_at": "2026-06-30T20:25:39.819606+00:00",
+      "finished_at": "2026-06-30T20:25:48.207106+00:00",
+      "next_run_after": "2026-06-30T20:30:48.207106+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7067,56 +7065,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-06-30T20:20:35.711252+00:00",
+        "last_run": "2026-06-30T20:25:48.207106+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-06-30T20:20:27.166233+00:00",
+        "last_run": "2026-06-30T20:25:39.898624+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-06-30T20:20:35.575629+00:00",
+        "last_run": "2026-06-30T20:25:48.063065+00:00",
         "success_rate": 30,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-06-30T20:20:35.670786+00:00",
+        "last_run": "2026-06-30T20:25:48.165147+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-06-30T20:20:35.839684+00:00",
+        "last_run": "2026-06-30T20:25:48.341413+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-06-30T20:20:35.670786+00:00",
+        "last_run": "2026-06-30T20:25:48.165147+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-06-30T20:20:35.839684+00:00",
+        "last_run": "2026-06-30T20:25:48.341413+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-06-30T20:20:35.839684+00:00",
+        "last_run": "2026-06-30T20:25:48.341413+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

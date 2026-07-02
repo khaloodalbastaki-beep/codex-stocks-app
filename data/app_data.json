@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-07-02T12:43:58.166414+00:00",
+    "build_time": "2026-07-02T12:49:07.795688+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_after_hours",
       "label": "Market closed",
-      "now_local": "2026-07-02T16:43:49.960305+04:00",
+      "now_local": "2026-07-02T16:49:01.090029+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Next session: next trading day 10:00 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T12:43:58.165463+00:00"
+        "as_of": "2026-07-02T12:49:07.794724+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-07-02T12:43:57.998330+00:00",
+    "generated_at": "2026-07-02T12:49:07.612846+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-07-02T12:43:57.894975+00:00",
+    "generated_at": "2026-07-02T12:49:07.509696+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3822,6 +3822,17 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "12c7a980528714d0",
+        "title": "Bharat Electronics Q4 Results: Check BEL Board Meeting Date, Dividend News And More - NDTV Profit",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWWlsUDJsZUs3QkhxT3pHU1RJMXNwT3J3UDdNc1E2TjR1RXhYSzVReXNMa0pvaHpYQ21KTjBiZ0hDRXBuSFdMUkZETU4tNE1lVndmRzN5TzZJUVRoRWl0ZC0xVmJicUluMTZJR2Z0NW5ObVA2UjJ1Y0tuaFNMLVVfMGZpTXZSVkxuUTJnQWxwdWNCcy1VVVRNelEwWVBqSC1hZHlRZnZfWl9XbE1KdklBMzBwTW1CT2YxVHhCbkFNWFh2S1HSAcsBQVVfeXFMTXllbzhFdmRKNVhTOWpSVTN6QXJ3cXVTeUZXLXJpYV9nNG4xOWcxVTVRT29iQkR5VGQ3VjRQOE94V0Y4cVI2N1V1TUNxVlYtLURXdlkxc0h3Z1FKRTFFSFdfX0hnWDdOa1BVMWpIdnpETGEwUWNvc3FTLUw0QlpHTlZzeXd2NHlhTTZ6MTl4RkU4ZlNzaUxfa3J5QzN0M0hwWng2LUdDaFBUTFhSZVBiYUNrS0l3bEV1QVMyOVUzSEl6dldWdWhJVlFfVjA?oc=5",
+        "source": "NDTV Profit",
+        "published_at": "Sun, 17 May 2026 07:00:00 GMT",
+        "summary": "Bharat Electronics Q4 Results: Check BEL Board Meeting Date, Dividend News And More NDTV Profit",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "ee618f0250af7d9c",
         "title": "Emaar Properties announces 100% dividend payout of AED 8.8bln ($2.4bln) at Annual General Meeting - ZAWYA",
         "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZWRpbnB4b3J5LVRwTnRHd1JoQy1vakRsaTNzMFZDVjVUMUh4RnFZdnZWOVFWZEotaU9rWFNHanpLc3dKR3dUS0hXT21rMVhHNjFOTFdRWmZlQmRLcFIxSzBUcmY0dmZ3OWxGVDZWMjdEbUhSdm5NQk9JRzkteUFRN1FmUVNxS095YVVDYzBsZ3pJTEtXeHdvZXdoV2k1SHBqRkg1ajl4c193N2dZUkNMY3VZcUZzSXdOeUxqVmZqUGZmaXREV0V4NndWZlFpbGNTc1VvRTdndV9LOTJ5UnBOODJqbU5YVjh0U0E?oc=5",
@@ -3855,17 +3866,6 @@
         "source": "Khaleej Times",
         "published_at": "Thu, 26 Mar 2026 07:00:00 GMT",
         "summary": "Alec Holdings announces distribution of Dh250 million dividend Khaleej Times",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "302e5e0043e89d12",
-        "title": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion - وكالة وام",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU1Robk9faGI3S1V3OXdMamd0MG1Qeks2TUpVYmdXNzJFVFhyVXQ1bkNpNFFpWjRqQk9SWDlpSUlFbkxobkFOZDh3ZjNUUjJocEQzM3Q5OUR3RzdzOHFDS0Y3dG5pWTRHb2owVEEzbldPYTNIdlIta3VIRkFreUtZai05VGhpd0xmd3pYVXdGaw?oc=5",
-        "source": "وكالة وام",
-        "published_at": "Wed, 01 Oct 2025 07:00:00 GMT",
-        "summary": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion وكالة وام",
         "query": "UAE stock market board meeting dividend",
         "related_symbols": [],
         "source_type": "real_news_rss"
@@ -6980,14 +6980,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-07-02T12:43:58.166414+00:00",
+    "last_build": "2026-07-02T12:49:07.795688+00:00",
     "provider_status": {
-      "generated_at": "2026-07-02T12:43:49.960849+00:00",
+      "generated_at": "2026-07-02T12:49:01.090829+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_after_hours",
         "label": "Market closed",
-        "now_local": "2026-07-02T16:43:49.960305+04:00",
+        "now_local": "2026-07-02T16:49:01.090029+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Next session: next trading day 10:00 GST"
       },
@@ -7001,14 +7001,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-07-02T12:43:57.894975+00:00",
+        "generated_at": "2026-07-02T12:49:07.509696+00:00",
         "provider": "google_news_rss",
         "success": 31,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-07-02T12:43:57.998330+00:00",
+        "generated_at": "2026-07-02T12:49:07.612846+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7024,9 +7024,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-07-02T12:43:49.870294+00:00",
-      "finished_at": "2026-07-02T12:43:58.036733+00:00",
-      "next_run_after": "2026-07-02T12:48:58.036733+00:00",
+      "started_at": "2026-07-02T12:49:01.009890+00:00",
+      "finished_at": "2026-07-02T12:49:07.655588+00:00",
+      "next_run_after": "2026-07-02T12:54:07.655588+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7076,56 +7076,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-07-02T12:43:58.036733+00:00",
+        "last_run": "2026-07-02T12:49:07.655588+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-07-02T12:43:49.960849+00:00",
+        "last_run": "2026-07-02T12:49:01.090829+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-07-02T12:43:57.894975+00:00",
+        "last_run": "2026-07-02T12:49:07.509696+00:00",
         "success_rate": 31,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-07-02T12:43:57.998330+00:00",
+        "last_run": "2026-07-02T12:49:07.612846+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-07-02T12:43:58.166414+00:00",
+        "last_run": "2026-07-02T12:49:07.795688+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-07-02T12:43:57.998330+00:00",
+        "last_run": "2026-07-02T12:49:07.612846+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-07-02T12:43:58.166414+00:00",
+        "last_run": "2026-07-02T12:49:07.795688+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-07-02T12:43:58.166414+00:00",
+        "last_run": "2026-07-02T12:49:07.795688+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

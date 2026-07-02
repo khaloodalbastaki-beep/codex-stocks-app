@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-07-02T07:18:12.540766+00:00",
+    "build_time": "2026-07-02T07:23:30.335851+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": true,
       "phase": "continuous",
       "label": "Market open",
-      "now_local": "2026-07-02T11:17:41.588232+04:00",
+      "now_local": "2026-07-02T11:23:15.216569+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Continuous trading ends 14:45 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T07:18:12.539709+00:00"
+        "as_of": "2026-07-02T07:23:30.334809+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-07-02T07:18:12.374150+00:00",
+    "generated_at": "2026-07-02T07:23:30.159186+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-07-02T07:18:12.268877+00:00",
+    "generated_at": "2026-07-02T07:23:30.056672+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3594,23 +3594,23 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "e5c6a98e5d13253c",
+        "title": "Weekly market commentary - BlackRock",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
+        "source": "BlackRock",
+        "published_at": "Mon, 29 Jun 2026 07:00:00 GMT",
+        "summary": "Weekly market commentary BlackRock",
+        "query": "Dubai Financial Market listed company disclosure dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "1541d3e02c2e3412",
         "title": "Key Regulatory Updates for Hong Kong Listed Companies — September/October 2025 - Latham & Watkins LLP",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbGhNUi1obXEwY3Y5dkNSR1o3TDFaU0pIN3BMajlsRlVYZkk5dUt6YU9NSWdQWlpvQ2dCbzZyM3FOcUY3RzI5VEhLUnpsTkRZX2VlUUg4NXh2andobVdselNzelE2eFZ1ck1wTFJ3NFdnb1pyeEVMX2ZEN2U0b0s2QjNXWXZTTy1wakxLcUZwNkpuaTNQb19FTTdzQ00tUVpPcjR0Q2pfUHRqV3c?oc=5",
         "source": "Latham & Watkins LLP",
         "published_at": "Tue, 02 Dec 2025 08:00:00 GMT",
         "summary": "Key Regulatory Updates for Hong Kong Listed Companies — September/October 2025 Latham & Watkins LLP",
-        "query": "Dubai Financial Market listed company disclosure dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "197c018e7a50f86d",
-        "title": "Bitmine’s perpetual preferred stock debuts on NYSE at $80 per share with 9.5% dividend - Crypto Briefing",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42c3RfYVp3RE5QaGtfaExXTERGZHN6X19qdlJOYm5vLUFGdEtKQTNpUllucVZsdGFSOV83cktRRUVKWXJNVXFYS3JoOGJvajkwWWhuUnVaRC1PNkJHeERISmdPTXowUjFtUTl4MGwyQQ?oc=5",
-        "source": "Crypto Briefing",
-        "published_at": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "summary": "Bitmine’s perpetual preferred stock debuts on NYSE at $80 per share with 9.5% dividend Crypto Briefing",
         "query": "Dubai Financial Market listed company disclosure dividend",
         "related_symbols": [],
         "source_type": "real_news_rss"
@@ -3798,6 +3798,17 @@
         "source_type": "real_news_rss"
       },
       {
+        "id": "e0b5d8c4c95055e4",
+        "title": "HDFC Bank shares in focus as board approves schedule for AGM; check dividend payment date - Upstox",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTkFxYTUwbkZGR1hGNUd5TGRiTi1CNld2VzZ1RnJodUJaR3ZGVmVTQW1NSHpiVUwwRjhHc0FyUnN2SFJwRF9VWUx5cGxwUXNqZm1DMS1JR0RXSy1vWDdRU01STV9oNGhOQkhOLUpBSWhvU3QtX1lVMWY4bzlnbzVkcWJNSlpFS2R5SmhxS1EzMFRrTVk1RndPbnJZbmY2Snl1cmVwOGw5U3VmV0F4SlphMU1uU2U0YTBodk9XdFlPbHR1dFFHSnp1SVI0MjRabkNZVXdfczVZdjdsZ3dLSVp3Mw?oc=5",
+        "source": "Upstox",
+        "published_at": "Thu, 18 Jun 2026 07:00:00 GMT",
+        "summary": "HDFC Bank shares in focus as board approves schedule for AGM; check dividend payment date Upstox",
+        "query": "UAE stock market board meeting dividend",
+        "related_symbols": [],
+        "source_type": "real_news_rss"
+      },
+      {
         "id": "64c4d7205beb8a9b",
         "title": "Angel One board to meet on January 15 to consider stock split, first interim dividend for FY26 - The Economic Times",
         "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxONjVwbnpMaFgtVnB0T2JKOGh4QUVCOHpRdFk0TlBJbU9DbjlKTlBOemhkd240b1E4dlhuWnRyYWJTR3ZJczFUdWZkelNEYzJFQXZ0M0NFYmdUMHlMc05UV1pVVV9DcFJ4eUZpaU4weEdyLXFQakNZcGozZU9VQ2NWYmVMVXM3dTlJbm5SSE4wdTlFV0ZuOHpOWUYxVFV5dDNDVjZ3Z3c1ZE5QMGluS25oYkFPMHExM3FnREtwRXRFUXBoc0p2VU5fQ1dsemZMUXBMT1c5ZVhGSUU4YWlkeHZ2Y0xpWFhiNUhKR01OZ3FXanNYbWx5WHhUdW9Yd9IBgAJBVV95cUxOakpEek5oTVk5UWgxeGo3UEl4eWg4empTeWU4bkxuUWxGOGk0b2MwRXVweWttcE0xcHZXRVpXMTZ6a1A0VEVGelAzb3FoOF9vSXllQ2t5SDNlcGo2MWZ2amxpUEktcjNvUGRLMEpMX2NkVURBZGN1VXEtN3h2MVpZcWxhNWZjenoxY1dxMk5wTDB1Y010dHlCd2xaQVJhSjREM281UjBGRjZqckpUVW1RVzJvUG9jS1FBcU5xaThCa0xFempyN2RwNUFFbmdwUkU0MWV5Y1BDSGdoSEw2UVUzcF9saGk1NlFQYTZWZElPMzhXOXBVYnRla1pQT3c1Z3BV?oc=5",
@@ -3855,17 +3866,6 @@
         "source": "وكالة وام",
         "published_at": "Wed, 01 Oct 2025 07:00:00 GMT",
         "summary": "ALEC Holdings prices its IPO at top end of price range, raising AED1.4 billion وكالة وام",
-        "query": "UAE stock market board meeting dividend",
-        "related_symbols": [],
-        "source_type": "real_news_rss"
-      },
-      {
-        "id": "4d578a94bbc7022d",
-        "title": "Patanjali Foods board to meet on April 21 to consider second interim dividend, Q4 earnings - The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOemZoYmZYSWU5bFJmdGdKUl9UcDBweTY0NlBBZU1ha2VWekdIcGc4eS1pMi1yU3dKd3dsVEJTcWZ2c25XMDdtQXBaX2pSUnM4dHpkUTdZcTdyVTFPRGZLZk9ZUTh0d1N0cmsydC1SZUZMWEpLRjMyMVotUEpmUTk2UzdzYV8tT3hlR1owV2EzN0RSaHc3bXR5VVdCTkhRblVEbnlXX2k0VFluRWd0dlNyZkFVdXFIMHFQdGxQTkJESnJKTV9EVk1wODdSYjlMaU0wUHZYaEVxZVlrUVRRVVZqMko0aS1wLXROWjdpNWs1LW1fTnBYSlHSAfsBQVVfeXFMT2pmVW9BTk1CX2ZTZUpxV3NHZnFQMzJGZ3BkQ0xmd05ZaWgxZndqbldPSXpTNWlnaVk2NThmZFFmenNRTW80ZFVfVHNuUFlhTVhmWXpFcG5BekVqeEVJcVQzSF9qT0YwNnVSTXVKT1JtZnZWY01feF95R2xhY09mZTBsZEtNODhJeHNvakxfY084REI0V1JuODhwWE95Mnh2dXdDQlVsbEtsVnRySkhrdlpYOFdTWWJ6OEFBeEtSblZRYmJ6Q0xrbXhzbmkzZUl1UmFQbHJuYWp4WGVXanBYZ3prc1hETlVUTWJyc1ZaNEUzNWNVREw5MDlMRGc?oc=5",
-        "source": "The Economic Times",
-        "published_at": "Mon, 13 Apr 2026 07:00:00 GMT",
-        "summary": "Patanjali Foods board to meet on April 21 to consider second interim dividend, Q4 earnings The Economic Times",
         "query": "UAE stock market board meeting dividend",
         "related_symbols": [],
         "source_type": "real_news_rss"
@@ -6980,14 +6980,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-07-02T07:18:12.540766+00:00",
+    "last_build": "2026-07-02T07:23:30.335851+00:00",
     "provider_status": {
-      "generated_at": "2026-07-02T07:17:41.588591+00:00",
+      "generated_at": "2026-07-02T07:23:15.216790+00:00",
       "market": {
         "is_open": true,
         "phase": "continuous",
         "label": "Market open",
-        "now_local": "2026-07-02T11:17:41.588232+04:00",
+        "now_local": "2026-07-02T11:23:15.216569+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Continuous trading ends 14:45 GST"
       },
@@ -7067,14 +7067,14 @@
         "note": ""
       },
       "news": {
-        "generated_at": "2026-07-02T07:18:12.268877+00:00",
+        "generated_at": "2026-07-02T07:23:30.056672+00:00",
         "provider": "google_news_rss",
         "success": 31,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-07-02T07:18:12.374150+00:00",
+        "generated_at": "2026-07-02T07:23:30.159186+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7090,9 +7090,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-07-02T07:17:41.510757+00:00",
-      "finished_at": "2026-07-02T07:18:12.411868+00:00",
-      "next_run_after": "2026-07-02T07:23:12.411868+00:00",
+      "started_at": "2026-07-02T07:23:15.157994+00:00",
+      "finished_at": "2026-07-02T07:23:30.197851+00:00",
+      "next_run_after": "2026-07-02T07:28:30.197851+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7142,56 +7142,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-07-02T07:18:12.411868+00:00",
+        "last_run": "2026-07-02T07:23:30.197851+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-07-02T07:17:41.588591+00:00",
+        "last_run": "2026-07-02T07:23:15.216790+00:00",
         "success_rate": 0,
         "status": "attempted",
         "queue": 13
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-07-02T07:18:12.268877+00:00",
+        "last_run": "2026-07-02T07:23:30.056672+00:00",
         "success_rate": 31,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-07-02T07:18:12.374150+00:00",
+        "last_run": "2026-07-02T07:23:30.159186+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-07-02T07:18:12.540766+00:00",
+        "last_run": "2026-07-02T07:23:30.335851+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-07-02T07:18:12.374150+00:00",
+        "last_run": "2026-07-02T07:23:30.159186+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-07-02T07:18:12.540766+00:00",
+        "last_run": "2026-07-02T07:23:30.335851+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-07-02T07:18:12.540766+00:00",
+        "last_run": "2026-07-02T07:23:30.335851+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

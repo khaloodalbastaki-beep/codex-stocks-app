@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-07-02T20:19:45.164169+00:00",
+    "build_time": "2026-07-02T20:24:55.421358+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": false,
       "phase": "closed_pre_market",
       "label": "Market closed",
-      "now_local": "2026-07-03T00:19:36.134679+04:00",
+      "now_local": "2026-07-03T00:24:48.210085+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Pre-open starts 09:30 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T20:19:45.163253+00:00"
+        "as_of": "2026-07-02T20:24:55.420431+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-07-02T20:19:44.991527+00:00",
+    "generated_at": "2026-07-02T20:24:55.236496+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-07-02T20:19:44.876249+00:00",
+    "generated_at": "2026-07-02T20:24:55.113421+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3581,12 +3581,12 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "72cace82085632fb",
-        "title": "Interactive Brokers Opens Access to UAE Stocks, Expanding Global Trading Options - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQW5Kc2tNankxUU1zYVBmNlFpNFAwVERLWndVUVpLdlA5ekdYUTNTYjJrU0UtTzNYTVZTZDVyMEFTWWRyR2FYZ0NTZXI3S3BOdllxTFQ2THlpblNQRWtlTWVBVEthNzI2R3Z6dHJaY3dmQ2NRdkNtcmFLcTBkQmlmSmt2amhGQnMweXBLbFNHNHRNMUVGU2F0X2lwUkVmc0ttYmVCY1RmN2lhUHR2cFRzYnB0Tm5QdE96TzY1b0pWekNSTlpvN2ctNmQzc0JCVTd6QXUtdXJ1TDJNaks2bHc?oc=5",
-        "source": "TradingView",
-        "published_at": "Tue, 09 Dec 2025 08:00:00 GMT",
-        "summary": "Interactive Brokers Opens Access to UAE Stocks, Expanding Global Trading Options TradingView",
+        "id": "c4a93bf9ee250d32",
+        "title": "UAE Suspends Stock Trading Amid Iran Strikes - BeInCrypto",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BQ0d0M2YtcWprZVFqb3RFdWxYMmdSS3ZwOThJWlR2TUlqNVJFekNoajBUcXN5RXhMdlBZMVFEZzZ4OC0xWDRDYVFVeFJUZEk2VmVDTnRBSlBTVjFSVzZFMmcteXNad1pqcWFaMzBB?oc=5",
+        "source": "BeInCrypto",
+        "published_at": "Sun, 01 Mar 2026 08:00:00 GMT",
+        "summary": "UAE Suspends Stock Trading Amid Iran Strikes BeInCrypto",
         "query": "ADX DFM UAE stocks",
         "related_symbols": [
           "ADPORTS"
@@ -6980,14 +6980,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-07-02T20:19:45.164169+00:00",
+    "last_build": "2026-07-02T20:24:55.421358+00:00",
     "provider_status": {
-      "generated_at": "2026-07-02T20:19:36.135306+00:00",
+      "generated_at": "2026-07-02T20:24:48.210739+00:00",
       "market": {
         "is_open": false,
         "phase": "closed_pre_market",
         "label": "Market closed",
-        "now_local": "2026-07-03T00:19:36.134679+04:00",
+        "now_local": "2026-07-03T00:24:48.210085+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Pre-open starts 09:30 GST"
       },
@@ -7001,14 +7001,14 @@
         "note": "Market is closed; quote API calls skipped and previous published prices remain frozen."
       },
       "news": {
-        "generated_at": "2026-07-02T20:19:44.876249+00:00",
+        "generated_at": "2026-07-02T20:24:55.113421+00:00",
         "provider": "google_news_rss",
         "success": 31,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-07-02T20:19:44.991527+00:00",
+        "generated_at": "2026-07-02T20:24:55.236496+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7024,9 +7024,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-07-02T20:19:36.053877+00:00",
-      "finished_at": "2026-07-02T20:19:45.032009+00:00",
-      "next_run_after": "2026-07-02T20:24:45.032009+00:00",
+      "started_at": "2026-07-02T20:24:48.130793+00:00",
+      "finished_at": "2026-07-02T20:24:55.280655+00:00",
+      "next_run_after": "2026-07-02T20:29:55.280655+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7076,56 +7076,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-07-02T20:19:45.032009+00:00",
+        "last_run": "2026-07-02T20:24:55.280655+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-07-02T20:19:36.135306+00:00",
+        "last_run": "2026-07-02T20:24:48.210739+00:00",
         "success_rate": 0,
         "status": "frozen",
         "queue": 0
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-07-02T20:19:44.876249+00:00",
+        "last_run": "2026-07-02T20:24:55.113421+00:00",
         "success_rate": 31,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-07-02T20:19:44.991527+00:00",
+        "last_run": "2026-07-02T20:24:55.236496+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-07-02T20:19:45.164169+00:00",
+        "last_run": "2026-07-02T20:24:55.421358+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-07-02T20:19:44.991527+00:00",
+        "last_run": "2026-07-02T20:24:55.236496+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-07-02T20:19:45.164169+00:00",
+        "last_run": "2026-07-02T20:24:55.421358+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-07-02T20:19:45.164169+00:00",
+        "last_run": "2026-07-02T20:24:55.421358+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "app_name": "UAE Stocks Intelligence",
-    "build_time": "2026-07-02T10:18:19.891466+00:00",
+    "build_time": "2026-07-02T10:23:37.840797+00:00",
     "scope": "Isolated Codex build from blueprint DOCX",
     "live_url": "https://khaloodalbastaki-beep.github.io/codex-stocks-app/",
     "market_scope": [
@@ -14,7 +14,7 @@
       "is_open": true,
       "phase": "continuous",
       "label": "Market open",
-      "now_local": "2026-07-02T14:18:05.444843+04:00",
+      "now_local": "2026-07-02T14:23:22.625227+04:00",
       "timezone": "Asia/Dubai",
       "next_change_hint": "Continuous trading ends 14:45 GST"
     },
@@ -142,7 +142,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 67,
@@ -379,7 +379,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 70,
@@ -614,7 +614,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 79,
@@ -849,7 +849,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 64,
@@ -1083,7 +1083,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 58,
@@ -1317,7 +1317,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 81,
@@ -1551,7 +1551,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 83,
@@ -1789,7 +1789,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 60,
@@ -2026,7 +2026,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 68,
@@ -2262,7 +2262,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 62,
@@ -2497,7 +2497,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 71,
@@ -2733,7 +2733,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 65,
@@ -2968,7 +2968,7 @@
         "provider": "mock-demo",
         "data_quality": "demo",
         "status_label": "Demo delayed",
-        "as_of": "2026-07-02T10:18:19.890448+00:00"
+        "as_of": "2026-07-02T10:23:37.839786+00:00"
       },
       "scores": {
         "growth": 43,
@@ -3362,7 +3362,7 @@
     }
   ],
   "official_disclosures": {
-    "generated_at": "2026-07-02T10:18:19.721067+00:00",
+    "generated_at": "2026-07-02T10:23:37.670928+00:00",
     "provider": "official_disclosure_manifest",
     "data_quality": "official_metadata",
     "rights_note": "Official filing metadata and source links only. Do not redistribute full exchange documents from this manifest without checking exchange and issuer rights.",
@@ -3481,7 +3481,7 @@
     "errors": []
   },
   "news": {
-    "generated_at": "2026-07-02T10:18:19.615021+00:00",
+    "generated_at": "2026-07-02T10:23:37.571748+00:00",
     "provider": "google_news_rss",
     "data_quality": "real_news_metadata",
     "rights_note": "Headlines and links only; open original publisher/Google News URL for article content.",
@@ -3723,12 +3723,12 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "77a4a5343aa48cf3",
-        "title": "Abu Dhabi’s Eshraq initiates legal action linked to Goldilocks share pledges - Khaleej Times",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR2JTOC1oN0JtRG5oeGxCTXpTTkZ2ZjlCVFFfREhrNkFnOEgxc25HLTdGcDl6TUdmR3pxX0RFQlgxRW1ibl9PR0ZELWV3dDhRekVCdl96dDdGM0pkQUdiTnlncm5JUXlxek96RlVvMTNHSi04SVRuNjd0WkNqYTZEc1ZQcGpLV2w1ZzFkcW84VF9MWGZGMmdKYnRQSFlOQnYyUGVQQ01wUkFfaEJfemxlTUc3ONIBuwFBVV95cUxPQWZESDBjVVJ2bWc2aWpySjRtQTRfN3d5QzdjcmRVQl93NmtOZmRvUk5OWEpOc2hwMElQeFI2clZBRXQ3RlB4eDdISE9udHdydnJ0bUpHZWtJcEVoNjM5MXhVNUp5N2V4dTBSeUVyOENSNU5ZU2I1N3lXc2o5U2ZtQmg1cDNIWXh1cG91RVktVEFab1RYenBhdHdtQmpFQUVZTUluUW1oQkRiNjl6dlkyNF94U0ZQLUpvdUFF?oc=5",
+        "id": "2c2209ff89935b7c",
+        "title": "Abu Dhabi stock market asks listed firms to disclose information that may impact investors - Khaleej Times",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcDl3M296RUl4b1ZsTFpHOE5WekxBcEdyY2NQS1owYzJDU0tzNWNkVGlzbGVRQmJkNzhZZlJybW9rRXVyTnNZdWttVEVEVEV0OGtnMExvT0x1SzU2ZFE0bDF0emVfeDVWNERtOUR2X1MwVEoxNWNjX1Z1aUlJZ2JkeVVDckNscXlJNFhnMlNmV0t2c3JwMFdCRllkWFhDNDZqS01FcmE2dVlWSzJHdGlrajY2T2J5ZkQxbWc5ZVkxcEdDSnhxcHRwNlhB0gHSAUFVX3lxTE9oVlFTWUp5bS05V2h6Wk9FTE9OVTI5Vkl4TThja2puZl84enN6SkFLUkNEOUNQV1pDcTVtYldlYVFNX3dJU0tpQXV2MS1XdGVsQVJrQktwV0hIc21GX2xvYkpRSVlDNmNyNjRlQWJRX2ZpWTktZWNOV3FyLVM4d3BiTjZTVEN2N09XZzJSa2owRTJDWmxXdXNDalkyaExjQ2Izek5KWGxXSXdoX3JPQl9yMk5OZlBRRTJvbExuU3g4bVdzZHlVT25aWlVyRkY1Z1FXZw?oc=5",
         "source": "Khaleej Times",
-        "published_at": "Mon, 01 Jun 2026 07:00:00 GMT",
-        "summary": "Abu Dhabi’s Eshraq initiates legal action linked to Goldilocks share pledges Khaleej Times",
+        "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
+        "summary": "Abu Dhabi stock market asks listed firms to disclose information that may impact investors Khaleej Times",
         "query": "Abu Dhabi Securities Exchange listed company disclosure",
         "related_symbols": [
           "TAQA"
@@ -3762,14 +3762,16 @@
         "source_type": "real_news_rss"
       },
       {
-        "id": "ee5270031606c3f2",
-        "title": "ESG considerations in the UAE: what businesses need to know - Charles Russell Speechlys",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQWxTYUpaVVBQSDhmOC1zeWRHVjlGMEpVQ1NfaHJpYTZzaWZWX1ZxMS1uY2c0SUdJRm9MWjRsZmlqQnk3QzFZaGxOZGJyQnFNLVdvZEJDcFlSMnJPTVdpZGxEbmRRZUZqSHoyc0ZMWDAtMkRiRXdLeS1ocGpSZFNFMWlaVkJWUldxTjdUNFpXWjh5c2ppUkJfNVBhaW1IMVRsQkFHMWRBNm5rTzdDYlhzS25PS0JxQXNaTFByc3pkRHdOSVo3VXZXRWFXNHR3QjdNZDlFVEVxekFrdGx3U1RjSGRmMXRRQQ?oc=5",
-        "source": "Charles Russell Speechlys",
-        "published_at": "Thu, 22 Jan 2026 08:00:00 GMT",
-        "summary": "ESG considerations in the UAE: what businesses need to know Charles Russell Speechlys",
+        "id": "fcc79092de463209",
+        "title": "UAE bourses ADX and DFM drop as markets reopen - ZAWYA",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFZ2LXNLWEVPWTZGY2lhUndhLTN4WDR2bXlvUnpIbzhPUUkxSlcyd3ROV1M1bU5QNU1DejBVUl9qRF9DOVNtMm91Wm5SUHNJd05iU3l3V1BrczJCakxRUW5PZExTNEpPbUdoTklrdEpTdEFLZDQ2bWdQcHc2bzlMRlRHNXRrRzF4aVh3M3dmNEJGbXRaa1MzY0Y3SlF4My1heEpUTkZTcGM?oc=5",
+        "source": "ZAWYA",
+        "published_at": "Tue, 03 Mar 2026 08:00:00 GMT",
+        "summary": "UAE bourses ADX and DFM drop as markets reopen ZAWYA",
         "query": "Abu Dhabi Securities Exchange listed company disclosure",
-        "related_symbols": [],
+        "related_symbols": [
+          "ADPORTS"
+        ],
         "source_type": "real_news_rss"
       },
       {
@@ -6980,14 +6982,14 @@
     }
   },
   "admin": {
-    "last_build": "2026-07-02T10:18:19.891466+00:00",
+    "last_build": "2026-07-02T10:23:37.840797+00:00",
     "provider_status": {
-      "generated_at": "2026-07-02T10:18:05.445357+00:00",
+      "generated_at": "2026-07-02T10:23:22.625588+00:00",
       "market": {
         "is_open": true,
         "phase": "continuous",
         "label": "Market open",
-        "now_local": "2026-07-02T14:18:05.444843+04:00",
+        "now_local": "2026-07-02T14:23:22.625227+04:00",
         "timezone": "Asia/Dubai",
         "next_change_hint": "Continuous trading ends 14:45 GST"
       },
@@ -7067,14 +7069,14 @@
         "note": ""
       },
       "news": {
-        "generated_at": "2026-07-02T10:18:19.615021+00:00",
+        "generated_at": "2026-07-02T10:23:37.571748+00:00",
         "provider": "google_news_rss",
         "success": 31,
         "failed": 0,
         "errors": []
       },
       "disclosures": {
-        "generated_at": "2026-07-02T10:18:19.721067+00:00",
+        "generated_at": "2026-07-02T10:23:37.670928+00:00",
         "provider": "official_disclosure_manifest",
         "success": 3,
         "failed": 0,
@@ -7090,9 +7092,9 @@
       "interval_seconds": 300,
       "interval_label": "5 minutes",
       "command": "/bin/bash /Users/khalidalbastaki/Documents/codex stocks app/tools/refresh_live.sh --deploy",
-      "started_at": "2026-07-02T10:18:05.359391+00:00",
-      "finished_at": "2026-07-02T10:18:19.760010+00:00",
-      "next_run_after": "2026-07-02T10:23:19.760010+00:00",
+      "started_at": "2026-07-02T10:23:22.544140+00:00",
+      "finished_at": "2026-07-02T10:23:37.708838+00:00",
+      "next_run_after": "2026-07-02T10:28:37.708838+00:00",
       "last_exit_code": 0,
       "deploy": true,
       "logs": {
@@ -7142,56 +7144,56 @@
     "jobs": [
       {
         "source": "Scheduled publish refresh",
-        "last_run": "2026-07-02T10:18:19.760010+00:00",
+        "last_run": "2026-07-02T10:23:37.708838+00:00",
         "success_rate": 100,
         "status": "success",
         "queue": 0
       },
       {
         "source": "Public quote refresh",
-        "last_run": "2026-07-02T10:18:05.445357+00:00",
+        "last_run": "2026-07-02T10:23:22.625588+00:00",
         "success_rate": 0,
         "status": "attempted",
         "queue": 13
       },
       {
         "source": "Real news RSS",
-        "last_run": "2026-07-02T10:18:19.615021+00:00",
+        "last_run": "2026-07-02T10:23:37.571748+00:00",
         "success_rate": 31,
         "status": "real_news_metadata",
         "queue": 0
       },
       {
         "source": "Official filings manifest",
-        "last_run": "2026-07-02T10:18:19.721067+00:00",
+        "last_run": "2026-07-02T10:23:37.670928+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "ADX disclosures",
-        "last_run": "2026-07-02T10:18:19.891466+00:00",
+        "last_run": "2026-07-02T10:23:37.840797+00:00",
         "success_rate": 0,
         "status": "source_indexed",
         "queue": 0
       },
       {
         "source": "DFM corporate actions",
-        "last_run": "2026-07-02T10:18:19.721067+00:00",
+        "last_run": "2026-07-02T10:23:37.670928+00:00",
         "success_rate": 3,
         "status": "official_metadata",
         "queue": 0
       },
       {
         "source": "Issuer IR",
-        "last_run": "2026-07-02T10:18:19.891466+00:00",
+        "last_run": "2026-07-02T10:23:37.840797+00:00",
         "success_rate": 96,
         "status": "mocked",
         "queue": 3
       },
       {
         "source": "Global factors",
-        "last_run": "2026-07-02T10:18:19.891466+00:00",
+        "last_run": "2026-07-02T10:23:37.840797+00:00",
         "success_rate": 98,
         "status": "mocked",
         "queue": 1
